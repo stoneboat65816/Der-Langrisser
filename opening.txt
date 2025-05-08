@@ -1,0 +1,2188 @@
+#VAR(Table,TABLE)
+#ADDTBL("derlangvn.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $920000, 24)
+
+#JMP($318000)
+
+#WRITE(Ptr, $120102)
+//エルサリアへようこそ。
+//私の名はルシリス。地上では
+//光の女神と呼ばれています。{end}
+Chào mừng đến với đại lục<line>
+El Sallia.Người trần thế gọi ta<line>
+là Nữ thần ánh sáng Lushiris.<end>
+
+//今、この世界は、闇の脅威に
+//さらされようとしています。{end}
+Hiện nay thế giới này đang<line>
+bị thế lực bóng tối đe dọa.<end>
+
+//そこで私はずっと、
+//あなたのような勇気ある者が
+//現れるのを待っていました。{end}
+Và từ lâu,ta mãi đợi người<line>
+có lòng quả cảm như chàng<line>
+xuất hiện.<end>
+
+//あなたが本当にこの世界を
+//救えるかどうか試すため、
+//これからいくつか質問をします。{end}
+Để thử xem chàng thật sự cứu<line>
+được thế giới này hay không,ta<line>
+sẽ đặt ra một số câu hỏi sau.<end>
+
+//まずは、あなたの名前を
+//教えて下さい。{end}
+Đầu tiên hãy cho ta biết<line>
+tên chàng là gì.<end>
+
+//それでは{char_name}。
+//私の質問に答えて下さい。{end}
+Nào chàng <char>,<line>
+hãy trả lời câu hỏi của ta.<end>
+
+//物資のほきゅう中、敵に奇襲を
+//受けてしまいました。
+//あなたなら、どうしますか？{end}
+Khi đang tiếp tế vật tư mà bị<line>
+địch tập kích bất ngờ,chàng sẽ<line>
+làm gì?<end>
+
+//後退する{end}
+Tháo chạy<end>
+
+//防御する{end}
+Phòng thủ<end>
+
+//反撃する{end}
+Phản công<end>
+
+//神はどこにいると
+//思いますか？{end}
+Chàng nghĩ rằng chư thần<line>
+linh ngự trị ở đâu?<end>
+
+//存在しない{end}
+Không tồn tại<end>
+
+//天上の世界{end}
+Cõi trời<end>
+
+//己の心の中{end}
+Trong tâm mỗi người<end>
+
+//無敵の部隊をつくるために
+//あなたが最も重要だと思うものは
+//何ですか？{end}
+Chàng nghĩ điều gì là quan<line>
+trọng nhất để xây dựng nên<line>
+đội quân vô địch?<end>
+
+//破壊力{end}
+Sức mạnh hủy diệt<end>
+
+//統率力{end}
+Khả năng thống soái<end>
+
+//機動力{end}
+Sự cơ động<end>
+
+//次のうちで
+//あなたの好きなものは？{end}
+Chàng thích thứ gì trong số<line>
+những điều sau?<end>
+
+//海の香のする潮風{end}
+Gió triều với mùi biển<end>
+
+//やわらかな春の息吹{end}
+Hơi thở mùa xuân nhẹ nhàng<end>
+
+//さわやかなそよ風{end}
+Làn gió mong manh<end>
+
+//世界が破滅の危機に
+//陥った時、我々を救うものは？{end}
+Khi thế giới lâm vào nguy cơ<line>
+hoại diệt thì đâu là cứu cánh<line>
+của chúng ta?<end>
+
+//偉大なる神々{end}
+Chư thần vĩ đại<end>
+
+//豊かな知識{end}
+Tri thức phong phú<end>
+
+//己の力{end}
+Sức mạnh bản thân<end>
+
+//あなたの指揮する部隊に
+//求めるものは？{end}
+Chàng mong muốn điều gì trong<line>
+đội quân do mình chỉ huy?<end>
+
+//十分な兵力{end}
+Binh lực vững mạnh<end>
+
+//完全なる統制{end}
+Tính kỷ luật tuyệt đối<end>
+
+//高い士気{end}
+Sỹ khí ngút trời<end>
+
+//どのような能力に優れた軍隊を
+//理想としますか？{end}
+Chàng nghĩ năng lực nào là lý<line>
+tưởng nhất cho một đội quân<line>
+ưu việt?<end>
+
+//軍隊より己の力が重要{end}
+Sức mạnh của bản thân<end>
+
+//鉄壁の守り{end}
+Phòng thủ vững chắc<end>
+
+//敵を粉砕する破壊力{end}
+Sức mạnh hủy diệt địch<end>
+
+//闇の者に対して
+//あなたの持つイメージは？{end}
+Chàng có ấn tượng như thế nào<line>
+đối với thế lực bóng tối?<end>
+
+//邪悪なる敵{end}
+Là kẻ thù tà ác<end>
+
+//すうはいの対象{end}
+Là đối tượng sùng bái<end>
+
+//取るに足りない存在{end}
+Không đáng bận tâm<end>
+
+//あなたはこの世界で、
+//何のために生きていく
+//つもりですか？{end}
+Chàng muốn sống vì điều gì<line>
+ở thế giới này?<end>
+
+
+//愛する人を守るため{end}
+Bảo vệ người mình yêu<end>
+
+//己を高めるため{end}
+Nâng cao bản thân<end>
+
+//夢をかなえるため{end}
+Thực hiện ước mơ<end>
+
+//今、味方の偵察部隊が
+//包囲されています。{wait}{clsr}
+//しかし、あなたの部隊もまた
+//危険な状態にあります。
+//あなたは部隊に対して
+//どのように指示しますか？{end}
+Giả dụ đội quân trinh sát của ta<line>
+đang bị bao vây,và đạo quân của<line>
+chàng cũng đang nguy khốn.<pause><page>
+Như vậy chàng sẽ ra chỉ thị gì<line>
+cho đạo quân của chàng?<end>
+
+
+
+//退却を命じる{end}
+Ra lệnh rút lui<end>
+
+//援軍を呼び、防戦する{end}
+Phòng thủ,gọi viện binh<end>
+
+
+//偵察部隊を助けに行く{end}
+Đi cứu đội trinh sát<end>
+
+//あなたが生涯をかけて
+//求めるものは何ですか？{end}
+Chàng tìm kiếm điều gì trong<line>
+suốt cuộc đời này?<end>
+
+
+//知識{end}
+Tri thức<end>
+
+//富{end}
+Sự giàu có<end>
+
+//権力{end}
+Quyền lực<end>
+
+//強大な力を手にした時
+//あなたは何のために
+//その力を使いますか？{end}
+Khi có được sức mạnh khổng lồ,<line>
+chàng sẽ dùng sức mạnh đó vào<line>
+việc gì?<end>
+
+//人々を守るため{end}
+Bảo vệ mọi người<end>
+
+//全てを支配するため{end}
+Thống trị tất cả<end>
+
+//正義を貫くため{end}
+Làm vì chính nghĩa<end>
+
+//あなたにとって
+//愛とはどのようなものですか？{end}
+Đối với chàng thì tình yêu<line>
+là như thế nào?<end>
+
+//与え合うもの{end}
+Là cho lẫn nhau<end>
+
+//受けるもの{end}
+Là đón nhận<end>
+
+//無限の力のみなもと{end}
+Ngốc gốc sức mạnh vô tận<end>
+
+//あなたがこの世界に
+//望むものは何ですか？{end}
+Chàng mong muốn điều gì ở<line>
+thế giới này?<end>
+
+//愛と希望と勇気{end}
+Tình yêu,hy vọng và dũng khí<end>
+
+//意のままに生きる自由{end}
+Sống tự do theo ý muốn<end>
+
+//秩序ある統一{end}
+Trật tự và thống nhất<end>
+
+//国を治める者に
+//必要と思われる能力は？{end}
+Chàng nghĩ năng lực nào cần<line>
+thiết cho kẻ trị quốc?<end>
+
+
+//カリスマ{end}
+Đắc nhân tâm<end>
+
+//決断力{end}
+Khả năng quyết đoán<end>
+
+//実行力{end}
+Khả năng thực hành<end>
+
+//英雄になるために
+//必要と思うものは何ですか？{end}
+Chàng nghĩ điều gì quan trọng<line>
+để trở thành anh hùng?<end>
+
+//不屈の精神{end}
+Tinh thần bất khuất<end>
+
+//統率力{end}
+Khả năng thống soái<end>
+
+//勇気{end}
+Dũng khí<end>
+
+//男とは！{end}
+Thế nào là nam nhi!<end>
+
+//全てをつつみ込む愛{end}
+Thương yêu vạn vật<end>
+
+//熱き魂{end}
+Có lòng nhiệt huyết<end>
+
+//はがねのごとき肉体{end}
+Cơ thể rắn chắc<end>
+
+//戦いが始まった時、
+//あなたが自分に対して
+//求める能力は何ですか？{end}
+Khi bắt đầu giao tranh,chàng<line>
+mong muốn có được năng lực<line>
+nào?<end>
+
+
+//豊富な戦術知識{end}
+Tri thức chiến thuật phong phú<end>
+
+//冷静な判断力{end}
+Quyết đoán bình tĩnh<end>
+
+//強大な力{end}
+Sức mạnh bá đạo<end>
+
+//あなたが理想とする部隊は
+//どのようなものですか？{end}
+Chàng nghĩ thế nào là đội quân<line>
+lý tưởng?<end>
+
+//少数精鋭{end}
+Thiểu số tinh anh<end>
+
+//個人の力は弱いが大部隊{end}
+Sức mạnh tập thể<end>
+
+//自分一人で十分{end}
+Mình ta là đủ<end>
+
+//最後に、あなたは、
+//何のために戦うのですか？{end}
+Cuối cùng,hãy cho ta biết chàng<line>
+chiến đấu vì điều gì?<end>
+
+//名誉を得るため{end}
+Tìm kiếm danh dự<end>
+
+//祖国を守るため{end}
+Bảo vệ tổ quốc<end>
+
+//愛する人を守るため{end}
+Bảo vệ người thương<end>
+
+#WRITE(Ptr, $120003)
+<end>
+
+//エルウィン{end} 00
+Erwin<end>
+
+//リアナ{end}01
+Riana<end>
+
+//ラーナ{end}02
+Läna<end>
+
+//シェリー{end}03
+Cherie<end>
+
+//ヘイン{end}04
+Hein<end>
+
+//スコット{end}05
+Scott<end>
+
+//キース{end}06
+Keith<end>
+
+//アーロン{end}07
+Aaron<end>
+
+//レスター{end}08
+Lester<end>
+
+//ラーナ{end}09
+Läna<end>
+
+//ロウガ{end}0A
+Rouga<end>
+
+//ソニア{end}0B
+Sonya<end>
+
+//レオン{end}0C
+Leon<end>
+
+//バルガス{end}0D
+Vargas<end>
+
+//イメルダ{end}0E
+Imelda<end>
+
+//エグベルト{end}0F
+Egbert<end>
+
+//エスト{end}10
+Esto<end>
+
+//オスト{end}11
+Osto<end>
+
+//謎の騎士{end}12
+Kỵ sỹ bí ẩn<end>
+
+//ジェシカ{end}13
+Jessica<end>
+
+//ダークプリンセス{end}14
+Dark Princess<end>
+
+//ベルンハルト{end}15
+Bernhardt<end>
+
+//ボーゼル{end}16
+Böser<end>
+
+//レアード{end}17
+Laird<end>
+
+//バルドー{end}18
+Baldo<end>
+
+//ゾルム{end}19
+Zorm<end>
+
+//モーガン{end}1A
+Morgan<end>
+
+//ギナム{end}1B
+Ginam<end>
+
+//クレイマー{end}1C
+Kramer<end>
+
+//セイガル{end}1D
+Seigal<end>
+
+//フォルガー{end}1E
+Folgert<end>
+
+//一般兵{end}1F
+Lính trơn<end>
+
+//指揮官{end}20
+Chỉ huy<end>
+
+//司祭{end}21
+Tư tế<end>
+
+//村人{end}22
+Người làng<end>
+
+//海賊{end}23
+Hải tặc<end>
+
+//自警団{end}24
+Đội tự vệ<end>
+
+//ローレン{end}25
+Laurence<end>
+
+//アドン{end}26
+Adon<end>
+
+//サムソン{end}27
+Samson<end>
+
+//バラン{end}28
+Baran<end>
+
+//帝国軍指揮官{end}29
+Chỉ huy Đế quốc<end>
+
+//ウェアウルフ{end}2A
+Werewolf<end>
+
+//ゲルギャザー{end}2B
+Gelgazer<end>
+
+//スキュラ{end}2C
+Scylla<end>
+
+//ストーンゴーレム{end}2D
+Stone Golem<end>
+
+//リッチ{end}2E
+Lich<end>
+
+//リビングアーマー{end}2F
+Living Armor<end>
+
+//バンパイアロード{end}30
+Vampire Lord<end>
+
+//ゴースト{end}31
+Ghost<end>
+
+//ケルベロス{end}32
+Cerberos<end>
+
+//マスターディーノ{end}33
+Master Dino<end>
+
+//ワイバーン{end}34
+Wyvern<end>
+
+//グレートドラゴン{end}35
+Great Dragon<end>
+
+//ミノタウロス{end}36
+Minotaurus<end>
+
+//クラーケン{end}37
+Kraken<end>
+
+//サキュバス{end}38
+Succubus<end>
+
+//デーモンロード{end}39
+Demon Lord<end>
+
+//兄貴{end}3A
+Đại ca<end>
+
+//魔女{end}3B
+Ma nữ<end>
+
+//神官{end}3C
+Thần quan<end>
+
+//帝国兵{end}3D
+Lính Đế quốc<end>
+
+//ファイアス{end}3E
+Faias<end>
+
+//ロック{end}3F
+Roc<end>
+
+//ネクロマンサー{end}40
+Necromancer<end>
+
+//リデル{end}41
+Ridel<end>
+
+//エヴァンゼ{end}42
+Evenze<end>
+
+//フェニックス{end}43
+Phoenix<end>
+
+//カオス{end}44
+Chaos<end>
+
+//ルシリス{end}45
+Lushiris<end>
+
+//レディン{end}46
+Ledin<end>
+
+//ジークハルト{end}47
+Sieghärt<end>
+
+//イェルムンガルド{end}48
+Jormungandr<end>
+
+//カミラ{end}49
+Camilla<end>
+
+//カニヲ{end}4A
+Kanio<end>
+
+//ウッキー{end}4B
+Wicky<end>
+
+//アキターン{end}4C
+Akitahn<end>
+
+//エリザ{end}4D
+Elize<end>
+
+
+
+
+#WRITE(Ptr, $1200FC)
+//　　歩兵　　ＶＳ　　槍兵
+//歩兵ユニットは、最もオーソドッ
+//クスな特性を持つ。
+//槍兵に強く、騎馬に弱い。
+Bộ binh  VS Trường thương<line>
+Bộ binh là Unit mang tính chính<line>
+thống nhất trong các binh chủng.<line>
+Khắc trường thương,kỵ Kỵ mã.<end>
+
+//　　槍兵　　ＶＳ　　騎馬
+//槍兵ユニットは、防御力が高く、
+//騎馬に対抗する長いヤリを持つ。
+//騎馬に強く、歩兵に弱い。
+Trường thương VS Kỵ mã<line>
+Trường thương là Unit có sức phòng<line>
+vệ cao,dễ đối phó với Kỵ mã.<line>
+Khắc Kỵ mã,kỵ Bộ binh.<end>
+
+//　　騎馬　　ＶＳ　　歩兵
+//騎馬ユニットは、移動力に優れ、
+//攻撃力が高いが、防御は低い。
+//歩兵に強く、槍兵に弱い。
+Kỵ mã VS Bộ binh<line>
+Kỵ mã là Unit cơ động,lực tấn công<line>
+cao nhưng phòng ngự kém.<line>
+Khắc Bộ binh,kỵ Trường thương.<end>
+
+//　　弓兵　　ＶＳ　　飛兵
+//弓兵ユニットは、間接攻撃を行え
+//るが、直接攻撃には弱い。
+//飛兵に強い。
+Cung binh VS Phi binh<line>
+Cung binh là Unit có thể tấn công<line>
+gián tiếp nhưng phòng ngự kém.<line>
+Khắc Phi binh.<end>
+
+//　　飛兵　　ＶＳ　　歩兵
+//飛兵ユニットは、空を飛べるため
+//最大の移動力を誇る。
+//弓兵には弱い。
+Phi binh VS Bộ binh<line>
+Phi binh là Unit có thể bay trên<line>
+không,sức cơ động lớn nhất.<line>
+Kỵ Cung binh.<end>
+
+//　　水兵　　ＶＳ　　槍兵
+//水兵ユニットは、水上の移動や地
+//形効果が優れた特殊な兵。
+//他は歩兵と同じ特性を持つ。
+Thủy binh VS Trường thương<line>
+Thủy binh có thể di chuyển trên<line>
+nước,được nhiều hiệu quả địa hình.<line>
+Tính năng giống với Bộ binh.<end>
+
+//　　僧侶　　ＶＳ　　不死
+//僧侶ユニットは、スライムや霊、
+//魔族や不死属性に対して強い。
+//他は歩兵と同じ特性を持つ。
+Tăng lữ VS Bất tử<line>
+Tăng lữ là Unit khắc chế các binh<line>
+chủng Bất tử và Ma tộc.<line>
+Tính năng giống với Bộ binh.<end>
+
+//フッフッフッ‥‥。
+//これがアルハザード。
+//伝説の魔剣。
+Hà hà hà......<line>
+Đây là Alhazard,Ma kiếm<line>
+trong truyền thuyết.<end>
+
+
+//これぞ余が欲していた
+//無限の力‥‥。{wait}{clsr}
+//剣よ、我に力を！
+//大陸を、
+//世界を手に入れる力を！！
+Đây chính là sức mạnh vô hạn<line>
+mà Trẫm muốn có...<pause><page>
+Hỡi Ma kiếm,hãy ban cho Trẫm<line>
+sức mạnh!<pause><page>
+Ban cho Trẫm sức mạnh thống<line>
+trị cả đại lục,sức mạnh chiếm<line>
+đoạt cả thế giới!!
+<end>
+
+//イェレスの空、赤き凶星昇りし年
+//はるか呪われしヴェルゼリアの
+//地より、大いなる野望を抱きし者
+//現わる。
+Một năm nọ có hung tinh đỏ rực<line>
+nổi lên bầu trời Yeless,từ vùng đất<line>
+Velzeria bị nguyền rủa bỗng xuất<line>
+hiện một kẻ mang dã tâm ghê gớm.<end>
+
+//　かの者、自らを帝王と名乗りて、
+//　人馬を従え、雷をまといて嵐を
+//　呼ばん。
+Kẻ đó tự xưng Đế vương,dẫn<line>
+theo binh mã,hô mưa gọi sấm.<end>
+
+//　黒き大剣は古えより闇を司りて、
+//　人の争いの種なればこそ、
+Từ thời xa xưa,Hắc đại kiếm đã<line>
+cai trị bóng tối,là mầm mống<line>
+cho mọi tranh chấp cõi người.
+<end>
+
+//　　心ある者に地中深く封ぜられ、
+//　　今は長き眠りにいたり。
+//　　其は眠れる悪魔なり‥‥。
+Bị người thiện lương phong ấn sâu<line>
+trong lòng đất,giờ đây nó đang say<line>
+ngủ một thời gian dài...<line>
+Nó chính là ác ma đang ngủ say...
+<end>
+
+//かの帝王、剣を振りかざさんと
+//する時、再び深い闇が
+//この大地を覆うであろう。
+Khi Đế vương đó vung kiếm,hẳn<line>
+bóng tối sẽ bao trùm cả đại địa<line>
+một lần nữa.<end>
+
+<end>
+
+//帝王の軍勢通りしあと、
+Binh đoàn Đế vương thế tựa quỷ<end>
+
+//憎悪の炎さえついえ、失意の虚無が
+thần,đi đến đâu đều khiến ngọn lửa<end>
+
+
+//裾をたなびき事、鬼神のごとし。
+căm hận hóa thành tuyệt vọng.<end>
+
+<end>
+
+<end>
+
+<end>
+
+//　もてる雷にて敵を撃つこと、<end>
+Binh đoàn Đế vương hô sấm gọi chớp<end>
+
+//　邪竜のごとし。<end>
+phá địch như loài tà long.<end>
+
+//　全ては欲望の象徴、黒き大剣を<end>
+Tất cả đều vì thanh Hắc đại kiếm,<end>
+
+//　求むるがためなり。<end>
+biểu tượng của dục vọng.<end>
+
+<end>
+
+//　古えの黒き大剣、
+Thanh Hắc đại kiếm cổ "Alhazard"<end>
+
+
+//　すなわち「アルハザード」は、
+là quỷ hút máu,khiến người cuồng<end>
+
+
+//　人の血を吸いてなお、その狂気を
+điên,gọi lên bè lũ dị hình dị tướng.<end>
+
+
+//　増し、異形なる者共を呼びいだし
+Nó mang sức mạnh biến cõi trần<end>
+
+//　この世を屍土にかえる力を宿す、
+thành cõi chết,là phạm trù vượt<end>
+
+//　人知を越えた存在なり。
+tầm hiểu biết của nhân loại.
+<end>
+
+//　　其は力なり。其は世界なり。
+Nó là sức mạnh,nó là thế giới.
+<end>
+
+//　　其は闇なり‥‥‥‥。
+Nó là bóng tối......
+<end>
+
+//　　故に大剣を得し者は世界を
+Cho nên kẻ có được Hắc đại kiếm
+<end>
+
+//　　征したり。
+sẽ chinh phạt thế giới,
+<end>
+
+//　　世の覇者なり。
+trở thành bá vương cõi đời.
+<end>
+
+<end>
+
+<end>
+
+<end>
+
+//　エグゼクティブ・プロデューサー
+Điều hành sản xuất:<end>
+
+<end>
+
+//　　　　　渋谷　実夫
+Shibuya Fumio<end>
+
+<end>
+
+<end>
+
+//　　　　メインプログラム
+Lập trình chính:<end>
+
+//　　　　　三谷　和久
+Mitani Kazuhisa<end>
+
+<end>
+
+//　　　　サブ　プログラム
+Lập trình phụ:<end>
+
+//　　　　　藤原　耕一
+Fujiwara Kouichi<end>
+
+<end>
+
+<end>
+
+//　　　　企画＆シナリオ
+Kế hoạch,thiết kế Scenario:<end>
+
+<end>
+
+//　　　　　夜刀　風魔
+Yatou Fuuma<end>
+
+<end>
+
+//　　　　　企画サポート
+Hỗ trợ kế hoạch:<end>
+
+//　　　　　　鈴木　政幸
+Suzuki Masayuki<end>
+
+<end>
+
+//　　　　シナリオサポート
+Hỗ trợ Scenario:<end>
+
+//　　　　　　堀　弘明
+Hori Hiroaki<end>
+
+//　　　　　　葉月　陽
+Hazuki You<end>
+
+<end>
+
+//　　　　メイングラフィック
+Đồ họa chính:<end>
+
+<end>
+
+//　　　　　　鈴木　政幸
+Suzuki Masayuki<end>
+
+<end>
+
+<end>
+
+<end>
+
+//　　　　　グラフィック
+Đồ họa:<end>
+
+//　　　　　　古野　修一
+Furuno Shuuichi<end>
+
+//　　　　　　赤根　健良
+Akane Takeyoshi<end>
+
+//　　　　　　田崎　雅子
+Tazaki Miyako<end>
+
+//　　　　　　斎藤　隆秀
+Saitou Takahide<end>
+
+<end>
+
+//　　　　サウンドプロデュース
+Sản xuất âm thanh:<end>
+
+//　　　　　　溝口　功
+Miguchi Osamu<end>
+
+<end>
+
+//　　　　作曲＆プログラミング
+Soạn nhạc và lập trình:<end>
+
+//　　　　　　岩垂　徳行
+Iwadare Noriyuki<end>
+
+<end>
+
+<end>
+
+//　　　　サウンドオペレート
+Biểu diễn âm thanh:<end>
+
+//　　　　　　吉村　幸二
+
+Yoshimura Kouji<end>
+
+//　　　　　　渋谷　公園
+Shibuya Kouen<end>
+
+//　　　　　　笠原　咲奈恵
+Kasahara Sanae<end>
+
+<end>
+
+<end>
+
+//　　　　サウンドプログラム
+Lập trình âm thanh:<end>
+
+<end>
+
+//　　　　　　渋谷　道玄
+Shibuya Dougen<end>
+
+<end>
+
+<end>
+
+<end>
+
+//　　　　キャラクターデザイン
+Thiết kế nhân vật:<end>
+
+//　　　　　うるし原　智志
+Urushihara Satoshi<end>
+
+<end>
+
+<end>
+
+//　　　　　　　営　業
+Kinh doanh:<end>
+
+//　　　　　　小森　俊幸
+Kobayashi Satoyuki<end>
+
+//　　　　　　寺田　浩一郎
+Terada Kouichirou<end>
+
+<end>
+
+//　　　　　　　広　報
+Quảng cáo:<end>
+
+//　　　　　　佐藤　弘明
+Satou Hiroaki<end>
+
+<end>
+
+<end>
+
+//　　　　テクニカルアドバイザー
+Cố vấn kỹ thuật:<end>
+
+<end>
+
+//　　　　　　松田　智彦
+Matsuda Satohiko<end>
+
+//　　　　　　高良　暢泰
+Takara Nobuyasu<end>
+
+<end>
+
+//　　　　スペシャルサンクス
+Đặc biệt cảm ơn:<end>
+
+//　　　　　　藪崎　久也
+Yabusaki Hisaya<end>
+
+//　　　　　　石塚　輝
+Ishizuka Teruki<end>
+
+//　　　　　　窪田　剛
+Kubota Takeshi<end>
+
+<end>
+
+<end>
+
+<end>
+
+//　　　アシスタントディレクター
+Trợ lý đạo diễn:<end>
+
+<end>
+
+//　　　　　　堀　弘明
+Hori Hiroaki<end>
+
+<end>
+
+<end>
+
+<end>
+
+//　　プロデューサー＆ディレクター
+Đạo diễn,sản xuất:<end>
+
+<end>
+
+//　　　　　高田　慎二郎
+Takada Shinjirou<end>
+
+<end>
+
+<end>
+
+<end>
+
+<end>
+
+//　　（Ｃ）１９９５　ＮＣＳ
+NCS 1995<end>
+
+<end>
+
+Dịch thuật + lập trình: Asm65816<end>
+
+<end>
+
+Hoàn thành 2018<end>
+
+//　　　デア・ラングリッサー
+Der Langrsser bản Việt ngữ<end>
+
+<end>
+
+//　　　　総ターン数　{num}
+Tổng số turn: <num><end>
+
+<end>
+
+<end>
+
+
+
+#WRITE(Ptr, $120108)
+//古文書はどこにある？
+//おとなしく渡せば
+//手荒な真似はしない。{end}
+Thư tịch cổ đó đâu?<line>
+Mau giao nộp thì ta sẽ<line>
+không phải động thủ.<end>
+
+//あの古文書を
+//渡すわけにはいかん！{end}
+Há nào ta lại giao<line>
+thư tịch cổ cho các ngươi!<end>
+
+//闇の力を
+//目覚めさせてはならない！{end}
+Lão nạp nhất định không để<line>
+các ngươi đánh thức thế lực<line>
+bóng tối đâu!!<end>
+
+
+//その力があれば、
+//この世界を統一できるのだ。
+//邪魔はしないでもらおう。{end}
+Có được sức mạnh đó thì<line>
+sẽ dễ dàng thống nhất<line>
+thế giới.Đừng cản bọn ta.<end>
+
+//ここを渡らせれば
+//わが国は負ける！
+//意地でも降参せんぞ！{end}
+Để chúng qua được đây<line>
+thì nước ta thua mất!<line>
+Hãy chiến đấu,chớ đầu hàng!<end>
+
+//バカな連中だね、
+//氷竜兵団にたてつくなんて！
+//これでも、くらいな！{end}
+Lũ ngu xuẩn!<line>
+Nếm mùi lợi hại của<line>
+binh đoàn Băng long đi!<end>
+
+//帝国の狙いがダークロッドだと
+//分かった以上、この地図を
+//渡すわけにはゆかん！{end}
+Đã biết Đế quốc muốn tìm<line>
+Dark Rod,há nào ta lại<line>
+giao địa đồ cho chúng!<end>
+
+//猛将と名をはせた
+//このバルガスと知っての事か！
+//おもしろい！{end}
+Các ngươi đã nghe danh<line>
+mãnh tướng Vargas này rồi<line>
+sao!Hay lắm,tiếp chiêu!<end>
+
+#WRITE(Ptr, $120000)
+//どのデータをロードしますか？{end}
+Đọc dữ liệu nào?<end>
+
+//セーブしますか？{end}
+Ghi dữ liệu?<end>
+
+//はい{end}
+Có<end>
+
+//いいえ{end}
+Không<end>
+
+//それでも、買いますか？{end}
+Vẫn muốn mua chứ?<end>
+
+//アイテムがいっぱいです。{end}
+Item đầy rồi.<end>
+
+//なにか捨てて下さい。{end}
+Vứt bỏ bớt thứ gì đi.<end>
+
+//捨てるアイテムを選んで下さい。{end}
+Hãy chọn thứ muốn bỏ.<end>
+
+//{char_name}を捨てます。{end}
+Vứt bỏ <char>.<end>
+
+//{char_name}を捨てました。{end}
+Đã bỏ <char>.<end>
+
+//敵撃破数{end}
+Số lần thắng<end>
+
+//撤退回数{end}
+Số lần bại<end>
+
+//眠らされた{end}
+Ngủ<end>
+
+//これ以上、召喚できません。{end}
+Không thể chiêu hồi thêm.<end>
+
+<end>
+
+<end>
+
+//マジックアロー{end}
+Ma tiễn<end>
+
+//ブラスト{end}
+Bạo phát<end>
+
+//サンダー{end}
+Bạo lôi<end>
+
+//ファイアーボール{end}
+Hỏa cầu<end>
+
+//メテオ{end}
+Thiên thạch<end>
+
+//ブリザード{end}
+Băng thương<end>
+
+//トルネード{end}
+Cuồng phong<end>
+
+//ターンアンデッド{end}
+Phá tà<end>
+
+//アースクエイク{end}
+Địa chấn<end>
+
+//ヒール１{end}
+Gia trì 1<end>
+
+//ヒール２{end}
+Gia trì 2<end>
+
+//フォースヒール１{end}
+Hộ niệm 1<end>
+
+//フォースヒール２{end}
+Hộ niệm 2<end>
+
+//スリープ{end}
+Thôi miên<end>
+
+//ミュート{end}
+Trầm mặc<end>
+
+//プロテクション１{end}
+Kim cang 1<end>
+
+//プロテクション２{end}
+Kim cang 2<end>
+
+//アタック１{end}
+Đấu khí 1<end>
+
+//アタック２{end}
+Đấu khí 2<end>
+
+//ゾーン{end}
+Cô thần<end>
+
+//テレポート{end}
+Thúc địa<end>
+
+//レジスト{end}
+Kháng ma<end>
+
+//チャーム{end}
+Quỷ mị<end>
+
+//クイック{end}
+Gia tốc<end>
+
+//アゲイン{end}
+Tái động<end>
+
+//デクライン{end}
+Lụy ma<end>
+
+//ヴァルキリー{end}
+Valkyrie<end>
+
+//フレイヤ{end}
+Freyja<end>
+
+//ホワイトドラゴン{end}
+Bạch long<end>
+
+//サラマンダー{end}
+Salamander<end>
+
+//アイアンゴーレム{end}
+Iron Golem<end>
+
+//デーモンロード{end}
+Demon Lord<end>
+
+//ＭＰが足りません{end}
+Không đủ MP!<end>
+
+//{char_name}を
+//手に入れた！{end}
+Đã nhận được<line>
+<char>!<end>
+
+//は
+//{char_name}を
+//装備しました。{end}
+ đã trang bị<line>
+<char>.<end>
+
+//ＧＡＭＥ　ＯＶＥＲ{end}
+GAME OVER<end>
+
+//は{end}
+<end>
+
+//レベルが上がった。{end}
+lên Level.<end>
+
+//ＡＴが{end}
+AT <end>
+
+//ＤＦが{end}
+DF <end>
+
+//ＭＰが{end}
+MP <end>
+
+//１上がった。{end}
+tăng 1.<end>
+
+//２上がった。{end}
+tăng 2.<end>
+
+//を覚えた。{end}
+ là ma pháp<pause><page>vừa học được.<end>
+
+//{char_name}をやとえるようになった。{end}
+Có thể thuê <char>.<end>
+
+//クラスチェンジできます{end}
+Class change.<end>
+
+//クラスチェンジ{end}
+Class change<end>
+
+//{char_name}{char_name}ユニットです{end}
+Đơn vị <char>: <char><end>
+
+//傭兵の数{end}
+Số lính<end>
+
+//使える魔法・召喚{end}
+Ma pháp,chiêu hồi<end>
+
+//{char_name}の装備{end}
+Trang bị <char><end>
+
+//武器{end}
+vũ khí<end>
+
+//その他{end}
+thứ khác<end>
+
+//味方の{end}
+ta<end>
+
+//行動終了した{end}
+đã hết lượt<end>
+
+//敵の{end}
+địch<end>
+
+//ＮＰＣの{end}
+NPC<end>
+
+//このシナリオは強制配置面です。{end}
+Scenario này cưỡng chế bố trí.<end>
+
+//に
+//クラスチェンジします。
+//よろしいですか？{end}
+ sẽ là Class<line>
+mới của nhân vật này.<line>
+Đồng ý không?<end>
+
+//購入リスト{end}
+Danh sách mua<end>
+
+//売却リスト{end}
+Danh sách bán<end>
+
+//{char_name}アイテムを持っていません。{end}
+Không có mang <char>.<end>
+
+//所持金{end}
+    Tiền<end>
+
+//お金が足りません。{end}
+Không đủ tiền.<end>
+
+//これ以上アイテムを持てません。{end}
+Không thể mang nhiều Item hơn.<end>
+
+//持っているアイテム{end}
+Item đang mang<end>
+
+//その名前は使用できません{end}
+Không được dùng tên này<end>
+
+//売れるアイテムを持っていません。{end}
+Không có Item để bán.<end>
+
+//{char_name}を購入しました。{end}
+Đã mua <char>.<end>
+
+//{char_name}を売却しました。{end}
+Đã bán <char>.<end>
+
+//{char_name}は装備できません。{end}
+Không thể trang bị cho <char>.<end>
+
+//指揮官の配置が終わっていません。{end}
+Chưa bố trí chỉ huy xong.<end>
+
+//セーブしました。{end}
+Đã ghi<end>
+
+//マップの確認のみ行えます。{end}
+Chỉ có thể xác nhận Map.<end>
+
+//ヴァルキリー{end}
+Valkyrie<end>
+
+//フレイヤ{end}
+Freyja<end>
+
+//ホワイトドラゴン{end}
+Bạch long<end>
+
+//サラマンダー{end}
+Salamander<end>
+
+//アイアンゴーレム{end}
+Iron Golem<end>
+
+//デーモンロード{end}
+Demon Lord<end>
+
+//スレイプニル{end}
+Sleipnir<end>
+
+//フェンリル{end}
+Fenrir<end>
+
+//アニキ{end}
+Đại ca<end>
+
+//あにき敵{end}
+Aniki<end>
+
+//使用できません{end}
+Không dùng được<end>
+
+//よろしいですか？{end}
+Đồng ý chứ?<end>
+
+//ボタンを押してください{end}
+Hãy nhấn nút A<end>
+
+//歩兵{end}
+Bộ binh<end>
+
+//歩兵{end}
+Bộ binh<end>
+
+//長槍{end}
+Thương<end>
+
+//騎馬{end}
+Kỵ mã<end>
+
+//騎馬{end}
+Kỵ mã<end>
+
+//飛兵{end}
+Phi binh<end>
+
+//歩兵{end}
+Bộ binh<end>
+
+//水兵{end}
+Thủy binh<end>
+
+//ゲル{end}
+Gel<end>
+
+//魔族{end}
+Ma tộc<end>
+
+//水兵{end}
+Thủy binh<end>
+
+//歩兵{end}
+Bộ binh<end>
+
+//歩兵{end}
+Bộ binh<end>
+
+//不死{end}
+Bất tử<end>
+
+//不死{end}
+Bất tử<end>
+
+//弓兵{end}
+Cung binh<end>
+
+//弓兵{end}
+Cung binh<end>
+
+//竜族{end}
+Long tộc<end>
+
+//シナリオ{num}
+//　　　　{num}ターン{end}
+Scenario <num>
+    <num> lượt<end>
+
+//トータル
+//　　　　{num}ターン{end}
+Tổng<line>
+     <num> lượt<end>
+
+#WRITE(Ptr, $120105)
+//もしよければ、
+//この世界ならではの戦術を
+//説明しようと思います。{end}
+Ta muốn giải thích cho chàng về<line>
+chiến thuật độc đáo chỉ có ở<line>
+thế giới này.<end>
+
+//説明を受けますか？{end}
+Chàng nghe giải thích chứ?<end>
+
+//戦闘での心得をあなたに
+//教えておきましょう。{wait}{clsr}
+Vậy để ta cho chàng hay bí<line>
+quyết trong chiến đấu.<pause><page>
+
+//ユニットは大きく分けて
+//指揮官と傭兵の２つの種類が
+//あります。{wait}{clsr}
+Các Unit chia làm 2 loại chính<line>
+là Chỉ huy và Lính đánh thuê.<pause><page>
+
+//指揮官とは、あなたや、
+//いずれ仲間になっていく
+//者たちの事です。{wait}{clsr}
+Chỉ huy chính là nhân vật của<line>
+chàng và những nhân vật đồng<line>
+minh khác.<pause><page>
+
+//傭兵とは、１つのステージのみ
+//お金を払ってやとえる
+//兵士の事です。{wait}{clsr}
+Lính đánh thuê là binh sỹ phải<line>
+mất tiền thuê và đánh cho ta<line>
+một màn duy nhất.<pause><page>
+
+//出撃する前に、
+//各指揮官は傭兵をやとって
+//戦闘の準備をして下さい。{end}
+Trước khi xuất trận,các Chỉ huy<line>
+nên thuê Lính đánh thuê để<line>
+chuẩn bị cho trận chiến.<end>
+
+//指揮範囲についても
+//説明しますか？{end}
+Chàng nghe giải thích về phạm<line>
+vi chỉ huy chứ?<end>
+
+//じっさいの戦闘では、
+//傭兵はやとった指揮官のそばで
+//戦わせるようにして下さい。{wait}{clsr}
+Khi chiến đấu thực tế,nên để<line>
+Lính đánh thuê ở bên cạnh<line>
+Chỉ huy mà khai chiến.<pause><page>
+
+
+//指揮官のまわりで青く点滅する
+//部分を指揮範囲といいます。{wait}{clsr}
+Quanh Chỉ huy có phần màu xanh<line>
+nhấp nháy,ta gọi đó là phạm vi<line>
+chỉ huy.<pause><page>
+
+//この範囲内で戦闘を行なう
+//自分の傭兵に対し、
+//攻撃力と防御力に修正が
+//加算されます。{end}
+Nếu chiến đấu trong phạm vi này,<line>
+Lính đánh thuê của Chỉ huy đó sẽ<line>
+được bù thêm lực công và thủ.<end>
+
+//傭兵のＨＰ回復についても
+//説明しますか？{end}
+Chàng nghe giải thích về cách<line>
+phục hồi HP cho Lính đánh<line>
+chứ?<end>
+
+//指揮官の隣にいる傭兵は
+//ターンの始めにＨＰが
+//３ポイント回復します。{wait}{clsr}
+Đầu mỗi lượt,Unit Lính đánh<line>
+thuê đứng cạnh Chỉ huy sẽ<line>
+được hồi phục 3 HP.<pause><page>
+
+//これ以外には、
+//魔法によってのみ
+//傭兵のＨＰを回復できます。{wait}{clsr}
+Ngoài cách này ra,còn có thể<line>
+dùng ma pháp để hồi phục HP<line>
+cho Unit đánh thuê.<pause><page>
+
+//なお、ＨＰが減少すると
+//攻撃回数が少なくなるので
+//注意して下さい。{end}
+Và hãy chú ý rằng khi HP giảm<line>
+xuống thì số lần tấn công cũng<line>
+giảm đi.<end>
+
+//指揮官のＨＰ回復についても
+//説明しますか？{end}
+Chàng nghe giải thích về cách<line>
+hồi phục HP cho Chỉ huy chứ?<end>
+
+//指揮官は、治療コマンドを
+//使う事によって、ＨＰを
+//３ポイント回復できます。{wait}{clsr}
+Mỗi khi Chỉ huy dùng lệnh<line>
+"Trị liệu" thì sẽ được hồi<line>
+phục 3 HP.<pause><page>
+
+//さらに、この時
+//ＭＰも２ポイント
+//回復させる事ができます。{end}
+Ngoài ra,lúc này còn được<line>
+phục hồi 2 MP.<end>
+
+//ユニット相性についても
+//説明しますか？{end}
+Chàng nghe giải thích về tương<line>
+sinh tương khắc giữa các<line>
+Unit chứ?<end>
+
+//ユニットには、
+//それぞれ属性というものが
+//設定されています。{wait}{clsr}
+Từng Unit đều được thiết lập<line>
+sẵn thuộc tính.<pause><page>
+
+//その属性によって、
+//攻撃の有利、不利があります。
+//基本的なものを説明すると‥‥{wait}{clsr}
+Tùy vào thuộc tính mà tấn công<line>
+có lợi hay bất lợi.Giải thích một<line>
+cách căn bản thì...<pause><page>
+
+
+//歩兵は槍兵に強く、騎馬に弱い。
+//槍兵は騎馬に強く、歩兵に弱い。
+//騎馬は歩兵に強く、槍兵に弱い。{wait}{clsr}
+Bộ binh khắc thương binh,<line>
+thương binh khắc kỵ binh,<line>
+kỵ binh khắc bộ binh.<pause><page>
+
+//水兵は水上での戦いが得意で、
+//また水地の移動がすばやい。
+//飛兵は空を飛べ、移動力もあるが
+//弓兵には弱い‥‥{wait}{clsr}
+Thủy binh giỏi đánh trên nước,<line>
+và di chuyển trên nước dễ dàng.<pause><page>
+Phi binh có thể bay trên trời,<line>
+tầm di chuyển lớn nhưng lại<line>
+yếu với cung binh...<pause><page>
+
+//弓兵ははなれた敵を攻撃でき、
+//飛兵にも強いのですが、
+//直接攻撃を受けると、
+//簡単に全滅します。{wait}{clsr}
+Cung binh có thể tấn công địch<line>
+từ xa,khắc phi binh nhưng dễ bị<line>
+tiêu diệt nếu bị đánh trực tiếp.<pause><page>
+
+//これらの事を良く考えて
+//指揮官の配置場所と
+//やとう傭兵を決めて下さい。{end}
+Chàng hãy ghi nhớ điều này<line>
+mà chọn nơi bố trí Chỉ huy và<line>
+Lính đánh thuê cho phù hợp.<end>
+
+//経験値入手についての
+//特殊な例も説明しますか？{end}
+Chàng có muốn nghe giải thích<line>
+một ví dụ về điểm kinh nghiệm<line>
+trong Der Langrisser không?<end>
+
+//傭兵を使って敵を倒すと、
+//その分の経験値は傭兵をやとった
+//指揮官のものになります。{wait}{clsr}
+Khi Lính đánh thuê hạ được quân<line>
+địch thì điểm kinh nghiệm sẽ<line>
+thuộc về Chỉ huy thuê lính.<pause><page>
+
+//また、指揮官を倒した場合、
+//その部隊に傭兵が残っていても
+//一緒に全滅してしまいます。{wait}{clsr}
+Và khi Chỉ huy địch bị hạ thì cả<line>
+đội Lính đánh thuê cũng bị<line>
+tiêu diệt theo.<pause><page>
+
+//ただし、一緒にやられた
+//傭兵の経験値は、
+//入手できなくなります。{wait}{clsr}
+Nhưng ta sẽ không nhận được điểm<line>
+kinh nghiệm của Unit Lính đánh<line>
+thuê chết chung đó.<pause><page>
+
+//そのため余裕のある時は
+//敵の傭兵を全て倒してから
+//指揮官を倒しましょう。{end}
+Cho nên khi thong thả thì cứ<line>
+hạ hết Lính đánh thuê bên địch<line>
+rồi mới tấn công Chỉ huy địch.<end>
+
+//指揮官配置について
+//説明しますか？{end}
+Chàng có muốn nghe giải thích<line>
+về bố trí Chỉ huy?<end>
+
+//出撃を行なう前に、
+//全ての指揮官をマップ上に
+//配置しなければなりません。{wait}{clsr}
+Trước khi xuất trận thì phải bố<line>
+trí tất cả Unit Chỉ huy lên Map.<pause><page>
+
+//配置を行なった指揮官は
+//名前が赤く表示されます。{wait}{clsr}
+Chỉ huy đã được bố trí thì<line>
+tên được hiển thị màu nâu.<pause><page>
+
+//なお、ステージによっては
+//最初から配置の決まっている
+//場合があります。{wait}{clsr}
+Và cũng tùy màn mà có khi vị<line>
+trí của Chỉ huy được cố định sẵn,<line>
+không thể thay đổi.<pause><page>
+
+//その場合、指揮官の配置場所を
+//変更する事はできませんが、
+//傭兵やアイテムの装備などは
+//行なえます。{end}
+Trường hợp này không đổi được<line>
+nơi bố trí Chỉ huy nhưng có thể<line>
+thay đổi Lính đánh thuê,Item.<end>
+
+//これで一通りの戦術は
+//理解できたはずです。{wait}{clsr}
+Có vẻ như chàng đã nắm được<line>
+những điểm quan trọng trong<line>
+chiến thuật rồi.<pause><page>
+
+//また１面では、
+//傭兵をやとうことを
+//忘れないように注意して下さい。{end}
+Và đừng quên thuê lính ở<line>
+màn 1.<end>
+
+//それではあなたの活躍を
+//期待しています。{end}
+Thay mặt đại hiệp Asm65816,<line>
+ta chúc chàng gặp nhiều thuận<line>
+lợi.<pause><page>
+Và cũng tiết lộ một điều rằng<line>
+Der Langrisser có rất nhiều<line>
+hướng đi và kết thúc khác nhau.<pause><page>
+Phải chơi đi chơi lại chục lần<line>
+mới chơi hết các hướng.<pause><page>
+Der Langrisser có tất cả 75 màn<line>
+chơi chính và 3 màn chơi ẩn.<pause><page>
+Có tất cả 4 hướng đi,mỗi hướng<line>
+gồm 21 màn.Và hầu như mỗi màn<line>
+đều có những Item ẩn.<pause><page>
+Tuy cùng hướng đi nhưng có<line>
+nhiều phân nhánh khác nhau,tùy<line>
+vào lựa chọn của chàng.<pause><page>
+Và đừng quên bản dịch Việt ngữ<line>
+của Asm65816 luôn miễn phí nhé.<pause><page>
+Đã luôn miễn phí,đang miễn phí<line>
+và sẽ luôn như vậy nhé.<pause><page>
+Cuối cùng,ta xin chửi kẻ nào<line>
+đem bản dịch này làm món<line>
+hàng kinh doanh nhé.<pause><page>
+Tiện thể xin phép chửi luôn<line>
+đứa nào ngu ngơ mất tiền<line>
+để chơi nhé.<pause><page>
+Lushiris cầu chúc cho chàng<line>
+luôn chiến thắng trong mọi<line>
+trận đánh.<end>
+
+#WRITE(Ptr, $120006)
+
+//ナイフ{end}
+Dao găm<end>
+
+//ウォーハンマー{end}
+Búa chiến<end>
+
+//グレートソード{end}
+Đại kiếm<end>
+
+//ワンド{end
+Gậy phép<end>
+
+//フレイムランス{end}
+Hỏa thương<end>
+
+//デビルアックス{end}
+Ma đại phủ<end>
+
+//Ｄ・スレイヤー{end}
+Đồ long<end>
+
+//ラングリッサー{end}
+Langrisser<end>
+
+//ラングリッサー{end}
+Langrisser<end>
+
+//てつアレイ{end}
+Tạ sắt<end>
+
+//メサイヤンソード{end}
+Kiếm Masaya<end>
+
+//オーブ{end}
+Bảo ngọc<end>
+
+//ホーリーロッド{end}
+Holy Rod<end>
+
+//ホーリーロッド{end}
+Holy Rod<end>
+
+//ダークロッド{end}
+Dark Rod<end>
+
+//ロングボウ{end}
+Trường cung<end>
+
+//アーバレスト{end}
+Arvarest<end>
+
+//アルハザード{end}
+Alhazard<end>
+
+//アルハザード{end}
+Alhazard<end>
+
+//オーディンのたて{end}
+Khiên Odin<end>
+
+//スモールシールド{end}
+Khiên nhỏ<end>
+
+//ラージシールド{end}
+Khiên lớn<end>
+
+//チェインメイル{end}
+Chain mail<end>
+
+//プレートアーマー{end}
+Plate armor<end>
+
+//アサルトスーツ{end}
+Assault suit<end>
+
+//ローブ{end}
+Pháp y<end>
+
+//ドラゴンスケイル{end}
+Long lân giáp<end>
+
+//ミラージュローブ{end}
+Đại pháp y<end>
+
+//アミュレット{end}
+Linh phù<end>
+
+//クロス{end}
+Thập tự<end>
+
+//ネックレス{end}
+Vòng cổ<end>
+
+//スピードブーツ{end}
+Giày Bitis<end>
+
+//クラウン{end}
+Vương miện<end>
+
+//グレイプニール{end}
+Gleipnir<end>
+
+//ルーンストーン{end}
+Rune stone<end>
+
+//装備しない{end}
+Không trang bị<end>
+
+//そのまま{end}
+Để vậy<end>
+
+//旅人たちが身につける、護身用のナ{end}
+Dao nhỏ hộ thân của lữ khách.<end>
+
+//イフ。{end}
+<end>
+
+//ＡＴ＋１{end}
+AT +1<end>
+
+//巨大なハンマーで、頭部の片方がカ{end}
+Búa lớn,phần đầu<end>
+
+//ギヅメになっている。{end}
+là móng vuốt.<end>
+
+//ＡＴ＋２{end}
+AT +2<end>
+
+//身長程もある、非常に重い両手持ち{end}
+Kiếm to,dài và rất nặng<end>
+
+//の大剣。{end}
+nên cầm bằng 2 tay.<end>
+
+//ＡＴ＋４{end}
+AT +4<end>
+
+//持つ者の精神を集中させ、魔力を高{end}
+Gậy phép giúp tập trung tinh<end>
+
+//める効果のある杖。{end}
+thần,gia tăng pháp lực của thuật sỹ.<end>
+
+//魔法射程＋２・魔法ダメージ＋１{end}
+Tầm ma pháp +2,ma lực +1<end>
+
+//伝説の竜騎士が使った、高熱の炎を{end}
+Ngọn giáo lửa của Long kỵ sỹ<end>
+
+//まとうランス。{end}
+trong truyền thuyết.<end>
+
+//ＡＴ＋６{end}
+AT +6<end>
+
+//古代からの強力な呪いのかかった、{end}
+Búa lớn đẫm máu bị ểm bùa<end>
+
+//血まみれのグレートアックス。{end}
+ghê gớm từ thời cổ đại.<end>
+
+//ＡＴ＋８・ＤＦー３{end}
+AT +8,DF -3<end>
+
+//凶悪な魔竜を倒した勇者が、使って{end}
+Ma kiếm huyền thoại được dũng<end>
+
+//いたと伝えられる魔剣。{end}
+giả dùng để giết Ma long hung bạo.<end>
+
+//ＡＴ＋７{end}
+AT +7<end>
+
+//エルスリード王ジークハルトがきた{end}
+Thánh kiếm trong truyền thuyết do<end>
+
+//えた、伝説の聖剣。{end}
+vua xứ Elthlead là Sieghärt rèn nên.<end>
+
+//ＡＴ＋３・ＤＦ＋１{end}
+AT +3,DF +1<end>
+
+//光の神ルシリスの加護を受けた聖剣{end}
+Thánh kiếm được nữ thần ánh sáng<end>
+
+//ＡＴ＋９・ＤＦ＋２{end}
+Lushiris gia hộ.AT +9,DF +2<end>
+
+//Ａ修正＋３・Ｄ修正＋１{end}
+A tu chính +3,D tu chính +1<end>
+
+//ナイスバディをつくる、真の男のア{end}
+Dụng cụ của nam tử để tập thân hình.<end>
+
+//イテム。サモナーが装備すると‥？{end}
+đẹp.Summoner trang bị thì...?<end>
+
+//ＡＴ＋１・ＭＶー１{end}
+AT +1,MV -1<end>
+
+//馬と星のロゴがツカにある、ちょっ{end}
+Thanh kiếm chán đời có Logo ngựa<end>
+
+//とダサい剣。効果は不明。{end}
+và ngôi sao.Không rõ hiệu quả.<end>
+
+//ＡＴー４・ＤＦー３・Ａ修正ー２{end}
+AT -4,DF -3,A tu chính -2<end>
+
+//魔石を封じこめた、美しい輝きを持{end}
+Tinh thể phát sáng đẹp đẽ,ẩn<end>
+
+//つクリスタル。{end}
+chứa ma thạch bên trong.<end>
+
+//ＭＰ×２・魔法射程＋３{end}
+MP <kake> 2,tầm ma pháp +3<end>
+
+//聖剣ラングリッサーの力を解放する{end}
+Gậy ánh sáng,chìa khóa giải phóng<end>
+
+//カギとなる光のロッド。{end}
+sức mạnh thánh kiếm Langrisser.<end>
+
+//魔法能力が上昇{end}
+Gia tăng năng lực ma pháp.<end>
+
+//聖剣ラングリッサーの力を解放する{end}
+Gậy ánh sáng,chìa khóa giải phóng<end>
+
+//カギとなる光のロッド。{end}
+sức mạnh thánh kiếm Langrisser.<end>
+
+//魔法能力が上昇{end}
+Gia tăng năng lực ma pháp.<end>
+
+//魔剣、アルハザードの力を解放する{end}
+Gậy bóng tối,chìa khóa giải<end>
+
+//カギとなる闇のロッド。{end}
+phóng sức mạnh ma kiếm Alhazard.<end>
+
+//魔法能力が上昇{end}
+Gia tăng năng lực ma pháp.<end>
+
+//イチイの木で作られた、強力な弓。{end}
+Cung mạnh làm từ cây cà tùng.<end>
+
+//ＡＴ＋２・ＭＶー２{end}
+AT +2,MV -2<end>
+
+//射程　　１～３マス{end}
+Tầm bắn 1~3 ô<end>
+
+//キカイ仕かけの、強力なクロスボウ{end}
+Trường cung máy mạnh mẽ.<end>
+
+//ＡＴー４・ＭＶー２{end}
+AT -4,MV -2<end>
+
+//射程　　１～６マス{end}
+Tầm bắn 1~6 ô<end>
+
+//カオスの加護を受けた、暗黒の魔剣{end}
+Ma kiếm hắc ám được thần hỗn<end>
+
+//ＡＴ＋１０・ＤＦ＋１{end}
+mang Chaos gia hộ.AT +10,DF +1<end>
+
+//Ａ修正＋３・Ｄ修正＋１{end}
+A tu chính +3,D tu chính +1<end>
+
+//カオスの加護を受けた、暗黒の魔剣{end}
+Ma kiếm hắc ám được thần hỗn<end>
+
+//ＡＴ＋１２・ＤＦ＋１{end}
+mang Chaos gia hộ.AT+12,DF+1<end>
+
+//Ａ修正＋３・Ｄ修正＋１{end}
+A tu chính +3,D tu chính +1<end>
+
+//古代の神を表面にほってある、にじ{end}
+Khiên màu cầu vòng khắc vị thần<end>
+
+//色の盾。サモナーが装備すると‥？{end}
+cổ đại trên mặt.Summoner trang bị<end>
+
+//ＤＦ＋３・Ｄ修正＋１{end}
+thì...?DF +3,D tu chính +1<end>
+
+//木の板のまわりを、鉄で補強した盾{end}
+Khiên gỗ với viền thép xung quanh.<end>
+
+//　{end}
+<end>
+
+//ＤＦ＋１{end}
+DF +1<end>
+
+//鉄で補強した、大型で重く、防御効{end}
+Khiên to nặng được gia cố bằng<end>
+
+//果の高い盾。{end}
+thép,hiệu quả phòng ngự cao.<end>
+
+//ＤＦ＋２{end}
+DF +2<end>
+
+//金属のわをクサリのようにあんで作{end}
+Giáp được đan bằng vòng kim<end>
+
+//られたヨロイ。{end}
+loại thành dạng mắt xích.<end>
+
+//ＤＦ＋３{end}
+DF +3<end>
+
+//板金で身体中をおおう、非常に重い{end}
+Giáp rất nặng,gồm miếng kim<end>
+
+//ヨロイ。{end}
+loại lớn bao quanh thân thể.<end>
+
+//ＤＦ＋４{end}
+DF +4<end>
+
+//空から降ってきたと伝えられる、人{end}
+Đống sắt hình người được cho<end>
+
+//型をした鉄のかたまり？？{end}
+là rơi từ trời cao xuống??<end>
+
+//Ａ＋１０・Ｄ＋１０{end}
+A +10,D +10<end>
+
+//あつ手のキジで作った、丈夫な服。{end}
+Y phục may bằng vải dày<end>
+
+//　{end}
+kiên cố.<end>
+
+//ＤＦ＋１・魔法耐性＋１０{end}
+DF +1,kháng ma pháp +10<end>
+
+//ドラゴンのうろこによって作られた{end}
+Giáp nhẹ được làm từ vảy rồng,<end>
+
+//軽くて防御効果も高いヨロイ。{end}
+hiệu quả phòng ngự cao.<end>
+
+//ＤＦ＋４{end}
+DF +4<end>
+
+//神秘の力によって、防御効果を高め{end}
+Pháp y với hiệu quả phòng ngự<end>
+
+//たローブ。{end}
+cao nhờ sức mạnh thần bí.<end>
+
+//ＤＦ＋２・魔法耐性＋２０{end}
+DF +2,kháng ma pháp +20<end>
+
+//大自然の精霊の力を封じ込めた、不{end}
+Lá bùa bất khả tư nghị,ẩn chứa<end>
+
+//思議なお守り。{end}
+sức mạnh tinh linh thiên nhiên.<end>
+
+//魔法耐性＋１５（部下含）{end}
+Kháng ma pháp +15 cả lính<end>
+
+//聖者の祈りを込めた、まばゆい光を{end}
+Thập tự giá phát sáng,chứa lời<end>
+
+//はなつクロス。{end}
+cầu nguyện của thánh giả.<end>
+
+//Ｄ修正＋２・魔法耐性＋２０{end}
+D tu chính +2,kháng ma pháp +20<end>
+
+//魔石で作られたネックレス。{end}
+Vòng đeo cổ làm từ đá ma thuật.<end>
+
+//　{end}
+<end>
+
+//指揮範囲＋２・Ｄ修正＋３{end}
+Phạm vi chỉ huy +2,D tu chính +3<end>
+
+//空を飛ぶように早く走れる、羽根の{end}
+Giày ma pháp có cánh giúp chạy<end>
+
+//はえた魔法のブーツ。{end}
+nhanh như bay.<end>
+
+//ＭＶ＋２（部下含）{end}
+MV +2 cả lính<end>
+
+//神秘の力をやどす美しいクラウン。{end}
+Vương miện với sức mạnh thần bí.<end>
+
+//Ａ修正＋３・Ｄ修正＋２{end}
+A tu chính +3,D tu chính +2<end>
+
+//指揮範囲＋２{end}
+Phạm vi chỉ huy +2<end>
+
+//魔狼フェンリルをとらえたクサリ。{end}
+Dây xích trói sói ma Fenril.<end>
+
+//サモナーが装備すると‥‥？{end}
+Summoner trang bị thì...?<end>
+
+//ＤＦ＋１{end}
+DF +1<end>
+
+//古代の秘文字を記した不思議な石。{end}
+Viên đá kỳ lạ khắc chữ cổ thần<end>
+
+//これを装備して、レベル１０になる{end}
+bí.Trang bị đá này khi đủ<end>
+
+//と‥‥？{end}
+Level 10 thì...?<end>

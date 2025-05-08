@@ -1,0 +1,3990 @@
+#VAR(Table,TABLE)
+#ADDTBL("derlangvn.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $920000, 24)
+
+#JMP($320000)
+
+#WRITE(Ptr, $120009)
+//ＳＣＥＮＡＲＩＯー０{num}
+//　「序章」{wait}{clsr}
+//　大陸のいたる所で小さな戦争が
+//起こっては消え、また起こる、
+//争いの絶えぬ時代。{wait}{clsr}
+<line>                  Mở màn<pause><page>
+Tôi nghe như vầy,vào một thuở<line>
+nọ ở đại lục El Sallia chiến<line>
+loạn liên miên không ngớt...<pause><page>
+Khi những trận chiến nhỏ lẻ<line>
+liên tục nổ ra rồi tắt ngóm,<line>
+rồi lại diễn ra ở khắp mọi<line>
+ngóc ngách trong đại lục.<pause><page>
+
+
+//　旅の若者{char_name}は、
+//旅の途中で出会った見習い魔術師の
+//ヘインとともに、気ままな旅を
+//続けていた。{wait}{clsr}
+Chàng trai trẻ <char><line>
+gặp gỡ ma thuật sư tập sự Hein<line>
+khi đang trên đường lãng du.<pause><page>
+Chàng và Hein cùng rong ruổi<line>
+đây đó,một ngày nọ vào đến<line>
+lãnh địa Salrath.<pause><page>
+
+//　やがてサルラス領へ入り、
+//ある小さな村にさしかかった時、
+//宿にとまり旅の疲れをいやそうと
+//ヘインにすすめられる。{wait}{clsr}
+Họ quyết định dừng chân nơi<line>
+nhà trọ ở một ngôi làng nhỏ<line>
+để nghỉ ngơi sau chặng đường<line>
+dài theo lời khuyên của Hein.<pause><page>
+
+//　ヘインが生まれ育ったその村は、
+//人々も優しく、大陸に広まる戦争を
+//忘れさせてくれるほど、静かで
+//平和であった。{wait}{clsr}
+Ngôi làng này là nơi Hein chào đời,<line>
+người làng ân cần tử tế,không khí<line>
+không khí trong làng thanh bình<line>
+tĩnh lặng.<pause><page>
+Lữ khách đắm chìm trong những<line>
+giây phút an lòng,quên đi tranh<line>
+chiến đang lan rộng khắp đại lục.<pause><page>
+
+//　{char_name}がこの村を
+//気に入りはじめたある日のこと、
+//彼のとまる宿に、ヘインが血相を
+//かえて飛びこんできた。{wait}{clsr}
+Khi <char> bắt đầu thích<line>
+ngôi làng này thì một ngày nọ,<line>
+Hein xông đến nhà trọ của chàng,<line>
+vẻ mặt hốt hoảng.<pause><page>
+
+//　村外れにレイガルド帝国の兵団が
+//攻めこんできたというのだ。
+//帝国騎士団の狙いは、村外れに住む
+//少女リアナであるらしい。{wait}{clsr}
+Rằng binh đoàn Đế quốc Leigald đã<line>
+tấn công vào phía bìa làng.Có vẻ<line>
+mục tiêu của Đế quốc là thiếu nữ<line>
+Riana sống ở ngoài rìa làng.<pause><page>
+
+Tại sao Đế quốc lại đến ngôi làng<line>
+thanh bình này?Nhưng dù sao thì<line>
+<char> cũng phải rời nhà<line>
+trọ để giải cứu Riana.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đánh bại Baldo<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Baldo chạy thoát khỏi Map<pause><page><end>
+
+//　平和なこんな村になぜ？
+//　とりあえず{char_name}は、
+//リアナを助けるために
+//宿を出たのである。{wait}{clsr}
+
+
+//×勝利条件
+//　・バルドーの撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・バルドーがマップ下へ逃亡{wait}{clsr}
+//{end}
+
+
+
+//ＳＣＥＮＡＲＩＯー０{num}
+//　「旅立ち」{wait}{clsr}
+//　レイガルド帝国軍からリアナを
+//救った{char_name}たちは、
+//村に救援に駆けつけたサルラス領
+//領主の勧めで、彼の館を訪れた。{wait}{clsr}
+<line>                  Chu du<pause><page>
+Lại nói về bọn <char><line>
+sau khi giải cứu Riana khỏi binh<line>
+đoàn Đế quốc sau trận đánh kịch<line>
+liệt trong ngày hôm trước.<pause><page>
+Theo lời khuyên của lãnh chúa<line>
+Salrath đến tiếp viện,cả bọn quyết<line>
+định đến nghỉ ngơi tá túc tại dinh<line>
+thự của ông ta.<pause><page>
+
+//　辺境の一領主でしかない
+//ローレンにとって、
+//帝国に狙われているリアナを
+//守り続けることは不可能である。{wait}{clsr}
+Nhưng Laurence chỉ là một lãnh<line>
+chúa nhỏ nơi biên thùy,không thể<line>
+tiếp tục bảo vệ Riana khỏi Đế quốc.<pause><page>
+
+//　話し合いの末、光の神殿の巫女
+//であるリアナを、帝国から
+//守るには、エストールにある光の
+//大神殿が良いという結論になった。{wait}{clsr}
+Sau khi bàn bạc,cả bọn đi đến kết<line>
+luận rằng:Riana là vu nữ ánh sáng<line>
+nên chỉ có đại thần điện ánh sáng<line>
+ở Estool mới bảo vệ được cô.<pause><page>
+
+//　{char_name}達はローレンの
+//館で一夜を明かし、リアナを
+//護衛しつつエストールへと
+//向かうことになったのである。{wait}{clsr}
+Bọn <char> tá túc một đêm<line>
+tại dinh thự của Laurence,sáng hôm<line>
+sau thì khởi hành hộ tống Riana<line>
+đến Estool.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Riana lên tới mạn Bắc<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Riana tử trận<pause><page><end>
+
+//×勝利条件
+//　・リアナが画面上方へ移動
+//・敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・リアナの死亡{wait}{clsr}
+//{end}
+//
+//　
+//ＳＣＥＮＡＲＩＯー０{num}
+//「光の大神殿」{wait}{clsr}
+<line>        Đại thần điện ánh sáng<pause><page>
+//　青竜騎士団の追手を振りきり、
+//{char_name}達は光の大神殿を
+//目指してエストールに向かった。{wait}{clsr}
+Sau khi cắt đuôi đội kỵ sĩ Thanh<line>
+long bám theo,nhóm <char><line>
+nhằm hướng Estool mà tiến về đại<line>
+thần điện ánh sáng.<pause><page>
+
+//　光の神殿の総本山でもある
+//この大神殿は、数多くの神官戦士を
+//持つことで有名である。{wait}{clsr}
+Đại thần điện này là đầu não của<line>
+các thần điện ánh sáng,nổi tiếng<line>
+vì có lực lượng tăng binh đông đảo<line>
+với nhiều chiến sĩ thần quan.<pause><page>
+
+//　一夜の宿をかりた一行は、次の日
+//司祭様にリアナの保護を頼み、
+//それで全ては終わるはずだった。{wait}{clsr}
+Sau khi tá túc một đêm,hôm sau<line>
+cả bọn nhờ ngài tư tế bảo hộ cho<line>
+Riana.Dường như tất cả mọi chuyện<line>
+sẽ đi vào kết thúc.<pause><page>
+
+//　だが彼らの思いをよそに、神殿に
+//攻め込もうとする炎竜兵団副隊長
+//ゾルムと黒竜魔導師団モーガンの
+//姿があった‥‥。{wait}{clsr}
+Nhưng trái với suy nghĩ của họ,<line>
+bên ngoài đã thấy bóng dáng của<line>
+hai nhân vật của Đế quốc<line>
+Leigald.<pause><page>
+Đó là Zorm,phó đội trưởng binh<line>
+đoàn Hỏa long và Morgan thuộc<line>
+binh đoàn ma đạo sư Hắc long<line>
+chuẩn bị tấn công vào thần điện.<pause><page>
+
+//×勝利条件
+//・敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・司祭・神官の全滅
+//　・リアナの死亡{wait}{clsr}
+//{end}
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Tất cả tư tế,thần quan tử trận<line>
+  - Riana tử trận<pause><page>
+<end> 
+//　
+//ＳＣＥＮＡＲＩＯー０{num}
+//　　「カルザス城の攻防」{wait}{clsr}
+//　光の大神殿は見た目以上に損傷が
+//激しく、再び敵が攻めてくれば
+//リアナを守るどころではないという
+//状態であった。{wait}{clsr}
+//　{char_name}たちは仲間に
+//加わったカルザスの少女シェリーの
+//勧めで、カルザス城でリアナを
+//保護してもらうことになる。{wait}{clsr}
+//　カルザスは、しゅうへん諸国を
+//まとめ、反帝国のはた印をあげた
+//同盟国の中心的な存在である。{wait}{clsr}
+//　カルザス城を目指し、森を抜けた
+//その瞬間、彼らの目にうつったのは
+//炎竜兵団の猛攻に耐えしのぶ、
+//カルザス城の姿であった。{wait}{clsr}
+//　いくら守りのかたいカルザス城
+//とはいえ、猛将バルガスの率いる
+//炎竜兵団精鋭部隊の前に、あまり
+//長くは耐えられそうもない。{wait}{clsr}
+//　いま、カルザス城をめぐった
+//激しい攻防が繰り広げられようと
+//していた。{wait}{clsr}
+//×勝利条件
+//・敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・ＮＰＣの全滅{wait}{clsr}
+//{end}
+<line>       Trận chiến thành Kalxath<pause><page>
+Đại thần điện ánh sáng chịu thiệt<line>
+hại nặng nề,rơi vào tình trạng<line>
+không thể bảo vệ được Riana nếu<line>
+quân địch tấn công lần nữa.<pause><page>
+Theo lời khuyên của thiếu nữ Cherie<line>
+vừa gia nhập nhóm <char>,<line>
+cả bọn quyết định nhờ thành<line>
+Kalxath bảo hộ cho Riana.<pause><page>
+Kalxath là đất nước trung tâm<line>
+của liên minh các quốc gia lân<line>
+cận phất cờ chống lại Đế quốc.<pause><page>
+
+Ngay khi vừa thoát ra khỏi khu<line>
+rừng nhằm tiến về thành Kalxath,<line>
+đập vào mắt họ là hình ảnh thành<line>
+trì Kalxath đang vất vả chống đỡ<pause><page>
+đợt tấn công mãnh liệt của<line>
+binh đoàn Hỏa long.<pause><page>
+Dù thành Kalxath có vững chãi<line>
+thế nào đi nữa thì cũng không thể<line>
+chịu được lâu trước binh đoàn<line>
+Hỏa long tinh anh do mãnh tướng<pause><page>
+Vargas chỉ huy.<pause><page>
+Giờ đây,một trận kịch chiến bên<line>
+thành Kalxath đã đến hồi nổ ra.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Tất cả NPC tử trận<pause><page>
+<end> 
+
+
+//　
+//ＳＣＥＮＡＲＩＯー０{num}
+//「炎の中で」{wait}{clsr}
+               Trong biển lửa<pause><page>
+//　{char_name}たち一同は、
+//ダークロッドのありかを知る
+//大魔術師、ジェシカを訪ねて、
+//カルザスを旅立った。{wait}{clsr}
+Lại nói về bọn <char><line>
+rời khỏi thành Kalxath để đến chỗ<line>
+đại ma thuật sư Jessica,người<line>
+biết nơi cất giấu Dark Rod.<pause><page>
+
+//　数百年もの時を生きてきたと
+//いう魔術師はラール川を越えた
+//辺境の森の中で、魔術の研究を
+//しているらしい。{wait}{clsr}
+Nghe đâu vị ma thuật sư đã mấy<line>
+trăm tuổi đang nghiên cứu ma pháp<line>
+trong khu rừng nơi biên địa,bên<line>
+kia con sông Rärl.<pause><page>
+
+//　だが、{char_name}たちが
+//ラール川にさしかかった時、
+//海賊の一団が彼らの行く手を
+//阻むように現れたのだ。{wait}{clsr}
+Nhưng khi bọn <char><line>
+vừa đến bờ sông Rärl thì một<line>
+nhóm hải tặc xuất hiện như thể<line>
+chặng đường họ.<pause><page>
+
+//　同じ頃、帝国黒竜魔導師団を
+//率いた魔術師エグベルトが、
+//ダークロッドを狙って、ひそかに
+//ワナをはりめぐらせていた。{wait}{clsr}
+Cùng lúc đó,binh đoàn ma đạo sĩ<line>
+Hắc long của Đế quốc Leigald cũng<line>
+nhắm vào Dark Rod mà giăng bẫy<line>
+ở con sông Rärl.<pause><page>
+
+//×勝利条件
+//　・カミラの撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・ジェシカの死亡{wait}{clsr}
+//{end}
+<kake>Điều kiện thắng lợi:<line>
+  - Đánh bại Camilla<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Jessica tử trận<pause><page><end>
+
+
+
+//　
+//ＳＣＥＮＡＲＩＯー０{num}
+//「聖地レイテル」{wait}{clsr}
+//　聖地レイテルの神殿。
+//そこは高い山に囲まれた深い森の
+//中に、人の目をさけるように
+//たくみに隠されていた。{wait}{clsr}
+//これこそダークロッドを安置する
+<line>            Thánh địa Leitel<pause><page>
+Thần điện ở thánh địa Leitel nằm<line>
+sâu trong khu rừng được dãy núi<line>
+cao bao bọc,tránh được ánh mắt<line>
+người đời một cách khéo léo.<pause><page>
+
+//レイテルの神殿なのだ。{wait}{clsr}
+Thần điện Leitel này cũng là<line>
+nơi an trí Dark Rod.<pause><page>
+
+//　入口付近には人が訪れたような
+//様子はなく、先に向かったはずの
+//エグベルトの姿は、まだどこにも
+//見えない。{wait}{clsr}
+Quanh lối vào không thấy có<line>
+bóng người lui tới.Egbert đáng<line>
+lý đã đến đây trước,giờ cũng<line>
+không thấy tăm hơi đâu.<pause><page>
+
+//しかし神殿の中には、
+//ダークロッド守護のために置かれた
+//古代のガーディアンたちが、
+//侵入者を待ち受けていた。{wait}{clsr}
+Nhưng bên trong thần điện còn<line>
+có các Guardian cổ đại bảo vệ<line>
+cho Dark Rod,đang chờ đón<line>
+những kẻ xâm nhập.<pause><page>
+
+//×勝利条件
+//・敵の全滅
+//　・ダークロッドを取る{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}
+<kake>Điều kiện thắng lợi:<line>
+  - Lấy được Dark Rod<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+
+
+//ＳＣＥＮＡＲＩＯー０{num}
+//「魔族の少女」{wait}{clsr}
+//　あと少しの所で、ダークロッドを
+//エグベルトに奪われた一行は、
+//反帝国連合を作るという
+//ジェシカと別れて行動を始める。{wait}{clsr}
+//　ダークロッドを奪った帝国は、
+//本格的な侵攻を開始するであろう。
+//一行はそれまでに伝説の聖剣を
+//捜し出す必要があった。{wait}{clsr}
+//　旅の途中、彼らはモンスターの
+//一群に襲われる村にさしかかる。{wait}{clsr}
+//　このままでは村人が危ない。
+//　{char_name}たちは村人を
+//助けるために、モンスター討伐に
+//のりだすのであった。{wait}{clsr}
+//×勝利条件
+//・敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・村人の全滅{wait}{clsr}
+//{end}
+<line>            Thiếu nữ Ma tộc<pause><page>
+Lại nói về nhóm <char><line>
+sắp thành công thì bị Egbert<line>
+cướp mất Dark Rod.<pause><page>
+Vì muốn thành lập liên minh phản<line>
+Đế quốc,Jessica đã hành động riêng.<line>
+Nhóm <char> chia tay Jessica<line>
+và cũng bắt đầu xuất động.<pause><page>
+Đã cướp được Dark Rod,hẳn là<line>
+Đế quốc sẽ chính thức tiến hành<line>
+xâm lược các nước.<pause><page>
+Nhóm <char> cần phải<line>
+tìm ra Thánh kiếm trước khi<line>
+Đế quốc hành động.<pause><page>
+Dọc được,họ gặp một ngôi làng<line>
+bị đám quái vật tấn công.<line>
+Nếu bỏ mặc thì tính mạng người<line>
+làng sẽ nguy mất.<pause><page>
+Để cứu người làng,nhóm <char><line>
+đành phải động thủ thảo phạt<line>
+quái vật.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Lấy được Dark Rod<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Người làng chết hết<pause><page><end>
+
+
+//　
+//ＳＣＥＮＡＲＩＯー０{num}
+//「空のかけ橋」{wait}{clsr}
+//　レイガルド帝国青竜騎士団の
+//レオンとの共同戦線もつかの間、
+//あくまでも帝国と戦うことを決めた
+//{char_name}。{wait}{clsr}
+//　一刻も早くラングリッサーを手に
+//入れようと先を急ぐが、深い谷に
+//かけられたつり橋を前にして
+//帝国軍の待ち伏せにであう。{wait}{clsr}
+//　レイガルド帝国氷竜兵団の女将軍
+//イメルダの命を受けたクレイマーが
+//彼らの足を阻むべく、つり橋を
+//破壊しようしていたのだ。{wait}{clsr}
+//　この橋を渡らないとかなりの
+//時間を無駄にすることになる。
+//　{char_name}達はつり橋の
+//強行突破を試みる。{wait}{clsr}
+//×勝利条件
+//　・１８ターン以内に
+//　　クレイマーを撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//・ターンオーバー{wait}{clsr}
+//{end}1
+<line>       Cây cầu bắc qua bầu trời<pause><page>
+<char> đã quyết định<line>
+chống lại Đế quốc Leigald sau<line>
+thời gian ngắn ngủi cùng chiến<line>
+tuyến với Thanh long kỵ sĩ Leon.<pause><page>
+Họ phải nhanh chóng đoạt lấy<line>
+Langrisser,nhưng lại gặp phục<line>
+binh của Đế quốc đang đợi sẵn<line>
+ở cây cầu treo ngang thung lũng sâu.<pause><page>
+Nhận mệnh lệnh từ nữ tướng Imelda<line>
+thuộc binh đoàn Băng long của Đế<line>
+quốc Leigald,Kreimä đang ra sức<line>
+phá cầu treo hòng giữ chân họ.<pause><page>
+Nếu không vượt qua cây cầu này<line>
+thì sẽ phải tốn khá nhiều thời gian,<line>
+cho nên nhóm <char> quyết<line>
+định đột phá cây cầu treo này.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Kích phá Kreimä trong vòng<line>
+    18 lượt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Hết lượt<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー０{num}
+//「老剣士の砦」{wait}{clsr}
+//　氷竜兵団クレイマーを撃退し、
+//橋を渡り終えた一行は先を急いだ。
+//だがその先にある砦が、氷竜兵団の
+//イメルダ将軍に攻撃を受けていた。{wait}{clsr}
+//　どうやらイメルダは、この砦を
+//利用して、{char_name}たちの
+//邪魔をしようと企んでいた様だ。{wait}{clsr}
+//　しかし、砦を守っていた老剣士
+//アーロンのおかげで、今のところ
+//砦は落とされていない。だが村人
+//達が危険なことには変わりない。{wait}{clsr}
+//　{char_name}たちは村人と
+//アーロンの救出のために氷竜兵団に
+//戦いを挑むのであった。{wait}{clsr}
+//×勝利条件
+//　・イメルダの撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・村人の全滅{wait}{clsr}
+//{end}2
+<line>        Đồn ải người kiếm sĩ già<pause><page>
+Cả nhóm vội vượt qua cây cầu<line>
+treo sau khi kích phá Kreimä,<line>
+bộ tướng của binh đoàn Băng long.<pause><page>
+Phía trước có đồn lũy đang bị<line>
+binh đoàn Băng long của nữ tướng<line>
+Imelda bao vây.<pause><page>
+Dường như Imelda muốn lợi dụng<line>
+đồn ải này để cản trở đường tiến<line>
+của nhóm <char>.<pause><page>
+Nhưng nhờ vị lão kiếm sĩ bảo vệ<line>
+trong đồn mà đến giờ đồn vẫn<line>
+chưa bị triệt hạ.<pause><page>
+Dù vậy,tính mạng của trăm họ<line>
+bá tánh vẫn đang bị đe dọa.<pause><page>
+Nhóm <char> quyết định<line>
+khiêu chiến với binh đoàn Băng<line>
+long để giải cứu vị lão kiếm sĩ<line>
+và trăm họ đang lâm nguy.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Kích phá Imelda<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Dân làng tuyệt diệt<pause><page><end>
+
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「猛将バルガス」{wait}{clsr}
+//　いよいよラングリッサーの眠る
+//バルディア城が近くなってきた。{wait}{clsr}
+//　だが城が近づいてくると、
+//いつの間に造り上げたのだろうか、
+//彼らの行く手を阻むかのように
+//砦が出現したのである。{wait}{clsr}
+//　思いもよらぬ事態に驚きを
+//隠せない一行だが、ここを避けて
+//通るとなると、かなりの遠回りに
+//なってしまう。{wait}{clsr}
+//　{char_name}達は意を決し、
+//　炎竜兵団バルガスの守護する砦に
+//攻撃を敢行するのであった。{wait}{clsr}
+//×勝利条件
+//　・バルガスの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}3
+<line>           Mãnh tướng Vargas<pause><page>
+Đã sắp đến gần thành Baldea,<line>
+nơi Thánh kiếm Langrisser đang<line>
+say ngủ.<pause><page>
+Nhưng khi tiến đến gần thành thì<line>
+xuất hiện một đồn ải chẳng biết<line>
+được dựng lên từ bao giờ,như để<line>
+cản đường tiến của họ.<pause><page>
+Cả đoàn người không giấu nổi<line>
+ngạc nhiên trước sự việc bất ngờ,<line>
+nhưng nếu đi đường vòng thì sẽ<line>
+tốn rất nhiều thời gian.<pause><page>
+Nhóm <char> quyết tâm<line>
+tấn công vào đồn lũy do tướng<line>
+quân của binh đoàn Hỏa long là<line>
+Vargas bảo vệ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Kích phá Vargas<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//　　「聖剣ラングリッサー」{wait}{clsr}
+//　深い森に囲まれた湖の中央に
+//その姿をかすかに見せてしずんで
+//いる古城は、数百年をへてもなお
+//白い石壁を輝かせていた。{wait}{clsr}
+//　バルディア城は、今や伝説して
+//語られる聖剣争奪戦の中心となった
+//国であり、聖剣を守り続ける一族の
+//居城であったと伝えられている。{wait}{clsr}
+//　この城の最深部の祭壇で
+//聖剣ラングリッサーは静かに
+//眠りについているのだ。{wait}{clsr}
+//　彼らのバルディア城到着と時を
+//同じくして、この城を探り当てた
+//一団があった。{wait}{clsr}
+//　青竜騎士団副官レアードである。
+//だが隊長であるレオンの姿は
+//まだ、どこにも見えない。{wait}{clsr}
+//　争奪戦の幕開けとなったこの
+//バルディアを戦場にして、またも
+//ラングリッサーをめぐる戦いが
+//くり広げられようとしていた‥。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//　・ラングリッサーの入手{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・レオンがラングリッサーに
+//　　到達する{wait}{clsr}
+//{end}4
+<line>         Thánh kiếm Langrisser<pause><page>
+Cổ thành nằm giữa mặt hồ được<line>
+bao quanh trong rừng sâu.Đã mấy<line>
+trăm năm qua,tường thành trắng<line>
+vẫn luôn tỏa sáng lấp lánh.<pause><page>
+Baldea là đất nước trung tâm của<line>
+câu chuyện tranh đoạt Thánh kiếm<line>
+năm xưa mà bây giờ được kể lại<line>
+như một truyền thuyết.<pause><page>
+Thành Baldea cũng là nơi cư ngụ<line>
+của một dòng họ cổ xưa từng hết<line>
+lòng bảo vệ Thánh kiếm.<pause><page>
+Thánh kiếm Langrisser đang lặng<line>
+yên say ngủ trên tế đàn ở sâu<line>
+bên trong thành.<pause><page>
+Cùng lúc họ đặt chân đến cổ<line>
+thành này,còn có một đoàn người<line>
+khác đang lùng sục trong thành.<pause><page>
+Đó là Leard,phó đội trưởng<line>
+Thanh long kỵ sĩ đội.Nhưng lại<line>
+không thấy bóng dáng đội trưởng<line>
+Leon đâu cả.<pause><page>
+Giờ đây,thành Baldea lại lần nữa<line>
+trở thành chiến trường trung<line>
+tâm của cuộc chiến tranh đoạt<line>
+Thánh kiếm Langrisser...<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<line>
+  - Đoạt được Langrisser<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Leon chiếm được Langrisser<pause><page><end>
+
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「鉄壁の騎士団」{wait}{clsr}
+//　ついに聖剣ラングリッサーを
+//手に入れて、一気に士気の高まった
+//{char_name}たちは、そのまま
+//帝都のレイガルド城へと攻め込む。{wait}{clsr}
+//　レイガルド城は、ジェシカの
+//そしきする反帝国同盟によって
+//攻撃を受けており、戦力が分散
+//されている。今を逃す手はない。{wait}{clsr}
+//　この城門さえ突破すれば、城内の
+//玉座までは楽に進めそうだ。
+//　だが城門の守備についたのは、
+//レオンと青竜騎士団であった‥。{wait}{clsr}
+//×勝利条件
+//　・レオンの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}5
+<line>          Đội kỵ sỹ tường thép<pause><page>
+Lấy được Thánh kiếm Langrisser,<line>
+nhóm <char> quyết định tấn<line>
+công vào Đế đô Leigald trong<line>
+cơn nhuệ khí dâng cao.<pause><page>
+Liên minh phản Đế quốc do Jessica<line>
+tổ chức đang tấn công đô thành<line>
+Leigald nên chiến lực trong thành<line>
+phân tán.Giờ là cơ hội tốt nhất.<pause><page>
+Chỉ cần đột phá được cổng thành<line>
+này là có thể dễ dàng tiến vào<line>
+ngai vàng trong thành.<pause><page>
+Tuy nhiên,người bảo vệ cổng thành<line>
+chính là đội trưởng Leon và đội<line>
+kỵ sỹ Thanh long...<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Leon<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//　　「帝王ベルンハルト」{wait}{clsr}
+//　レオン率いる青竜騎士団を破り
+//レイガルド城への侵入をはたした
+//{char_name}たち一行は、
+//一路玉座を目指す。{wait}{clsr}
+//　やがて見えてきた玉座に座する
+//男には、王者の風格とともに、
+//戦士としての鍛えぬかれた体と、
+//獲物を求める鋭い眼光があった。{wait}{clsr}
+//　怪しい黒衣の男を従えたその姿は
+//見る者に威圧感と、ひきつけられる
+//カリスマ性を備えていた。{wait}{clsr}
+//　彼こそが一代にして国を興し、
+//レイガルド帝国の皇帝として
+//その名をはせているベルンハルト、
+//その人である。{wait}{clsr}
+//　いよいよ帝王ベルンハルトとの
+//戦いの幕が、切って落とされようと
+//していた。{wait}{clsr}
+//×勝利条件
+//　・ベルンハルトまたは
+//　　ボーゼルの撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}6
+<line>           Đế vương Bernhalt<pause><page>
+Sau khi kích phá đội kỵ sỹ Thanh<line>
+long do Leon chỉ huy,nhóm của<line>
+<char> xâm nhập vào thành<line>
+Leigald,thẳng tiến vào ngài vàng.<pause><page>
+Trấn tọa trên ngai vàng là một<line>
+người với phong cách Vương giả<line>
+cùng nhục thể tôi luyện đến tột<line>
+cùng của một chiến sĩ.<pause><page>
+Nhãn quang của bậc Đế vương<line>
+sắc bén như loài dã thú tìm mồi.<line>
+Bên cạnh là một người hắc y<line>
+với dung mạo cổ quái.<pause><page>
+Dung mạo oai nghi của bậc Đế<line>
+vương như uy hiếp kẻ trông thấy,<line>
+đồng thời cũng toát lên sức thu<line>
+hút,lôi cuốn của bậc lãnh đạo.<pause><page>
+Đó chính là Bernhalt,vị Hoàng đế<line>
+gây dựng nên Đế quốc Leigald<line>
+vang danh chỉ trong một đời.<pause><page>
+Và như vậy,trận chiến với bậc<line>
+Đế vương Bernhalt đã sắp đến<line>
+hồi nổ ra.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Bernhalt<line>
+    hoặc Böser<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「港の攻防戦」{wait}{clsr}
+//　闇の王子ボーゼルを倒した
+//{char_name}たちは、城を
+//脱出したベルンハルトを追って、
+//ヴェルゼリア大陸へ向かう。{wait}{clsr}
+//　ヴェルゼリアへ向かうには、
+//陸路を通るより、水路を利用した
+//方が早い行軍が可能になるため、
+//港へと立ちよるのであった。{wait}{clsr}
+//　だがその港には氷竜兵団の女将軍
+//イメルダが、ヴェルゼリアへ
+//向かうのだろうか、船出の準備を
+//急いでいた。{wait}{clsr}
+//　まだ出航には多少の時間が
+//かかりそうだとみた一行は、
+//イメルダを倒し、船を奪取する
+//ために攻撃を開始する。{wait}{clsr}
+//×勝利条件
+//　・２３ターン以内に
+//　　イメルダの撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//・ターンオーバー{wait}{clsr}
+//{end}7
+<line>         Trận chiến trong cảng<pause><page>
+Lại nói về nhóm <char>,<line>
+sau khi đả bại Vương tử bóng tối<line>
+Böser,họ hướng về đại lục Velzeria<line>
+để đuổi theo Bernhalt đã đào tẩu.<pause><page>
+Có thể hành quân đến Velzeria bằng<line>
+đường biển nhanh chóng hơn đường<line>
+bộ,nên họ quyết định ghé vào cảng.<pause><page>
+Tại bến cảng đó,nữ tướng quân<line>
+Imelda thuộc binh đoàn Băng long<line>
+cũng đang hối hả chuẩn bị xuất<line>
+thuyền,có lẽ là để đến Velzeria.<pause><page>
+Phải mất ít nhiều thời gian để xuất<line>
+thuyền,nên cả nhóm quyết định<line>
+triển khai tấn công Imelda để<line>
+cướp thuyền.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Imelda trong<line>
+    vòng 25 lượt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Hết lượt<pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「マリオネット」{wait}{clsr}
+//　禁断の地ヴェルゼリア‥‥。
+//それは数百年の昔、光輝の末裔達が
+//ボーゼルを打ち破ったとされる
+//山脈に囲まれた土地である。{wait}{clsr}
+//　混沌の神が封印されたとも
+//伝えられる、この呪われた大地が、
+//はるか水平線のかなたから姿を
+//見せてくる。{wait}{clsr}
+//　入り江を見つけて上陸しようと
+//したその時、モンスターの大群を
+//従えた少女が{char_name}の
+//前に立ちふさがった。{wait}{clsr}
+//×勝利条件
+//　・１８ターン以内に
+//　　敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}8
+<line>                  Con rối<pause><page>
+Vùng đất cấm Velzeria...<line>
+Đó là vùng đất nằm phía sau<line>
+những dãy núi bao quanh.<pause><page>
+Nơi này được cho là các hậu<line>
+duệ ánh sáng từng đánh bại Böser<line>
+vào mấy trăm năm trước.<pause><page>
+Vùng đất bị nguyền rủa này cũng<line>
+là nơi phong ấn Hỗn mang thần,<line>
+nay dần xuất hiện nơi đường chân<line>
+trời xa xôi.<pause><page>
+Phát hiện được một con lạch,nhóm<line>
+<char> toan đổ bộ lên bờ thì<line>
+một bầy quái vật do thiếu nữ nọ<line>
+dẫn đầu,xuất hiện cản đường họ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch trong<line>
+    vòng 18 lượt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Hết lượt<pause><page><end>
+//ＳＣＥＮＡＲＩＯー{num}
+//「復活の魔剣」{wait}{clsr}
+//　ヴェルゼリアの地下に広がる
+//空間には松明がともされ、その奥に
+//祭壇が置かれている。{wait}{clsr}
+//　異質な空気のたちこめる中、
+//一心に祈りをささげる魔術師からは
+//低く、大きな声で、古代語の詠唱が
+//響いていた。{wait}{clsr}
+//　魔術師が詠唱を進めるうちに、
+//彼の前におかれた黒き剣からは
+//闇の波動がいちだんと強くあふれ、
+//あたりを震わせている。{wait}{clsr}
+//　今まさに、魔剣アルハザードの
+//封印が解かれようとしていた。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}9
+<line>            Ma kiếm hồi sinh<pause><page>
+Không gian mở rộng dưới lòng đất<line>
+Velzeria được ánh đuốc soi sáng.<line>
+Có một tế đàn ẩn sâu trong<line>
+lòng đất.<pause><page>
+Trong bầu không khí dị thường,<line>
+nghe vang vọng âm cầu nguyện<line>
+của một ma thuật sư đang lớn tiếng<line>
+đọc những bài chú cổ đại.<pause><page>
+Ma thuật sư càng đọc chú thì thanh<line>
+hắc đại kiếm trước mặt càng phát<line>
+ra làn sóng đen tối dữ dội khiến<line>
+không gian chung quanh run bần bật.<pause><page>
+Bây giờ chính là thời khắc để<line>
+Ma kiếm Alhazard tỉnh giấc,<line>
+thoát khỏi phong ấn sau hàng<line>
+trăm năm say ngủ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「封印のかぎ」{wait}{clsr}
+//　ついにアルハザードの封印は
+//帝国黒竜魔道師団のエグベルトの
+//手によって解かれ、その暗黒の力を
+//取り戻してしまった。{wait}{clsr}
+//　しかもアルハザードは、帝王、
+//ベルンハルトの手に渡ってしまう。
+//　もう帝国の野望を阻む手だては
+//残されていないのだろうか？{wait}{clsr}
+//　その時リアナと魔力より
+//解放されたラーナから
+//ラングリッサーの力が
+//まだ完全でないことを聞かされる。{wait}{clsr}
+//　封印を解かれたアルハザードに
+//対抗するにはラングリッサーの
+//力を解放するしかない。{wait}{clsr}
+//　{char_name}達は、いそいで
+//ラングリッサーの力を解放するため
+//ホーリーロッドのあるという、
+//エルラードの遺跡へと向った。{wait}{clsr}
+//×勝利条件
+//・敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・ロッドを奪った敵が、
+//　　マップ下方へ脱出{wait}{clsr}
+//{end}10
+<line>           Chìa khóa phong ấn<pause><page>
+Cuối cùng thì Alhazard cũng đã lấy<line>
+lại được sức mạnh hắc ám của nó<line>
+sau khi được Egbert,trưởng ma đạo<line>
+sư đoàn Hắc long giải trừ phong ấn.<pause><page>
+Hơn nữa Alhazard cũng đang được<line>
+chuyển đến tay Hoàng đế Bernhalt.<line>
+Vậy là không còn cách nào để ngăn<line>
+chặn dã tâm của Đế quốc sao?<pause><page>
+Bấy giờ Riana và Läna được giải<line>
+thoát khỏi ma lực sai khiến,đã cho<line>
+hay rằng Langrisser vẫn chưa<line>
+phát huy được sức mạnh của nó.<pause><page>
+Để đối chọi với sức mạnh của<line>
+Alhazard đã được giải trừ phong<line>
+ấn thì chỉ còn cách duy nhất là<line>
+giải phóng sức mạnh cho Langrisser.<pause><page>
+Để giải phong ấn cho Langrisser,<line>
+nhóm <char> vội vàng lên<line>
+đường đến di tích El Lard,nơi<line>
+cất giấu Holy Rod.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Holy Rod bị cướp và<line>
+    mang ra khỏi Map<pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「リベンジャー」{wait}{clsr}
+//　ラングリッサーに眠る真の力を
+//目覚めさせるカギとなる、
+//ホーリーロッドを手にいれた一行は
+//さっそく儀式の準備を行った。{wait}{clsr}
+//　これで解放された魔剣に対抗する
+//力が{char_name}たちにも
+//もたらされたのである。{wait}{clsr}
+//　しかし、一路ヴェルゼリアへと
+//向かう一行の前に、一人の少女が
+//現れた。{wait}{clsr}
+//　闇の王子ボーゼルを倒され、
+//アルハザードを皇帝に奪われ、
+//兄さえも失い、ふくしゅうに燃える
+//ソニアである。{wait}{clsr}
+//彼女はモンスター軍団をそしきし、
+//ふくしゅうのチャンスの到来を
+//うかがっていたのだ‥‥。{wait}{clsr}
+//×勝利条件
+//　・ソニアの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}11
+<line>                Kẻ báo oán<pause><page>
+Nhóm <char> đã lấy được<line>
+Holy Rod,chìa khóa để đánh thức<line>
+sức mạnh thật sự đang say ngủ<line>
+bên trong Langrisser.<pause><page>
+Họ nhanh chóng tiến hành nghi<line>
+thức giải trừ và có được sức mạnh<line>
+để đối phó với Ma kiếm vốn đã<line>
+được giải phóng khỏi phong ấn.<pause><page>
+Trên đường tiến đến Velzeria,<line>
+cả nhóm gặp một thiếu nữ xuất<line>
+hiện cản đường.<pause><page>
+Đó là Sonya,người đang căm hận<line>
+sôi sục vì đã mất người anh trai,<line>
+chủ nhân Böser bị sát hại và cả<line>
+Alhazard cũng bị Hoàng đế cướp mất.<pause><page>
+Binh đoàn quái vật do cô ta chỉ<line>
+huy gào rú mừng rỡ khi thấy cơ<line>
+hội báo thù đã đến...<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Sonya<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line><pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「大陸最強の騎士」{wait}{clsr}
+//　諸悪の根元となる呪われた城、
+//ヴェルゼリア城‥‥。{wait}{clsr}
+//　城の最深部にはアルハザードを
+//携えた帝王ベルンハルトが
+//待ち受けているのだ。{wait}{clsr}
+//　だが城の前には青竜騎士レオン
+//魔術師エグベルトが立ちふさがる。
+//さらにエグベルトのそばには、
+//捕われのジェシカの姿もあった。{wait}{clsr}
+//　お互い一歩もゆずることのできぬ
+//激しい戦いの火ぶたが、
+//今切って落とされようとしていた。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}12
+<line>       Kỵ sỹ mạnh nhất đại lục<pause><page>
+Thành Velzeria...<line>
+Tòa thành bị nguyền rủa này<line>
+chính là căn nguyên của mọi<line>
+cái ác...<pause><page>
+Sâu bên trong thành,Đế vương<line>
+Bernhalt đang trấn giữ Ma kiếm<line>
+Alhazard chờ đợi nhóm <char>.<pause><page>
+Nhưng trước cổng thành là Thanh<line>
+long kỵ sỹ Leon và ma thuật sư<line>
+Egbert đã bày sẵn trận hình để<line>
+cản đường họ.<pause><page>
+Bên cạnh Egbert còn thấy có<line>
+Jessica bị bắt làm tù binh.<pause><page>
+Vậy là trận chiến nảy lửa mà cả<line>
+hai bên đều không thể lùi một<line>
+bước,đã đến hồi nổ ra.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line><pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//　「聖魔剣」{wait}{clsr}
+//　激戦の末にレオンを倒した一行は
+//ヴェルゼリア城への侵入を果たし、
+//不気味なふんいきに包まれた通路を
+//王の間へと進む。{wait}{clsr}
+//　まがまがしい内装の城内は、
+//そこかしこに闇の波動が染みつき、
+//まるで城そのものが一個の生物で
+//あるかの様に思わせている。{wait}{clsr}
+//　そこに本来の主であるボーゼルの
+//姿はなく、モンスターを従えた
+//ベルンハルトが魔剣アルハザードを
+//携えて待ち受けていた。{wait}{clsr}
+//　闇を操る魔剣アルハザードと、
+//光を司る聖剣ラングリッサーとが
+//はるかな時を越えて、いま再び
+//火花を散らそうとしていた。{wait}{clsr}
+//×勝利条件
+//　・ベルンハルトの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}13
+<line>              Thánh Ma kiếm<pause><page>
+Sau trận kịch chiến trước cổng<line>
+thành,nhóm <char> đả bại Leon<line>
+và xâm nhập vào bên trong thành<line>
+Velzeria.<pause><page>
+Tiến theo lối đi tràn ngập bầu<line>
+không khí ma mị,họ đến được<line>
+gian phòng của Hoàng đế.<pause><page>
+Mọi đồ đạc bên trong đều nhuốm<line>
+sóng rung động của bóng tối,cả<line>
+tòa thành như thể một sinh vật<line>
+sống vậy.<pause><page>
+Không thấy có chủ nhân của nơi<line>
+này là Böser đâu,thay vào đó là<line>
+Hoàng đế Bernhalt đang mang<line>
+Alhazard giữa bầy quái vật đợi sẵn.<pause><page>
+Trải qua thời gian dài đằng đẳng,<line>
+giờ đây Ma kiếm sai khiến bóng tối<line>
+Alhazard và Thánh kiếm ánh sáng<line>
+Langrisser chuẩn bị đối đầu nhau.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Bernhalt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line><pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「伝説を越えて‥」{wait}{clsr}
+//　宿敵ベルンハルトは、自らの
+//おこした戦争にけじめをつける様に
+//壮絶な最後をとげた。{wait}{clsr}
+//　全ては終わったかのように
+//思われたが、ヴェルゼリア城を
+//取り巻く、闇の波動はいっこうに
+//失せようともしない。{wait}{clsr}
+//　ヴェルゼリアの地下神殿では、
+//おそるべき存在を呼び出そうと、
+//祭壇に祈りをささげる小さな人影が
+//あった‥‥。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}14
+<line>         Trở thành huyền thoại<pause><page>
+Cừu địch Bernhalt đã tự sát<line>
+để chấm dứt cuộc chiến tranh<line>
+do chính mình gây ra.<pause><page>
+Những tưởng tất cả đã kết thúc,<line>
+nhưng làn sóng dao động của bóng<line>
+tối vây quanh thành Velzeria vẫn<line>
+không hề thuyên giảm.<pause><page>
+Tại thần điện bên dưới lòng đất<line>
+Velzeria,có một bóng người nhỏ bé<line>
+đang cầu nguyện bên tế đàn hòng<line>
+chiêu hồi một thứ khủng khiếp...<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line><pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「ルナテック」{wait}{clsr}
+//　人間に怨みを持つ、魔族と人との
+//混血児、ソニア。彼女は自分の力の
+//不足を混沌神カオスを呼び出す事で
+//補おうと決意する。{wait}{clsr}
+//　いまカオスが現れれば、世界の
+//秩序は崩れ、帝国の野望を阻止する
+//どころではなくなってしまう。{wait}{clsr}
+//　何としてもソニアを止めなくては
+//ならない。
+//　カオスの出現を阻止するためにも
+//帝国よりもソニアを追う一行。{wait}{clsr}
+//そして禁断の地ヴェルゼリアの
+//地下神殿で、ソニアを追いつめたの
+//であった。{wait}{clsr}
+//×勝利条件
+//　・ソニアの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}15
+<line>                  Cuồng loạn<pause><page>
+Sonya,đứa con hỗn huyết giữa con<line>
+người với Ma tộc,mang nỗi oán<line>
+hận tột độ đối với loài người.<pause><page>
+Cô ta quyết tâm chiêu hồi thần<line>
+Hỗn mang Chaos để bù đắp cho<line>
+sức mạnh yếu kém của mình.<pause><page>
+Nếu bây giờ Chaos xuất hiện thì<line>
+trật tự thế giới sẽ sụp đổ,không<line>
+còn ngăn chặn dã tâm của Đế quốc<line>
+được nữa.<pause><page>
+Bằng mọi giá phải ngăn chặn<line>
+Sonya.Và để ngăn không cho Chaos<line>
+xuất hiện,đoàn <char> quyết<line>
+định đuổi theo Sonya.<pause><page>
+Cuối cùng,họ đuổi dồn Sonya đến<line>
+thần điện ẩn dưới lòng đất ở vùng<line>
+đất cấm Velzeria.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Sonya<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line><pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「大陸最強の騎士」{wait}{clsr}
+//　諸悪の根元となる呪われた城、
+//ヴェルゼリア城‥‥。{wait}{clsr}
+//　城の最深部にはアルハザードを
+//携えた帝王ベルンハルトが
+//待ち受けているのだ。{wait}{clsr}
+//　だが城の前には青竜騎士レオンと
+//魔術師エグベルトが立ち塞がる。
+//さらにエグベルトのそばには、
+//捕われのジェシカの姿もあった。{wait}{clsr}
+//　もはや、互いに一歩も退けぬ
+//ところまで来ている。
+//そして今、激しい戦いの火ぶたが
+//切って落とされようとしていた。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}16
+<line>        Kỵ sỹ mạnh nhất đại lục<pause><page>
+Thành Velzeria...<line>
+Tòa thành bị nguyền rủa này<line>
+chính là căn nguyên của mọi<line>
+cái ác...<pause><page>
+Sâu bên trong thành,Đế vương<line>
+Bernhalt đang trấn giữ Ma kiếm<line>
+Alhazard chờ đợi nhóm <char>.<pause><page>
+Nhưng trước cổng thành là Thanh<line>
+long kỵ sỹ Leon và ma thuật sư<line>
+Egbert đã bày sẵn trận hình để<line>
+cản đường họ.<pause><page>
+Bên cạnh Egbert còn thấy có<line>
+Jessica bị bắt làm tù binh.<pause><page>
+Cả hai bên đều không thể lùi dù<line>
+chỉ một bước.Và bây giờ,một trận<line>
+chiến nảy lửa đã đến hồi nổ ra.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line><pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「伝説の終わりに」{wait}{clsr}
+//　激戦の末にレオンを倒した一行は
+//ヴェルゼリア城への侵入を果たし、
+//不気味なふんいきに包まれた通路を
+//王の間へと進む。{wait}{clsr}
+//　まがまがしい内装の城内は、
+//そこかしこに闇の波動が染みつき、
+//まるで城そのものが一個の生物で
+//あるかの様に思わせている。{wait}{clsr}
+//　そこに本来の主であるボーゼルの
+//姿はなく、モンスターを従えた
+//ベルンハルトが魔剣アルハザードを
+//携えて待ち受けていた。{wait}{clsr}
+//　闇を操る魔剣アルハザードと、
+//光を司る聖剣ラングリッサーとが
+//はるかな時を越えて、いま再び
+//火ばなを散らそうとしていた。{wait}{clsr}
+//×勝利条件
+//　・ベルンハルトの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}17
+<line>       Kết thúc một huyền thoại<pause><page>
+Sau trận kịch chiến trước cổng<line>
+thành,nhóm <char> đả bại Leon<line>
+và xâm nhập vào bên trong thành<line>
+Velzeria.<pause><page>
+Tiến theo lối đi tràn ngập bầu<line>
+không khí ma mị,họ đến được<line>
+gian phòng của Hoàng đế.<pause><page>
+Mọi đồ đạc bên trong đều nhuốm<line>
+sóng rung động của bóng tối,cả<line>
+tòa thành như thể một sinh vật<line>
+sống vậy.<pause><page>
+Không thấy có chủ nhân của nơi<line>
+này là Böser đâu,thay vào đó là<line>
+Hoàng đế Bernhalt đang mang<line>
+Alhazard giữa bầy quái vật đợi sẵn.<pause><page>
+Trải qua thời gian dài đằng đẳng,<line>
+giờ đây Ma kiếm sai khiến bóng tối<line>
+Alhazard và Thánh kiếm ánh sáng<line>
+Langrisser chuẩn bị đối đầu nhau.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Bernhalt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line><pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「港の攻防戦」{wait}{clsr}
+//　レイガルド帝国の皇帝であった、
+//ベルンハルトは倒された。
+//　だが彼を影で操っていた闇の王子
+//ボーゼルに逃げられてしまう。{wait}{clsr}
+//　そのボーゼルは数百年の昔より、
+//たびたび混沌の神カオスを呼出し、
+//この世を闇に閉ざそうと
+//もくろんでいたのである。{wait}{clsr}
+//　ヴェルゼリアへ逃げたボーゼルを
+//急いで追いかけるため、港へ向かう
+//{char_name}たち。{wait}{clsr}
+//　だが、港ではモンスターが船を
+//占拠していた。このまま船を
+//奪われれば、かなりの遅れを
+//覚悟しなければならない。{wait}{clsr}
+//×勝利条件
+//　・エスト、オスト、
+//　　バンパイアロードを撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}18
+<line>         Trận chiến trong cảng<pause><page>
+Bernhalt,Hoàng đế của Đế quốc<line>
+Leigald đã bị đánh bại.<pause><page>
+Tuy nhiên,Vương tử Böser,<line>
+kẻ giật dây Bernhalt từ trong<line>
+bóng tối đã tháo chạy mất.<pause><page>
+Từ mấy trăm năm trước,Böser<line>
+đã âm mưu chiêu hồi thần Hỗn<line>
+mang Chaos hòng bao phủ bóng<line>
+tối lên cõi đời này.<pause><page>
+Nhóm <char> vội vàng<line>
+tiến về hải cảng để nhanh<line>
+chóng đến Velzeria,nơi Böser<line>
+chạy trốn.<pause><page>
+Nhưng thuyền bè trong cảng<line>
+đang bị bầy quái vật chiếm<line>
+giữ.<pause><page>
+Cứ thế này thì thuyền sẽ<line>
+bị cướp mất,phải tốn nhiều<line>
+thời gian để đến Velzeria.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Esto,Osto và<line>
+  - Vampire Lord<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line><pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「迎撃・イメルダ」{wait}{clsr}
+//　モンスターを退け、船を奪取した
+//{char_name}たちは、一路、
+//ヴェルゼリアを目指し船を進めた。{wait}{clsr}
+//　この水路を使えば、ほどなくして
+//ヴェルゼリアに着けるはずだ。
+//　しかし、一隻の船が彼らの船に
+//接舷してくる。{wait}{clsr}
+//　帝国女将軍イメルダの指揮する
+//氷竜兵団が{char_name}達を
+//くいとめるために出撃してきたので
+//ある。{wait}{clsr}
+//×勝利条件
+//　・イメルダの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}19
+<line>          Nghênh chiến Imelda<pause><page>
+Lại nói về nhóm <char> sau<line>
+khi đẩy lùi đám quái vật,cướp<line>
+được thuyền đã gióng buồm<line>
+thẳng tiến đến Velzeria.<pause><page>
+Nếu chọn đi đường biển thì có<line>
+thể nhanh chóng đến Velzeria.<line>
+Dọc đường bỗng thấy một chiếc<line>
+thuyền xuất hiện,áp sát họ.<pause><page>
+Binh đoàn Băng long do nữ tướng<line>
+Imelda chỉ huy đã xuất kích hòng<line>
+cản đường tiến của nhóm <char>.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Imelda<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line><pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「マリオネット」{wait}{clsr}
+//　禁断の地ヴェルゼリア‥‥。
+//そこは数百年の昔、光輝の末裔達が
+//ボーゼルを打ち破ったとされる、
+//海と山脈に囲まれた土地である。{wait}{clsr}
+//　混沌の神が封印されたとも
+//伝えられるこの呪われた大地が、
+//はるか、水平線のかなたから姿を
+//現してくる。{wait}{clsr}
+//　入り江を見つけて上陸しようと
+//したとき、ボーゼルに操られる
+//ダークプリンセスが彼らの前に
+//立ちふさがった。{wait}{clsr}
+//×勝利条件
+//　・１６ターン以内に敵を全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//・ターンオーバー{wait}{clsr}
+//{end}20
+<line>                  Con rối<pause><page>
+Vùng đất cấm Velzeria...<line>
+Đó là vùng đất nằm phía sau<line>
+những dãy núi bao quanh.<pause><page>
+Nơi này được cho là các hậu<line>
+duệ ánh sáng từng đánh bại Böser<line>
+vào mấy trăm năm trước.<pause><page>
+Vùng đất bị nguyền rủa này cũng<line>
+là nơi phong ấn Hỗn mang thần,<line>
+nay dần xuất hiện nơi đường chân<line>
+trời xa xôi.<pause><page>
+Phát hiện được một con lạch,nhóm<line>
+<char> toan đổ bộ lên bờ thì<line>
+Vương nữ bóng tối do Böser sai<line>
+khiến đã xuất hiện cản đường họ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch trong<line>
+    vòng 16 lượt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Hết lượt<pause><page><end>
+
+  
+//ＳＣＥＮＡＲＩＯー{num}
+//「いてつく炎」{wait}{clsr}
+//　船を奪い損ねた一行は、川ぞいに
+//陸路を使いヴェルゼリアに近づく。
+//うまくすると途中で船を手に
+//入れられるかも知れないからだ。{wait}{clsr}
+//　急がねば、アルハザードの封印を
+//解く儀式が始まってしまう。
+//　時間が過ぎゆく中、一同の頭に
+//不安の影がよぎる。{wait}{clsr}
+//　その時、一同の絶望をあおる
+//ように、目前にせまった村から
+//突然、火の手が上がった。{wait}{clsr}
+//×勝利条件
+//　・イメルダの撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・村人の全滅{wait}{clsr}
+//{end}21
+<line>           Ngọn lửa đóng băng<pause><page>
+Lại nói về cả nhóm <char><line>
+sau khi cướp hụt thuyền của Ma<line>
+tộc,bèn theo đường bộ men theo<line>
+bờ sông để đến Velzeria.<pause><page>
+Họ hy vọng rằng có thể dọc<line>
+đường sẽ tìm được thuyền khác.<pause><page>
+Nếu không khẩn trương thì<line>
+phong ấn của Alhazard sẽ bị<line>
+giải trừ mất.<pause><page>
+Thời gian trôi qua,một nỗi bất<line>
+an dấy lên trong lòng cả nhóm.<pause><page>
+Đúng lúc đó,đột nhiên thấy có lửa<line>
+bốc lên từ ngôi làng trước mặt<line>
+như thể kích động cơn tuyệt vọng<line>
+của họ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Imelda<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Người làng chết sạch<pause><page><end>
+  
+  
+//ＳＣＥＮＡＲＩＯー{num}
+//「デッド・エンド」{wait}{clsr}
+//　小舟をかりることのできた一行は
+//急ぎヴェルゼリアへ向かうが、
+//海上で敵の迎撃部隊の追撃を
+//受けるのであった。{wait}{clsr}
+//しかし迎撃部隊が出るという事は
+//いまだ封印は解かれていないことを
+//意味している。
+//　いまなら、まだ間に合う。{wait}{clsr}
+//　{char_name}たちはこれ以上
+//敵に足止めされないためにも、
+//敵部隊との交戦を
+//決意するのであった。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}22
+<line>                Đường cùng<pause><page>
+Mượn được chiếc thuyền nhỏ,cả<line>
+đoàn tiến về Velzeria nhưng dọc<line>
+đường bị đội quân nghênh chiến<line>
+của địch chặn đánh trên biển.<pause><page>
+Nhưng đội quân nghênh chiến xuất<line>
+hiện cũng cho biết rằng đến giờ<line>
+Alhazard vẫn chưa được giải trừ<line>
+phong ấn.<pause><page>
+Cần phải nhanh chóng.Bây giờ hãy<line>
+còn kịp.Nhóm <char> quyết định<line>
+giao chiến với quân địch để không<line>
+bị chúng cản trở thêm nữa.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「復活の魔剣」{wait}{clsr}
+//　魔剣アルハザードの解放を阻止
+//するため{char_name}たちは
+//闇の神殿へとたどりついた。{wait}{clsr}
+//　うす暗い内部にはまがまがしい
+//邪神の像があり、その前に
+//設けられた祭壇には一振りの剣が
+//ささげられている。{wait}{clsr}
+//　その祭壇の両わきにはリアナと
+//そしてラーナが立ちつくしていた。{wait}{clsr}
+//そして祭壇の前には、マントを
+//はおったボーゼルが、呪文の
+//詠唱を行なっている。{wait}{clsr}
+//　それは今まさにアルハザードの
+//封印が解かれようとしていることを
+//物語っていた。{wait}{clsr}
+//×勝利条件
+//・敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・ジェシカの死亡{wait}{clsr}
+//{end}23
+<line>
+            Ma kiếm hồi sinh<pause><page>
+Lại nói về nhóm <char> lần<line>
+theo đường đi để đến thần điện<line>
+bóng tối hòng ngăn cản Ma kiếm<line>
+Alhazard hồi sinh.<pause><page>
+Bên trong thần điện tối tăm có pho<line>
+tượng tà thần quái dị,phía trước là<line>
+một tế đàn được dựng lên để tế<line>
+một thanh kiếm.<pause><page>
+Hai bên tế đàn còn thấy có Riana<line>
+và Läna đứng như trời trồng.<line>
+Böser khoác hắc y,niệm chú trước<line>
+tế đàn.<pause><page>
+Quang cảnh như thể nói lên rằng<line>
+Alhazard đang chuẩn bị được<line>
+giải phóng.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Jessica tử trận<pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「封印のかぎ」{wait}{clsr}
+//　ついにアルハザードの封印は
+//解かれてしまった。{wait}{clsr}
+//　だがそこへ死んだと思われていた
+//ベルンハルトが現れ、ボーゼルから
+//アルハザードを奪い取ったのだ。{wait}{clsr}
+//　封印の解けたアルハザードを
+//手にした帝国は、いよいよ大陸の
+//制覇にのりだすであろう。{wait}{clsr}
+//　闇の力を取り戻した
+//アルハザードに対抗する手段は
+//もはやないのだろうか？{wait}{clsr}
+//　闇の力を得たアルハザードに
+//対抗するには、今のままの
+//ラングリッサーでは力不足である。{wait}{clsr}
+//　だがボーゼルの術の解けた
+//ラーナと、リアナから
+//ラングリッサーの力が完全で
+//ないことを知らされる。{wait}{clsr}
+//　そこでラングリッサー解放の
+//カギとなる、ホーリーロッドを手に
+//入れるため、エルラードの遺跡へと
+//向かうのであった。{wait}{clsr}
+//×勝利条件
+//・敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・ロッドを奪った敵が
+//　　マップ下方へ脱出{wait}{clsr}
+//{end}24
+<line>           Chìa khóa phong ấn<pause><page>
+Cuối cùng thì Ma kiếm Alhazard<line>
+đã được cởi bỏ phong ấn.<pause><page>
+Nhưng rồi Bernhalt,kẻ tưởng chừng<line>
+đã bỏ mạng,lại đột nhiên xuất<line>
+hiện và cướp lấy Ma kiếm từ tay<line>
+Böser.<pause><page>
+Alhazard được giải phóng sức<line>
+mạnh,lại lọt vào tay Đế quốc nên<line>
+ắt hẳn cả đại lục sẽ bị áp chế<line>
+dưới vó ngựa của Đế quốc.<pause><page>
+Chẳng lẽ không còn cách nào để<line>
+đối chọi với Alhazard,Ma kiếm<line>
+đã lấy lại sức mạnh thật sự<line>
+của nó?<pause><page>
+Thứ duy nhất có thể đối chọi<line>
+với bóng tối là Langrisser lại<line>
+quá yếu đuối so với Ma kiếm.<pause><page>
+Bấy giờ Riana và Läna được giải<line>
+thoát khỏi ma lực sai khiến,đã cho<line>
+hay rằng Langrisser vẫn chưa<line>
+phát huy được sức mạnh của nó.<pause><page>
+Để lấy chìa khóa giải trừ phong<line>
+ấn cho Langrisser là Holy Rod,<line>
+nhóm <char> vội xuất phát<line>
+đến di tích El Lard.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Holy Rod bị cướp và<line>
+    mang ra khỏi Map<pause><page><end>
+//ＳＣＥＮＡＲＩＯー{num}
+//「リベンジャー」{wait}{clsr}
+//　ラングリッサーに眠る真の力を
+//目覚めさせるカギとなる
+//ホーリーロッドを手にいれた一行は
+//さっそく儀式の準備を行った。{wait}{clsr}
+//　これで解放された魔剣に対抗する
+//力が{char_name}たちにも
+//もたらされたのである。{wait}{clsr}
+//　しかし、一路ヴェルゼリアへと
+//向かう一行の前に、一人の少女が
+//現れた。{wait}{clsr}
+//　闇の王子ボーゼルを倒され、
+//アルハザードを皇帝に奪われ、
+//兄さえも失い、ふくしゅうに燃える
+//ソニアである。{wait}{clsr}
+//彼女はモンスター軍団をそしきし、
+//ふくしゅうのチャンスの到来を
+//うかがっていたのだ‥‥。{wait}{clsr}
+//×勝利条件
+//　・ソニアの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}25
+<line>                Kẻ báo oán<pause><page>
+Nhóm <char> đã lấy được<line>
+Holy Rod,chìa khóa để đánh thức<line>
+sức mạnh thật sự đang say ngủ<line>
+bên trong Langrisser.<pause><page>
+Họ nhanh chóng tiến hành nghi<line>
+thức giải trừ và có được sức mạnh<line>
+để đối phó với Ma kiếm vỗn đã<line>
+được giải phóng khỏi phong ấn.<pause><page>
+Trên đường tiến đến Velzeria,<line>
+cả nhóm gặp một thiếu nữ xuất<line>
+hiện cản đường.<pause><page>
+Đó là Sonya,người đang căm hận<line>
+sôi sục vì đã mất người anh trai,<line>
+chủ nhân Böser bị sát hại và cả<line>
+Alhazard cũng bị Hoàng đế cướp mất.<pause><page>
+Binh đoàn quái vật do cô ta chỉ<line>
+huy gào rú mừng rỡ khi thấy cơ<line>
+hội báo thù đã đến...<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Sonya<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//{end}26
+<end>
+//{end}27
+<end>
+//{end}28
+<end>
+//{end}29
+//
+<end>
+//ＳＣＥＮＡＲＩＯー０{num}
+//「ゴーアヘッド」{wait}{clsr}
+//　青竜騎士団のレオンに誘われた、
+//{char_name}と、ヘイン、
+//ロウガの三人は帝国に身を
+//置くことになった。{wait}{clsr}
+//　その目的は強力な一国による、
+//大陸統一であり、そうすることが
+//戦争をなくす早期手段だと
+//信じたからである。{wait}{clsr}
+//　己の理想を貫くため、帝国に
+//協力する{char_name}。
+//　だが同時にそれは、今までの
+//仲間を敵に回すことであった。{wait}{clsr}
+//　聖剣ラングリッサーを手に
+//入れるため、バルディア王国を
+//捜すが、深い谷にかかった橋で、
+//かつての仲間レスターと対決する。{wait}{clsr}
+//×勝利条件
+//　・１９ターン以内に
+//　　レスターを撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//・ターンオーバー{wait}{clsr}
+//{end}30
+<line>              Cứ thẳng tiến<pause><page>
+Theo lời mời gọi của đội trưởng<line>
+Thanh long kỵ sỹ đội là Leon,<line>
+3 người <char>,Hein và Rouga<line>
+quyết định đầu quân cho Đế quốc.<pause><page>
+Mục đích của họ là thống nhất đại<line>
+lục nhờ một đất nước vì tin<line>
+tưởng rằng đó là cách nhanh nhất<line>
+để xóa bỏ chiến tranh.<pause><page>
+Để thực hiện lý tưởng của mình,<line>
+<char> hợp sức với Đế quốc,<line>
+nhưng đồng thời cũng trở thành cừu<line>
+địch với các chiến hữu trước đây.<pause><page>
+Để đến được Vương quốc Baldea<line>
+hòng đoạt lấy Thánh kiếm<line>
+Langrisser,họ phải băng qua cây<line>
+cầu treo bắc qua thung lũng sâu.<pause><page>
+Trận đối đầu với người đồng đội<line>
+cũ là Lester sắp đến hồi diễn ra<line>
+bên cây cầu treo này.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Lester trong<line>
+    vòng 19 lượt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Hết lượt<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー０{num}
+//「ＷＡＮＴＥＤ」{wait}{clsr}
+//　持つ者に無限の力を与えるという
+//伝説の聖剣ラングリッサー。
+//　今やその名は、伝説の中にのみ
+//うたわれるばかりである。{wait}{clsr}
+//　だが手に入れることさえできれば
+//帝国の軍事力は確固たるものになる
+//はずであった。{wait}{clsr}
+//しかしラングリッサーを守る
+//使命を持つ光輝の末裔たちが、
+//彼らの行く手を阻むかのごとく
+//立ちふさがる。{wait}{clsr}
+//　行軍先の村では、カルザス城の
+//姫であるシェリーが、帝国の計画を
+//阻止すべく待ちかまえていた。{wait}{clsr}
+//×勝利条件
+//　・シェリーの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}31
+<line>                 Truy nã<pause><page>
+Langrisser,Thánh kiếm trong<line>
+truyền thuyết ban cho kẻ sở hữu<line>
+nó nguồn sức mạnh vô hạn.<pause><page>
+Giờ đây,cái tên của Thánh kiếm<line>
+chỉ còn được ca tụng trong<line>
+truyền thuyết.<pause><page>
+Nhưng nếu sở hữu nó thì chắc<line>
+chắn sức mạnh quân sự của Đế<line>
+quốc sẽ trở nên vững vàng như<line>
+bàn thạch.<pause><page>
+Nhưng các hậu duệ ánh sáng với<line>
+sứ mệnh bảo vệ Langrisser đã xuất<line>
+hiện để cản trở họ.<pause><page>
+Tại một làng nọ trên đường hành<line>
+quân,Vương nữ Cherie xứ Kalxath<line>
+đang bày binh đợi sẵn,hòng ngăn<line>
+chặn kế hoạch của Đế quốc.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Cherie<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「老剣士、立つ」{wait}{clsr}
+//　バルディア捜索隊を指揮する
+//レアードからの伝令により、
+//バルディア城の所在が判明したと
+//報告が入る。{wait}{clsr}
+//　だが先をいそぐ一行を阻むように
+//一本の大河が、その巨大な姿を
+//横たえていた。{wait}{clsr}
+//　橋を捜し、対岸へ移動を開始する
+//一行の目の前に、一人の老剣士が
+//兵を率いて現れたのである。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}32
+<line>               Lão kiếm sỹ<pause><page>
+Đội phó Thanh long kỵ sỹ là Leard<line>
+đang chỉ huy đội dò tìm Baldea.<pause><page>
+Có báo cáo từ đội truyền lệnh do<line>
+Leard phái đến,rằng đã xác định<line>
+được vị trí của thành Baldea.<pause><page>
+Khi cả đoàn vội vã tiến lên phía<line>
+trước thì gặp một con sông lớn<line>
+chắn ngang.<pause><page>
+Cả đoàn bắt đầu di chuyển theo bờ<line>
+sông để tìm cầu vượt qua thì thấy<line>
+một kiếm sỹ già dẫn theo binh<line>
+lính xuất hiện trước mặt.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「神秘の秘剣」{wait}{clsr}
+<line>           Bí kiếm huyền thoại<pause><page>
+//　数百年の昔、光輝の末裔たちが
+//治めていたバルディアの地。
+//伝説と化した古えの城は、湖の底で
+//静かに眠りについていた。{wait}{clsr}
+Mấy trăm năm trước,các hậu duệ<line>
+ánh sáng từng cai trị nơi mảnh<line>
+đất Baldea này.<pause><page>
+Cổ thành năm xưa nay đã hóa<line>
+huyền thoại,im lìm say ngủ dưới<line>
+đáy hồ tĩnh lặng.<pause><page>
+
+//　このバルディア城の奥の祭壇に
+//伝説の秘剣「ラングリッサー」が
+//納められている。{wait}{clsr}
+Trên tế đàn nằm sâu trong thành<line>
+Baldea này có thanh bí kiếm huyền<line>
+thoại,"Langrisser".<pause><page>
+
+//　だがそこには、あくまでも帝国と
+//戦おうとする、光の末裔達の姿も
+//あった。{wait}{clsr}
+Nhưng quanh cổ thành còn thấy<line>
+có bóng dáng của các hậu duệ<line>
+ánh sáng toan quyết một trận<line>
+sống mái với quân Đế quốc.<pause><page>
+
+//　いま再び、聖剣ラングリッサーを
+//めぐる戦いの幕が開かれようと
+//していた。{wait}{clsr}
+Trải qua mấy trăm năm,giờ đây<line>
+cuộc chiến tranh đoạt Thánh kiếm<line>
+Langrisser lại sắp đến hồi nổ ra<line>
+lần nữa.<pause><page>
+
+//×勝利条件
+//　・ラングリッサーの入手
+//・敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・ラングリッサーを奪われる{wait}{clsr}
+//{end}33
+<kake>Điều kiện thắng lợi:<line>
+  - Chiếm được Langrisser<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Langrisser bị chiếm<pause><page><end>
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「悲しみの追撃者」{wait}{clsr}
+//　聖剣の守護者である光の末裔を
+//破り、ラングリッサー争奪戦は
+//帝国側の勝利に終わった。{wait}{clsr}
+//　聖剣の入手に成功した一行は
+//皇帝ベルンハルトの元に
+//届けるため、レイガルド城を
+//目指す。{wait}{clsr}
+//　だが魔剣アルハザードと、それに
+//対抗する手段のラングリッサーが
+//帝国に共有されることを恐れた
+//ジェシカは追撃を行ってきた。{wait}{clsr}
+//　ここに、帝国軍と光輝の末裔との
+//全面戦争が始まったのである。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}34
+<line>           Kẻ truy đuổi sầu bi<pause><page>
+Đánh bại các hậu duệ ánh sáng<line>
+bảo vệ Thánh kiếm,phe Đế quốc đã<line>
+giành thắng lợi trong cuộc chiến<line>
+tranh đoạt Langrisser.<pause><page>
+Lấy được Thánh kiếm,cả nhóm liền<line>
+tiến về thành Leigald để dâng<line>
+cho Hoàng đế Bernhalt.<pause><page>
+Jessica vốn lo sợ Đế quốc có được<line>
+cả Alhazard và Langrisser,thứ duy<line>
+nhất có thể đối chọi với Ma kiếm,<line>
+nên đã điều binh đuổi theo.<pause><page>
+Vậy là cuộc chiến toàn diện giữa<line>
+Đế quốc với các hậu duệ ánh sáng<line>
+đã bắt đầu tại đây.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「ジェノサイダー」{wait}{clsr}
+//　レイガルド城へ戻った一同に、
+//サルラス攻略の勅命が下った。
+//いよいよ大陸統一にのりだすことに
+//なるのだ。{wait}{clsr}
+//　最初の目標はサルラス。
+//カルザスと親しいこの国には、
+//わずかな兵力しかない。{wait}{clsr}
+//　強行軍になるが、時間をかけると
+//カルザスの兵が増援に来るため敵の
+//準備が整う前に、攻撃をしかける
+//必要があった。{wait}{clsr}
+//×勝利条件
+//・敵の全滅{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・敵のマップ上方への脱出{wait}{clsr}
+//{end}35
+<line>                   Thảm sát<pause><page>
+Sau khi quay về thành Legaild,<line>
+cả đoàn nhận được sắc mệnh<line>
+lập tức tấn công Salrath.<pause><page>
+Cuối cùng họ cũng bắt đầu xuất<line>
+động để thống nhất đại lục.<pause><page>
+Mục tiêu đầu tiên là Salrath.<line>
+Đất nước thân cận với Kalxath<line>
+này chỉ có một ít binh lực<line>
+không đáng kể.<pause><page>
+Tuy chiếm ưu thế về sức mạnh<line>
+nhưng nếu dây dưa thì viện quân<line>
+Kalxath sẽ kéo tới.<pause><page>
+Vì vậy cần phải tấn công trước<line>
+khi địch kịp chuẩn bị.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Địch trốn thoát khỏi Map<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「鉄壁の防御陣」{wait}{clsr}
+//　サルラス領を制圧することに
+//エルウィンたちは成功する。{wait}{clsr}
+//これでカルザス攻略の最中に背後を
+//取られる心配はなくなると
+//思われた。{wait}{clsr}
+//しかし、サルラス制圧の時に現れた
+//援軍を送った人物を無視することは
+//自軍を危機にさらすことにも
+//なりかねない。{wait}{clsr}
+//そこで{char_name}たち一行は、
+//近くの村の探索を始めたので
+//あった。{wait}{clsr}
+//そして通りかかった砦の一つに
+//老剣士アーロンが防御陣をしいて、
+//帝国の通過を阻止しようと
+//待ちかまえていた。{wait}{clsr}
+//×勝利条件
+//　・アーロンの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}36
+<line>     Tuyến phòng ngự tường thép<pause><page>
+Nhóm <char> đã thành công<line>
+trong việc áp chế lãnh thổ<line>
+Salrath.<pause><page>
+Như vậy là không cần lo lắng<line>
+bị tập hậu trong khi tấn công<line>
+Kalzath nữa.<pause><page>
+Nhưng nếu bỏ lơ nhân vật đã gửi<line>
+viện binh đến Salrath thì có thể<line>
+sẽ khiến quân Đế quốc lâm nguy.<pause><page>
+Vì vậy,nhóm <char> bắt đầu<line>
+triển khai rà soát các làng<line>
+lân cận.<pause><page>
+Đến một đồn ải nọ thì thấy lão<line>
+kiếm sỹ Aaron đang bày binh bố<line>
+trận đợi sẵn,hòng ngăn chặn<line>
+đường tiến của quân Đế quốc.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Aaron<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「カルザス・陥落」{wait}{clsr}
+//　ついにカルザス城へたどり着く
+//{char_name}と帝国軍の一団は
+//カルザスに対して全面攻勢に出る
+//ことになる。{wait}{clsr}
+//　対する光輝の軍勢は城にこもり
+//一貫して防戦の体勢を見せていた。
+//ここで決定的な打撃を与えれば、
+//光の末裔は壊滅寸前となる。{wait}{clsr}
+//　だがこの攻城戦には、魔剣の
+//解放のためのカギを得るという、
+//もう一つの目的も隠されていた。{wait}{clsr}
+//×勝利条件
+//　・リアナ以外の全滅
+//　・エグベルトをリアナに隣接{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・リアナの死亡または脱出{wait}{clsr}
+//{end}37
+<line>            Kalxath thất thủ<pause><page>
+Cuối cùng nhóm <char> và<line>
+các tướng lãnh Đế quốc cũng đã<line>
+tới được thành Kalxath,chuẩn bị<line>
+tấn công toàn diện vào đây.<pause><page>
+Binh đoàn của các hậu duệ ánh sáng<line>
+rút vào trong thành,ra sức phòng<line>
+bị.Nếu giáng một đòn quyết định<line>
+vào đây thì họ sẽ tuyệt diệt.<pause><page>
+Nhưng trận công thành chiến này<line>
+cũng ẩn giấu một mục đích khác,<line>
+đó là để có được chìa khóa giải<line>
+trừ phong ấn cho Ma kiếm.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch,<line>
+    ngoại trừ Riana<line>
+  - Để Egbert tiếp cận Riana<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Riana tử trận hoặc trốn thoát<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「トライアングル」{wait}{clsr}
+//　禁断の地ヴェルゼリア。
+//　古えの時代、この世界を闇に
+//閉ざそうとした魔族が封じられたと
+//される土地である。{wait}{clsr}
+//　その地下にある闇の神殿の中では
+//まがまがしい石像に囲まれ、松明の
+//光に照らされた巨大な祭壇が、
+//不気味にうかび上がっていた。{wait}{clsr}
+//　その祭壇には一振りの大剣と、
+//左右にリアナに良く似た二人の
+//少女が立ちつくしている。{wait}{clsr}
+//そして祭壇の前に立つ黒衣を
+//まとった男の口から発せられる
+//詠唱は、魔剣の復活が近いことを
+//告げていた。{wait}{clsr}
+//×勝利条件
+//　・ボーゼルの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}38
+<line>                Tam giác<pause><page>
+Vùng đất cấm Velzeria là nơi Ma<line>
+tộc toan bao phủ bóng tối lên thế<line>
+giới này và cũng là nơi chúng bị<line>
+giam giữ từ thời cổ đại.<pause><page>
+Bên trong thần điện dưới lòng đất<line>
+là những pho tượng đá kỳ dị vây<line>
+quanh một tế đàn khổng lồ được<line>
+ánh đuốc chiếu sáng.<pause><page>
+Quang cảnh toát lên một vẻ tà dị.<line>
+Trên tế đàn có một thanh đại kiếm,<line>
+hai bên còn thấy có hai thiếu nữ<line>
+giống hệt Riana đứng như trời trồng.<pause><page>
+Một người mặc hắc y đứng trước<line>
+tế đàn,tay bắt quyết,miệng đọc<line>
+chú như muốn thông báo rằng thời<line>
+khắc Ma kiếm hồi sinh đã đến gần.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Böser<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「愛妹ソニア」{wait}{clsr}
+//　闇の王子ボーゼルは魔剣の封印を
+//解くためだけに帝国を利用していた
+//のだが、すでにエグベルトは
+//その事態を見抜いていた。{wait}{clsr}
+//　ボーゼル、帝国そして光の末裔の
+//三つどもえの戦いの結果、勝利を
+//治めたのは帝国であった。{wait}{clsr}
+//　だが、その戦いの中でボーゼルは
+//アルハザードを持ち去ってしまう。{wait}{clsr}
+//帝国はアルハザードに対抗するため
+//ラングリッサーの封印を解き、
+//急ぎボーゼルのいるヴェルゼリアへ
+//向かう。{wait}{clsr}
+//　ボーゼルの居城ヴェルゼリア城に
+//迫ったとき、城門の前に立ち
+//ふさがったのは、ロウガの妹である
+//少女ソニアだった。{wait}{clsr}
+//×勝利条件
+//　・ソニアの撃破、または説得
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}39
+<line>            Tiểu ái muội Sonya<pause><page>
+Vương tử bóng tối Böser đã lợi<line>
+dụng Đế quốc để giải trừ phong ấn<line>
+cho Ma kiếm,nhưng tất cả âm mưu<line>
+đều bị Egbert thấu rõ.<pause><page>
+Sau cuộc chiến giữa ba thế lực<line>
+hình tam giác là Böser,Đế quốc và<line>
+các hậu duệ ánh sáng thì quân Đế<line>
+quốc đã giành được thắng lợi.<pause><page>
+Giữa trận chiến,Böser thọ trọng<line>
+thương liền cắp theo Alhazard<line>
+tháo chạy.<pause><page>
+Để đối phó với Alhazard,Đế quốc<line>
+nhanh chóng tiến về Velzeria,nơi<line>
+Böser trốn chạy,nhằm giải trừ<line>
+phong ấn cho Langrisser.<pause><page>
+Đuổi đến trước thành Velzeria,nơi<line>
+trú ngụ của Böser thì thấy tiểu<line>
+muội của Rouga là Sonya đang chỉ<line>
+huy âm binh chặn đường.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại hoặc thuyết phục<line>
+    Sonya<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+
+//ＳＣＥＮＡＲＩＯー{num}
+//　　「ダーク・ブレイカー」{wait}{clsr}
+//　いてつき、閉ざされた少女の心は
+//兄の愛により癒された。
+//それは魔族と人間の新しいかけ橋に
+//なるのかも知れない。{wait}{clsr}
+//　だが、人間と魔族が共存する
+//ためにも、自分のために全ての命を
+//利用するボーゼルだけは倒さねば
+//ならない。{wait}{clsr}
+//　ついにヴェルゼリア城の門は
+//開かれた。{wait}{clsr}
+//　ソニアを仲間に加えた一同は
+//ボーゼルにとどめをさすべく、
+//城の内部へと足を進める。{wait}{clsr}
+//×勝利条件
+//　・ボーゼルの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}40
+<line>           Kẻ tiêu diệt âm binh<pause><page>
+Trái tim băng giá,khép kín của<line>
+thiếu nữ đã được tình cảm huynh<line>
+muội hâm nóng.<pause><page>
+Có thể đó sẽ là chiếc cầu nối<line>
+mới giữa Ma tộc và con người.<pause><page>
+Nhưng để Ma tộc và con người cùng<line>
+tồn tại,cũng là vì bản thân nên<line>
+cần phải đánh bại Böser,kẻ đang<line>
+lợi dụng tất cả các sinh mệnh.<pause><page>
+Cuối cùng,cổng thành Velzeria<line>
+cũng đã mở ra.Sonya và những<line>
+người đồng chí tiến vào bên trong<line>
+thành để kết liễu Böser.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Böser<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「海に散る星」{wait}{clsr}
+//　闇の王子ボーゼルは倒れ、世界に
+//闇の驚異が迫ることはなくなった。{wait}{clsr}
+//　だが、未だ光輝の末裔の抵抗は
+//続いていた。
+//　このままでは大陸統一を足止め
+//されてしまう。{wait}{clsr}
+//　これを期に光輝の末裔との決着を
+//着けるべく、帝国はヴェルゼリア
+//大陸からレイガルドへ戻った。{wait}{clsr}
+//　しかし、ようやくたどり着いた
+//港には、レスター率いる部隊が、
+//迎撃の準備を終えて、
+//待ちかまえていた。{wait}{clsr}
+//×勝利条件
+//　・レスターの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}41
+<line>            Sao rơi trên biển<pause><page>
+Vương tử bóng tối Böser đã chết,<line>
+thế giới không còn bị thế lực<line>
+bóng tối đe dọa nữa.<pause><page>
+Nhưng các hậu duệ ánh sáng vẫn<line>
+còn tiếp tục kháng cự.Cứ thế này<line>
+thì đại nghiệp thống nhất đại lục<line>
+sẽ bị cản trở mất.<pause><page>
+Nhân lý do này,binh đoàn Đế quốc<line>
+từ đại lục Velzeria đã quay về<line>
+Leigald để phân tranh với các<line>
+hậu duệ ánh sáng.<pause><page>
+Nhưng khi vừa đến cảng đã thấy<line>
+Lester chỉ huy ba quân đợi sẵn<line>
+từ bao giờ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Lester<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「双塔の古城」{wait}{clsr}
+//　光輝の末裔が現在拠点としている
+//ツインキャッスル‥‥。
+//　その城は護りやすく攻め難い。
+//まさに戦国の城と言えた。{wait}{clsr}
+//　このツインキャッスルは、その昔
+//ラングリッサーを手に入れるという
+//野望に取りつかれた古えの王が、
+//治めていた双塔の城であった。{wait}{clsr}
+//　交戦に意を決した光の軍勢。
+//シェリーは内部への侵入者を
+//ここで防ぐため、兵を布陣して
+//待ちかまえていた。{wait}{clsr}
+//×勝利条件
+//　・シェリーの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}42
+<line>            Thành cổ tháp đôi<pause><page>
+Cứ điểm hiện tại của các hậu duệ<line>
+ánh sáng là thành cổ tháp đôi...<line>
+Đây là tòa thành chiến quốc,có<line>
+cấu tạo dễ phòng thủ,khó tấn công.<pause><page>
+Tòa thành có ngọn tháp đôi này là<line>
+nơi cai trị của một vị Quốc vương<line>
+thời xưa,bị ám ảnh với dã tâm<line>
+chiếm đoạt Langrisser.<pause><page>
+Binh đoàn ánh sáng đã quyết chiến<line>
+ý.Cherie đang bày binh bố trận<line>
+tại đây để phòng thủ quân Đế quốc<line>
+tấn công vào.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Cherie<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//　「決戦」{wait}{clsr}
+//　シェリーの兵たちを破り、ついに
+//ツインキャッスルへ潜入をはたした
+//{char_name}たち。{wait}{clsr}
+//　だが入り口は二カ所あり、
+//どちらにジェシカがいるのか
+//分からないような造りに
+//なっていた。{wait}{clsr}
+//　思案の末、{char_name}達は
+//双手に別れ、ジェシカの待つ
+//最上階へと進んだのである。{wait}{clsr}
+//　だがそれは、兵力を分断する、
+//この城の最後のワナだった。{wait}{clsr}
+//　そこは己の使命と、信念と、
+//人の情が交差する戦場。
+//今、新しい時代をかけた最後の
+//戦いが始まろうとしていた‥‥。{wait}{clsr}
+//×勝利条件
+//　・ジェシカの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}43
+<line>                Quyết chiến<pause><page>
+Lại nói về nhóm <char>,sau<line>
+khi đánh bại binh mã của Cherie,<line>
+thâm nhập được vào bên trong tòa<line>
+cổ thành tháp đôi.<pause><page>
+Nhưng có hai lối vào,nên không<line>
+biết đằng nào sẽ dẫn đến chỗ<line>
+Jessica.<pause><page>
+Sau khi suy tính,nhóm <char><line>
+chia làm đôi để tiến lên tầng<line>
+trên cùng,nơi Jessica đang đợi.<pause><page>
+Nhưng đó cũng chính là cái bẫy<line>
+cuối cùng của tòa thành này nhằm<line>
+phân tán lực lượng của kẻ xâm<line>
+nhập.<pause><page>
+Nơi đó là chiến trường giao thoa<line>
+giữa sứ mệnh,lý tưởng của bản thân<line>
+và tình cảm con người.<pause><page>
+Giờ đây,trận chiến cuối cùng nhằm<line>
+đánh cược vào một thời đại mới đã<line>
+bắt đầu...<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Jessica<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「悲色の大河」{wait}{clsr}
+//　闇の王子ボーゼルは魔剣の封印を
+//解くためだけに帝国を利用していた
+//のだが、すでにエグベルトは
+//その事態を見抜いていた。{wait}{clsr}
+//　ボーゼル、帝国、光輝の末裔の
+//三つどもえの戦いの結果、勝利を
+//治めたのは帝国であった。{wait}{clsr}
+//　ボーゼルは深手を負っており、
+//光の軍勢はあと一息で壊滅する。
+//　帝国は先に光輝の軍勢にとどめを
+//さすべく行軍を開始した。{wait}{clsr}
+//　光輝の軍勢の拠点としている砦へ
+//向かう途中、川にさしかかる。
+//　そこにはレスターが水軍を率い
+//一行を待ち受けていた。{wait}{clsr}
+//×勝利条件
+//　・レスターの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}44
+<line>
+          Dòng sông bi thương<pause><page>
+Vương tử bóng tối Böser đã lợi<line>
+dụng Đế quốc để giải trừ phong ấn<line>
+cho Ma kiếm,nhưng tất cả âm mưu<line>
+đều bị Egbert thấu rõ.<pause><page>
+Sau cuộc chiến giữa ba thế lực<line>
+hình tam giác là Böser,Đế quốc và<line>
+các hậu duệ ánh sáng thì quân Đế<line>
+quốc đã giành được thắng lợi.<pause><page>
+Böser đã thọ trọng thương,trong<line>
+khi binh đoàn ánh sáng chỉ cần<line>
+một đợt càn quét nữa là có thể<line>
+tiêu diệt hoàn toàn.<pause><page>
+Vì vậy quân lực Đế quốc quyết định<line>
+ưu tiên xử lý binh đoàn của các<line>
+hậu duệ ánh sáng,bắt đầu triển<line>
+khai hành quân.<pause><page>
+Trên đường tiến đến đồn lũy cứ<line>
+điểm của các hậu duệ ánh sáng,<line>
+họ phải băng qua một con sông.<pause><page>
+Tại đây,Lester đang dẫn theo thủy<line>
+binh,sắp sẵn đội hình chờ họ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Lester<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+  
+
+//ＳＣＥＮＡＲＩＯー{num}
+//「光、落ちて‥‥」{wait}{clsr}
+//　ついに光輝の軍勢を追いつめた
+//レイガルド帝国軍。
+//　いつの間につくっていたのか、
+//連中は砦を用意していたのだ。{wait}{clsr}
+//　その砦は海の上に作られており、
+//小さいながらにかなりの強固さを
+//見せている。{wait}{clsr}
+//　敵、味方の集結した海岸で
+//各々の信念をかけた戦の決着が、
+//今着こうとしていた。{wait}{clsr}
+//×勝利条件
+//　・ジェシカの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}45
+<line>
+          Rụng đi,ánh sáng...<pause><page>
+Cuối cùng binh đoàn của Đế quốc<line>
+Leigald cũng đuổi kịp lực lượng<line>
+của các hậu duệ ánh sáng.<pause><page>
+Không rõ từ bao giờ mà bọn họ<line>
+đã dựng lên một đồn lũy tuy nhỏ<line>
+nhưng kiên cố trên mặt biển.<pause><page>
+Phe địch,phe ta đều tập kết bên<line>
+bờ biển,chuẩn bị cho trận quyết<line>
+chiến sống mái vì niềm tin của<line>
+mỗi bên.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Lester<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「ダークパワー」{wait}{clsr}
+//　光の軍勢を再起不能に追い込んだ
+//{char_name}たち。
+//　これで残る敵はボーゼル率いる
+//闇の軍勢だけとなった。{wait}{clsr}
+//　だが光輝の軍勢との戦いの間隙を
+//ぬって、ソニアのそしきする魔物の
+//軍団が四将軍不在のレイガルド城を
+//強襲していた。{wait}{clsr}
+//　帝王ベルンハルト自ら陣頭に立ち
+//城門を守護するが、絶対量で勝る
+//モンスター軍団に、帝王も疲れを
+//隠せなかった。{wait}{clsr}
+//　レイガルドの危機を知った一行は
+//疲れを癒す暇もなく、急いで城へと
+//向かうのであった‥‥。{wait}{clsr}
+//×勝利条件
+//　・ソニアの撃破、または説得{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・ベルンハルトの死亡{wait}{clsr}
+//{end}46
+<line>
+            Sức mạnh bóng tối<pause><page>
+Lại nói về nhóm <char><line>
+đuổi đánh lực lượng hậu duệ<line>
+ánh sáng đến mức không thể vực<line>
+dậy được nữa.<pause><page>
+Đối thủ duy nhất còn lại chỉ là<line>
+binh đoàn hắc ám do Böser cầm đầu.<line>
+Nhưng trong khi giao tranh với lực<line>
+lượng ánh sáng thì đã xảy ra biến.<pause><page>
+Thừa lúc Tứ thiên vương của Đế<line>
+quốc đi vắng,Sonya đã tổ chức binh<line>
+đoàn quái vật tập kích vào thành<line>
+Leigald.<pause><page>
+Đế vương Bernhalt đích thân chỉ<line>
+huy bảo vệ cổng thành,nhưng với<line>
+số lượng quái vật đông tuyệt đối<line>
+thì cũng không giấu nổi vẻ mệt mỏi.<pause><page>
+Biết được tình trạng nguy cấp của<line>
+Leigald,cả nhóm vội vã tiến về đô<line>
+thành mà không kịp nghỉ ngơi...<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại hoặc thuyết phục<line>
+    Sonya<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Bernhalt tử trận<pause><page><end>
+
+  
+//ＳＣＥＮＡＲＩＯー{num}
+//　　「魔の城ヴェルゼリア」{wait}{clsr}
+//　闇の拠点、ヴェルゼリア大陸。
+//先兵隊として炎竜、氷竜の両兵団が
+//大半の魔物を掃討していたため
+//彼らの足を阻む物はなかった。{wait}{clsr}
+//　やがて呪われた地の中央に、
+//闇を放つようにそびえる城塞が
+//灰色の空を背景にうかび上がる。{wait}{clsr}
+//　その前では、人間を憎み続ける
+//魔族の娘ソニアが、帝国軍の到来を
+//待ちかまえていた。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}47
+<line>
+            Ma thành Velzeria<pause><page>
+Đại lục Velzeria là cứ điểm của<line>
+binh đoàn bóng tối.<pause><page>
+Trước đó,hai binh đoàn Hỏa long<line>
+và Băng long đã đến đây quét sạch<line>
+phân nửa quái vật,nên giờ đây<line>
+không còn thứ gì cản đường họ.<pause><page>
+Một tòa thành cao ngút như tỏa ra<line>
+bóng tối,hiện lên trên nền trời<line>
+xám xịt ở trung tâm của vùng đất<line>
+bị nguyền rủa này.<pause><page>
+Trước cổng thành,thiếu nữ Ma tộc<line>
+Sonya,kẻ luôn căm hận loài người,<line>
+đang chỉ huy âm binh đợi sẵn quân<line>
+đoàn Đế quốc.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//　　「サッド・アタック」{wait}{clsr}
+//　魔族と人間の間に生まれた少女
+//ソニアは、閉ざされた心が癒される
+//こともないまま、悲しい兄妹の
+//戦いの中で散ってゆく。{wait}{clsr}
+//　ゆっくりと開かれた闇の王城、
+//ヴェルゼリア城の門の前で誰もが
+//言葉少なだった。{wait}{clsr}
+//　友、ロウガの無言の悲しみを心に
+//感じながら、{char_name}は
+//打倒ボーゼルを深く心に
+//誓うのである。{wait}{clsr}
+//×勝利条件
+//　・ボーゼルの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}48
+<line>
+          Đợt công kích buồn<pause><page>
+Sonya,thiếu nữ hỗn huyết giữa Ma<line>
+tộc và con người luôn giữ trái tim<line>
+khép kính và hằn học.<pause><page>
+Cô đã lạc mệnh trong trận đánh<line>
+bi thương giữa hai huynh muội,<line>
+và trái tim thương tổn của thiếu<line>
+nữ mãi không được chữa lành.<pause><page>
+Cánh cổng Vương thành bóng tối<line>
+Velzeria lặng lẽ mở ra,không một<line>
+ai cất lên tiếng nào.<pause><page>
+Cảm nhận được nỗi đau không<line>
+lời của chiến hữu Rouga,cả nhóm<line>
+<char> thề với lòng nhất định<line>
+phải đánh bại Böser để báo thù.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Böser<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//　「覇道」{wait}{clsr}
+//　無限の力をもたらすと言われる
+//聖剣ラングリッサーを手にいれ、
+//自分の力で大陸統一を行う覇業に
+//目覚めた{char_name}。{wait}{clsr}
+//　光輝の末裔とは敵のまま、
+//帝国とも手を切り、彼らは
+//レイガルド城へと正面から
+//攻撃をしかけるのであった。{wait}{clsr}
+//　だが帝国軍は四将軍を総動員して
+//城の守りを固めていたのである。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}49
+<line>
+                    Bá đạo<pause><page>
+Truyền thuyết cho rằng Langrisser<line>
+là Thánh kiếm mang lại sức mạnh<line>
+vô hạn cho người sở hữu nó.<pause><page>
+Sau khi lấy được Langrisser,<line>
+<char> quyết tâm đi trên con<line>
+đường của bá giả,tự dùng sức<line>
+mình để thống nhất đại lục.<pause><page>
+Đã quay lưng lại với các hậu duệ<line>
+ánh sáng,<char> tiếp tục phản<line>
+lại Đế quốc và nay chuẩn bị tấn<line>
+công trực diện vào thành Leigald.<pause><page>
+Tuy nhiên mọi việc hẳn sẽ không<line>
+dễ dàng khi Đế quốc tổng động viên<line>
+Tứ thiên vương để thủ thành.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//　　「帝王ベルンハルト」{wait}{clsr}
+//　四将軍を破りレイガルド城への
+//侵入をはたし、一路玉座を目指す
+//{char_name}たち。{wait}{clsr}
+//　玉座に座る男には、王者の
+//風格とともに、戦士としての
+//鍛えぬかれた肉体と、獲物を追い
+//求める鋭い眼光があった。{wait}{clsr}
+//　見る者をひきつけるカリスマ性と
+//威厳を備えた男。
+//　彼こそが一代にして国を興した、
+//帝国の皇帝ベルンハルトである。{wait}{clsr}
+//　いよいよ帝王ベルンハルトとの
+//戦いの幕が、切って落とされようと
+//していた。{wait}{clsr}
+//×勝利条件
+//　・ベルンハルトおよび
+//　　エグベルトの撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}50
+<line>
+            Đế vương Bernhalt<pause><page>
+Nhóm <char> đã đánh bại Tứ<line>
+thiên vương,thâm nhập vào bên<line>
+trong thành Leigald và thẳng tiến<line>
+đến bên ngai vàng.<pause><page>
+Trấn tọa trên ngai vàng là một<line>
+người với phong cách Vương giả<line>
+cùng nhục thể tôi luyện đến tột<line>
+cùng của một chiến sĩ.<pause><page>
+Nhãn quang của bậc Đế vương<line>
+sắc bén như loài dã thú tìm mồi.<line>
+Bên cạnh là một người hắc y<line>
+với dung mạo cổ quái.<pause><page>
+Dung mạo oai nghi của bậc Đế<line>
+vương như uy hiếp kẻ trông thấy,<line>
+đồng thời cũng toát lên sức thu<line>
+hút,lôi cuốn của bậc lãnh đạo.<pause><page>
+Đó chính là Bernhalt,vị Hoàng đế<line>
+gây dựng nên Đế quốc Leigald<line>
+vang danh chỉ trong một đời.<pause><page>
+Và như vậy,trận chiến với bậc<line>
+Đế vương Bernhalt đã sắp đến<line>
+hồi nổ ra.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Bernhalt và Egbert<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「ジェノサイド」{wait}{clsr}
+//　ボーゼルから、アルハザードには
+//魔物を従わせる力があるらしい事と
+//封印を解くにはリアナの存在が
+//不可欠である事を知らされた一行。{wait}{clsr}
+//　リアナは光輝の軍勢とともに、
+//カルザス城にかくまわれている。
+//進軍する{char_name}たちは、
+//途中サルラス領を通りかかった。{wait}{clsr}
+//　行軍がカルザスに知れると、
+//準備を整えられてしまうため、
+//サルラスから伝令を行かせる
+//わけにはいかない。{wait}{clsr}
+//　一行はサルラスを滅ぼすことを
+//決意する。{wait}{clsr}
+//×勝利条件
+//　・スコットおよび
+//　　ローレンの撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・スコットおよびローレンの
+//　　マップ上方への脱出{wait}{clsr}
+//{end}51
+<line>
+                Thảm sát<pause><page>
+<char> được Böser cho hay rằng<line>
+Alhazard có sức mạnh sai khiến âm<line>
+binh,và để cởi bỏ phong ấn cho nó<line>
+thì phải cần đến Riana.<pause><page>
+Hiện giờ Riana đang được các hậu<line>
+duệ ánh sáng che giấu ở thành<line>
+Kalxath.Để hành quân đến đó thì<line>
+phải đi qua lãnh thổ Salrath.<pause><page>
+Nếu để Kalxath biết được việc hành<line>
+quân thì họ sẽ chuẩn bị đối phó,do<line>
+vậy không thể để người Salrath<line>
+truyền tin này đến Kalxath.<pause><page>
+Như vậy là cả nhóm <char> đã<line>
+quyết tâm tiêu diệt Salrath.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Laurence và Scott<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Laurence và Scott chạy thoát<line>
+    khỏi Map<pause><page><end>
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「カルザス城陥落」{wait}{clsr}
+//　サルラスを突破した彼らは、
+//カルザスに知られることもなく城に
+//近づくことに成功した。
+//このまま不意をつけるであろう。{wait}{clsr}
+//　この城の中にアルハザードの
+//封印を解くことができる唯一の少女
+//リアナがいる。{wait}{clsr}
+//　今、光の軍勢に打撃を与えつつ、
+//リアナをつれ去る作戦が開始された
+//のだ。{wait}{clsr}
+//×勝利条件
+//　・リアナ以外の全滅
+//　・ソニアをリアナに隣接させる{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//　・リアナの死亡、または脱出{wait}{clsr}
+//{end}52
+<line>         Thành Kalxath thất thủ<pause><page>
+Lại nói về nhóm <char> sau khi<line>
+đột phá thành công lãnh thổ Salrath,<line>
+họ tiến đến gần thành Kalxath mà<line>
+đối phương không hề hay biết.<pause><page>
+Như vậy là có thể tập kích bất ngờ.<line>
+Bên trong thành đang che giấu vu<line>
+nữ Riana,người duy nhất có thể cởi<line>
+bỏ phong ấn cho Alhazard.<pause><page>
+Như vậy là tác chiến tiêu diệt binh<line>
+đoàn ánh sáng và bắt cóc Riana đã<line>
+sắp đến hồi xảy ra.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch,trừ Riana<line>
+  - Để Sonya tiếp cận Riana<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Riana tử trận hoặc chạy thoát<line>
+    khỏi Map<pause><page><end>
+
+//ＳＣＥＮＡＲＩＯー{num}
+//　　「真魔剣アルハザード」{wait}{clsr}
+//　闇の力の触媒、ダークロッド、
+//そして封印の光の巫女リアナ。
+//アルハザードの封印を解くための
+//要素は全て集まった。{wait}{clsr}
+//　今、ヴェルゼリアの地下神殿の
+//まがまがしい邪神の像に囲まれた
+//祭壇からは、低い呪文の詠唱が
+//響いてくる。{wait}{clsr}
+//　それは魔剣の復活が近いことを
+//あらわしていた。
+//　だが、まねかれざる客が、彼らの
+//元へ近づいていたのである。{wait}{clsr}
+//×勝利条件
+//　・ベルンハルトの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}53
+<line>         Chân Ma kiếm Alhazard<pause><page>
+Thể xúc tác của sức mạnh bóng tối<line>
+là Dark Rod và vu nữ ánh sáng<line>
+Riana.Mọi yếu tố để giải trừ phong<line>
+ấn cho Alhazard đều đã đầy đủ.<pause><page>
+Từ tế đàn trong thần điện dưới lòng<line>
+đất Velzeria vang lên tiếng đọc<line>
+bùa chú lâm râm giữa những pho<line>
+tượng thần tà dị.<pause><page>
+Quang cảnh này cho biết thời khắc<line>
+Ma kiếm phục sinh đang tới gần.<line>
+Và có mấy vị khách không mời cũng<line>
+đang tìm tới chỗ họ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Bernhalt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「闇の使者」{wait}{clsr}
+//　魔剣の封印は解かれ、魔物を操る
+//闇の力は解放された。{wait}{clsr}
+//　魔剣解放の儀式に乗り込んだ
+//帝国軍だが、{char_name}達の
+//抵抗に、魔剣を奪えぬまま、退却を
+//よぎなくされる。{wait}{clsr}
+//　このまま帝国軍を滅ぼすことに
+//決めた{char_name}たちは、
+//ヴェルゼリアを発ち、敗走する
+//帝国軍の追撃を開始した。{wait}{clsr}
+//×勝利条件
+//　・２０ターン以内に
+//　　バルガスを撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//・ターンオーバー{wait}{clsr}
+//{end}54
+<line>             Sứ giả bóng tối<pause><page>
+Phong ấn của Ma kiếm đã được cởi<line>
+bỏ,sức mạnh sai khiến âm binh đã<line>
+được giải phóng.<pause><page>
+Tuy quân Đế quốc thừa lúc tiến hành<line>
+nghi thức giải phóng Ma kiếm mà tấn<line>
+công nhưng nhờ nhón <char> kháng<line>
+cự nên đành rút lui trong thất bại.<pause><page>
+Nhóm <char> quyết định phải tiêu<line>
+diệt Đế quốc nên lập tức rời khỏi<line>
+Velzeria để truy đuổi quân Đế quốc<line>
+đang tháo chạy.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Vargas trong 20 lượt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Hết lượt<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「波頭に散りて」{wait}{clsr}
+//　皇帝ベルンハルトを逃がすために
+//立ちふさがった猛将バルガスを破り
+//追撃を続ける{char_name}。{wait}{clsr}
+//　やっとのことで、船を使って
+//逃走を続ける帝国軍に追いすがる。{wait}{clsr}
+//　今、両船の間に渡し板がかけられ
+//水上での戦いがおこなわれようと
+//していた。{wait}{clsr}
+//×勝利条件
+//　・２５ターン以内に
+//　　イメルダを撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//・ターンオーバー{wait}{clsr}
+//{end}55
+<line>           Tán hồn trên sóng<pause><page>
+Sau khi kích phá mãnh tướng Vargas<line>
+cản đường để Hoàng đế Bernhalt<line>
+chạy thoát,nhóm <char> lại tiếp<line>
+tục truy đuổi tàn quân Đế quốc.<pause><page>
+Cuối cùng họ cũng đuổi kịp binh<line>
+đoàn Đế quốc toan lên thuyền để<line>
+đào tẩu.<pause><page>
+Giờ đây tấm ván giữa hai con<line>
+thuyền đã được bắc qua,một trận<line>
+đại chiến trên mặt nước là điều<line>
+không thể tránh khỏi.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Imelda trong 25 lượt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Hết lượt<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//　　「ツインキャッスル」{wait}{clsr}
+//　帝国軍四将軍のうち、炎竜兵団の
+//将軍バルガスと、氷竜兵団の女将軍
+//イメルダは破れ去った。{wait}{clsr}
+//　エグベルトの魔力により危機を
+//脱した皇帝は、ツインキャッスルに
+//逃げ込み、体勢を立て直そうと
+//こころみる。{wait}{clsr}
+//　ツインキャッスルは、伝説の
+//聖剣争奪戦の頃、ラングリッサーの
+//魔力にとりつかれた王が治めていた
+//城であった。{wait}{clsr}
+//　今、その城門の前で青竜騎士団の
+//レオンと、{char_name}達との
+//戦いが行われようとしていた。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}56
+<line>             Thành cổ tháp đôi<pause><page>
+Trong Tứ thiên vương của Đế quốc<line>
+thì tướng Balgas của binh đoàn Hỏa<line>
+long và nữ tướng Imelda của binh<line>
+đoàn Băng long đều đã đại bại.<pause><page>
+Nhờ ma lực của Egbert,Hoàng đế<line>
+Bernhalt chạy trốn đến thành cổ<line>
+tháp đôi,co cụm tại đây để chỉnh<line>
+đốn lực lượng.<pause><page>
+Đây là nơi cai trị của một vị Vua<line>
+vào thời chiến tranh đoạt Thánh<line>
+kiếm trong truyền thuyết,người bị<line>
+ám ảnh bởi ma lực của Langrisser.<pause><page>
+Giờ đây,một trận kịch chiến với<line>
+Thanh long kỵ sỹ đội lại sắp nổ<line>
+ra trước cổng thành.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「帝国最後の日」{wait}{clsr}
+//　ツインキャッスルは二つの塔の
+//最上階がつながった造りである。
+//　渡りろうかはせまく、攻め難く、
+//護りやすい造りになっていた。{wait}{clsr}
+//　皇帝ベルンハルトは最上階で
+//防御陣を布き、黒竜魔導師団の
+//エグベルトとともに、彼らを
+//待ち受けていた。{wait}{clsr}
+//　帝国との最後の戦いが始まろうと
+//してる。{wait}{clsr}
+//×勝利条件
+//　・ベルンハルトの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}57
+<line>     Ngày cuối cùng của Đế quốc<pause><page>
+Thành cổ tháp đôi có cấu tạo hai<line>
+ngọn tháp thông nhau ở tầng trên<line>
+cùng,lối đi chật hẹp khiến khó<line>
+công dễ phòng.<pause><page>
+Tầng trên cùng là nơi Hoàng đế<line>
+Bernhalt bày trận hình phòng ngự<line>
+cùng ma đạo sư đoàn Hắc long do<line>
+Egbert chỉ huy đợi sẵn.<pause><page>
+Như vậy là trận chiến cuối cùng<line>
+với Đế quốc đã đến hồi diễn ra.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Bernhalt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「闇の伝説へ」{wait}{clsr}
+//　いったい、いつの間に建造されて
+//いたのであろうか。
+//　その砦は海の中に孤独な様相を
+//見せてたたずんでいた。{wait}{clsr}
+//　その砦の内部では嵐の過ぎるのを
+//待つ、おびえたヒナのように
+//光輝の末裔達が身をひそめていた。{wait}{clsr}
+//　彼らは闇の動向をうかがいながら
+//最後の方法を使うべきかどうか、
+//迷っていた。{wait}{clsr}
+//　だが結論の出ぬうちに、彼らの
+//敵に回った{char_name}に
+//発見されてしまう。{wait}{clsr}
+//　光と闇の、最後の戦いの時が
+//近づいていた。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}58
+<line>          Huyền thoại bóng tối<pause><page>
+Không biết được dựng lên từ khi<line>
+nào mà giữa biển lại xuất hiện một<line>
+đồn lũy cô độc,cao vút trời.<pause><page>
+Bên trong đồn,các hậu duệ ánh<line>
+sáng đang rút mình cố thủ như bầy<line>
+chim non run rẩy trong tổ đợi qua<line>
+cơn bão.<pause><page>
+Bọn họ vừa nghe ngóng động tĩnh<line>
+của binh đoàn bóng tối,vừa phân<line>
+vân không biết có nên dùng đến<line>
+phương pháp cuối cùng hay không.<pause><page>
+Nhưng trong khi còn chưa đưa ra<line>
+được kết luận thì họ đã bị nhóm<line>
+<char> phát hiện.<pause><page>
+Vậy là trận chiến cuối cùng giữa<line>
+bóng tối và ánh sáng đã đến gần.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「覇者の道」{wait}{clsr}
+//　光にも帝国にも、闇にも属さぬ
+//生き方を選んだ{char_name}。
+//　まさに、それこそが覇者の道で
+//あった。{wait}{clsr}
+//　彼は敵対する勢力を、完全に消し
+//去るため、まずは逃げる帝国軍の
+//追撃を開始する。{wait}{clsr}
+//　先の戦いで傷を負ってしまった
+//帝王ベルンハルトをかばいながら
+//行軍をする帝国は、その途中を、
+//{char_name}に発見される。{wait}{clsr}
+//　覇者の道の第一歩がここに刻まれ
+//ようとしているのであった。{wait}{clsr}
+//×勝利条件
+//　・２０ターン以内に
+//　　バルガスおよび
+//　　イメルダを撃破{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡
+//・ターンオーバー{wait}{clsr}
+//{end}59
+<line>             Bá giả chi đạo<pause><page>
+<char> đã chọn con đường không<line>
+lệ thuộc vào bên nào,dù đó là<line>
+ánh sáng,Đế quốc hay bóng tối đi<line>
+nữa.<pause><page>
+Để đi trên con đường của bá giả<line>
+này,<char> cần phải tiêu diệt<line>
+hết mọi thế lực đối chọi,và đầu<line>
+tiên là truy đuổi quân Đế quốc.<pause><page>
+Binh đoàn Đế quốc hộ tống Hoàng<line>
+đế Bernhalt vốn mang trọng thương<line>
+từ trận đánh trước,trên đường tháo<line>
+chạy thì bị <char> phát hiện.<pause><page>
+Trận đánh này sẽ ghi dấu bước đi<line>
+đầu tiên trên con đường bá giả của<line>
+nhóm <char>.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Vargas và Imelda trong<line>
+    vòng 20 lượt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<line>
+  - Hết lượt<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「青竜の炎」{wait}{clsr}
+//　今は亡き、闇の王子ボーゼルの
+//居城であったヴェルゼリア城に、
+//帝国軍は逃げ込んだ。{wait}{clsr}
+//　炎竜兵団のバルガス将軍と
+//氷竜兵団のイメルダ将軍を倒し、
+//ヴェルゼリア城にたどり着いた
+//{char_name}たち。{wait}{clsr}
+//　だが彼らの前には、その城門を
+//護るように青竜騎士団のレオンが
+//立ちはだかるのであった。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}60
+<line>          Ngọn lửa Thanh long<pause><page>
+Quân Đế quốc đã tấn công vào<line>
+thành Velzeria khi Vương tử bóng<line>
+tối Böser không còn.<pause><page>
+Đánh bại tướng quân Vargas thuộc<line>
+binh đoàn Hỏa long và nữ tướng<line>
+Imelda thuộc binh đoàn Băng long,<line>
+<char> liền tiến về Velzeria.<pause><page>
+Nhưng trước mặt họ là đội trưởng<line>
+Leon chỉ huy Thanh long kỵ sỹ đội<line>
+bảo vệ trước cổng thành.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「皇帝ベルンハルト」{wait}{clsr}
+//　城門の守護をしていたレオンを
+//倒し、ついにヴェルゼリア城へ
+//侵入した{char_name}は一路、
+//最上階の王の間を目指す。{wait}{clsr}
+//　その玉座では、まるで自分の城の
+//ように落ちついた様子を見せる帝王
+//ベルンハルトが、帝国の未来を
+//かけて待ちかまえていた。{wait}{clsr}
+//　その面もちには、自らの始めた
+//戦争に対する後悔の念は、みじんも
+//見られなかった。{wait}{clsr}
+//×勝利条件
+//　・ベルンハルトの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}61
+<line>           Hoàng đế Bernhalt<pause><page>
+Sau khi đánh bại Leon trấn cổng<line>
+thành,cuối cùng nhóm <char> cũng<line>
+xâm nhập vào thành Velzeria,tiến<line>
+đến bên ngai vàng ở tầng trên cùng.<pause><page>
+Trấn tọa trên ngai,Đế vương<line>
+Bernhalt tỏ vẻ bình tĩnh như thể<line>
+đang ở Vương thành của mình.<pause><page>
+Đế vương đánh cược cả tương lai<line>
+của Đế quốc vào trận chiến này,<line>
+khuôn mặt không tỏ chút hối tiếc<line>
+gì về cuộc chiến do mình gây ra.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đả bại Bernhalt<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+  
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「神々の遺跡」{wait}{clsr}
+//　強大な力を誇った、レイガルド
+//帝国は、帝王ベルンハルトの死に
+//よって崩壊した。{wait}{clsr}
+//　一つの敵を消し去った若き覇者、
+//{char_name}の次の目標は、
+//光輝の軍勢をほうむることである。{wait}{clsr}
+//　彼らが光の軍勢を見つけたのは
+//山間に隠された「神々の遺跡」と
+//呼ばれる場所であった。{wait}{clsr}
+//　光神ルシリスとの交信し、神界に
+//向かったジェシカを護るため、
+//残ったシェリー達は遺跡の機能を
+//止めようとしていたのだ。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//　・遺跡を再起動させる{wait}{clsr}
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}62
+<line>        Di tích của các vị thần<pause><page>
+Cái chết của Đế vương Bernhalt<line>
+khiến cho Đế quốc Leigald hùng<line>
+mạnh sụp đổ.<pause><page>
+Mục tiêu tiếp theo của bá giả trẻ<line>
+tuổi <char> là tiêu diệt thế<line>
+lực của các hậu duệ ánh sáng.<pause><page>
+Họ tìm thấy quân ánh sáng ở nơi<line>
+được gọi là "di tích của các vị<line>
+thần",nằm khuất sau những<line>
+rặng núi.<pause><page>
+Jessica đã liên lạc với nữ thần<line>
+ánh Sáng Lushiris rồi hướng lên<line>
+Thiên giới.<pause><page>
+Đám tàn quân Cherie đang cố ngăn<line>
+không để chức năng của khu di tích<line>
+hoạt động hòng bảo vệ Jessica.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<line>
+  - Tái khởi động di tích<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「ネオ・グロリア」{wait}{clsr}
+<line>                Neo Gloria<pause><page>
+//　光の神ルシリスのいる神界。
+//　そこは気高くも異質な空間で
+//あった。{wait}{clsr}
+Thiên giới,nơi cư ngụ của Nữ<line>
+thần ánh sáng Lushiris.Đó là vùng<line>
+không gian cao sang kỳ lạ.<pause><page>
+//　ジェシカはラングリッサーに宿る
+//光の力を封じてもらうために、
+//ルシリスの元を訪れたのである。{wait}{clsr}
+Jessica tìm đến bên Lushiris là để<line>
+phong ấn sức mạnh ẩn chứa bên<line>
+trong Langrisser.<pause><page>
+
+//　ラングリッサーが力を無くす前に
+//追いついた{char_name}は、
+//光の女神ルシリスと対面する。{wait}{clsr}
+Nhóm <char> quyết đuổi theo<line>
+trước khi Langrisser mất đi sức<line>
+mạnh,và cuối cùng cũng đối diện<line>
+với Nữ thần ánh sáng Lushiris.<pause><page>
+
+//　ラングリッサーをめぐる争いは
+//人の世から、ついには神の領域に
+//まで広がったのだ。{wait}{clsr}
+Cuộc chiến xoay quanh Langrisser<line>
+bắt đầu từ cõi trần gian,cuối cùng<line>
+đã lan rộng đến trú xứ của các<line>
+vị thần.<pause><page>
+
+//×勝利条件
+//　・ルシリスの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}63
+<kake>Điều kiện thắng lợi:<line>
+  - Đánh bại Lushiris<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+//
+//　
+//ＳＣＥＮＡＲＩＯー？１
+//「筋肉の神殿」{wait}{clsr}
+//　ダークロッドの置かれていた
+//はいきょの神殿内に隠し通路を
+//発見した{char_name}は、
+//内部の探索を試みることにした。{wait}{clsr}
+//　あやしげな像に囲まれて、己の
+//肉体を誇示するかのように全身に
+//ワセリンをぬりたくった男達が
+//彼らを待ち受けていたのである。{wait}{clsr}
+//×勝利条件
+//・敵の全滅
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}64
+<line>            Thần điện cơ bắp<pause><page>
+Lại nói về nhóm <char><line>
+quyết định kiểm tra lối đi ẩn<line>
+bên trong thần điện đổ nát,<line>
+nơi an trí Dark Rod.<pause><page>
+Bên trong có những bức tượng<line>
+lạ lùng bao quanh.<pause><page>
+Nơi đó còn có các nam<line>
+nhân bôi Vaseline toàn thân như<line>
+thể phô trương cơ bắp,đang<line>
+chờ đón họ.<pause><page>
+Muốn biết những nam nhân này<line>
+là kỳ nhân phương nào,cứ chơi<line>
+hết màn này sẽ rõ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Tiêu diệt hết địch<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+//　
+//ＳＣＥＮＡＲＩＯー？２
+//「クイズでゴー！」{wait}{clsr}
+//　ラングリッサーを求め移動する
+//光の末裔達だが、つり橋の側で
+//隠された入り口を発見したので、
+//内部を探索することになった。{wait}{clsr}
+//　その中には、スタッフたちが
+//兵士とクイズを備えて
+//待ち受けていたのである。{wait}{clsr}
+//×勝利条件
+//　・ウッキーの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}65
+<line>              Hỏi sái đáp sai<pause><page>
+Các hậu duệ của ánh sáng vượt<line>
+qua cây cầu treo để đi tìm tung<line>
+tích Thánh kiếm Langrisser.<pause><page>
+Họ phát hiện một cửa vào ẩn bên<line>
+cây cầu và quyết định kiểm tra<line>
+bên trong.<pause><page>
+Sâu trong đó là các nhân viên<line>
+của hãng Masaya cùng dàn binh sỹ<line>
+hùng hậu đang soạn sẵn câu hỏi<line>
+chào đón họ.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Kích phá Wicky<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+//　
+//ＳＣＥＮＡＲＩＯー？３
+//　　「どこかで見た連中」{wait}{clsr}
+//　ラングリッサーを求め移動する
+//帝国軍達だが、つり橋の側で
+//隠された入り口を発見したので、
+//内部を探索することになった。{wait}{clsr}
+//　その中には、どこかで見たことが
+//ある魔女が、熱い連中に護られて
+//一行を待ち受けていたのである。{wait}{clsr}
+//×勝利条件
+//　・魔女の撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}66
+//{end}67
+<line>        Bọn này trông quen quá<pause><page>
+Binh đoàn Đế quốc trên đường truy<line>
+tìm Langrisser thì phát hiện một<line>
+cửa vào ẩn bên cạnh cầu treo và<line>
+quyết định kiểm tra bên trong.<pause><page>
+Trong đó,một ma nữ trông mặt quen<line>
+thuộc,được một bầy sinh vật nóng<line>
+bỏng bảo vệ đang bố trận đợi sẵn.<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Kích phá ma nữ<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+//{end}68
+<end>
+//{end}69
+<end>
+//{end}70
+<end>
+//{end}71
+<end>
+//　
+//ＳＣＥＮＡＲＩＯー{num}
+//「はるか、伝説へ」{wait}{clsr}
+//　その城は静かにそびえていた。
+//だがそこから放たれる邪悪な波動は
+//見る者に不快な感覚を呼び覚ます。{wait}{clsr}
+//　まるでそれ事態が生きているかの
+//ようなヴェルゼリア城の内部は、
+//外部からの光は全く射し込まず、
+//そこかしこに闇がわだかまる。{wait}{clsr}
+//そして城の最上階の王の間には、
+//闇の王子ボーゼルが、最後の
+//切りふだを握って待ち受けていた。{wait}{clsr}
+//　人間と魔族の最後の戦いが、
+//今、始まろうとしていた‥‥。{wait}{clsr}
+//×勝利条件
+//　・ボーゼルの撃破
+//×敗北条件
+//　・{char_name}の死亡{wait}{clsr}
+//{end}72
+<line>          Truyền thuyết xa xăm<pause><page>
+Tòa thành tĩnh lặng,cao vút nhưng<line>
+lại toát ra bầu không khí tà ác<line>
+gây ra cảm giác khó chịu cho kẻ<line>
+trông thấy.<pause><page>
+Bên trong thành là nơi bóng tối chi<line>
+phối,không một tia ánh sáng nào từ<line>
+bên ngoài có thể lọt vào được.<pause><page>
+Vương tử Böser nắm trong tay con<line>
+chủ bài cuối cùng,đang đợi sẵn ở<line>
+tầng trên cùng của Ma thành<line>
+Velzeria.<pause><page>
+Giờ đây,trận chiến cuối cùng giữa<line>
+con người với Ma tộc đang chuẩn<line>
+bị bắt đầu...<pause><page>
+<kake>Điều kiện thắng lợi:<line>
+  - Đánh bại Böser<pause><page>
+<kake>Điều kiện thất bại:<line>
+  - <char> tử trận<pause><page><end>
+
+#WRITE(Ptr, $12000C)
+//×勝利条件{end}
+<kake>Điều kiện thắng lợi:<end>
+//×敗北条件{end}
+<kake>Điều kiện thất bại:<end>
+//　・{char_name}の死亡{end}
+  - <char> tử trận<end>
+//　・バルドーの撃破{end}
+  - Đánh bại Baldo<end>
+<end>
+//
+<end>
+//
+//　・バルドーがマップ下へ逃亡{end}
+  - Baldo chạy thoát khỏi Map<end>
+<end>
+//
+//　・リアナが画面上方へ移動{end}
+  - Riana di chuyển lên phía Bắc<end>
+//・敵の全滅{end}
+  - Tiêu diệt hết địch<end>
+<end>
+//
+//　・リアナの死亡{end}
+  - Riana tử trận<end>
+<end>
+//
+//・敵の全滅{end}
+  - Tiêu diệt hết địch<end>
+<end>
+//
+<end>
+//
+//　・司祭・神官の全滅{end}
+  - Tăng binh bị tiêu diệt hết<end>
+//　・リアナの死亡{end}
+  - Riana tử trận<end>
+//・敵の全滅{end}
+  - Tiêu diệt hết địch<end>
+<end>
+//
+<end>
+//
+//　・ＮＰＣの全滅{end}
+  - NPC bị tiêu diệt hết<end>
+<end>
+//
+//　・カミラの撃破{end}
+  - Đánh bại Camilla<end>
+<end>
+//
+<end>
+//
+//　・ジェシカの死亡{end}
+  - Jessica tử trận<end>
+<end>
+//
+//・敵の全滅{end}
+  - Tiêu diệt hết địch<end>
+//　・ダークロッドを取る{end}
+  - Lấy được Dark Rod<end>
+<end>
+//
+<end>
+//
+<end>
+//
+//・敵の全滅{end}
+  - Tiêu diệt hết địch<end>
+<end>
+//
+<end>
+//
+//　・村人の全滅{end}
+  - Người làng bị tiêu diệt hết<end>
+<end>
+//
+//　・１８ターン以内に{end}
+  - Đánh bại Kramer<end>
+//　　クレイマーを撃破{end}
+    trong vòng 18 lượt<end>
+<end>
+//
+//・ターンオーバー{end}
+  - Hết lượt<end>
+<end>
+//
+//　・イメルダの撃破{end}
+  - Đánh bại Imelda<end>
+<end>
+//
+<end>
+//
+//　・村人の全滅{end}
+  - Dân làng tuyệt diệt<end>
+<end>
+//
+//　・バルガスの撃破{end}
+  - Đánh bại Vargas<end>
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//・敵の全滅{end}
+  - Tiêu diệt hết địch<end>
+//　・ラングリッサーの入手{end}
+  - Lấy được Langrisser<end>
+<end>
+//
+//　・レオンがラングリッサーに{end}
+  - Leon đến được chỗ<end>
+//　　到達する{end}
+    Langrisser<end>
+//　・レオンの撃破{end}
+  - Đả bại Leon<end>
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・ベルンハルトまたは{end}
+  - Đánh bại Bernhardt<end>
+//　　ボーゼルの撃破{end}
+   hoặc Böser<end>
+<end>
+//
+<end>
+//
+<end>
+//
+//　・２３ターン以内に{end}
+  - Đánh bại Imelda<end>
+//　　イメルダの撃破{end}
+   trong vòng 23 lượt<end>
+<end>
+//
+//・ターンオーバー{end}
+  - Hết lượt<end>
+<end>
+//
+//　・１８ターン以内に{end}
+  - Tiêu diệt hết địch<end>
+//　　敵を全滅{end}
+   trong vòng 18 lượt<end>
+<end>
+//
+//・ターンオーバー{end}
+  - Hết lượt<end>
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+//　・ロッドを奪った敵が、{end}
+  - Địch cướp mất Rod<end>
+//　　マップ下方へ脱出{end}
+    và thoát khỏi Map<end>
+  - Đánh bại Sonya<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Bernhalt<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Sonya<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Bernhalt<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・エスト、オスト、{end}
+  - Đánh bại Esto,Osto<end>
+//　　バンパイアロードを撃破{end}
+    và Vampire Lord<end>
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Imelda<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・１６ターン以内に{end}
+  - Tiêu diệt hết địch<end>
+//　　敵の全滅{end}
+    trong vòng 16 lượt<end>
+<end>
+//
+  - Hết lượt<end>
+//
+<end>
+//
+  - Đánh bại Imelda<end>
+//
+<end>
+//
+<end>
+//
+  - Người làng bị tiêu diệt hết<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+  - Jessica tử trận<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+//　・ロッドを奪った敵が{end}
+  - Địch cướp mất Rod<end>
+//　　マップ下方へ脱出{end}
+    và thoát khỏi Map<end>
+  - Đánh bại Sonya<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・ロッド入手者が{end}
+  - Người lấy được Rod<end>
+//　　マップ下方へ到達{end}
+    thoát khỏi Map<end>
+  - Tiêu diệt hết địch<end>
+//
+//　・ロッドを奪った敵が{end}
+  - Bị địch cướp mất Rod<end>
+//　　マップ下方へ脱出{end}
+    và thoát khỏi Map<end>
+  - Đánh bại Sonya<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Bernhalt<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・１９ターン以内に{end}
+  - Đánh bại Lester<end>
+//　　レスターを撃破{end}
+    trong vòng 19 lượt<end>
+<end>
+//
+  - Hết lượt<end>
+//
+<end>
+//
+  - Đánh bại Cherie<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Lấy được Langrisser<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+//　・ラングリッサーを奪われる{end}
+  - Bị địch cướp Langrisser<end>
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+//　・敵のマップ上方への脱出{end}
+  - Thoát lên phía Bắc của Map<end>
+<end>
+//
+//　・アーロンの撃破{end}
+  - Đánh bại Aaron<end>
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・リアナ以外の全滅{end}
+  - Tiêu diệt hết trừ Riana<end>
+//　・エグベルトをリアナに隣接{end}
+  - Để Egbert tiếp cận Riana<end>
+<end>
+//
+//　・リアナの死亡または脱出{end}
+  - Riana tử trận hoặc trốn thoát<end>
+<end>
+//
+  - Đánh bại Böser<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・ソニアの撃破、{end}
+  - Đánh bại hoặc<end>
+//　　または説得{end}
+    thuyết phục Sony<end>
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Böser<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Lester<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Cherie<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Jessica<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Lester<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Jessica<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・ソニアの撃破、{end}
+  - Đánh bại hoặc<end>
+//　　または説得{end}
+    thuyết phục Sony<end>
+<end>
+//
+  - Bernhalt tử trận<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Böser<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・ベルンハルトおよび{end}
+  - Đánh bại Bernhard<end>
+//　　エグベルトの撃破{end}
+    và Egbert<end>
+<end>
+//
+<end>
+//
+<end>
+//
+//　・スコットおよび{end}
+  - Đánh bại Scott<end>
+//　　ローレンの撃破{end}
+    và Laurence<end>
+<end>
+//
+//　・スコットおよびローレンの{end}
+  - Scott hoặc Laurence chạy<end>
+//　　マップ上方への脱出{end}
+    thoát khỏi Map<end>
+//　・リアナ以外の全滅{end}
+  - Tiêu diệt hết trừ Riana<end>
+//　・ソニアをリアナに{end}
+  - Để Sonya tiếp cận<end>
+//　　隣接させる{end}
+    Riana<end>
+//　・リアナの死亡、または脱出{end}
+  - Riana tử trận hoặc trốn thoát<end>
+<end>
+//
+  - Đánh bại Bernhalt<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・２０ターン以内に{end}
+  - Đánh bại Vargas<end>
+//　　バルガスを撃破{end}
+    trong vòng 20 lượt<end>
+<end>
+//
+  - Hết lượt<end>
+//
+<end>
+//
+//　・２５ターン以内に{end}
+  - Đánh bại Imelda<end>
+//　　イメルダを撃破{end}
+    trong vòng 25 lượt<end>
+<end>
+//
+  - Hết lượt<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Bernhalt<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・２０ターン以内に{end}
+  - Đánh bại Vargas<end>
+//　　バルガスおよび、{end}
+    và Imelda<end>
+//　　イメルダの撃破{end}
+    trong vòng 20 lượt<end>
+  - Hết lượt<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Bernhalt<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+//　・遺跡を再起動させる{end}
+  - Khởi động di tích<end>
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Lushiris<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Tiêu diệt hết địch<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Wicky<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Ma nữ<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Böser<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Lester<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Cherie<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Jessica<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Böser<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+  - Đánh bại Chaos<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+<end>
+//
+//　・ベルンハルトおよび{end}
+  - Đánh bại cả Bernhalt<end>
+//　　ボーゼルの撃破{end}
+    và Böser<end>
+<end>
+//
+<end>
+//
+<end>

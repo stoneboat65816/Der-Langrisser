@@ -1,0 +1,5555 @@
+#VAR(Table,TABLE)
+#ADDTBL("derlangvn.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $920000, 24)
+
+#JMP($340000)
+
+#WRITE(Ptr, $12008D)
+//‥‥‥。{end}
+......<end>
+//‥‥んむぅ。{end}
+......Hừm...<end>
+//‥‥‥まだかな。{end}
+......Vẫn chưa à.<end>
+//‥‥‥。{wait}{clsr}
+//うおおぉっ！{end}
+.........<pause><page>
+Uoooo!<end>
+
+//ハァ、ハァ、ハァ、
+//‥まだかな‥‥{end}
+Hahahaha...<line>
+...Vẫn chưa...<end>
+
+//！！{wait}{clsr}
+//‥‥‥‥お、
+//おおっ！
+//生まれたか！{end}
+!!<pause><page>
+......Oh!Trời ơi!<line>
+Sinh rồi!<end>
+
+
+//バルガス様！
+//お生まれになりました！{end}
+Thưa ngài Vargas!<line>
+Phu nhân đã khai hoa!<end>
+
+//お、おおっ！
+//エリザ！！{end}
+Ohhh!<line>
+Elize!!<end>
+
+
+//おおっ！
+//何と可愛らしい女の子だ！{wait}{clsr}
+//エリザに似て、
+//さぞかし美しい娘に
+//育つことだろう！{wait}{clsr}
+//わしはなんと幸せ者じゃ！{end}
+Ohh!<line>
+Con gái!Con gái ta dễ thương<line>
+quá chừng!<pause><page>
+Rồi con bé sẽ trưởng thành,<line>
+xinh đẹp như như nàng!<line>
+Phải không Elize?<pause><page>
+Ta đúng là kẻ hạnh phúc<line>
+xiết bao!<end>
+
+
+
+//まぁ、あなたったら！
+//ちょっとオーバーでは
+//ありませんか？{end}
+Chàng lại nói điêu rồi!<line>
+Elize nào có xinh đẹp gì đâu.<end>
+
+//
+//そんな事があるものか！
+//これでわが家も安泰だ！{end}
+Ta điêu khi nào!<line>
+Như vậy là gia đình ta được<line>
+vững bền rồi!<end>
+
+
+//おめでとうございます！
+//バルガス様！{end}
+Xin chúc mừng ngài Vargas!<end>
+
+//‥‥ごめんなさい、
+//あなた。{wait}{clsr}
+//本当は男の子が
+//欲しかったのでしょう？{end}
+...Em xin lỗi chàng.<pause><page>
+Chàng thật sự muốn có một<line>
+đứa con trai phải không?<end>
+
+//うっ‥‥うむ。{end}
+Uh...uhmm.<end>
+
+
+//だが女の子の名前も
+//考えてあったのだ！{end}
+Nhưng ta cũng đã nghĩ một cái<line>
+tên cho con gái rồi!<end>
+
+
+//まぁ、何という名前かしら？{end}
+Chàng đặt tên con là gì?<end>
+
+
+//うむ！
+//エミリアだ！{end}
+Uhm!<line>
+Là Emillia!<end>
+
+
+//エミリア‥‥。{wait}{clsr}
+//エミリア、いい名前ね。{end}
+Emillia...<pause><page>
+Emillia,tên đẹp nhỉ.<end>
+
+
+//お嬢さん、
+//あなたの名前は
+//エミリアよ。{end}
+Tiểu thư,tên cô là Emillia<line>
+đấy nhé.<end>
+
+
+//エミリア、分かるか？
+//わしがパパだぞ！{end}
+Emillia,con hiểu không?<line>
+Papa đây này!<end>
+
+
+//まぁ、
+//分かるのかしら？
+//笑ってるみたい‥‥{end}
+Chắc là tiểu thư hiểu đấy?<line>
+Trông như đang cười kìa...<end>
+
+
+//レオン様。
+//お待ちしておりました。{end}
+Ngài Leon,thuộc hạ đợi ngài.<end>
+
+
+//うむ、ご苦労であった。
+//これで我々の今回の目的は
+//達せられる。{end}
+Uhm,ngươi vất vả.<line>
+Như vậy chúng ta sẽ đạt được<line>
+mục đích lần này.<end>
+
+
+//まさか湖にしずんでいるとは
+//思わなかったな‥‥。{end}
+Không ngờ nó lại chìm dưới<line>
+đáy hồ...<end>
+
+
+//それでラングリッサーは
+//どこにあるんだい？{end}
+Vậy Langrisser ở đâu?<end>
+
+
+//中央の祭壇に
+//ささげられています。{end}
+Thánh kiếm được treo ở<line>
+tế đàn trung ương.<end>
+
+
+//じゃあ、
+//早く取っちゃおうよ。{end}
+Vậy thì mau lấy thôi.<end>
+
+//‥‥！{wait}{clsr}
+//どうやら、そう簡単には
+//いかないようだぜ！{end}
+...!<pause><page>
+Có vẻ không đơn giản<line>
+vậy đâu!<end>
+
+
+//あなた方にラングリッサーを
+//渡すわけには参りません！{end}
+Chúng tôi không thể để các vị<line>
+chiếm đoạt Langrisser được!<end>
+
+
+//チィッ！
+//邪魔が入ったか。{end}
+Tặc!<line>
+Lũ kỳ đà cản mũi xuất hiện rồi.<end>
+
+
+//レオン様、急ぎましょう。
+//ヤツらよりも先に
+//剣を手に入れなければ。{end}
+Ngài Leon,ta nên khẩn trương.<line>
+Phải lấy được Thánh kiếm trước<line>
+bọn chúng.<end>
+
+
+//うむ。{wait}{clsr}
+//魔術師エグベルトの話によると
+//あの剣を抜けるのは、
+//私と{char_name}の
+//二人だけらしい。{wait}{clsr}
+//つまり他の者は、
+//我々の援護をしてもらうように
+//作戦を立てた方が良さそうだ。{end}
+Uhm.<pause><page>
+Theo lời ma thuật sư Egbert nói<line>
+thì người nhổ được thanh kiếm<line>
+đó chỉ có hai người,là ta và<line>
+<char> mà thôi.<pause><page>
+Vậy nên hãy lập kế hoạch tác<line>
+chiến,những người khác yểm<line>
+trợ để bọn ta đoạt kiếm.<end>
+
+//
+//‥‥そうか。{wait}{clsr}
+//とにかく、急ごう！
+//ラングリッサーを
+//手に入れるんだ！{end}
+...Vậy à.<pause><page>
+Dù sao cũng phải khẩn trương!<line>
+Nhắm hướng Langrisser mà tiến!<end>
+
+//
+//困りましたね。
+//ここにシェリーさえ
+//いてくれれば‥‥{end}
+Khó quá nhỉ.<line>
+Giá như có Cherie ở đây thì...<end>
+
+
+//もうしばらく
+//お待ち下さい。{wait}{clsr}
+//市街地戦で受けた傷が
+//まだ完全に癒えては
+//いないのです。{end}
+Xin hãy đợi ít lâu.<pause><page>
+Vương nữ vẫn chưa hoàn toàn<line>
+hồi phục thương thế sau trận<line>
+đánh trong phố.<end>
+
+
+//分かりました。
+//シェリーが来るまで、
+//最善をつくしましょう。{end}
+Tôi hiểu rồi.<line>
+Hãy cố hết sức cho tới khi<line>
+Cherie xuất hiện.<end>
+//
+//‥‥レオン。
+//お前も俺と同じ、
+//光輝の末裔だったのか。{end}
+...Leon.<line>
+Hóa ra ngươi cũng là hậu duệ<line>
+ánh sáng như ta à.<end>
+
+
+//少なくともエグベルトは
+//そう言っていたな。{wait}{clsr}
+//どうやらこの剣が証らしい。
+//これは数百年前、
+//先祖が東方の兵士から
+//もらった物だと言われている。{end}
+Chí ít thì Egbert cũng từng<line>
+nói như vậy.<pause><page>
+Hình như thanh kiếm này là<line>
+vật chứng.Nghe đâu tổ tiên ta<line>
+nhận được nó từ một binh sỹ<line>
+phương Đông.<end>
+
+
+//なるほど、確かに
+//独特の形をした剣だな。{end}
+Hóa ra là vậy.<line>
+Thanh kiếm có hình dạng kỳ lạ<line>
+quá nhỉ.<end>
+//
+//カタナと呼ばれる
+//物だそうだ。{wait}{clsr}
+//おそらくこの大陸には、
+//これほどの斬れ味を持った剣は
+//存在しないだろう。{end}
+Nó được gọi là Katana.<pause><page>
+Có lẽ không có thanh kiếm nào<line>
+ở đại lục này sắc bén bằng nó.<end>
+
+
+//そうか。
+//ならば二人のうちのどちらかが
+//祭壇へ向かえばいいんだな。{end}
+Vậy à.Một trong hai người<line>
+chúng ta cứ nhắm hướng tế đàn<line>
+mà tiến thôi.<end>
+
+
+//ザコはひきうけるぜ。
+//お前らは剣の事だけを考えな。{end}
+Đám tạp nhạp để ta lo.<line>
+Các ngươi nên chuyên tâm vào<line>
+thanh kiếm kia đi.<end>
+
+//我々が皇帝陛下に
+//あの聖剣を渡すことにより、
+//この戦乱の世は終わる。{wait}{clsr}
+//大陸は統一され、
+//平和な時代がやってくるのだ。{end}
+Chúng ta sẽ dâng thanh kiếm đó<line>
+cho Hoàng đế Bệ hạ,lúc đó<line>
+chiến loạn sẽ chấm dứt.<pause><page>
+Khi đại lục được thống nhất<line>
+thì thời đại hòa bình sẽ đến<line>
+thôi.<end>
+
+
+//姫ッ！
+//お待ちしておりました！{end}
+Vương nữ!<line>
+Chúng tôi đợi người từ lâu!<end>
+
+
+//！？
+//ラングリッサーは？{end}
+!?<line>
+Langrisser sao rồi?<end>
+
+
+//まだ帝国軍も
+//手に入れてはいません。{wait}{clsr}
+//あなたの機動力を活かせば
+//間に合うかもしれません。{wait}{clsr}
+//私はここで援護します。
+//あなたは真っ直ぐ祭壇へ、
+//‥‥ラングリッサーを
+//取りに行って下さい！{end}
+Vẫn chưa lọt vào tay quân<line>
+Đế quốc.<pause><page>
+Nếu vận dụng tính cơ động của<line>
+cô thì có lẽ vẫn còn kịp.<pause><page>
+Tôi sẽ yểm trợ tại đây.<line>
+Còn cô hãy tiến thẳng về tế<line>
+đàn mà giành lấy Langrisser!<end>
+
+
+//分かりました！{end}
+Hiểu rồi!<end>
+
+
+//まだ帝国軍も
+//手に入れてはいないようね。{wait}{clsr}
+//まだ間に合うわ。
+//みんな祭壇まで援護して！
+//ラングリッサーを帝国に
+//渡してはいけないわ！{end}
+Có vẻ như Thánh kiếm vẫn<line>
+chưa lọt vào tay Đế quốc.<pause><page>
+Vẫn còn kịp!Mọi người hãy hỗ<line>
+trợ để tôi tới tế đàn!<line>
+Quyết không để Langrisser<line>
+lọt vào tay Đế quốc!<end>
+
+
+//承知しました！{end}
+Thuộc hạ rõ!<end>
+
+//ドラゴンナイトが
+//現れたか‥‥。{wait}{clsr}
+Đội Long kỵ sỹ đã xuất hiện<line>
+rồi sao...<pause><page>
+
+//急ぐぞ、{char_name}。
+//ヤツらにラングリッサーを
+//くれてやるわけにはいかぬ！{end}
+Nhanh lên,<char>.<line>
+Chúng ta không thể để<line>
+Langrisser lọt vào tay chúng!<end>
+//分かっている。{end}
+Ta biết rồi.<end>
+//シェリーが現れたか‥‥。
+//急いだ方が良さそうだな。{end}
+Cherie xuất hiện rồi sao...<line>
+Phải khẩn trương mới được.<end>
+
+//ここでの勝利を、
+//娘とエリザへの祝いに
+//するつもりだ！{wait}{clsr}
+//久しぶりに暴れさせて
+//もらうぞ！{end}
+Ta sẽ giành chiến thắng này để<line>
+làm quà chúc mừng Elize và<line>
+con gái ta!<pause><page>
+Lâu lắm rồi mới được quậy<line>
+tưng bừng!<end>
+
+//バルガスが仲間になった！{end}
+Vargas gia nhập đồng minh!<end>
+
+//ジェシカ殿！
+//あの聖剣は光輝の末裔しか
+//抜けないと聞いています。{wait}{clsr}
+//ならばラングリッサーを
+//抜くよりも先に、
+//全力で{char_name}を
+//倒しましょう。{wait}{clsr}
+//そうすればいつでも
+//ラングリッサーを抜くことが
+//できます。{end}
+Thưa bà Jessica!<line>
+Nghe nói chỉ có hậu duệ ánh<line>
+sáng mới rút được Thánh kiếm.<pause><page>
+Nếu vậy thì ta nên tập trung<line>
+tiêu diệt <char> chứ<line>
+không cần phải tranh đua giành<line>
+lấy Langrisser.<pause><page>
+Sau đó thì cứ thong thả mà<line>
+rút Thánh kiếm khỏi tế đàn.<end>
+
+
+//‥‥いえ。{wait}{clsr}
+//私のきおくに間違いがなければ
+//あのレオンという男も、
+//ラングリッサーを抜くことが
+//できるでしょう。{end}
+......Không đâu.<pause><page>
+Nếu ký ức của tôi không nhầm<line>
+lẫn thì cái gã tên Leon kia<line>
+cũng có thể nhổ được<line>
+Langrisser.<end>
+
+//‥‥まさか、
+//彼が光輝の末裔だと？{end}
+...Lẽ nào hắn cũng là một<line>
+hậu duệ ánh sáng?<end>
+
+//彼の持っている異国の剣が
+//もし本物ならば、
+//彼も光輝の末裔の一人です。{end}
+Nếu thanh kiếm ngoại lai mà<line>
+hắn đang mang là đồ thật thì<line>
+hắn cũng là hậu duệ ánh sáng.<end>
+
+//ならば彼らよりも早く
+//ラングリッサーを抜くしか
+//ないという事ですな。{end}
+Nếu vậy thì chỉ còn cách rút<line>
+Langrisser trước bọn chúng<line>
+thôi nhỉ.<end>
+
+//その通りです。{wait}{clsr}
+//私が中央の祭壇へ
+//向かいましょう。
+//みんなは援護して下さい。{end}
+Đúng vậy.<pause><page>
+Tôi sẽ tiến thẳng về tế đàn.<line>
+Mọi người hãy yểm trợ.<end>
+//ハッ！{end}
+Rõ!<end>
+
+
+//気をつけろ！
+//キースの飛行部隊が来るぞ！{end}
+Hãy cẩn thận!<line>
+Đội phi binh của tên Keith<line>
+đang đến đấy!<end>
+
+//迎撃に時間を
+//かけてはまずい。{wait}{clsr}
+//シェリーという娘が
+//現れるまでに、
+//少しでも前に進むのだ。{end}
+Đừng mất thời gian nghênh<line>
+chiến!<pause><page>
+Phải nhanh chóng tiến lên<line>
+trước khi con bé Cherie xuất<line>
+hiện.<end>
+
+//みんな援護するんだ！
+//祭壇への進軍ルートを
+//確保しないとまずい！{wait}{clsr}
+//飛兵に進軍を邪魔されると、
+//シェリーにラングリッサーを
+//奪われてしまうぞ。{end}
+Mọi người hãy yểm trợ!<line>
+Cần phải bảo đảm đường tiến<line>
+quân đến tế đàn!<pause><page>
+Nếu ta để đám phi binh cản<line>
+đường tiến thì con bé Cherie<line>
+sẽ chiếm Langrisser mất.<end>
+
+//‥‥？
+//何だ、この剣は？{wait}{clsr}
+//まあ、良い。
+//とりあえずもらっておこう。{end}
+...?<line>
+Thanh kiếm gì thế này?<pause><page>
+Thấy cũng lạ,mà thôi cũng kệ.<line>
+Cứ cầm lấy vậy.<end>
+//メサイヤンソードを
+//手に入れた！{end}
+Nhận được thanh kiếm<line>
+Masaya!<end>
+
+//ふっ‥‥。
+//これがラングリッサーか。{end}
+Hừm...<line>
+Đây là Langrisser sao.<end>
+
+//！？
+//やはり、あなたも！{wait}{clsr}
+//あなたの持っている
+//その二振りの異国の刀が、
+//まさか本物だったとは‥‥{end}
+!?<line>
+Hóa ra ngươi cũng là!<pause><page>
+Nếu như hai thanh kiếm ngoại<line>
+lai của ngươi là đồ thật thì...<end>
+
+//黒竜魔導師団である
+//エグベルトが言っていたな。{wait}{clsr}
+//この剣を抜けるものは、
+//光輝の末裔だけだと‥‥{wait}{clsr}
+//そしてこの異国の刀を
+//代々受け継いできた私は
+//その資格があるとな。{end}
+Đội trưởng binh đoàn ma đạo<line>
+sư Hắc long từng nói như vầy.<pause><page>
+Chỉ có những hậu duệ của ánh<line>
+sáng mới rút được thanh kiếm<line>
+này ra khỏi bệ...<pause><page>
+Và ta là người thừa hưởng thanh<line>
+kiếm ngoại lai này đời đời lưu<line>
+truyền trong dòng họ,ta có tư<line>
+cách rút Thánh kiếm.<end>
+
+
+//やったな、レオン。
+//これで帝国の大陸統一の日は
+//目前だ。{wait}{clsr}
+//ついに争いの無い世界を
+//築く時が来たのだな‥‥{end}
+Hay lắm,Leon.<line>
+Vậy là cái ngày Đế quốc thống<line>
+nhất đại lục sắp đến rồi.<pause><page>
+Cuối cùng đã đến lúc xây dựng<line>
+một thế giới hòa bình không<line>
+có tranh chấp...<end>
+
+//これで帝国の大陸統一の日は
+//目前だ。{wait}{clsr}
+//ついに争いの無い世界を
+//築く時が来たのだな‥‥{end}
+Vậy là cái ngày Đế quốc thống<line>
+nhất đại lục sắp đến rồi.<pause><page>
+Cuối cùng đã đến lúc xây dựng<line>
+một thế giới hòa bình không<line>
+có tranh chấp...<end>
+
+//これが‥‥
+//これがラングリッサーか！{end}
+Đây là...<line>
+Đây là Langrisser sao!<end>
+
+//間に合わなかった‥‥{end}
+Ta đến chậm mất rồi...<end>
+
+//‥‥この剣が、
+//伝説のラングリッサーなのね！{end}
+...Thanh kiếm này là Langrisser<line>
+trong truyền thuyết đây sao!<end>
+
+//しまった！
+//シェリーに先を越されたか！{end}
+Thôi hỏng rồi!<line>
+Ta bị Cherie qua mặt rồi sao!<end>
+
+//ラングリッサー‥‥。
+//また再び手にする時が
+//きてしまったのですね‥‥。{end}
+Langrisser...<line>
+Vậy là đã đến lúc ngươi lại<line>
+về tay ta rồi nhỉ...<end>
+
+//しまった、遅かったか！
+//後少しと言うところで‥‥。{end}
+Thôi chết,muộn mất rồi!<line>
+Chỉ còn một tí nữa thôi mà...<end>
+
+//あれが伝説の秘剣、
+//ラングリッサーか‥‥！{end}
+Đó là thanh bí kiếm Langrisser<line>
+trong truyền thuyết...!<end>
+
+//聖剣ラングリッサー‥‥。
+//あの剣の力で、
+//戦乱の世を平定するのだ。{end}
+Thánh kiếm Langrisser...<line>
+Thanh kiếm đó sẽ cho ta sức<line>
+mạnh để bình định thời loạn.<end>
+
+//これがラングリッサー。
+//何のへんてつもない剣だけど
+//そんなにすごいのかな？{wait}{clsr}
+//あれ？
+//‥‥やっぱりおいらには
+//抜けないみたいだ！{end}
+Đây là Langrisser.Chỉ là một<line>
+thanh kiếm bình thường thôi<line>
+mà.Có gì đặc biệt đâu?<pause><page>
+Hả?<line>
+...Quả nhiên là tui hổng có<line>
+rút nó ra được!<end>
+
+//これがラングリッサーか。{wait}{clsr}
+//くそっ、なんだこりゃ！
+//抜けねぇぞ！{end}
+Đây là Langrisser sao.<pause><page>
+Chết tiệt,gì vậy!<line>
+Sao không rút ra được!<end>
+
+//‥‥ふん。
+//ようやく手に入れる事が
+//できそうだね。{wait}{clsr}
+//なんだい！？
+//こいつ、抜けないよ！{end}
+...Hừm.<line>
+Cuối cùng cũng lấy được<line>
+Thánh kiếm rồi.<pause><page>
+Sao vậy!?<line>
+Sao không rút nó ra được!<end>
+
+//わしの怪力を持ってすれば、
+//抜けんこともあるまい！{wait}{clsr}
+Với sức mạnh vô song của<line>
+lão phu thì lẽ nào không<line>
+rút nổi chứ!<pause><page>
+
+//ぬう！？なぜだ？
+//どうしても抜けんぞ！{end}
+Hự!?Tại sao?<line>
+Tại sao không rút được!<end>
+
+//ここまで来れば充分だろう。
+//後は敵の攻撃にまわると
+//しよう。{end}
+Đã đến được đây thì chắc là<line>
+ổn rồi.Từ giờ trở đi nên<line>
+chuyển sang tấn công địch.<end>
+
+//板きれのうく波間に
+//いちりんの美しい花が
+//さいている。{wait}{clsr}
+//どうしますか？{end}
+Có một cánh hoa tươi đẹp<line>
+đang nở trên miếng ván<line>
+dập dềnh trên sóng nước.<pause><page><line>
+Làm gì với nó đây?<end>
+
+//そのままにしておく{end}
+Cứ để mặc nó<end>
+
+//花を取ってみる{end}
+Thử nhặt cánh hoa<end>
+
+//板をどかしてみる{end}
+Thử đẩy miếng ván ra<end>
+
+//板は花をまき込んで
+//しずんでしまった{end}
+Miếng ván chìm xuống nước,<line>
+cuốn theo cả cánh hoa<end>
+
+//花はあっという間に
+//しおれてしまった‥‥。{end}
+Trong nháy mắt,cánh hoa<line>
+bổng héo úa...<end>
+
+//花の中から、
+//花の精があらわれた。{wait}{clsr}
+//花の精はニッコリとほほえみ
+//おじぎをすると、
+//再び花の中に姿を消した。{wait}{clsr}
+//ＡＴが３ポイント上昇した！{end}
+Một tinh linh hoa xuất hiện<line>
+từ trong cánh hoa.<pause><page><line>
+Tinh linh hoa cúi chào và mỉm<line>
+cười rồi lại biến mất vào<line>
+trong cánh hoa.<pause><page><line>
+Đã gia tăng 3 điểm AT!<end>
+
+//どけ！
+//邪魔をするな！{end}
+Tránh ra!<line>
+Chớ có cản trở ta!<end>
+//バカな！？
+//ラングリッサーを
+//目前にして‥‥{end}
+Không thể nào!?<line>
+Langrisser đã ở ngay trước<line>
+mặt rồi mà...<end>
+
+//援護はおいらに任せて！
+//{char_name}たちは剣を
+//取るんだ！{end}
+Cứ để tụi tui viện trợ phía<line>
+sau!<char> và Leon<line>
+lo lấy thanh kiếm đi!<end>
+
+//おいらだって
+//戦えるんだぞ！{end}
+Tui cũng biết chiến đấu đó!<end>
+//うわっ！
+//しまった！{end}
+Uwwa!<line>
+Thôi chết rồi!<end>
+
+//バカなヤツだな。
+//命は一つしかねぇんだぜ！{end}
+Đồ điên khùng.<line>
+Đời người ai cũng chỉ có<line>
+một mạng thôi đấy nhé!<end>
+
+//くそったれがっ！
+//後は任せたぜ！{end}
+Mẹ kiếp!<line>
+Thôi đành phó thác cho<line>
+những kẻ ở lại vậy!<end>
+
+//我らが理想のため、
+//ラングリッサーはいただく！{end}
+Nhân danh lý tưởng của bọn ta,<line>
+hãy để Langrisser cho ta!<end>
+
+//ラングリッサーを
+//手に入れるまで、
+//倒れるわけにはいかぬのだ！{end}
+Ta không thể ngả xuống trước<line>
+khi lấy được Langrisser!<end>
+
+//うぐっ！
+//敵ながら、見事だ‥‥。{wait}{clsr}
+//{char_name}！
+
+Hự!Giỏi lắm!<line>
+Dù ngươi là địch thủ nhưng<line>
+ta phải cất lời khen...<pause><page>
+//すまぬが、後は任せたぞ！{end}
+Xin lỗi <char>,ta rút<line>
+lui đây!<end>
+
+//氷竜兵団のイメルダ様に
+//勝てると思って？{end}
+Các ngươi tưởng sẽ thắng được<line>
+lão nương Imelda trưởng binh<line>
+đoàn Băng long này sao?<end>
+
+//なぜよ！
+//納得できない！{end}
+Tại sao!<line>
+Ta không hiểu được!<end>
+
+//今のわしには
+//怖いものなんぞ何もない！
+//行くぞ！{end}
+Bây giờ lão phu chẳng có gì<line>
+để sợ hết!Chiến nào!<end>
+
+//うぬぬ‥‥。
+//調子に乗りすぎたか！{end}
+Uhn...<line>
+Lão phu khinh suất quá chăng!<end>
+
+//レオン様！
+//私はいかがいたしましょう？{wait}{clsr}
+//攻勢に出ましょうか？
+//それとも防戦を？{end}
+Thưa ngài Leon!<line>
+Thuộc hạ phải tác chiến ra sao?<pause><page>
+Nên tấn công hay phòng chiến?<end>
+
+//その場に待機させる{end}
+Cứ đợi ở đó<end>
+//中央祭壇まで援護させる{end}
+Yểm trợ đến tế đàn<end>
+//レアードの判断に任せる{end}
+Leard tự quyết định<end>
+
+//承知しました！
+//ここで敵を防ぎ、
+//城への通路を確保します！{end}
+Thuộc hạ rõ rồi!<line>
+Thuộc hạ sẽ chặn địch tại đây<line>
+để bảo đảm đường vào thành!<end>
+
+//分かりました！
+//先行部隊として、
+//祭壇までの道を確保します！{end}
+Thuộc hạ rõ rồi!<line>
+Thuộc hạ sẽ đi tiên phong để<line>
+mở đường vào tế đàn!<end>
+
+//お任せ下さい！
+//戦況を見て、
+//臨機応変に対応します！{end}
+Xin cứ an tâm giao phó!<line>
+Thuộc hạ sẽ quan sát chiến sự<line>
+mà tùy cơ ứng biến!<end>
+
+//ぐうっ！
+//こんなところで‥‥{end}
+Hự!<line>
+Ta không thể bỏ cuộc ở đây...<end>
+
+//レアード、
+//お前は良くやった。
+//今日のところは下がれ！{end}
+Leard,hôm nay ngươi làm rất<line>
+tốt rồi.Hãy rút lui đi!<end>
+
+
+//レオン様‥‥。
+//申し訳ありません。{wait}{clsr}
+//次こそはもっとお役に
+//立てるよう、がんばります。{end}
+Ngài Leon...<line>
+Xin thứ lỗi cho thuộc hạ.<pause><page>
+Nhất định lần sau thuộc hạ sẽ<line>
+cố gắng để giúp ích cho ngài.<end>
+//
+//私一人だけに
+//なってしまいましたか‥‥。{wait}{clsr}
+//しかし、あきらめるわけには
+//いきません！{end}
+Chỉ còn lại mỗi mình ta sao...<line>
+Nhưng cũng quyết không được<line>
+bỏ cuộc!<end>
+//
+//シェリーが傷ついたからには
+//私がラングリッサーを
+//取るしかありません。{wait}{clsr}
+//みんな援護して下さい！{end}
+Cherie đang mang trọng thương<line>
+thì chỉ còn mình tôi lấy<line>
+Langrisser thôi.<pause><page>
+Mọi người hãy viện trợ cho<line>
+tôi!<end>
+
+//
+//光輝の末裔でありながら、
+//ラングリッサーを護る使命を
+//放棄すると言うのですか！{end}
+Ngươi là hậu duệ ánh sáng,vậy<line>
+mà nay từ bỏ sứ mệnh bảo vệ<line>
+Langrisser hay sao!<end>
+
+
+//俺はそんな使命を
+//受けた覚えはない！{wait}{clsr}
+//だがラングリッサーがあれば、
+//この大陸中に起こっている
+//戦火を消し去ることができる！
+//だからあの剣が必要なんだ！{end}
+Ta chẳng biết là mình có cái<line>
+sứ mệnh đó bao giờ!<pause><page>
+Nhưng nếu có được Langrisser<line>
+thì ta có thể dập tắt chiến<line>
+hỏa đang lan rộng khắp đại<line>
+lục này!<pause><page>
+Vì vậy nên ta cần phải có được<line>
+thanh kiếm đó!<end>
+
+//
+//そこをどきなさい！{end}
+Tránh ra đi!<end>
+//
+//ここから先へは進ません！{end}
+Từ đây trở đi đừng hòng tiến<line>
+lên nữa nhé!<end>
+//
+//ひ、姫様。
+//申し訳ありません‥‥{end}
+Vương nữ,xin thứ lỗi...<end>
+//
+//もう充分よ、キース。
+//少しは休みなさい。{end}
+Thôi đủ rồi,Keith.<line>
+Hãy lui về dưỡng thương đi.<end>
+//
+//はい‥‥。{end}
+Vâng...<end>
+//
+//くっ‥‥ダメか‥‥。{wait}{clsr}
+//姫に申し訳が立たぬが、
+//これ以上味方の足を
+//引っ張るわけにもいかない。
+//恥を忍んで退却だ‥‥。{end}
+Tặc...Hỏng rồi sao...<pause><page>
+Tuy đắc tội với Vương nữ nhưng<line>
+ta không thể làm vướng chân<line>
+đồng đội được.Thôi đành nhẫn<line>
+nhục mà rút lui...<end>
+//
+//ガンガン、行くわよ！
+//キース、援護を頼むわ！{end}
+Xông lên nhiệt tình nào!<line>
+Keith,hãy yểm trợ ta!<end>
+//
+//はっ！
+//必ずや姫様のご期待に
+//お応えします！{end}
+Rõ!<line>
+Nhất định sẽ không phụ lòng<line>
+Vương nữ!<end>
+//
+//ラングリッサーを
+//帝国には渡さないわ！{end}
+Không thể giao Langrisser vào<line>
+tay Đế quốc được!<end>
+//
+//ジェシカ様の代わりに、
+//私がラングリッサーを
+//手にしてみせるわ！{end}
+Ta sẽ thay mặt bà Jessica<line>
+để lấy Langrisser!<end>
+//
+//シェリーにラングリッサーを
+//取られるわけにはいかない！
+//何としてでも足止めするんだ！{end}
+Không được để Cherie lấy mất<line>
+Langrisser!Phải tìm cách chặn<line>
+chân cô ta bằng mọi giá!<end>
+//
+//出遅れた分は
+//この機動力で取り戻すわ！{end}
+Ta sẽ bù phần đến muộn bằng<line>
+sức cơ động của phi binh!<end>
+
+
+//これ以上、帝国の好きには
+//させないわ！
+//{char_name}、覚悟！{end}
+Không thể để Đế quốc lộng hành<line>
+thêm nữa!<char>,<line>
+chịu chết đi!<end>
+
+
+//俺は己の信じた夢を
+//最後までつらぬき通す！{wait}{clsr}
+//そのためなら、
+//たとえシェリーが相手でも、
+//剣を向けることができる！{end}
+Ta sẽ đi đến tận cùng con<line>
+đường mà bản thân tin tưởng<line>
+chọn lựa!<pause><page>
+Vì lý tưởng này,dù có phải đối<line>
+đầu với Cherie đi nữa thì ta<line>
+cũng không nương tay đâu!<end>
+//
+//私の剣がかわせるかしら？{end}
+Có tránh được đường kiếm<line>
+của bổn cô nương không?<end>
+
+
+//きゃっ！
+//前の戦いでの傷がまだ‥‥{end}
+Kya~!<line>
+Vết thương trước đây<line>
+vẫn chưa...<end>
+
+
+//シェリー！
+//無理をせずに下がりなさい。
+//後は私が何とかしてみます。{end}
+Cherie!Đừng cố quá sức!<line>
+Rút lui đi.Mọi việc sau này cứ<line>
+để tôi lo.<end>
+
+
+//すみません、ジェシカ様‥‥{end}
+Xin lỗi bà Jessica...<end>
+
+
+//みんなやられちゃうなんて、
+//さすが、{char_name}は
+//強いわね‥‥。{wait}{clsr}
+//でも次はそうはいかないわ。
+//すぐに兵力を立て直して、
+//あなたたちの野望を
+//打ち砕いてみせるわ！{end}
+Mọi người bị hại hết rồi,quả<line>
+nhiên là <char><line>
+lợi hại thật...<pause><page>
+Nhưng lần sau thì đừng hòng.<line>
+Nhất định ta sẽ gây dựng lại<line>
+binh lực mà đập tan dã tâm<line>
+của ngươi!<end>
+//
+//ジェシカ様だけでなく、
+//私までいなくなったら‥‥{end}
+Không chỉ Jessica mà cả<line>
+ta cũng...<end>
+//
+//姫様！
+//無理をなさらないで
+//お下がり下さい！{wait}{clsr}
+//我々が帝国のヤツらを
+//全滅させれば、
+//ラングリッサーは護られます！
+//ですから、なにとぞ！{end}
+Vương nữ!<line>
+Đừng gắng gượng,hãy lui<line>
+đi cho!<pause><page>
+Chúng tôi sẽ tiêu diệt hết bọn<line>
+Đế quốc,bảo vệ Langrisser!!<line>
+Xin người hãy rút lui!<end>
+
+//
+//ごめん‥‥。
+//お願いね‥‥‥。{end}
+Xin lỗi...<line>
+Đành nhờ mọi người...<end>
+//
+//ジェシカ様だけでなく、
+//私までいなくなったら‥‥{wait}{clsr}
+//でもこれ以上は戦えないわ。
+//みんな、お願い。
+//帝国軍を全滅させてね‥‥{end}
+Không chỉ Jessica,mà đến cả<line>
+ta cũng thảm bại...<pause><page>
+Không thể chiến đấu được nữa<line>
+rồi.Mọi người ơi,hãy tiêu diệt<line>
+hết quân Đế quốc nhé...<end>
+//
+//我が力、
+//とくと味わうがいい！{end}
+Hãy nếm mùi sức mạnh của ta!<end>
+
+//む、無念‥‥{end}
+Chết thật...<end>
+//
+//帝国軍などに
+//負けはせん！{end}
+Ta không thua<line>
+quân Đế quốc đâu!<end>
+
+//つ、強い‥‥{end}
+Mạnh quá...<end>
+//
+//我が魔力、
+//あまく見るでないぞ‥‥{end}
+Đừng có khinh nhờn ma lực<line>
+của ta kẻo hối không kịp...<end>
+//
+//ここまでか‥‥{end}
+Em ơi có bao nhiêu...<line>
+Mấy mươi năm cuộc đời...<end>
+//
+//剣は取らせん！
+//それ以上前に進むなら、
+//死を覚悟することだな！{end}
+Đừng hòng động tới thanh kiếm!<line>
+Nếu muốn tiến lên nữa thì cứ<line>
+chuẩn bị chết đi!<end>
+
+//
+//ぐふっ！{end}
+Gwuh!Don Piano!<end>
+//
+//もはや、これまで‥‥{end}
+Trời ơi,lẽ nào...<line>
+Oh Long Johnson!<end>
+//
+//カルザス飛兵隊の力、
+//思い知れ！{end}
+Hãy xem sức mạnh của phi binh<line>
+thành Kalxath đây!<end>
+//
+//し、死ぬ！{end}
+Chết rồi!<end>
+//
+//おのれ、帝国軍め！{end}
+Bè lũ Đế quốc phản động!<end>
+//
+//お前たちに
+//ラングリッサーは‥
+//渡さ‥ん‥‥{end}
+Không thể...để Langrisser...<line>
+lọt vào tay các ngươi...<end>
+//
+//うぬぬ‥‥。
+//ジェシカ殿と姫までが
+//やられてしまうとは‥‥。{wait}{clsr}
+//こうなっては、
+//{char_name}とレオンを
+//倒すしかない。{end}
+Hừ hừ hừ...<line>
+Jessica và Vương nữ bại trận<line>
+rồi sao...<pause><page>
+Đã thế này thì chỉ còn cách<line>
+tiêu diệt <char> và<line>
+tên Leon thôi!<end>
+
+//
+//ふっ‥‥。
+//たあいも無い。{end}
+Hừm...<line>
+Lũ thảm hại.<end>
+//
+//おのれ！
+//このわしを本気で
+//怒らせたな！{end}
+Chó chết!<line>
+Dám chọc cho lão phu<line>
+điên tiết hả!<end>
+//
+//我々をここまで追いつめるとは
+//さすが帝国軍だな。{end}
+Quân Đế quốc lợi hại thật.<line>
+Đuổi chúng ta tới cùng đường<line>
+thế này rồi.<end>
+//
+//やめなさい、シェリー！{wait}{clsr}
+//これ以上戦いを続けても
+//こちらの被害が
+//増えるだけです。
+//ここは一時、退きましょう。{end}
+Dừng lại đi Cherie!<pause><page>
+Có đánh nhau thêm nữa cũng<line>
+chỉ gây thiệt hạ cho quân ta<line>
+thôi.Chi bằng tạm thời rút<line>
+khỏi đây rồi tính tiếp.<end>
+
+
+//敵を一掃したな。
+//これで邪魔者はいなくなった。{end}
+Quét sạch quân địch rồi.<line>
+Chẳng còn kẻ nào cản trở ta<line>
+nữa.<end>
+
+
+//これで邪魔をされずに
+//祭壇へ行けるな。{end}
+Cứ thong thả mà tiến đến tế<line>
+đàn.Lũ kỳ đà tiêu cả rồi.<end>
+
+//これが‥‥
+//これがラングリッサーか！{end}
+Đây là...<line>
+Đây là Langrisser sao!<end>
+//
+//うむ。
+//これからも我々帝国のために
+//お前の力をかしてくれ。{end}
+Uhm.Từ giờ hãy mang hết sức<line>
+ngươi ra để phụng sự Đế quốc<line>
+chúng ta.<end>
+
+
+//ああ。
+//これからも平和のために
+//がんばろう！{end}
+Đúng rồi.Từ nay hãy cố gắng<line>
+vì hòa bình thế giới!<end>
+
+//そうだね！{end}
+Đúng vậy!<end>
+//
+//これで胸をはって
+//娘とエリザに会えるわ。
+//がっはっはっはっ！{end}
+Vậy là ta có thể ưỡn ngực<line>
+tự hào để gặp Elize và con<line>
+gái rồi.Gwahahaha!<end>
+//
+//思えば、
+//長い道のりだったねぇ‥‥{end}
+Nghĩ lại thì thấy chặng đường<line>
+vừa qua cũng dài đằng đẳng<line>
+ấy nhỉ...<end>
+
+//それにしても
+//少し来るのが遅れたようだな。{wait}{clsr}
+//さっそく次の戦いからは
+//暴れさせてもらうぞ！{end}
+Mà lần này lão phu đến muộn<line>
+một tí.<pause><page>
+Từ lần sau hãy để lão phu quậy<line>
+tưng bừng cho thỏa chí!<end>
+//
+//バルガスが仲間になった！{end}
+Vargas gia nhập đồng minh!<end>
+
+//
+//よし、帝都へ戻るぞ！{end}
+Nào,quay về Đế đô thôi!<end>
+
+//よし、帝都へ戻るぞ！{end}
+Nào,quay về Đế đô thôi!<end>
+//
+//私はまだやるわ！{wait}{clsr}
+//たとえラングリッサーが
+//取られたとしても、
+//まだ負けと決まったわけじゃ
+//ないわ！{end}
+Vẫn chưa xong đâu!<pause><page>
+Dù Langrisser bị cướp đi nữa<line>
+thì cũng chưa phải là chấm<line>
+hết.Quyết một phen thắng<line>
+bại nào!<end>
+
+//ガッハッハァーッ！
+//助けに来たぞ！{end}
+Gwahahahaha!<line>
+Lão phu tới cứu các ngươi đây!<end>
+
+
+//バルガス将軍！{end}
+Tướng quân Vargas!<end>
+
+
+//ふっ‥‥、
+//ご機嫌だな、バルガス。{wait}{clsr}
+//エリザ殿のそばに
+//いてやらずとも良いのか？{end}
+Hừ...<line>
+Trông ông có vẻ hứng khởi<line>
+nhỉ,Vargas.<pause><page>
+Sao không ở bên cạnh mà an<line>
+ủi phu nhân Elize?<end>
+//
+//エリザさんのそばに
+//いてやらなくても
+//大丈夫なのか？{end}
+Bỏ mặc phu nhân Elize mà<line>
+đến đây liệu có ổn không?<end>
+//
+//おぅ！
+//もう生まれたわい。
+//女の子だ。{wait}{clsr}
+//ワシに似て、たまのように
+//可愛い娘だぞ！
+//うははは！{end}
+//
+Oh!Đã hạ sinh rồi.<line>
+Một đứa con gái.<pause><page>
+Nó giống ta như đúc,dễ thương<line>
+như quả trứng non!<line>
+Uhahahaha!<end>
+
+//‥‥ゲゲッ！
+//想像しちゃったよ‥‥。{end}
+...Khặc khặc!<line>
+Mình tưởng tượng ra thứ gì<line>
+mất rồi...<pause><page>
+Quả trứng trọc lóc ahihi...<end>
+//
+//そ‥‥、そうか。
+//そ、それは良かった‥‥{end}
+Vậy...vậy à.<line>
+Vậy thì tốt rồi...<end>
+//
+//そうだな。
+//‥‥だが、大陸を統一するのは
+//お前たち帝国ではない！{wait}{clsr}
+//俺が、この俺が
+//聖剣を手に入れたんだ。{wait}{clsr}
+//何も覇者が
+//皇帝である必要は
+//どこにもないじゃないか！{end}
+Đúng rồi đó....Nhưng thống<line>
+nhất đại lục chẳng phải là<line>
+Đế quốc các ngươi đâu!<pause><page>
+Ta,chính ta mới là người có<line>
+được Thánh kiếm.<pause><page>
+Vậy thì bá chủ cõi này đâu<line>
+phải là Hoàng đế của các<line>
+ngươi!<end>
+//
+//どうした？
+//{char_name}？
+//早く剣を渡すんだ！{end}
+Sao vậy?<line>
+<char>?<line>
+Mau đưa kiếm đây!<end>
+
+//
+//無限の力は我にあり！
+//我こそが大陸の覇者となる！{end}
+Sức mạnh vô hạn đang nằm<line>
+trong tay ta!Ta đây chính là<line>
+bá chủ toàn đại lục!<end>
+
+//
+//‥‥裏切るのか、帝国を！
+//{char_name}！{end}
+...Nhà ngươi phản bội Đế quốc<line>
+sao!<char>!<end>
+//
+//裏切る？
+//それは違うな。{wait}{clsr}
+//誰かがこの大陸を
+//まとめなければならないのなら
+//それは俺がやってやる！{wait}{clsr}
+//俺にはラングリッサーがある！
+//俺がこの世界をまとめ、
+//争いをなくしてみせる！{end}
+Phản bội?<line>
+Đừng có ảo tưởng.<pause><page>
+Nếu cần ai đó để thống nhất<line>
+đại lục thì ta sẽ là người làm<line>
+chuyện đó!<pause><page>
+Trong tay ta có Langrisser!<line>
+Ta sẽ thâu tóm thế giới này,<line>
+chỉnh đốn nó thành cõi không<line>
+còn tranh chiến loạn lạc!<end>
+
+//
+//{char_name}！
+//なに言ってるのよ！
+//それでは皇帝と同じよ！{end}
+<char>!Ngươi nói<line>
+gì vậy!Như thế cũng giống điều<line>
+lão Hoàng đế suy nghĩ thôi!<end>
+
+//
+//‥‥ああ、
+//こうなることを恐れて、
+//封印したと言うのに‥‥。{end}
+...Trời ơi,ta cũng sợ sẽ thành<line>
+ra như thế này nên mới phong<line>
+ấn nó...<end>
+
+
+//何という事だ‥‥。
+//貴様がそんなことを
+//考えていたとはな！{end}
+Ngươi nói gì...<line>
+Thật không ngờ bụng ngươi<line>
+lại nghĩ như vậy!<end>
+
+
+//どうだ。
+//俺に協力してみないか？
+//そして平和な世界を造ろう。{end}
+Thế nào,có muốn hợp tác cùng<line>
+ta để xây dựng một thế giới<line>
+hòa bình không.<end>
+
+
+//断る！
+//私が望みをかけたのは、
+//皇帝陛下ただ一人だけ！{wait}{clsr}
+//せいぜい一人で
+//がんばるのだな！{end}
+Ta từ chối!<line>
+Điều duy nhất ta mong đợi là<line>
+ở một mình Hoàng đế Bệ hạ!<pause><page>
+Nhà ngươi cứ cố gắng một<line>
+mình đi!<end>
+
+//
+//ヘイン、
+//おまえは来るよな？{end}
+Hein,còn cậu thế nào?<line>
+Muốn theo ta không?<end>
+
+//
+//うっ、‥‥うん。{end}
+Uhn...uhm.<end>
+//
+//面白そうだな。
+//俺も手をかすぜ。{end}
+Thú vị nhỉ.<line>
+Ta cũng giúp ngươi một tay.<end>
+
+
+//決まったな‥‥。
+//これからは帝国軍も敵だ。{wait}{clsr}
+//俺はヤツらよりも早く
+//この世を統べてみせる！{end}
+Vậy là quyết định rồi...<line>
+Từ giờ phút này trở đi,quân<line>
+Đế quốc là kẻ thù.<pause><page>
+Nhất định ta sẽ thống nhất<line>
+toàn cõi này trước bọn chúng!<end>
+
+
+//小僧！
+//後で、ほえ面かくなよ！{end}
+//
+Tiểu tử!Liệu hồn đó!<line>
+Sau này đừng có khóc nghe!<end>
+
+//私たちも、
+//あなたには協力できません！{end}
+Chúng tôi cũng không thể hợp<line>
+tác với các người được!<end>
+//
+//これから
+//新しい時代が始まる。{wait}{clsr}
+//俺たちは、
+//その覇者となるのだ！{end}
+Từ giờ sẽ bắt đầu một thời<line>
+đại mới.<pause><page>
+Và chúng ta sẽ là bá chủ trong<line>
+thời đại đó!<end>
+//
+//ラングリッサーを
+//皇帝が持てば、
+//帝国に敵はなくなる。{wait}{clsr}
+//持つ者に無限の力を
+//与えるという秘剣‥‥。{wait}{clsr}
+//本当に帝国に渡してしまって
+//良いのだろうか？{end}
+Nếu Hoàng đế có được Thánh<line>
+kiếm Langrisser thì Đế quốc<line>
+sẽ là vô địch.<pause><page>
+Thanh bí kiếm ban cho người<line>
+sở hữu nó sức mạnh vô hạn...<pause><page>
+Liệu ta giao Thánh kiếm cho<line>
+Đế quốc có ổn không nhỉ?<end>
+//
+//剣を帝国に渡しますか？{end}
+Giao kiếm cho Đế quốc không?<end>
+//
+//‥‥そうだった。
+//大陸から戦火を絶やす事こそが
+//俺の目的だ。{wait}{clsr}
+//そのために、
+//帝国にはより強力な力、
+//ラングリッサーが必要だ！{end}
+...Đúng vậy.<line>
+Mục đích của ta là dẹp sạch<line>
+chiến loạn khỏi đại lục.<pause><page>
+Để làm được điều đó,Đế quốc<line>
+cần có sức mạnh to lớn hơn,<line>
+cần có Langrisser!<end>
+//
+//しまった！
+//遅かったか！{end}
+Thôi chết!<line>
+Chậm mất rồi!<end>
+//
+//何ということだ‥‥。
+//あと一歩と言うところで‥‥{end}
+Chuyện gì thế này...<line>
+Chỉ còn một bước nữa là đến...<end>
+//
+//ラングリッサーを
+//手に入れた！{end}
+Đã lấy được Langrisser!<end>
+//
+//いよいよ、
+//俺たちの夢がかなおうと
+//しているのだな。{wait}{clsr}
+//この戦乱の世に終止符を
+//うつという‥‥{end}
+Vậy là giấc mơ của chúng ta<line>
+sắp thành hiện thực rồi.<pause><page>
+Đã đến lúc đặt dấu chấm hết<line>
+cho thời chiến loạn này...<end>
+
+//
+//‥‥？
+//何だ、このダサい剣は？{wait}{clsr}
+//まあ、仕方ない。
+//とりあえずもらっておこう。{end}
+...?Gì đây?<line>
+Thanh kiếm tệ hại này<line>
+là sao?<pause><page>
+Thôi thì cứ cầm thử xem sao.<end>
+
+//
+//メサイヤンソードを
+//手に入れた！{end}
+Nhận được thanh<line>
+kiếm Masaya!<end>
+
+
+//良くやったぞ、
+//{char_name}！{wait}{clsr}
+//その剣さえあれば、
+//我々帝国の大陸統一は、
+//達せられたと同じだ。{end}
+Làm tốt lắm,<line>
+<char>!<pause><page>
+Chỉ cần có được thanh kiếm đó<line>
+là xem như Đế quốc chúng ta<line>
+đã thống nhất được đại lục.<end>
+
+
+//‥‥だからお前を
+//信用できなかったのだ！{wait}{clsr}
+//ゾルムを殺し、
+//おまけに平気で人を裏切る！
+//お前だけは必ず殺す！
+//おぼえておれっ！{end}
+...Bởi vậy lão phu đâu có<line>
+tin tưởng nhà ngươi!<pause><page>
+Giết hại thuộc hạ Zorm của lão<line>
+phu,giờ lại thản nhiên phản<line>
+bội người ta!<pause><page>
+Nhất định lão phu sẽ lấy cái<line>
+mạng chó nhà ngươi!<line>
+Hãy nhớ đấy!<end>
+
+
+#WRITE(Ptr, $1200E7)
+//‥‥話は分かりました。{wait}{clsr}
+//しかし、ラングリッサーを
+//封じてしまうというのは、
+//考えものだと思いますが？{end}
+...Ta hiểu sự tình rồi.<pause><page>
+Nhưng phong ấn Langrisser có<line>
+phải là điều con đã suy nghĩ<line>
+kỹ?<end>
+
+
+//ボーゼルが倒され、
+//アルハザードが人の手に
+//渡りました。{wait}{clsr}
+//そうなってしまった以上、
+//もうラングリッサーは
+//必要ない物だと思います。{wait}{clsr}
+//もともとあの聖剣は、
+//アルハザードに対抗するために
+//ジークハルトが生みだした剣。{wait}{clsr}
+//アルハザードは我々が
+//何としてでも奪って、
+//リアナ達に封じてもらいます。{end}
+Böser đã bị đánh bại,<line>
+Alhazard lọt vào tay con người<line>
+trần thế đoản mệnh.<pause><page>
+Con nghĩ,sự tình đã như thế<line>
+này thì Langrisser là vật không<line>
+còn có ích chi nữa.<pause><page>
+Vốn ban đầu Thánh kiếm được<line>
+Sieghart sản sinh ra để đối<line>
+chọi với Ma kiếm Alhazard.<pause><page>
+Bằng mọi giá,chúng ta phải<line>
+đoạt lấy Alhazard để Riana<line>
+phong tỏa sức mạnh của nó.<end>
+
+//
+//‥‥‥。{end}
+...<end>
+//
+//どうしたのです、
+//リアナ？{end}
+Sao vậy,Riana?<end>
+
+//あ、いいえ。
+//何でもありません‥‥{end}
+Ah...<pause><page>
+....Không.<line>
+Không có gì đâu.<end>
+
+//つらいのね、リアナ。
+//彼と戦う事が‥‥。{end}
+Thật đau lòng phải không<line>
+Riana.Đâu ai muốn đối đầu<line>
+với cậu ta...<end>
+
+//‥‥リアナ。
+//無理に戦う必要は
+//ないのですよ。{wait}{clsr}
+//彼らの元へ行きたいのなら、
+//止めはしませんから‥‥。{end}
+Không cần phải gượng<line>
+gạo chiến đấu đâu.<pause><page>
+Nếu muốn đến chỗ bọn họ thì<line>
+tôi cũng không cản đâu...<end>
+
+//
+//{char_name}‥‥。{wait}{clsr}
+//どうして、
+//光輝の末裔でありながら、
+//こんな事になって
+//しまったの‥‥。{end}
+<char>...<pause><page>
+Tại sao,tại sao anh ấy là hậu<line>
+duệ ánh sáng mà lại ra thế<line>
+này cơ chứ...<end>
+
+
+//ルシリス様！
+//どうして、あの人は‥‥！{end}
+Thưa Nữ thần Lushiris!<line>
+Tại sao con người đó lại...!<end>
+
+
+//‥‥光輝の末裔も、
+//その使命が終わろうと
+//しているのかも知れませんね。{wait}{clsr}
+//光輝の末裔に頼らずとも、
+//人が自らの手で闇を撃つのなら
+//それで良いのかも知れません。{wait}{clsr}
+//他人の力をあてにせず、
+//彼はまがりなりにも自分の
+//出来る事をしようと
+//しているのですから‥‥{end}
+Có lẽ sứ mệnh của các hậu duệ<line>
+ánh sáng cũng sắp đi đến hồi<line>
+kết.<pause><page>
+Con người trần thế đoản mệnh<line>
+không còn dựa vào các hậu duệ<line>
+ánh sáng mà tự tay mình đánh<line>
+tan bóng tối.<pause><page>
+Có lẽ như vậy cũng tốt.<pause><page>
+Cậu ta không dựa vào sức kẻ<line>
+khác mà đang cố gắng tự làm<line>
+những gì mình có thể làm được,<line>
+dù có sai sót...<end>
+
+//
+//ルシリス様‥‥{end}
+Nữ thần Lushiris...<end>
+//
+//‥‥私も、光の巫女としての
+//使命を最後まで
+//果たしたいと思います。{wait}{clsr}
+//でも、このままではダメです。
+//‥‥とても戦えません。
+//だから‥‥。{end}
+...Con cũng muốn hoàn thành<line>
+trọn vẹn sứ mệnh của một Vu<line>
+nữ ánh sáng.<pause><page>
+Nhưng con không thể chịu nổi<line>
+nếu cứ như thế này.Con không<line>
+thể chiến đấu.Vì vậy...<end>
+//
+//‥‥‥。{end}
+...<end>
+//
+//だから、
+//私のきおくを消して下さい！{wait}{clsr}
+//あの人の事を‥‥、
+//{char_name}の事を
+//忘れさせて下さい！{end}
+Vì vậy hãy xóa ký ức ra khỏi<line>
+đầu con!<pause><page>
+Xin người hãy giúp con quên<line>
+đi con người đó...<line>
+Quên đi <char>!<end>
+
+
+//‥‥リアナ‥‥。{end}
+...Riana...<end>
+
+
+//‥‥我がうちにやどりし
+//慈悲の心よ。{wait}{clsr}
+//この者の心にわだかまりし
+//つらききおくを癒し、
+//悲しき思いをぬぐい去らん。{wait}{clsr}
+//ラ・ピェス・メムリィ・
+//ラ・ディリト・ミンティス！{end}
+...Hỡi tâm từ bi trú ngụ bên<line>
+trong ta.<pause><page>
+Hãy lấy đi ký ức gây phiền não<line>
+trong tâm con người này.Hãy<line>
+chữa lành những ký ức<line>
+đau buồn.<pause><page>
+La Pies Memury.<line>
+La Delito Minthis!<pause><page>
+Yết đế yết đế!<line>
+Ba la tăng yết đế!<line>
+Bồ đề tát bà ha!<end>
+
+//
+//‥‥‥？
+//私、どうして、ここに‥‥{end}
+......?<line>
+Mình,sao lại ở đây...<end>
+//
+//‥‥リアナ。{end}
+...Riana.<end>
+//
+//どうやら、
+//彼がいらしたようですね。{end}
+Có vẻ như cậu ta đã tìm đến<line>
+rồi.<end>
+//
+//ここが‥‥
+//ここが神界なのか‥‥{end}
+Đây là...<line>
+Nơi này là Thần giới sao...<end>
+//
+//俺たちもよくやるよな。
+//神様の所にまで
+//乗り込んじまったんだぜ！{end}
+Chúng ta cũng giỏi nhỉ.<line>
+Rốt cuộc chui cả vào chốn<line>
+của các vị thần!<end>
+
+//
+//あれが光の女神ルシリス‥‥。{end}
+Kia là Nữ thần ánh sáng<line>
+Lushiris...<end>
+//
+//あ、リアナもいるよ！{end}
+Ah,Riana cũng có ở đó!<end>
+
+
+//遅かった‥‥。
+//もっと早く剣の力を
+//封じておけば‥‥。{end}
+Muộn rồi...<line>
+Đáng lý phải phong ấn sức mạnh<line>
+của Thánh kiếm từ sớm..<end>
+//
+//そんな事はさせない！
+//俺は大陸を統一する！
+//邪魔をさせるか！{end}
+Đừng hòng!<line>
+Ta sẽ thống nhất đại lục!<line>
+Chớ có cản trở!<end>
+//
+//ルシリス様はお下がり下さい。
+//ここは我々で、何とかします！{end}
+Nữ thần Lushiris,xin người<line>
+hãy lùi xuống.Chúng tôi sẽ<line>
+cố gắng chặn địch tại đây!<end>
+//
+//‥‥わかりました。{end}
+...Ta hiểu rồi.<end>
+//
+//全員配置について！
+//敵を迎撃します！{end}
+Tất cả vào vị trí!<line>
+Chuẩn bị nghênh kích quân<line>
+địch!<end>
+//
+//ルシリス様のところまで
+//土足でふみこむなんて！
+//絶対に許さない！{end}
+Ta quyết không tha cho cái tội<line>
+dám bước vào nơi trang nghiêm<line>
+của Nữ thần Lushiris!<end>
+//
+//ルシリス様のおひざ元で
+//好き勝手に暴れることは
+//許しません！{end}
+Dám đến chốn thanh tịnh của<line>
+Nữ thần Lushiris mà làm loạn<line>
+sao!Nghiệp nặng lắm đó!<end>
+
+//
+//‥‥やはり、
+//黙って見ているわけには
+//参りません。{end}
+...Quả nhiên,ta không thể<line>
+làm ngơ được nữa.<end>
+//
+//しかし、ルシリス様！{end}
+Nhưng,thưa Nữ thần!<end>
+//
+//良いのです。
+//彼らの力を見きわめねば
+//なりませんから。{end}
+Sẽ ổn thôi.<line>
+Ta cần phải nhìn rõ sức mạnh<line>
+của bọn họ.<end>
+//
+//我がきおくに眠りし
+//勇者の肉体よ。{wait}{clsr}
+//今一度この場によみがえり、
+//我が力となれ。
+//エイムル・エシム・アルトラル
+//ダ・レイ・ト・ジーク！{end}
+Hỡi nhục thể của vị dũng sỹ<line>
+say ngủ trong ký ức của ta.<pause><page>
+Bây giờ hãy hồi sinh nơi đây,<line>
+hãy trở thành sức mạnh của<line>
+ta.<pause><page>
+Eimur Esim Artoral.<line>
+Dalei to Sieget!<pause><page>
+Ba la tỳ ca lan đế,ba la tỳ<line>
+ca lan đa!Đề bà dạ bà ha!<end>
+
+//
+//ジーク！
+//レディ‥‥、バルディア王！{end}
+Sieg!<line>
+Ledin...<line>
+Vua xứ Baldea!<end>
+
+
+//レディンでかまわない。
+//‥‥久しぶりだね、ジェシカ。{end}
+Cứ gọi là Ledin.<line>
+Lâu rồi không gặp nhỉ Jessica...<end>
+
+
+//何百年ぶりになるのかな？
+//ジェシカ殿。
+//あいかわらず、お美しい。{end}
+Cũng đã mấy trăm năm rồi<line>
+nhỉ,cô nương Jessica?<line>
+Cô vẫn xinh đẹp như ngày nào.<end>
+
+
+//ジーク‥‥、でもあなたは
+//ラングリッサーに‥‥。{end}
+Sieg...<line>
+Nhưng ngài đã hợp nhất với<line>
+Langrisser...<end>
+
+
+//当然、二人とも本人では
+//ありません。{wait}{clsr}
+//彼らは私のきおくから再生した
+//いわば影なのです。
+//本物と変わりはありませんが。{end}
+Đương nhiên,cả hai người đều<line>
+không phải là thật.<pause><page>
+Đó chỉ là ảo ảnh tái sinh từ<line>
+trong ký ức của ta,dù cũng<line>
+không có điểm khác biệt với<line>
+người thật.<end>
+
+//
+//光の女神が現れたのか。
+//‥‥だが、負けはしない。
+//この世の覇者は、この俺だ！{end}
+Nữ thần ánh sáng xuất hiện rồi<line>
+sao...Nhưng ta không thua đâu.<line>
+Ta là bá chủ toàn cõi này!<end>
+
+//
+//{char_name}。
+//あなた方の持てる力をもって
+//全力でかかっていらっしゃい。{end}
+<char>.<line>
+Hãy mang hết sức mạnh mà các<line>
+vị có để đối đầu với ta.<end>
+//
+//リアナ、俺たちの仲間に
+//なる気はないか？
+//君さえ良ければ‥‥{end}
+Riana,không muốn trở thành<line>
+đồng minh với bọn ta sao?<line>
+Chỉ cần có nàng thì...<end>
+//
+//誰なの、あなたは？
+//どうして私のことを
+//知っているの？{end}
+Anh là ai vậy?<line>
+Tại sao lại biết tôi?<end>
+//
+//どうしたんだ？
+//俺が分からないのか？{end}
+Sao vậy?<line>
+Không nhận ra ta à?<end>
+
+//‥‥分からない。
+//でも、私たちの敵だという事は
+//分かるわ！{end}
+...Không biết.<line>
+Nhưng biết một điều rằng các<line>
+người là kẻ thù của chúng tôi!<end>
+//
+//ついに決着を
+//つけるときがきたな。
+//今、降伏しても遅くはないぞ！{end}
+Cuối cùng cũng quyết thắng<line>
+bại được rồi.Đầu hàng ngay<line>
+còn kịp!<end>
+//
+//私は古いタイプの人間です。
+//今さら降伏などできません！{end}
+Tôi là kiểu người cổ.<line>
+Sự đã đến nước này thì đâu<line>
+thể đầu hàng!<end>
+//
+//分からずやが！{end}
+Không hiểu à!<end>
+//
+//レオンは‥‥、
+//彼を殺したの？{end}
+Leo...<line>
+Anh ấy bị hại rồi sao?<end>
+//
+//そうだ。
+//自分の意志をつらぬき通した
+//見事な最後だったよ。{end}
+Đúng vậy.Ngay cả phút cuối đời<line>
+hắn cũng tỏ ra dũng mảnh,<line>
+quyết theo trọn con đường.<end>
+//
+//‥‥‥ひどい。
+//彼は優しい人でした。
+//それを‥‥！{end}
+...Kinh tởm.<line>
+Leon là người tử tế.<line>
+Vậy mà...!<end>
+//
+//‥‥いいや。
+//ケガはひどいが
+//命に別状はないはずだ。{end}
+...Không.Tuy thương thế khá<line>
+nặng nhưng không ảnh hưởng<line>
+đến tính mạng.<end>
+//
+//そう、よかった。
+//憎しみにかられずに
+//戦えるわ。{end}
+Vậy thì tốt quá.<line>
+Tôi có thể chiến đấu mà không<line>
+phải mang lòng căm hận.<end>
+//
+//ラングリッサーの力を
+//奪われてたまるか！{end}
+Đừng hòng cướp đoạt sức<line>
+mạnh của Langrisser!<end>
+//
+//聖剣を持っているとはいえ、
+//あなたに力がなくては、世界を
+//統べるなどできません。{end}
+Hãy nghe lời ta nói.<pause><page>
+Dù trong tay có Thánh kiếm đi<line>
+nữa,nếu ngươi không có sức<line>
+mạnh thì sẽ không thống trị<line>
+được thế giới đâu.<end>
+
+//
+//俺はやってやる！
+//国を越えて、人種を越えて
+//この世から争いを消してやる！{end}
+Nhất định ta sẽ làm!<line>
+Ta sẽ dập tan hết mọi tranh<line>
+chấp ra khỏi cõi đời!<pause><page>
+Ta sẽ xây dựng một thế giới<line>
+người người vì nhau,vượt qua<line>
+cả đất nước,vượt qua cả<line>
+chủng tộc.<end>
+//
+//{char_name}‥‥。
+//我が血を引く者よ。{end}
+<char>...<line>
+Hỡi kẻ kế thừa huyết mạch<line>
+của ta.<end>
+//
+//なっ、何だと！？{end}
+Sao,cái gì vậy!?<end>
+//
+//私はお前の祖先だと言う事だ。
+//お前の中には確かに私の血が
+//流れている。{wait}{clsr}
+//{char_name}‥‥。
+//お前はなぜ光輝の末裔の使命を
+//放棄するのだ？{end}
+Ta chính là tổ tiên của ngươi.<line>
+Trong thân thể ngươi có dòng<line>
+máu của ta đang chảy.<pause><page>
+<char>...<line>
+Tại sao ngươi lại vứt bỏ sứ<line>
+mệnh của hậu duệ ánh sáng?<end>
+//
+//光輝の末裔の使命なんて、
+//俺には関係ない。{wait}{clsr}
+//ボーゼルだって倒した！
+//俺は自分の力で、この世界から
+//戦いを無くしてみせる！{end}
+Sứ mệnh hậu duệ ánh sáng nào<line>
+có liên quan gì đến ta!<pause><page>
+Böser còn bị ta đập tan tành<line>
+rồi!Ta sẽ xây dựng một thế<line>
+giới không tranh chiến bằng<line>
+chính sức mình!<end>
+//
+//‥‥血は争えんな。
+//私も若かった頃に、
+//同じ考えを持ったものだ。{wait}{clsr}
+...Con nhà tông không giống<line>
+lông cũng giống cánh.Thời còn<line>
+trẻ,ta cũng suy nghĩ như vậy.<pause><page>
+
+
+//戦争を起こす国を制圧すれば
+//この大陸から
+//戦争がなくなるとな‥‥。{wait}{clsr}
+Chỉ cần áp chế những đất nước<line>
+gây chiến thì chiến tranh sẽ<line>
+biến mất khỏi đại lục này...<pause><page>
+
+//だが、力による支配は、
+//一時的なものにすぎない。{wait}{clsr}
+Nhưng sự cai trị dựa trên sức<line>
+mạnh chỉ là nhất thời.<pause><page>
+
+//支配者が力を失えば、
+//各地で反乱が起き、
+//やがて国は分裂してしまう。{wait}{clsr}
+Khi kẻ thống trị mất đi sức<line>
+mạnh thì các nơi sẽ nổi loạn,<line>
+đất nước bị chia rẻ.<pause><page>
+
+//今のお前には力がある。
+//だが、お前とて永遠の命を
+//もつわけではない。{wait}{clsr}
+Bây giờ tuy ngươi có sức mạnh<line>
+nhưng ngươi không có được<line>
+thọ mạng vĩnh cửu.<pause><page>
+
+//お前が死んだ後も、
+//その支配が続くとは
+//言い切れないのだぞ。{end}
+Khó mà khẳng định được rằng<line>
+sự thống trị đó có được duy<line>
+trì sau khi ngươi chết hay<line>
+không.<end>
+
+
+//それでもいいさ。
+//わずかな間の平和でも
+//ずっと戦争が続くよりましだ。{end}
+Như vậy cũng tốt thôi.Dù là<line>
+hòa bình trong giây lát vẫn<line>
+tốt hơn chiến loạn kéo dài.<end>
+//
+//お前が光輝の末裔などという
+//くだらない使命を
+//うみだしたのか！{end}
+Chính lão là kẻ đã sản sinh ra<line>
+cái thứ sứ mệnh hậu duệ ánh<line>
+sáng nhảm nhí gì đó sao!<end>
+
+//
+//私がまだ人だった頃、
+//ボーゼルが闇を率いて、
+//人の混乱に乗じて襲ってきた。{wait}{clsr}
+Thuở xưa khi ta còn là con<line>
+người,đã từng xảy ra chuyện<line>
+này.<pause><page>
+Böser dẫn đầu thế lực bóng tối,<line>
+thừa lúc con người hỗn loạn<line>
+mà tấn công.<pause><page>
+
+//放っておけば人は闇に
+//支配されていたのだぞ。{wait}{clsr}
+//闇の剣の力はすさまじく、
+//対抗するためには人の力を
+//結集した聖剣を生み出すしか
+//なかった。{wait}{clsr}
+Nếu ta bỏ mặc thì loài người<line>
+sẽ bị bóng tối cai trị.<pause><page>
+Sức mạnh của thanh kiếm bóng<line>
+tối cực kỳ khủng khiếp.Để đối<line>
+chọi với nó,chỉ còn một cách<line>
+duy nhất.<pause><page>
+Đó là sản sinh ra Thánh kiếm,<line>
+vật kết tập sức mạnh của loài<line>
+người.<pause><page>
+
+//だがその聖剣自体の力を狙う
+//野心を持った連中がいるために
+//闇からも人からも、聖剣を守る
+//者達が必要であったのだ。{end}
+Nhưng vì có bọn mang dã tâm<line>
+chiếm đoạt sức mạnh của Thánh<line>
+kiếm,cho nên cần có những con<line>
+người bảo vệ nó.<pause><page>
+Đó là các hậu duệ của ánh sáng<line>
+với sứ mệnh bảo vệ Thánh kiếm<line>
+khỏi con người lẫn bóng tối.<end>
+//
+//アルハザードは我が手にある。
+//少なくとも使命の意味は
+//一つは減ったぞ！{end}
+Alhazard đang nằm trong tay ta.<line>
+Như vậy,ít ra cũng giảm bớt<line>
+một ý nghĩa của sứ mệnh rồi!<end>
+
+//
+//ならばお主の力を
+//見きわめてやろうぞ。
+//世界を平和に出来るか否かを。{end}
+Vậy thì để ta xem rõ sức mạnh<line>
+của ngươi liệu có thể gây dựng<line>
+hòa bình thế giới được chăng.<end>
+//
+//‥‥俺には、
+//俺には出来ないと言うのか‥‥{end}
+...Lão nói là ta không<line>
+làm được sao...<end>
+//
+//本当だったら、あなたから
+//魔法を教えてもらいたかった！{end}
+Nói đúng ra là tui muốn làm<line>
+đệ tử của bà để học ma pháp!<end>
+//
+//今のあなたに師は
+//いらないでしょう。
+//その力を見せてみなさい！{end}
+Hẳn là bây giờ cậu không cần<line>
+thầy dạy đâu nhỉ.Hãy cho ta<line>
+xem sức mạnh của cậu!<end>
+//
+//おいら、本当は
+//リアナと戦いたくないよ‥‥。{end}
+Nói thiệt là tui hổng muốn<line>
+đánh nhau với Riana đâu...<end>
+//
+//私と戦いたくないなんて‥‥。
+//どうして私の事を
+//知っているのかしら。{wait}{clsr}
+//でも今はやらなくては、
+//光輝の末裔としての使命を
+//果たさなくては！{end}
+//
+Không muốn đánh nhau với tôi...<line>
+Nhưng tại sao lại biết tôi.<pause><page>
+Nhưng điều tôi cần phải làm<line>
+lúc này là hoàn thành sứ mệnh<line>
+của một hậu duệ ánh sáng!<end>
+
+//本当に、リアナそっくりだ！{end}
+Quả thật là giống Riana quá!<end>
+
+//余裕があるのですね。
+//こんな時に！{end}
+Thừa hơi quá nhỉ.<line>
+Lúc này mà cũng rãnh vậy sao!<end>
+
+
+//でも手は抜かないからね！{end}
+Nhưng tui hổng nương tay đâu!<end>
+//
+//大丈夫かなぁ‥‥？
+//神様にケンカなんかしかけて。{end}
+//
+Liệu có ổn không nhỉ...?<line>
+Khi gây sự với cả thần linh.<end>
+
+//その選択をしたのは
+//あなたなのですよ？
+//さあ、かかってらっしゃい！{end}
+Chính cậu là người lựa chọn<line>
+con đường đó mà?<line>
+Nào,xông vào đi!<end>
+//
+//伝説の人と戦うなんて、
+//考えても見なかったよ！
+//でも負けないぞ！{end}
+Có mơ mình cũng không dám<line>
+nghĩ sẽ có ngày giao tranh với<line>
+nhân vật trong truyền thuyết!<pause><page>
+Nhưng mà nhất định sẽ không<line>
+thua đâu!<end>
+//
+//ここまで来て脱落なんて
+//おいら、悔しいよ！{end}
+Đã tới được đây mà phải bỏ<line>
+chạy,tui hận tui lắm!<end>
+
+//こんな世界に逃げ込んだって、
+//無意味だってことを
+//教えてやろうじゃねぇか！{end}
+Để ta chỉ cho mụ biết sự<line>
+vô nghĩa khi chạy vào thế giới<line>
+thần linh này!<end>
+//
+//無礼な男ですね。{end}
+Đúng là kẻ vô lễ nhỉ.<end>
+//
+//女を斬ると寝覚めが悪ぃから、
+//降伏してくれねぇか？{end}
+Ta mà chém đàn bà thì khó ngủ<line>
+lắm.Chịu đầu hàng đi nhé?<end>
+//
+//どうして私が降伏しなくては
+//いけないのです！？{end}
+Tại sao ta phải đầu hàng!?<end>
+//
+//だろうな‥‥。{end}
+Cứng đầu thật...<end>
+//
+//降伏しろ！
+//レオンもそれを望んでるぜ！{end}
+Đầu hàng đi!<line>
+Leon cũng muốn như vậy đó!<end>
+//
+//よくも、レオンを殺しておいて
+//そんな言い方ができるわね！{end}
+Mi đã giết chết Leon mà lại<line>
+mở miệng nói điều đó sao!<end>
+//
+//レオン‥‥。
+//彼は、どうなったの？{end}
+Leon...<line>
+Anh ta thế nào?<end>
+//
+//残念だが、生きちゃいねぇ。{end}
+Đáng tiếc,nhưng hắn tạch rồi.<end>
+//
+//あぁ、レオン！
+//ボーゼルに操られていた私にも
+//優しかったあの人が‥‥。{wait}{clsr}
+//私はあなたの仇を討ちます！{end}
+Ahh Leon!<line>
+Người duy nhất tử tế với ta<line>
+khi bị Böser thao túng...<pause><page>
+Nhất định ta phải báo thù<line>
+cho Leon!<end>
+//
+//ケガはしてるがな、
+//死ぬことはねぇだろうよ。{end}
+Tuy hắn mang trọng thương<line>
+nhưng không đến nổi bỏ mạng.<end>
+//
+//そうですか。
+//ならば、安心して戦えます！{end}
+Vậy à.Thế thì ta có thể an tâm<line>
+mà chiến đấu được rồi!<end>
+//
+//へっ！
+//俺もたいしたもんだぜ！
+//神様と戦うとはよ！{end}
+Hể!Ta cũng thiệt là ghê gớm!<line>
+Dám đánh cả thần thánh luôn!<line>
+Ta phục ta quá đi!<end>
+//
+//バルディア王だか、なんだか
+//知らねぇが、ラングリッサーは
+//今、俺達のもんだ！{end}
+Ngươi là vua xứ Baldea hay<line>
+là gì không biết,nhưng bây giờ<line>
+Langrisser là của bọn ta!<end>
+//
+//安心したまえ。
+//君には持てないはずだ。
+//光輝の末裔でない君にはな！{end}
+Cứ an tâm tâm đi.<line>
+Mi không cầm được nó đâu.<line>
+Mi đâu phải hậu duệ ánh sáng!<end>
+//
+//うるせぇっ！{end}
+Nỏ mồm!<end>
+//
+//伝説の英雄と戦えるってのは、、
+//願ってもないチャンスだぜ！{end}
+Được chạm trán với anh hùng<line>
+trong truyền thuyết...Cơ hội<line>
+ngàn năm có một!<end>
+//
+//来たまえ‥‥。{end}
+Lại đây...<end>
+//
+//ちくしょう！
+//俺はここまでだってぇのか！？
+//ちくしょうっ！{end}
+Súc sinh!<line>
+Chẳng lẽ ta lại ra thế này<line>
+sao!? Chó chết!<end>
+//
+//ここまできたら、
+//もう後へはひけないよ！{end}
+Đã tới được đây thì không<line>
+thể rút lui được nữa!<end>
+//
+//一度、闇に身を染めた
+//あたしだ！
+//恐いモンなんて、ないよ！{end}
+Bổn cô nương là tôi tớ của<line>
+bóng tối!Trên đời này có gì<line>
+phải sợ nữa đâu!<end>
+//
+//きゃあぁっ！
+//もうちょっとなのに‥‥。{end}
+Kyaa-!<line>
+Còn một tí nữa thôi mà...<end>
+
+//神ノ世界デモ、ガンバル！
+//負ケナイ！{end}
+Nêm đượk kõi thần Zồi!<line>
+Kố nên!Khơng đượk trhua!<end>
+//
+//ウゴォッ！{end}
+Gwooo-!<end>
+//
+//我ガ、チカラノ、
+//全テヲカケテ！
+//そにあ様ノ、タメニ！{end}
+Bợm ta sẻ GIốc hếch sứk!<line>
+Vì sOny-a!<end>
+//
+//セ、世界ガ違ウ‥‥{end}
+Trỗ LàY khák thế dới<line>
+kủa TrúNg ta...<end>
+//
+//ルシリス様‥‥
+//私は間違えて
+//いたのでしょうか？{wait}{clsr}
+//人の力がここまで
+//強くなれるのなら、
+//その心も今以上に
+//強くなれるのでしょうか‥‥？{end}
+Thưa Nữ thần Lushiris...<line>
+Có phải con đã sai?<pause><page>
+Con người có thể mạnh đến mức<line>
+này thì tâm của họ bây giờ còn<line>
+mạnh mẽ hơn...?<end>
+//
+//可能性はあります。
+//彼にそれが出来るかは
+//彼次第ですが‥‥。{end}
+Cũng có thể.<line>
+Cậu ta có làm được hay không<line>
+là tùy vào bản thân cậu ta...<end>
+//
+//私は自分の使命を思うあまり、
+//人々の成長を見ていなかったの
+//かも‥‥。{end}
+Con nghĩ như thế này...<pause><page>
+Có lẽ con nghĩ quá nhiều về<line>
+sứ mệnh của mình mà không<line>
+quan sát sự trưởng thành của<line>
+loài người...<end>
+//
+//そうよ！
+//最初からあきらめるなんて、
+//絶対に出来ないわ！{end}
+Đúng rồi!Tuyệt đối không thể<line>
+bỏ cuộc ngay từ phút đầu!<end>
+//
+//これ以上は進ませません！{end}
+Đừng hòng tiến lên nữa!<end>
+
+//やめろ、リアナ！{end}
+Dừng lại đi,Riana!<end>
+
+
+//問答無用！{end}
+Không cần nói nhiều!<end>
+
+
+//きゃあっ！{end}
+Kya!<end>
+//
+//大丈夫か？！
+//すぐに手当てを‥‥{end}
+Nàng không sao chứ!?<line>
+Để ta chữa trị ngay...<end>
+
+//
+//‥‥ううん、無理よ。
+//もうダメみたい‥‥。{wait}{clsr}
+//でもよかった‥‥
+//{char_name}が
+//死なずにすんで‥‥{wait}{clsr}
+//お願い‥‥
+//平和な世界をつくってね‥‥{end}
+...Không,vô ích thôi....<line>
+Quá muộn rồi...<pause><page>
+Nhưng cũng may...<line>
+<char> không phải chết...<pause><page>
+Làm ơn...<line>
+Hãy xây dựng...<line>
+thế giới hòa bình...<end>
+
+//
+//‥‥ああ。
+//約束するよ。{end}
+...Uh.<line>
+Ta hứa.<end>
+
+
+//ありがとう‥‥。{wait}{clsr}
+//やっぱり‥私には‥‥
+//あなたを倒すことは
+//‥出来なかった‥‥。{wait}{clsr}
+//‥‥だって、私は‥‥
+//{char_name}の事が‥
+//‥‥好‥‥{end}
+Cảm ơn...<pause><page>
+Đúng là...tôi không thể...<line>
+đánh bại được anh...<pause><page>
+Bởi vì...<pause>em...<pause><line>
+Em yêu...<char>...<end>
+
+//
+//エル‥‥ウィン‥‥？
+//わ、私‥‥どうして‥‥
+//あなた‥‥と、一緒‥‥{end}
+<char>...?<line>
+Mình làm sao...thế này...<line>
+Phải cùng anh...<end>
+//
+//きおくが戻ったのか？
+//しゃべるな、リアナ！
+//今、手当を‥‥{end}
+Nàng đã hồi phục ký ức rồi ư?<line>
+Đừng nói nữa,Riana!<line>
+Để ta chữa trị...<end>
+//
+//‥‥ううん、無理よ。
+//もうダメみたい‥‥。{wait}{clsr}
+//‥さよ‥‥な‥ら‥‥
+//‥‥私‥‥‥愛‥‥‥{end}
+...Không,vô ích thôi...<line>
+Đã quá muộn rồi...<pause><page>
+Vĩnh biệt...<line>
+Người...<pause>em yêu...<end>
+//
+//リアナ！
+//‥‥しっかりしろ、リアナ！{end}
+Riana!<line>
+...Tĩnh lại đi,Riana!<end>
+//
+//ジークハルト様の化身である
+//ラングリッサー。{wait}{clsr}
+//闇に対抗するための力は
+//無限と言われるけれど‥‥。{end}
+Langrisser là hóa thân của<line>
+ngài Sieghart.<pause><page>
+Sức mạnh để đối đầu với bóng<line>
+tối được cho là vô hạn...<end>
+//
+//よくも、よくもレオンを
+//死なせたわね！
+//許さないわ！{end}
+Đồ khốn kiếp!Dám sát hại Leon!<line>
+Tuyệt đối ta không bỏ qua đâu!<end>
+//
+//‥‥ありがとう。
+//レオンを死なせないでくれて。{end}
+...Đa tạ vì đã không đẩy<line>
+Leon vào chỗ chết.<end>
+
+//
+//礼を言われるほどじゃない。
+//俺たちだってどうなるか
+//分からないんだからな。{end}
+Chẳng cần phải tạ.Ngay cả bọn<line>
+ta cũng chẳng biết bản thân<line>
+mình sẽ sống chết ra sao.<end>
+//
+//レオンの仇！{end}
+Báo thù cho Leon!<end>
+//
+//私は光輝の末裔の使命を
+//なげ出したりしない！{end}
+Ta không vứt bỏ sứ mệnh<line>
+hậu duệ ánh sáng đâu!<end>
+//
+//なげ出したわけじゃない！{end}
+Chưa từng vứt bỏ!<end>
+//
+//ボーゼルに操られていた時には
+//仲間だったかも知れないけど、
+//今のあなたは敵よ！{end}
+Năm xưa khi còn bị Böser thao<line>
+túng,có lẽ ta từng là đồng minh<line>
+của ngươi.<pause><page>
+Nhưng bây giờ thì không!<line>
+Bây giờ ngươi là cừu địch!<end>
+//
+//でも今の私は人と魔物の共存
+//のために戦っているのよ！{wait}{clsr}
+//使命にしばられるあなたとは
+//違うわ！{end}
+Nhưng bây giờ ta chiến đấu để<line>
+xây dựng một thế giới cho con<line>
+người và quái vật chung sống!<pause><page>
+Thật sự khác hẳn với ngươi<line>
+vốn bị sứ mệnh trói buộc!<end>
+
+//
+//ボーゼルの手下として
+//生きてきた報いでしょうか‥。
+//でも、これで‥‥‥{end}
+Đây là quả báo cho những ngày<line>
+tháng mình trở thành tay chân<line>
+của Böser sao...Nhưng...<end>
+//
+//やはり、ここまで来て
+//しまいましたか‥‥。{wait}{clsr}
+//予想はしていましたが、
+//ここまでやるとは‥‥。
+//さあ、遠慮はいりません。
+//人間の力、見せてみなさい！{end}
+Quả nhiên là các người đến<line>
+được tận đây rồi...<pause><page>
+Tuy đã lường trước nhưng cũng<line>
+không ngờ các người lại tiến<line>
+xa như vậy...<pause><page>
+Nào,không cần phải khách sáo.<line>
+Hãy cho ta xem sức mạnh của<line>
+con người là như thế nào!<end>
+
+
+//私の力を受けとめてみなさい！{end}
+Hãy đỡ sức mạnh của ta!<end>
+//
+//光輝の末裔は、本当に不要に
+//なってしまったのか、
+//あなたに任せられるのか‥‥。{wait}{clsr}
+//試させてもらいます！{end}
+Thật sự hậu duệ ánh sáng đã<line>
+hết cần thiết?Liệu có trông<line>
+cậy vào các người được không...<pause><page>
+Hãy chứng minh đi!<end>
+//
+//あぁっ！{end}
+Ahh-!<end>
+//
+//ラングリッサーを
+//そこまで使いこなせるとは
+//あなたの力は本物のようです。{wait}{clsr}
+//認めましょう。
+//あなたならできるかも
+//知れない。{wait}{clsr}
+Vận dụng thành thạo Langrisser<line>
+tới mức này thì sức mạnh của<line>
+ngươi là sự thật.<pause><page>
+Ta thừa nhận.<line>
+Có thể ngươi sẽ làm được<line>
+điều ngươi muốn.<pause><page>
+
+//ただし、これだけは
+//覚えておきなさい。{wait}{clsr}
+Nhưng hãy ghi nhớ lấy điều<line>
+này.<pause><page>
+
+
+//力によりまとまった物は、
+//別の力により壊れると
+//いうことを。{wait}{clsr}
+//それを防ぐには想像もつかない
+//苦労がともなうと
+//いうことを‥‥{end}
+
+Rằng vật gì thành tựu là do<line>
+sức mạnh thì cũng sẽ bị một<line>
+nguồn sức mạnh khác phá hủy.<pause><page>
+Để ngăn chặn điều đó thì cần<line>
+nhiều lao khổ không sao kể<line>
+xiết...<end>
+
+//‥‥分かっているさ。
+//だから誰に頼むのでもなく、
+//俺が背負うんじゃないか‥‥。{end}
+...Ta vẫn biết.<pause><page>
+Cho nên ta không dựa dẫm vào<line>
+bất cứ kẻ nào khác mà luôn<line>
+tự mình gánh vác...<end>
+//
+//‥‥{char_name}。{wait}{clsr}
+//あなたは勝ったけど、
+//今の世界は混乱しているわ。
+//それをなんとかしなくては、
+//本当の勝利じゃないの‥‥よ。{wait}{clsr}
+//さようなら、
+//{char_name}‥‥。
+//私は、自分に出来ることを
+//捜します。{wait}{clsr}
+//もう二度と、
+//会うことはないでしょうね‥‥{end}
+...<char>.<pause><page>
+Chàng đã chiến thắng,nhưng<line>
+thế giới bây giờ đang hỗn loạn.<pause><page>
+Nếu không hành động ngay thì<line>
+đó không phải là thắng lợi<line>
+thật sự...<pause><page>
+Vĩnh biệt,<char>...<line>
+Em sẽ ra đi tìm điều mình có<line>
+thể làm được.Chúng ta sẽ không<line>
+bao giờ gặp lại nhau nữa...<end>
+//
+//リアナ‥‥。{end}
+Riana...<end>
+
+//だが、人々が平和にくらせる
+//そんな世の中をつくるためだ。{wait}{clsr}
+//みんな、
+//これからも俺に
+//力をかしてくれないか！{end}
+Nhưng tất cả đều là để xây<line>
+dựng một thế giới mà người<line>
+người có thể sống hòa bình.<pause><page>
+Mọi người,từ giờ hãy cùng<line>
+ta góp sức để xây dựng thế<line>
+giới lý tưởng!<end>
+//
+//ありがとう‥‥。{wait}{clsr}
+//みんな、俺たちの
+//理想の世界をつくろう！{end}
+Cảm ơn...<pause><page>
+Mọi người,hãy cùng xây dựng<line>
+thế giới lý tưởng của chúng<line>
+ta!<end>
+
+//
+//ルシリス様。
+//我々を呼ばれた理由を
+//お教え願えませんか？{end}
+Thưa Nữ thần Lushiris.<line>
+Người có thể cho biết lý do<line>
+triệu tập chúng tôi?<end>
+
+//
+//あなた方に力をかして
+//頂きたいのです。{wait}{clsr}
+//光輝の末裔がその使命を
+//終えるかどうかの、
+//判断の時です。{wait}{clsr}
+//あなた方のしそんの力は
+//あなた方が見きわめるのです。{end}
+Ta muốn nhờ các vị góp sức.<pause><page>
+Bây giờ là thời khắc để phán<line>
+đoán xem sứ mệnh của hậu duệ<line>
+ánh sáng đã đến lúc kết thúc<line>
+hay chưa.<pause><page>
+Các vị hãy nhìn thấu rõ sức<line>
+mạnh của con cháu các vị.<end>
+//
+//分かりました‥‥。{end}
+Chúng tôi hiểu rồi...<end>
+//
+//こちらに回り込むか？
+//リアナさん、気をつけて。{wait}{clsr}
+//こちらに通しても
+//かまいませんから、
+//危険な事はしないで下さい。{end}
+Có vòng sang đây không?<line>
+Cô nương Riana,cẩn thận nhé.<pause><page>
+Có đi thông sang đây cũng<line>
+được,nhưng đừng làm gì<line>
+nguy hiểm nhé.<end>
+
+//
+//しかし、私も光輝の末裔です。
+//最初からあきらめるような事は
+//出来ません！{wait}{clsr}
+//‥‥優しいんですね、
+//レディンさんは。{end}
+Nhưng tôi cũng là một hậu duệ<line>
+của ánh sáng.Không thể bỏ cuộc<line>
+ngay từ đầu được!<pause><page>
+...Người đâu mà tử tế quá nhỉ.<line>
+Đại hiệp Ledin.<end>
+
+//
+//君を見ていると、
+//昔を思い出すのでね。
+//妻と過ごしたの若き日を。{end}
+Nhìn cô,ta lại nhớ đến<line>
+chuyện ngày xưa.<pause><page>
+Nhớ đến những ngày tuổi trẻ<line>
+sống bên người vợ yêu.<end>
+//
+//来るか‥‥
+//我がしそん達よ‥‥。{end}
+Tới rồi à...<line>
+Hỡi đám con cháu của ta...<end>
+//
+//お前たちの力は分かった‥‥。
+//お前たちなら、もしや‥‥。{end}
+Ta thấy rõ sức mạnh của các<line>
+ngươi rồi...Có thể các ngươi<line>
+sẽ làm được...<end>
+//
+//ラーナ殿、気をつけられよ。
+//聖剣の力は強大ぞ。{end}
+Cô nương Läna hãy bảo trọng.<line>
+Sức mạnh của Thánh kiếm là<line>
+không thể xem thường.<end>
+//
+//わかっております。{wait}{clsr}
+//アルハザードとラングリッサー
+//両剣の力は巫女である私が
+//誰よりも聞かされてきた
+//ことですから。{end}
+Tiểu nữ biết điều đó.<pause><page>
+Sức mạnh của Alhazard và<line>
+Langrisser,tiểu nữ là Vu nữ<line>
+nên biết rõ hơn ai hết.<end>
+//
+//自分で言うのは気が引けるが、
+//あれは私の半身なのでね。{end}
+Tự mình nói về mình khác nào<line>
+mèo khen mèo.Nhưng Thánh kiếm<line>
+là một nửa của cơ thể ta.<end>
+
+
+//きたか。
+//さすがにラングリッサーぞ！{end}
+Đến rồi à.<line>
+Langrisser quả nhiên lợi hại!<end>
+//
+//どうやらラングリッサーを、
+//我が力を使いこなしているな。
+//‥‥やれるかも知れん‥‥。{end}
+Hắn vận dụng Langrisser,sức<line>
+mạnh của ta thành thạo quá.<line>
+...Không chừng hắn có thể...<end>
+
+//
+//す‥‥すみません、
+//ジェシカ様‥‥。{end}
+Xin...xin thứ lỗi,<line>
+thưa thầy Jessica...<end>
+//
+//どうだ！
+//我が魔力の味は！{end}
+Nếm mùi ma lực của ta<line>
+thấy thế nào!<end>
+//
+//天界で魔力が増大している
+//はずだったのに‥‥。{end}
+Đáng lý ma lực phải khuếch<line>
+trương ở Thiên giới chứ sao...<end>
+//
+//少しでも、連中の戦力を
+//そいでおかねば‥‥。{end}
+Phải mài mòn chiến lực của<line>
+địch từng chút một...<end>
+//
+//私は天界を守護する騎士！{wait}{clsr}
+//あなたたちのように
+//土足で天界をふみにじる者を
+//始末する！{end}
+Ta là kỵ sỹ bảo vệ Thiên giới!<pause><page>
+Các ngươi là phường dẫm chân<line>
+đất lên Thiên giới,sẽ bị trừng<line>
+phạt!<end>
+//
+//私は天界を守護する騎士‥‥
+//貴様達ごときに‥‥ぐはっ！{end}
+Ta là kỵ sỹ bảo vệ Thiên giới...<line>
+Há nào lại thua lũ các ngươi...<line>
+Hự!<end>
+//
+//さ‥‥さすが天界まで
+//攻め込むだけのことはあるな。{end}
+Quả nhiên xứng đáng là kẻ<line>
+tấn công lên Thiên giới!<end>
+//
+//なんという力だ！
+//だが負けるわけにはまいらん！{end}
+Sức mạnh kinh khủng thật!<line>
+Nhưng ta không thua đâu!<end>
+//
+//前衛‥右翼‥
+//破られました‥‥
+//申し訳あり‥‥ませ‥‥{end}
+Tiền vệ...cánh phải...<line>
+Bị đột phá rồi...<line>
+Xin thứ lỗi...<end>
+//
+//前衛‥‥左翼‥
+//突破され‥‥うぅっ！{end}
+Tiền vệ...cánh trái...<line>
+Bị đập tan rồi.... Wgaaa!<end>
+//
+//神よ‥‥御加護を！
+//行きます！{end}
+Thần linh ơi...<line>
+Hãy gia hộ cho con!<end>
+
+//
+//神の御加護よりも、
+//あなたたちの戦力は‥‥{end}
+Chiến lực của các người còn<line>
+khủng khiếp hơn cả thần linh<line>
+gia hộ...<end>
+//
+//台座に一振りの剣が
+//突き立てられており、
+//台座にはこう書かれていた。{wait}{clsr}
+Có một thanh kiếm cắm<line>
+trên bệ.Trên bệ có ghi<line>
+dòng chữ sau.<pause><page>
+
+//偉大なる魔獣を斬りし
+//豪剣を求める者、
+//わが名をさけびつつ
+//引き抜かん。{wait}{clsr}
+//何とさけびますか？{end}
+"Hỡi kẻ mưu cầu thanh gươm<line>
+có thể chém đứt ma thú vĩ đại.<line>
+Hãy vừa hô to tên ta vừa<line>
+rút kiếm ra khỏi bệ".<line>
+Hô to tên gì đây?<end>
+
+
+//ラングリッサー{end}
+Langrisser<end>
+//
+//ドラゴンスレイヤー{end}
+Đồ long<end>
+//
+//アルハザード{end}
+Alhazard<end>
+//
+//剣は石化してしまった。
+//どうやら違っていたらしい。{end}
+Thanh kiếm đã hóa đá.<line>
+Dường như sai tên rồi.<end>
+//
+//鈍い音とともに
+//大剣が抜かれた。{end}
+Thanh đại kiếm được rút ra<line>
+cùng tiếng động lớn.<end>
+//
+//ドラゴンスレイヤーを
+//手にいれた！{end}
+Nhận được thanh kiếm<line>
+Đồ long!<end>
+//
+//無理に引いたので、
+//剣は途中から折れてしまった。{end}
+Vì cố sức kéo nên nửa chừng<line>
+thanh kiếm gãy mất.<end>
+//
+//これで本当に
+//終わったんだな‥‥。{end}
+Vậy là kết thúc thật sự rồi...<end>
+//
+//でも‥‥そのために、
+//リアナが‥‥。{end}
+Nhưng vì vậy mà Riana...<end>
+//
+//でも、本当につらいのは
+//これからよ。
+//この世界をまとめなくては‥‥{end}
+Nhưng từ giờ trở đi mới là<line>
+thời kỳ khó khăn.Cần phải<line>
+thống nhất thế giới...<end>
+//
+//大変な生き方を
+//選んじゃったんだね。
+//おいら達‥‥{end}
+Chúng ta đã chọn cách sống<line>
+ghê gớm quá nhỉ...<end>
+//
+//ここまできちまったんだ。
+//とことんまで付き合うぜ！{end}
+Đã tới được tận đây thì hãy<line>
+cùng cố cho tới phút cuối!<end>
+//
+//あたしも兄さんと同じよ{end}
+Muội cũng thấy giống huynh.<end>
+//
+//おいらだって‥‥！{end}
+Cả tui nữa...!<end>
+//
+//‥‥？
+//誰‥‥あなたは？{end}
+...?<line>
+Ai vậy...?<end>
+//
+//リアナ？
+//俺が分からないのか？{end}
+Riana?<line>
+Không nhận ra ta sao?<end>
+//
+//うう‥‥っ、
+//私の前から消えて下さい！{end}
+Utt...<line>
+Hãy biến đi cho khuất mắt tôi!<end>
+//
+//{char_name}？！
+//なぜ、私は‥‥{end}
+<char>!?<line>
+Tại sao mình...<end>
+
+//
+//私の術が解けるとは‥‥。
+//それほど、リアナにとっての
+//{char_name}の存在は‥{end}
+Thuật của ta bị giải rồi...<line>
+Đối với Riana,<char><line>
+có ý nghĩa đến vậy sao...<end>
+//
+//術が解けた！？
+//まさか、きおくが
+//戻るなんて‥‥{wait}{clsr}
+//それほどまでに、リアナにとって
+//{char_name}の存在は‥。{end}
+Thuật bị giải rồi!?<line>
+Vậy là ký ức quay lại rồi...<pause><page>
+Không ngờ <char><line>
+lại quan trọng đối với Riana<line>
+đến vậy...<end>
+//
+//リアナ！俺がわかるのか！{end}
+Riana!Nàng không nhận<line>
+ra ta sao!<end>
+//
+//{char_name}‥‥。{wait}{clsr}
+//ルシリス様にきおくを封じて
+//もらったはずなのに‥‥。
+//思い出してしまうなんて‥‥。{end}
+<char>...<pause><page>
+Em đã cầu xin Nữ thần Lushiris<line>
+giam giữ ký ức rồi mà...<line>
+Sao bây giờ lại nhớ được...<end>
+
+//
+//きおくを封じても、
+//あなたの心は
+//彼を求めていたようです。{wait}{clsr}
+//強い、強い想いで‥‥{end}
+Dù ký ức của cô có bị giam<line>
+giữ đi nữa,nhưng trái tim cô<line>
+vẫn luôn tìm kiếm cậu ta.<pause><page>
+Tư niệm của trái tim thật<line>
+mạnh mẽ.Chính vì tưởng niệm<line>
+của cô mà thuật đã bị giải...<end>
+//
+//‥‥リアナ、俺は‥‥{end}
+...Riana,ta...<end>
+//
+//‥‥だめよ。
+//私は‥‥光の巫。
+//光輝の末裔‥‥。{wait}{clsr}
+//ラングリッサーを守るのが
+//私の使命‥。
+//だから、私は、あなたを‥‥
+//‥‥ああっ！{end}
+...Vô ích thôi.<line>
+Em là...Vu nữ ánh sáng...<line>
+Hậu duệ của ánh sáng...<pause><page>
+Bảo vệ Langrisser là sứ mệnh<line>
+của em...Cho nên em phải...<line>
+Ahhh!<end>
+//
+//どうして‥‥。
+//どうしてあなたは敵に？{wait}{clsr}
+//私だって戦いたくはないわ。
+//でもあなたは去ってしまった。
+//私を捨ててまで‥‥。{end}
+Tại sao...<line>
+Tại sao chàng lại trở thành<line>
+kẻ thù?<pause><page>
+Em không muốn đối đầu với<line>
+chàng.Nhưng chàng lại vứt bỏ.<line>
+Vứt bỏ tất cả,vứt bỏ em...<end>
+//
+//しかし、リアナ！
+//それは‥‥{end}
+Nhưng Riana!<line>
+Chuyện đó...<end>
+//
+//いいの、わかっているから。
+//今のは私のわがまま‥‥。
+//さあ、戦いましょう。{wait}{clsr}
+//互いの理想のために。{end}
+Thôi đủ rồi,em hiểu rồi...<line>
+Vừa rồi là do em ích kỷ...<pause><page>
+Nào,hãy đối mặt nhau.<line>
+Hãy chiến đấu vì lý tưởng<line>
+của nhau.<end>
+//
+//‥‥なぜかしら‥‥
+//あなたと戦おうとすると
+//涙が‥‥あふれてくる‥‥{end}
+...Tại sao lại như vậy...<line>
+Khi đối đầu với anh ta thì<line>
+nước mắt mình...đầm đìa...<end>
+//
+//俺と戦うために、
+//俺についてのきおくを
+//消したのか？{wait}{clsr}
+//分からない！
+//なぜそこまでして、
+//戦う必要があるんだ！{end}
+Nàng xóa đi ký ức chỉ để<line>
+đánh nhau với ta sao?<pause><page>
+Ta không hiểu!<line>
+Tại sao lại phải đối đầu tới<line>
+nước này chứ!<end>
+
+//
+//苦しい‥‥。
+//もう私に話しかけないで！{end}
+Đau khổ...<line>
+Đừng nói gì với tôi nữa!<end>
+
+//
+//どういうことだ？
+//俺のことが分からないのか？
+//まさか、きおくを？！{end}
+Là như thế nào?<line>
+Không nhận ra ta sao?<line>
+Lẽ nào nàng đã xóa ký ức!?<end>
+
+
+#WRITE(Ptr, $12001E)
+//みなさん、
+//きのうは良く眠れましたか？{end}1
+Chào mọi người,<line>
+đêm qua ngủ ngon chứ?<end>
+
+
+//うん。
+//ぐっすり眠れたよ。{end}2
+Uhn,tui ngủ say như chết.<end>
+//
+//悪ぃな、
+//俺までとめてもらってよ。{end}3
+Đa tạ vì đã cho ta<line>
+tá túc một đêm.<end>
+
+//
+//リアナ殿のことは
+//我らにお任せください。{wait}{clsr}
+//たとえ帝国軍でも、
+//この聖なる神殿に
+//攻め入るようなことは
+//しないでしょう。{end}4
+Xin cứ để cô nương Riana cho<line>
+chúng tôi lo liệu.<pause><page>
+Quân đội Đế quốc sẽ không tấn<line>
+công vào nơi linh thiêng này<line>
+đâu.<end>
+
+//
+//よろしく
+//お願いします。{wait}{clsr}
+//しかし、なぜ帝国はリアナを
+//狙うのでしょう。
+//リアナが光の巫女であることと
+//何か関係があるのでしょうか？{end}5
+Đa tạ.Xin ngài tư tế<line>
+giúp đỡ.<pause><page>
+Mà tại sao Riana lại bị Đế quốc<line>
+truy đuổi nhỉ?Liệu có gì liên<line>
+quan tới việc Riana là Vu nữ<line>
+ánh sáng hay không?<end>
+
+//
+//‥‥。{wait}{clsr}
+//さあ‥‥、
+//私には分かりません。{end}6
+......<pause><page>
+Chà...<line>
+Tôi cũng không rõ nữa.<end>
+
+//
+//あの青竜騎士団が動くだけの
+//何かが、リアナさんにはあると
+//思うのですが‥‥{end}7
+Xem tình hình đội kỵ sỹ Thanh<line>
+long động thủ thì hẳn là có<line>
+liên quan tới Riana rồi...<end>
+//
+//司祭様！
+//大変です。帝国軍が！{end}8-
+Thưa ngài tư tế!<line>
+Nguy to rồi!Quân đế quốc!<end>
+//
+//なに！{end}9
+Cái gì!?<end>
+//
+//この神聖な地に
+//何のご用ですかな。{end}10
+Các người cần gì ở<line>
+nơi thần thánh này?<end>
+//
+//俺様は、
+//炎竜兵団将軍バルガス様の右腕
+//ゾルム隊長だ。{wait}{clsr}
+//この神殿にある石板を我々に
+//渡してもらおうか。{end}11
+Ngài đây là đội trưởng Zorm,<line>
+cánh tay phải của Tướng quân<line>
+Vargas binh đoàn Hỏa long.<pause><page>
+Mau mau đưa phiến đá trong<line>
+thần điện này cho bọn ta.<end>
+//
+//お前たちのねらいは
+//アルハザードの封印に関する
+//石板だというのか！{wait}{clsr}
+//そうと分って、
+//渡すはずもなかろう！{end}12
+Hóa ra đích nhắm của các ngươi<line>
+là phiến đá liên quan tới việc<line>
+phong ấn Alhazard sao!<pause><page>
+Đã biết vậy thì đừng hòng<line>
+bổn đạo giao cho các ngươi!<end>
+//
+//では、力ずくで
+//奪うとしよう！{end}13
+Vậy thì cứ dùng vũ lực<line>
+mà cướp thôi!<end>
+//
+//ジジイと男どもは
+//あなたに任せますよ、ゾルム。{wait}{clsr}
+//若い女性は、私に任せなさい
+//ウヒャヒャヒャヒャ‥‥。{wait}{clsr}
+//おや？{end}14
+Ta để lão già với lũ đờn ông<line>
+phần ngươi đó Zorm.<pause><page>
+Còn mấy em trẻ xinh tươi thì<line>
+cứ để phần ta hén.<line>
+Ahihihihihahaha...<pause><page>
+Ai dà?<end>
+//
+//！？{end}15
+!?<end>
+//
+//あれは、青竜騎士団が
+//捜していた娘ではないですか。{wait}{clsr}
+//ちょうどいい！
+//ついでに、あの娘も
+//いただくとしましょう。{wait}{clsr}
+//ウヒャヒャヒャヒャ‥‥。{end}16
+Kia có phải là con bé mà đội<line>
+kỵ sỹ Thanh long đang truy<line>
+tìm không vậy?<pause><page>
+Đúng lúc lắm!<line>
+Sẵn đây để ta mổ luôn con<line>
+nhỏ đó hén.Uhihihihi...<end>
+//
+//大変なことに
+//なりましたね。{wait}{clsr}
+//ゾルムと言えば、
+//炎竜兵団の中でも
+//将軍バルガスの右腕と呼ばれる
+//腕の持主。{wait}{clsr}
+//モーガンは、
+//一流の魔術師から編成される
+//黒竜魔導師団の者です。{wait}{clsr}
+//どちらも、手強い相手と
+//見ていいでしょう。{end}17
+Nguy to rồi nhỉ.<pause><page>
+Zorm là kẻ được gọi là cánh<line>
+tay phải của tướng quân Vargas<line>
+trong binh đoàn Hỏa long.<pause><page>
+Còn Morgan là kẻ thuộc binh<line>
+đoàn ma đạo sư Hắc long gồm<line>
+các ma đạo sỹ bậc nhất.<pause><page>
+Cả hai tên đều là đối thủ<line>
+đáng gờm.<end>
+
+//
+//リアナ！
+//君はその場で
+//じっとしていてくれ！{end}18
+Riana!<line>
+Cô cứ ở yên đó!<end>
+//
+//はい！{end}19
+Vâng!<end>
+//
+//一気にいくぞ！
+//モーガン。{end}20
+Đi nào Morgan!<end>
+//
+//気に入りませんねェ、
+//私を呼び捨てにするのは。{wait}{clsr}
+//モーガン様とお呼びなさい。
+//モーガン様と。{end}21
+Thiệt là hổng thể ưa.<line>
+Đừng có kêu ta trống<line>
+không như dãy nữa.<pause><page>
+Phải kêu ta là "ngài Morgan".<line>
+Thưa ngài Morgan,nghe chưa.<end>
+//
+//今回の作戦では、
+//俺様が上官のはずだぞ。{wait}{clsr}
+//呼び捨てが嫌なら、
+//モーガン君とでも
+//呼んでやろう。{end}22
+Trong tác chiến lần này thì<line>
+ta là cấp trên.<pause><page>
+Nếu không thích bị kêu trống<line>
+không thì để ta kêu ngươi là<line>
+"cậu Morgan" hén.<end>
+//
+//ムキーッ！
+//こんな筋肉バカにコケに
+//されるとはッ！{end}23
+Oái chời đậu!<line>
+Sao cái thằng cốt đột này cứ<line>
+thích ghẹo mềnh vại!<end>
+//
+//なんだと！
+//キサマのような狂人に
+//バカよばわりされたくないわ！{end}24
+Cái giề!?Ta không muốn bị cái<line>
+thằng điên khùng như ngươi<line>
+réo tên đâu đó!<end>
+//
+//ムキーッ！{end}25
+Chời đậu!<end>
+//
+//なんか、
+//かなり仲が悪いみたいだね。{end}26
+Có vẻ quan hệ hai tên không<line>
+được tốt cho lắm nhỉ.<end>
+//
+//えーい、時間のムダだ！
+//こんなヤツにかまわず
+//さっさと攻撃をしかけろ！{end}27
+Đù má tốn thời gian quá!<line>
+Kệ mẹ thằng điên,mau mau<line>
+triển khai tấn công nào!<end>
+//
+//敵にダークエルフがいる
+//みたいです。{wait}{clsr}
+//間接攻撃をしてきますから
+//気をつけて下さい！{end}28
+Có vẻ như bên địch có<line>
+quân Elf nhỉ.<pause><page>
+Binh chủng Elf có thể tấn<line>
+công gián tiếp nên cần<line>
+phải đề phòng!<end>
+//
+//エルフは
+//防御が弱いんだったな。{end}29
+Elf thì lực phòng ngự yếu<line>
+lắm phải không.<end>
+//
+//ええ。
+//だから直接攻撃をかければ、
+//すぐに倒せますよ。{end}30
+Đúng rồi.Chỉ cần tấn công<line>
+trực tiếp thì sẽ dễ dàng hạ<line>
+được chúng thôi.<end>
+//
+//でもさァ。
+//エルフって、そんなに
+//攻撃力も高くなかったよね？{end}31
+Nhưng mà,Elf cũng có lực tấn<line>
+công không cao lắm nhỉ?<end>
+//
+//そうですね。
+//防御力の高い部隊なら、
+//安全に戦えると思います。{end}32
+Đúng vậy.Chỉ cần có đội quân<line>
+với lực phòng vệ cao là có thể<line>
+đối đầu với chúng an toàn rồi.<end>
+//
+//そうか‥‥。
+//間接攻撃だけ気をつければ
+//それほど恐い相手では無いな。{end}33
+Vậy à...Chỉ cần chú ý tấn công<line>
+gián tiếp,chúng không phải<line>
+đối thủ đáng gờm đâu nhỉ.<end>
+//
+//スコットさんって
+//物知りなんですね。{end}34
+Scott cái gì cũng biết vậy há.<end>
+//
+//戦術はイヤというほど
+//父に教えられましたから。{end}35
+Thì tiểu sinh được cha dạy<line>
+cho chiến thuật đến phát chán<line>
+luôn mà.<end>
+
+//
+//まったく、
+//しつこい連中だぜ！{end}36
+Cái bọn này dai như đĩa!<end>
+//
+//イッヒッヒッ！
+//誉め言葉として
+//受け取りましょうかね！{end}37
+Ihihihi!<line>
+Ta xin nhận lấy lời khen hén!<end>
+//
+//お前はそのまま
+//いやらしいヤツだ。{end}38
+Nhà ngươi đúng là kẻ<line>
+biến thái hết thuốc chữa.<end>
+//
+//ウキーーッ！{end}39
+Ukiiii--!<end>
+//
+//見かけ以上に
+//手ごわい連中だな。{wait}{clsr}
+//気を引きしめないと、
+//こっちがやられるぞ！{end}40
+//
+Bọn này lợi hại hơn vẻ<line>
+bề ngoài nhiều nhỉ.<pause><page>
+Nếu không cẩn thận thì không<line>
+khéo chúng ta bị thịt mất!<end>
+
+//今ごろ気づいても
+//おそいわ！{end}41
+Bây giờ mới biết<line>
+thì trễ rồi!<end>
+//
+//ムキーッ！
+//この程度の相手に何を
+//モタモタしているのですか！{wait}{clsr}
+//ゾルム！
+//突撃して一気にカタを
+//つけますよ！{end}42
+Chời đậu!<line>
+Bọn tẹp nhẹp như này mà<line>
+sao mất thời gian dữ vại!<pause><page>
+Zorm!<line>
+Mau đột kích thẳng,dẹp<line>
+sạch tụi nó ta coi cái nè!<end>
+//
+//血の気の多いヤツだな。
+//敵が小数だからといって、
+//あなどってはいかん。{wait}{clsr}
+//それに、この部隊の指揮権は
+//俺様にある。
+//勝手な行動は許さんぞ！{end}43
+Bọn này say máu quá.<line>
+Tuy quân địch ít nhưng<line>
+không thể khinh thường.<pause><page>
+Hơn nữa ngài đây đang nắm<line>
+quyền chỉ huy đạo quân này.<line>
+Nhà ngươi liệu cái thần hồn<line>
+mà làm càn!<end>
+//
+//ムキーッ！{wait}{clsr}
+//ムカつく奴め、ムカつく奴め！
+//ムカつく奴め、ムカつく奴め！
+//ムカつく奴め、ムカつく奴め！
+//ムカつく奴め、ムカつく奴め！{wait}{clsr}
+//貴様の指図など受けるものか！{end}44
+Chời đậu!<pause><page>
+Cái đồ cốt đột,đồ cốt đột!<line>
+Cái đồ cốt đột,đồ cốt đột!<line>
+Cái đồ cốt đột,đồ cốt độ!<line>
+Chời đậu mày,thằng cốt đột!<pause><page>
+Sao ta lại nghe theo lời mi!<line>
+Mơ đi thằng cốt đột!<end>
+
+//‥‥ったく、
+//見てらんねぇな！{end}45
+....Thật hết biết!<line>
+Chán đời quá đi!<end>
+//
+//何だと！？
+//お前にそんなことを言われる
+//おぼえはない！{end}46
+Cái gì!?<line>
+Các hạ muốn gì!<end>
+//
+//だったら、こうしようぜ。
+//お前が、俺を指揮してみな。
+//俺はもともと傭兵だ。{wait}{clsr}
+//お前の指揮能力が本物かどうか
+//見きわめてやるぜ！
+//さあ、どうするよ？{end}47
+Hay là như thế này đi.<line>
+Ta để ngươi nắm quyền<line>
+chỉ huy.<pause><page>
+Ta vốn là lính đánh thuê.<line>
+Để ta xem năng lực chỉ huy<line>
+của nhà ngươi có phải thật<line>
+như lời đồn hay không!<pause><page>
+Thế nào,đồng ý không?<end>
+//
+//‥‥おもしろい！
+//お前に俺たちの戦い方を
+//見せてやる！{end}48
+...Hay lắm!<line>
+Các hạ cũng hãy cho bọn<line>
+ta thấy sức mạnh của mình!<end>
+
+//そうかい。
+//じゃあさっそく作戦指示を
+//してくれ！{end}49
+Tốt.<line>
+Vậy hãy mau đưa chỉ<line>
+thị tác chiến!<end>
+
+//ロウガが仲間になった！{end}50
+Rouga gia nhập đồng minh!<end>
+
+
+//みんな、
+//気をつけてね。{wait}{clsr}
+//カルザスは、これまで何度も
+//帝国軍と戦って勝ったけど、
+//決して楽に
+//勝てたわけではないわ。{end}51
+
+Mọi người hãy bảo trọng.<pause><page>
+Dù Kalxath đã nhiều lần giao<line>
+binh và chiến thắng Đế quốc<line>
+nhưng cũng không phải dễ<line>
+dàng gì.<end>
+
+//大変だよ！
+//{char_name}。{wait}{clsr}
+//帝国軍の伏兵がいるよ！{end}52
+Nguy to rồi!<line>
+<char> ơi!<pause><page>
+Phục binh của Đế quốc!<end>
+//
+//ハッハッハ！
+//これが兵法というものよ！
+//石板はもらっていくぞ！{end}53
+Hahahaha!<line>
+Đây gọi là binh pháp đó!<line>
+Để ta lấy phiến đá đi!<end>
+//
+//みんな！
+//帝国軍を神殿に入れるな！{end}54
+Mọi người!<line>
+Đừng để quân Đế quốc vào<line>
+trong thần điện!<end>
+//
+//よーし、おいらもガンバルぞ！{end}55
+Hay lắm!<line>
+Tui cũng phải cố gắng<line>
+cắn cái gố mới được!<end>
+//
+//伏兵か！
+//みんな！
+//帝国軍を神殿に入れるな！{end}56
+Quân mai phục!<line>
+Mọi người!Đừng để<line>
+Đế quốc vào trong thần điện!<end>
+//
+//森の中を歩いていると、
+//少し開けた場所に出た。{wait}{clsr}
+//その中心には、まるで何かを
+//指しているかのように、
+//こもれ日がさす場所がある。{end}57
+Đi trong rừng bỗng dưng<line>
+thấy một chỗ rộng rãi.<pause><page>
+Giữa chỗ đó có ánh nắng<line>
+chiếu vào.<end>
+//
+//ほってみますか？{end}58
+Đào lên thử không?<end>
+//
+//スピードブーツを
+//見つけた！{end}59
+Phát hiện đôi<line>
+Giày Bitis!<end>
+//
+//そこをどけ！{end}60
+Tránh ra!<end>
+
+
+//くっ‥‥
+//こんなはずでは‥‥。{end}61
+Tặc...<line>
+Làm sao lại thế này...<end>
+
+
+//おいらの力を
+//あまく見るなよ！{end}62
+Đừng có coi thường<line>
+sức mạnh của tui nghen!<end>
+
+
+//あうっ！
+//もうダメだ‥‥。
+//ゴメン、{char_name}。{end}63
+Ah!<line>
+Thôi hỏng rồi...<line>
+Xin lỗi <char>.<end>
+
+
+//僕だって、りっぱに
+//戦ってみせる！{end}64
+Tiểu sinh cũng phải chiến<line>
+đấu cho ra trò!<end>
+
+
+//すみません。
+//いったん離脱します。{end}65
+Xin thứ lỗi.<line>
+Tiểu sinh rút lui đây.<end>
+
+//きゃあっ！{end}66
+Kyaa!<end>
+//
+//ああ‥‥
+//{char_name}‥‥。{end}67
+Ahh...<line>
+<char>...<end>
+//
+//まさか、
+//こんなことになるなんて‥‥。{end}68
+Không ngờ lại<line>
+ra nông nổi này...<end>
+//
+//さあ、小娘！
+//その男を殺すのです！{end}69
+Nào cô bé!<line>
+Giết thằng oắt kia cho ta!<end>
+//
+//やめるんだ！
+//俺だ、分らないのか！{end}70
+Dừng tay!<line>
+Không nhận ra tôi sao!<end>
+//
+//ウヒャヒャ！
+//ムダなことです。
+//あきらめて戦ったらどうです！{end}71
+Ahihihihi!<line>
+Vô ích thôi.<line>
+Thử đánh nó coi nè!<end>
+//
+//死ね！{end}72
+Chết đi!<end>
+//
+//ああ‥‥
+//{char_name}‥‥。{end}73
+Ahh...<line>
+<char>...<end>
+//
+//ウヒャヒャヒャ！
+//死んだ、死んだ！
+//シ・ン・ダァーッ！！{end}74
+Ahihihi đồ ngốc!<line>
+Chết rồi,chết rồi!<line>
+Ch.ết.r.ồ.i-!!<end>
+//
+//しまった！
+//光の巫女が‥‥！{end}75
+Chết!<line>
+Vu nữ ánh sáng đã...!<end>
+//
+//まさか、
+//こんなことになるなんて‥‥。{wait}{clsr}
+//リアナ‥‥‥
+//うわあぁぁーーっ！{end}76
+Không ngờ sự tình lại<line>
+ra thế này...<pause><page>
+Riana...<line>
+Uwaa--!<end>
+
+
+//操られていたとはいえ、
+//リアナは味方の手によって
+//かえらぬ人となった‥‥‥。{wait}{clsr}
+Dù bị điều khiển nhưng không<line>
+ngờ Riana lại bị chính tay<line>
+đồng đội của mình làm cho...<pause><page>
+
+//リアナの死によって、
+//魔剣アルハザードの封印は
+//永遠に解けない物となって
+//しまった。{wait}{clsr}
+Cái chết của Riana sẽ khiến<line>
+phong ấn của Ma kiếm Alhazard<line>
+vĩnh viễn là thứ không thể<line>
+giải trừ được.<pause><page>
+
+//魔剣の力を得られなかった
+//レイガルド帝国は、
+//全兵力を動員せざるを得ず、
+//長い戦いの末に破れ去った。{wait}{clsr}
+Đế quốc Legaild không có được<line>
+sức mạnh của Ma kiếm nên phải<line>
+huy động hết toàn binh lực.<pause><page>
+Và sau cuộc chiến dài,<line>
+quân Đế quốc đã tan nát.<pause><page>
+
+//いまだ大陸統一を夢見る国は
+//後を絶たず、世界の秩序は
+//消え去ったままである。{wait}{clsr}
+//長い時代の後、この大陸は
+//呪われた大地と呼ばれるように
+//なるのだった‥‥。{end}77
+Sau này vẫn luôn không ngừng<line>
+xuất hiện những đất nước mơ<line>
+tưởng đến chuyện thống nhất<line>
+đại lục.<pause><page>
+Sau một thời đại dài đằng<line>
+đẳng,người ta gọi đại lục này<line>
+là "đại lục bị nguyền rủa..."<end>
+
+//
+//うっ‥‥{wait}{clsr}
+//はっ？！
+//わ‥、私は操られて‥‥
+//みんなを‥‥。
+//すみま‥せ‥ん‥‥{end}78
+Utt...<pause><page>
+Hả!?<line>
+Mình...đã bị thao túng...<line>
+Khiến mọi người...<line>
+Xin lỗi...<end>
+
+//
+//ヒャーヒャヒャヒャ！
+//実に良い気分です。{wait}{clsr}
+//あなた方には、
+//感謝せねばなりませんねえ。{end}79
+Ahihihi!<line>
+Thiệt là sảng khoái!<pause><page>
+Ta cần phải cảm ơn<line>
+mấy người mới phải phép<line>
+chớ hè.<end>
+//
+//くっ！
+//あの男を先に倒すべきだった
+//のか‥‥。{end}80
+Chết tiệt!<line>
+Đáng lý phải hạ cái<line>
+gã đó trước mới đúng...<end>
+//
+//なんでぇ、
+//ザコばっかりじゃねぇか。{wait}{clsr}
+//ま、一宿の恩もあるし、
+//面倒くせえが、
+//手伝ってやるとするか‥‥。{end}81
+Sao toàn là bọn<line>
+tép riêu không vậy.<pause><page>
+Dù sao cũng mang ơn vì<line>
+đã cho ngủ nhờ một đêm.<line>
+Tuy cũng phiền nhưng<line>
+hãy để ta giúp một tay...<end>
+//
+//そんなに面倒なら
+//手伝ってくれなくても
+//かまわないさ。{wait}{clsr}
+//俺たちの戦いを
+//そこで見ていろ！{end}82
+Nếu thấy phiền thì<line>
+không cần phải nhúng<line>
+tay vào đâu.<pause><page>
+Cứ ở yên đó mà xem<line>
+bọn này chiến đấu!<end>
+
+//
+//おもしれえ！
+//俺はここで、お前の腕前を
+//見せてもらうとするぜ。{end}83
+Thú vị!<line>
+Ta sẽ chứng tỏ cho các<line>
+ngươi thấy thực lực.<end>
+//
+//さあ、どうするんだ？
+//{char_name}。{end}84
+Thế nào,quyết định sao<line>
+đây <char>?<end>
+//
+//うぉぉぉぉ！{end}85
+Uoooo~!<end>
+//
+//‥‥このヘタクソがっ！
+//やられちまったじゃねぇか！{end}86
+...Cái đồ cứt thúi!<line>
+Tao chết rùi nè!<end>
+//
+//俺の力は
+//この程度だというのか‥‥{end}87
+Chẳng lẽ sức ta<line>
+chỉ tới mức này thôi sao...<end>
+//
+//カルザスのシェリー、参る！{end}88
+Cherie thành Kalxath<line>
+tham chiến!<end>
+//
+//‥シェリー‥‥？
+//どこかで会ったような。{end}89
+...Cherie...?<line>
+Hình như gặp ở đâu rồi nhỉ.<end>
+
+//
+//‥‥そろそろ勝負も
+//見えてきたわね。{wait}{clsr}
+//私は、神殿の入口の
+//どれか一つを守ってあげるわ。
+//ただし、リアナって娘のことは
+//任せるわよ。{end}90
+...Sắp tới hồi phân<line>
+thắng phụ rồi nhỉ.<pause><page>
+Bổn cô nương sẽ giúp một<line>
+tay để chặn một trong các<line>
+cổng.Nhưng cô bé Riana thì<line>
+để các vị lo liệu nhé.<end>
+
+//
+//ああ、すまない。{end}91
+Ah,đa tạ.<end>
+//
+//ねえ、私はどうすればいい？{end}92
+Nè,bổn cô nương phải<line>
+làm gì đây?<end>
+
+
+//右の入口を守る。{end}93
+Bảo vệ cổng bên hữu<end>
+//
+//左の入口を守る。{end}94
+Bảo vệ cổng bên tả<end>
+//
+//そのまま待機する。{end}95
+Cứ đợi ở đó.<end>
+//
+//右の入口を守ってくれないか？{end}96
+Cô nương có thể giúp ta<line>
+giữ lối vào cổng bên phải?<end>
+//
+//いいわよ。{end}97
+Được thôi.<end>
+//
+//左の入口を守ってくれないか？{end}98
+Cô nương có thể giúp ta<line>
+giữ lối vào cổng bên trái?<end>
+//
+//分かった。{end}99
+Hiểu rồi.<end>
+//
+//そのまま、中央の入口を頼む。{end}100
+Làm ơn cứ đóng tại đó<line>
+mà bảo vệ lối vào cổng<line>
+chính giữa.<end>
+//
+//分かったわ。{end}101
+Hảo lớ.<end>
+//
+//帝国軍の好きには
+//させないわ！{end}102
+Không thể để quân Đế quốc<line>
+làm xằng làm bậy được!<end>
+//
+//ちょっとハリキリすぎた
+//みたいね‥‥。
+//少し休ませてもらうわ。{end}103
+Hơi quá sức một tẹo...<line>
+Thôi cứ nghỉ ngơi một<line>
+lát cái đã.<end>
+//
+//巫女たちは、
+//神殿の奥へ避難しなさい！{end}104
+Các Vu nữ hãy mau lánh nạn<line>
+vào bên trong thần điện!<end>
+//
+//はい、司祭様！{end}105
+Vâng,thưa ngài tư tế!<end>
+//
+//おお‥神よ‥‥{end}106
+Trời ơi...thần linh ơi...<end>
+//
+//司祭様！{end}107
+Ngài tư tế!<end>
+//
+//リアナ！
+//冷たいようだが、
+//悲しんでいる暇はないぞ！
+//次がくる！{end}108
+Riana!Dù nói ra có vẻ lạnh<line>
+lùng nhưng giờ không có thời<line>
+gian để buồn đâu!<pause><page>
+Chúng đang tới liên tục!<end>
+//
+//はっ、はい‥‥。{end}109
+Vâng...vâng...<end>
+//
+//あぁ、ルシリス様‥‥。{end}110
+Ahh,nữ thần Lushiris...<end>
+//
+//キャー！{end}111
+Kyaaa!<end>
+//
+//クックック‥‥。
+//やはり生あたたかい血は
+//いいものだなぁ～。{end}112
+Khặc khặc khặc...<line>
+Đúng là máu tươi nóng hổi<line>
+ngon thiệt~<end>
+//
+//邪魔するヤツは
+//容赦しないぞ！{end}113
+Tuyệt đối không tha cho<line>
+bất kỳ kẻ nào cản trở!<end>
+//
+//俺様の実力を
+//見せてやるぜ！{end}114
+Hãy xem thực lực của<line>
+ngài đây!<end>
+//
+//ば、ばかな！
+//俺様の力が、あんなヤツらより
+//劣るとは‥‥{wait}{clsr}
+//おのれ、覚えておれ！{end}115
+Điên,điên khùng!<line>
+Sức mạnh của ngài đây lại<line>
+kém thua bọn chúng sao...<pause><page>
+Khốn kiếp,hãy đợi đó!<end>
+//
+//ふ～む。
+//今一つ物足りませんねぇ。{wait}{clsr}
+//そう言えば、エグベルト様に
+//面白い魔法の品を
+//いただいていた事を
+//思い出しましたよ。{wait}{clsr}
+//ではさっそく、その小娘に
+//使ってみるとしましょう！{wait}{clsr}
+//心を司どる霊よ‥‥{wait}{clsr}
+//‥‥‥？
+//‥後は忘れてしまいましたが
+//まあ、いいでしょう。{wait}{clsr}
+//レビラ・トール・レケセタ！{end}116
+Hừm.<line>
+Có vẻ vẫn còn thiếu gì đó.<pause><page>
+Ah giờ ta nhớ ra là ta được<line>
+ngài Egbert ban cho cuốn sách<line>
+ma pháp khá hay.<pause><page>
+Cứ thử dùng với con bé<line>
+kia xem thế nào!<pause><page>
+Hỡi các tinh linh ngự trị<line>
+nơi cõi lòng...<pause><page>
+.........?<line>
+Sao quên mất đoạn sau rồi.<line>
+Thôi kệ,cứ đọc đại vậy.<pause><page>
+Um ba la ca na xi muoi.<line>
+Hít le Xờ ta lin Mông Trạch<line>
+Đao cờ lao bí rợ!<end>
+
+
+//
+//うっ！
+//あ、頭が‥‥{end}117
+Oái!<line>
+Đau,đau đầu quá...<end>
+//
+//リアナ！
+//大丈夫か？！{end}118
+Riana!<line>
+Cô làm sao vậy!?<end>
+//
+//さあ、小娘よ！
+//まずはその男を血祭りにして
+//あげなさい！{end}119
+Nè con bé!<line>
+Đầu tiên hãy tế máu cái<line>
+thằng khốn đó cho ta!<end>
+//
+//‥‥‥。{end}120
+...<end>
+//
+//どうやら、術が不完全に
+//発動してしまったようですね。{wait}{clsr}
+//まあ、それでも一応、
+//良しとしましょうか。{end}121
+Có vẻ như thuật phát động khi<line>
+chưa đạt uy lực đầy đủ nhể.<pause><page>
+Thấy cũng tội mà thôi cũng kệ.<line>
+Cứ để nó thử coi sao.<end>
+//
+//ハッ！
+//術も満足にかけられんとは
+//情けない。{end}122
+Haha!<line>
+Thảm hại quá đi!Có đọc thần<line>
+chú mà cũng không nên thân.<end>
+
+
+//ムキーッ！
+//筋肉バカに言われる
+//筋合いはないわ！{end}123
+Chời đậu!<line>
+Sao ta lại để cho thằng cốt<line>
+đột này ghẹo hoài được!<end>
+
+
+//なら、
+//もう少しまともな働きを
+//してもらいたいものだな、
+//モーガン君。{end}124
+Vậy thì cố gắng nghiêm chỉnh<line>
+nghỉnh con chiêm hơn một tẹo<line>
+hén,cậu Morgan.<end>
+
+
+//ムキキキッ！
+//‥‥まあ、いいでしょう。{wait}{clsr}
+//でも、背後には気を
+//付けたほうがいいと
+//思いますよ、ゾルム隊長。
+//ヒッヒッヒッ！{end}125
+Chời đậu chời đậu!<line>
+...Mà thôi cũng được.<pause><page>
+Nhưng mà ngươi nên để ý sau<line>
+lưng một chút thì tốt hơn đó,<line>
+đội trưởng Zorm.Ahihihi!<end>
+//
+//どうしたんだよ！？
+//しっかりしてよ、リアナ！{end}126
+Cô làm sao vậy?<line>
+Tỉnh lại đi Riana!<end>
+//
+//ダメだ‥‥{wait}{clsr}
+//どうやらヤツの術によって
+//正気を失っているようだ。
+//一体どうすればいいんだ‥‥。{end}127
+Vô ích...<pause><page>
+Có vẻ cô ấy trúng tà thuật<line>
+của gã biến thái kia mà mất<line>
+lý trí rồi.Phải làm sao đây...<end>
+
+//
+//あの男を、‥‥モーガンを
+//倒すんです！{wait}{clsr}
+//そうすればリアナさんも
+//元に戻ると思います。{end}128
+Tiểu sinh nghĩ...là phải đánh<line>
+bại gã đó,đánh bại Morgan!<pause><page>
+Lúc đó thì cô nương Riana sẽ<line>
+trở lại bình thường.<end>
+
+
+//分った！
+//モーガンを倒せばいいんだな！{end}129
+Hiểu rồi!<line>
+Chỉ cần đánh bại tên Morgan<line>
+là được chứ gì!<end>
+
+
+//ウヒャヒャヒャヒャ！
+//この私と戦う気ですか？{wait}{clsr}
+//そんなにゾンビに
+//なりたいのなら、すぐに
+//望み通りにしてあげます。{end}130
+Ahihihihi!<line>
+Muốn chiến với ta sao?<pause><page>
+Nếu muốn trở thành Zombie thì<line>
+ta sẽ giúp cho toại nguyện.<end>
+
+//
+//キィィィッ！
+//この私に刃向かうとは、
+//おしおきです！！{end}131
+Kiiii!<line>
+Dám đánh cả ta sao!<line>
+Coi chừng bị quả báo!!<end>
+//
+//私の力をじっくりと
+//味わいなさい！{end}132
+Cứ thong thả mà nếm mùi<line>
+lợi hại của ta!<end>
+//
+//ウキキーッ！
+//よくもこの私に傷を
+//負わせましたねェ！！{wait}{clsr}
+//いつかこの事を
+//後悔させてあげます！{end}133
+Ukiii!<line>
+Dám làm ta bị thương sao!!<pause><page>
+Rồi các ngươi sẽ hối hận<line>
+vì chuyện này!<end>
+//
+//うっ‥‥{wait}{clsr}
+//はっ？！
+//わ‥、私は‥‥{end}134
+Ut...<pause><page>
+Hả!?<line>
+Mình...mình làm sao...<end>
+//
+//気がついたか。
+//モーガンに傷を負わせたから
+//術の集中が途絶えたのだろう。{end}135
+Cô tỉnh rồi à.Chắc là vì tên<line>
+Morgan bị thương nên không<line>
+tập trung ểm bùa được nữa.<end>
+//
+//ごめんなさい。
+//{char_name}。{end}136
+Tôi xin lỗi,<char>.<end>
+//
+//バ、バカな‥‥{end}137
+Không thể nào...<end>
+//
+//ぐおぉっ！{end}138
+Gwwaaoo!<end>
+//
+//ウヒャヒャ！
+//一人残らず殺してやる。{end}139
+Ahihihi!Giết hết!<line>
+Giết không chừa một đứa nào.<end>
+//
+//死ねいッ！{end}140
+Chết nè con!<end>
+//
+//完全に‥‥
+//や、やられた‥‥{end}141
+Không ngờ...<line>
+Thất bại hoàn toàn...<end>
+//
+//しくじった！
+//ゾルム様、
+//すみませんでした‥‥{end}142
+Chết cha rồi!<line>
+Xin lỗi ngài Zorm...<end>
+//
+//ヘッヘッヘッ‥‥
+//行くぞぉ。{end}143
+Hề hề hê...<line>
+Triển thôi các đồng mâm.<end>
+//
+//へへへ‥‥
+//死ねッ！{end}144
+Hề hề hề...<line>
+Chết con mẹ mày đi!<end>
+//
+//まだ、
+//死にたくねえよ‥‥{end}145
+Ta chưa muốn chết...<end>
+//
+//無念だ‥‥。{end}146
+Chết không phải là Tết...<end>
+//
+//血、血が‥‥‥。{end}147
+Đã chết thì khỏi ăn Tết...<end>
+//
+//どうやら終わったようね。{end}148
+Có vẻ như kết thúc rồi.<end>
+//
+//ありがとう、助かったよ。
+//俺は、{char_name}。
+//君は？{end}149
+Đa tạ cô nương đã ra tay.<line>
+Ta là <char>.<line>
+Còn cô?<end>
+//
+//シェリーよ、
+//よろしくね。{wait}{clsr}
+//私たちカルザスは、近隣の国と
+//反帝国派を作っているの。
+//この辺りに帝国兵がいるって
+//聞いて、やって来たのだけど。{wait}{clsr}
+//でも、帝国が光の神殿まで
+//襲うなんて‥‥。
+//何を考えているのかしら。{end}150
+Bổn cô nương là Cherie.<line>
+Rất hân hạnh.<pause><page>
+Người Kalxath chúng tôi đang<line>
+cùng với các nước lân cận tạo<line>
+thành thế lực chống Đế quốc.<pause><page>
+Nghe nói quân Đế quốc kéo tới<line>
+quanh vùng này nên bổn cô<line>
+nương mới tìm tới đây.<pause><page>
+Mà không ngờ chúng lại tập<line>
+kích thần điện ánh sáng...<line>
+Chúng nghĩ gì vậy không biết.<end>
+//
+//イタタタ‥‥。{end}151
+Đau đau đau...<end>
+//
+//大丈夫か？
+//ええっと‥‥{end}152
+Có sao không?<line>
+Mà cô là...<end>
+//
+//シェリーよ。
+//情けないわ、
+//やられちゃうなんて‥‥。{wait}{clsr}
+//私たちカルザスは、近隣の国と
+//反帝国派を作っているの。
+//この辺りに帝国兵がいるって
+//聞いて、やってきたのだけど。{wait}{clsr}
+//でも、帝国が光の神殿まで
+//襲うなんて‥‥。
+//何を考えているのかしら。{end}153
+Là Cherie.<line>
+Bị ăn đòn tơi tả,xấu hổ<line>
+quá đi...<pause><page>
+Người Kalxath chúng tôi đang<line>
+cùng với các nước lân cận tạo<line>
+thành thế lực chống Đế quốc.<pause><page>
+Nghe nói quân Đế quốc kéo tới<line>
+quanh vùng này nên bổn cô<line>
+nương mới tìm tới đây.<pause><page>
+Mà không ngờ chúng lại tập<line>
+kích thần điện ánh sáng...<line>
+Chúng nghĩ gì vậy không biết.<end>
+//
+//私、モーガンに操られて
+//{char_name}にむかって‥{wait}{clsr}
+//{char_name}が、
+//もし死んでしまうようなことに
+//なっていたら‥‥。{wait}{clsr}
+//わたし‥、わたし‥‥{end}154
+Tôi bị Morgan ểm bùa thao túng<line>
+mà tấn công <char>...<pause><page>
+Ngộ nhỡ <char> mà có<line>
+mệnh hệ nào thì...<pause><page>
+Tôi...tôi biết phải...<end>
+//
+//いや、みんなが
+//無事ならそれでいいさ。
+//それに‥‥{wait}{clsr}
+//女の子には笑ってる顔が
+//いちばん似合うよ。{wait}{clsr}
+//だからもう、泣くのはやめて
+//くれないか。{end}155
+Thôi,mọi người bình an<line>
+là tốt rồi.Mà này...<pause><page>
+Một khuôn mặt tươi cười rạng<line>
+rỡ là hợp nhất với nữ nhi.<line>
+Cho nên đừng khóc nữa có<line>
+được không.<end>
+//
+//‥‥ありがとう。{wait}{clsr}
+//{char_name}にはいつも
+//迷惑ばかりかけて、
+//本当にごめんなさい‥‥。{wait}{clsr}
+//でも、もう元気を
+//出すようにします。
+//だから心配しないで‥‥{end}156
+...Đa tạ.<line>
+Lúc nào tôi cũng toàn làm<line>
+phiền <char> thô nhỉ.<pause><page>
+Thành thật xin lỗi...<line>
+Nhưng tôi đã tỉnh lại rồi,<line>
+đừng lo lắng nữa nhé...<end>
+//
+//ああ。
+//早く元気になってくれよ。{end}157
+Tốt rồi.<line>
+Mau chóng bình phục nhé.<end>
+
+
+//はい。{end}158
+Vâng.<end>
+//
+//ごめんなさい。
+//もう少しでみんなに攻撃を
+//しかけるところでした‥‥。{end}159
+Xin lỗi.Chỉ một tí nữa là tôi<line>
+tấn công mọi người rồi...<end>
+//
+//リアナが悪いわけじゃない。
+//全てモーガンの術のせいだよ。{end}160
+Không phải lỗi của Riana đâu.<line>
+Tất cả đều là do tà thuật của<line>
+tên Morgan.<end>
+//
+//ありがとう‥‥。
+//みんな気を使ってくれて‥‥{end}161
+Cám ơn mọi người...<line>
+Tử tế với tôi quá...<end>
+//
+//あっ、そうだ。
+//ところでリアナさんの件は
+//どうしましょうか？{end}162
+Ah đúng rồi,về việc của cô<line>
+Rianan thì ta phải tính sao<line>
+đây nhỉ?<end>
+//
+//結局、光の大神殿でも
+//ダメだもんな‥‥。{end}163
+Rốt cuộc, đại thần điện ánh<line>
+sáng cũng không an toàn nhỉ...<end>
+//
+//これから、どうすれば
+//いいかな。{wait}{clsr}
+//光の神殿に任せるのは
+//無理のようだし‥‥。{end}164
+Từ giờ phải tính sao đây nhỉ.<pause><page>
+Có vẻ như không thể nhờ và<line>
+thần điện ánh sáng được nữa<line>
+rồi...<end>
+
+//
+//そうだな。
+//それがいいかもしれない。{end}165
+Đúng rồi.<line>
+Có thể vậy là ổn.<end>
+//
+//{char_name}‥あの‥‥{end}166
+<char>...<line>
+Xin lỗi...<end>
+//
+//ん？
+//リアナ、なんだい？{end}167
+Hn?<line>
+Riana,sao vậy?<end>
+//
+//お願い、私も戦わせて！{end}168
+Làm ơn,hãy để tôi được<line>
+chiến đấu!<end>
+//
+//そんな！
+//女の子じゃ戦いは危険だよ！{end}169
+Không thể nào!<line>
+Đàn bà con nít đánh nhau<line>
+nguy hiểm lắm!<end>
+//
+//これ以上耐えられないの。
+//私のために‥‥その‥‥{wait}{clsr}
+//‥‥みんなが傷つく
+//なんて。{end}170
+Tôi đâu phải con nít,<line>
+mà cũng không phải đàn<line>
+bà đâu nha.<pause><page>
+Tôi không thể chịu đựng thêm<line>
+chút nào nữa...Khi thấy mọi<line>
+người vì mình mà bị thương...<end>
+//
+//認めてあげなさいよ。
+//それとも、
+//彼女を守りきる自信がないの？{end}171
+Hãy chấp nhận cho cô ấy đi.<line>
+Hơn nữa,chẳng lẽ không đủ tự<line>
+tin bảo vệ cô ấy?<end>
+//
+//‥‥‥。{end}172
+......<end>
+//
+//‥分かったよ。{end}173
+...Tôi hiểu rồi.<end>
+//
+//ありがとう！
+//{char_name}！{end}174
+Cảm ơn!<line>
+<char>!<end>
+//
+//リアナが仲間になった！{end}175
+Riana đã gia nhập đồng minh!<end>
+//
+//なかなかやるじゃねぇか。
+//それにその男気も気に入った！{end}176
+Cũng khá ghê đó.<line>
+Mà ta cũng thích khí khái<line>
+chất đàn ông đó lắm!<end>
+//
+//ありがとう。
+//うれしいよ。{end}177
+Đa tạ.<line>
+Quá khen.<line>
+Không dám.<end>
+//
+//お前は何か大きなことを
+//やりそうな気がするぜ。
+//一緒にいれば金になりそうだ。{wait}{clsr}
+//しばらくお前とつき合うぜ。
+//これからも頼む、
+//{char_name}よ！{end}178
+Ta cảm thấy đại hiệp đây sẽ<line>
+làm được điều gì to tát lắm.<pause><page>
+Nếu chúng ta hợp tác thì sẽ<line>
+kiếm được nhiều tiền đây.<line>
+Từ giờ để ta theo phụ giúp<line>
+một tay,<char>!<end>
+//
+//こちらこそな。
+//ロウガのような強い仲間は
+//大歓迎だ。{end}179
+Ta cũng vậy.Rất hoan nghênh<line>
+đồng đội mạnh mẽ như Rouga.<end>
+//
+//ったく！
+//偉そうなことを言ったわりに
+//全然ダメな男だな！{wait}{clsr}
+//いい素質を持ってるってのに、
+//全然活かせてねぇぞ！{end}180
+Thiệt tình!<line>
+Nói thì hay nhứt mà làm<line>
+thì nhứt cư!<pause><page>
+Có đầy đủ tố chất vậy mà<line>
+chả biết phát huy,để nó trở<line>
+thành vô ích hết!<end>
+//
+//‥‥‥。{end}181
+......<end>
+//
+//だが、お前は何か大きなことを
+//やりそうな気がするぜ。{wait}{clsr}
+//ま、一緒にいれば金にも
+//なりそうだしな。{wait}{clsr}
+//ただし、このままじゃダメだ。
+//話にならねえ！
+//俺がみっちり仕込んでやる！{wait}{clsr}
+//{char_name}よ！
+//俺がお前を一人前の指令官に
+//育ててやる！{wait}{clsr}
+//だから俺の期待に
+//応えてくれよ。
+//大金のかせげる男に
+//なってもらうぜ！{end}182
+Mà ta cảm thấy nhà ngươi sẽ<line>
+làm được điều gì to tát lắm.<pause><page>
+Nếu chúng ta hợp tác thì sẽ<line>
+kiếm được nhiều tiền đây.<pause><page>
+Nhưng cứ để thế này thì không<line>
+ổn!Để ta dạy dỗ thêm cho nên<line>
+người!<pause><page>
+Này <char>!Ta sẽ đào<line>
+tạo ngươi thành một chỉ huy<line>
+đại tài!Đừng phụ lòng ta nghe.<pause><page>
+Hãy cố gắng học theo ta để trở<line>
+thành kẻ kiếm được bộn tiền!<end>
+//
+//さて、それじゃあ
+//カルザスへ急ぎましょう。
+//わたしが案内するわ！{end}183
+Nào,ta mau đến Kalxath thôi.<line>
+Để tôi dẫn đường đến thành!<end>
+//
+//シェリーが仲間になった！{end}184
+Cherie đã gia nhập đồng minh!<end>
+//
+//きっと、みんな大歓迎よ。{end}185
+Chắc chắn mọi người sẽ chào<line>
+đón thôi.<end>
+//
+//待って下さい！
+//せめて助けていただいた
+//お礼だけでも‥‥。{end}186
+Xin đợi đã!Chí ít thì cũng<line>
+phải có lễ vật tạ ơn đã cứu<line>
+giúp...<end>
+//
+//あなた方のおかげで
+//この神殿は救われたんじゃ。{wait}{clsr}
+//少しくらい礼をしてもバチは
+//あたるまい。{end}187
+Nhờ ơn các vị mà thần điện<line>
+này được cứu khỏi nguy cơ<line>
+chiến loạn.<pause><page>
+Đây là chút lòng thành,của ít<line>
+tiền nhiều.Xin cứ nhận lấy<line>
+cho.<end>
+//
+//このクロスを受け取って
+//下さい。{wait}{clsr}
+//あなた方の行く末にいつも
+//幸運がありますように‥‥。{end}188
+Hãy nhận lấy cây Thập tự giá<line>
+này.Cầu chúc cho các vị lên<line>
+đường gặp nhiều thuận lợi...<end>
+//
+//クロスを手に入れた！{end}189
+Nhận được Thập tự giá!<end>
+//
+//何もできませんが、
+//せめて、旅の無事を祈らせて
+//下さい。{end}190
+Tuy không làm được gì nhiều<line>
+nhưng hãy để bần tân cầu chúc<line>
+chuyến đi được bình an.<end>
+//
+//よし！
+//行くぞ、みんな！{end}191
+Nào!<line>
+Đi thôi mọi người!<end>
+//
+//むむ、なかなかやるな！
+//ならば、俺様の力を
+//みせてやろう！{wait}{clsr}
+//全軍突撃！{end}192
+Hừm,cũng cứng cỏi đó!<line>
+Vậy hãy xem sức mạnh của<line>
+ngài đây!<pause><page>
+Ta thông báo!<line>
+Toàn quân đột kích!<end>
+//
+//ムキーーッ！
+//遅い！遅い！遅い！{wait}{clsr}
+//お前のような馬鹿指揮官と
+//一緒では、勝てる戦いも
+//勝てなくなりますよ、全く‥。{end}193
+Bực quá~<line>
+Đồ rùa bò đồ cù lần đồ bần<line>
+thần đồ đần độn!<pause><page>
+Đi chung với ngươi thì trận<line>
+thắng cũng hóa thành trận<line>
+thua.Hết biết...<end>
+//
+//まずい！
+//リアナがねらわれているぞ！
+//急いで助けに行くぞ！{end}194
+Nguy rồi!Riana đang bị chúng<line>
+nhắm tới!Phải khẩn trương cứu<line>
+cô ấy!<end>
+
+//ふんっ！
+//やるじゃねぇか！
+//俺にはおよばねぇがな！{end}195
+Hừm!Cũng khá đó!<line>
+Nhưng chưa bằng ta được!<end>
+//
+//ほう、
+//なかなかやるねぇ。{end}196
+Chà,cũng khá đó chớ.<end>
+//
+//彼女が帝国に
+//狙われているのね？{wait}{clsr}
+//そうね‥‥。
+//それなら、この先のカルザス城
+//だったら大丈夫だと思うけど。{end}197
+Cô nương kia đang bị Đế quốc<line>
+săn đuổi à?<pause><page>
+Đúng rồi...Nếu vậy thì hãy đến<line>
+thành Kalxath.Ta nghĩ là<line>
+ở đó cô ấy sẽ được an toàn.<end>
+//
+//ヒャーヒャヒャヒャ！
+//おもしろい見せ物ですね。
+//その調子で戦いなさい。{end}198
+Ahihi!Có trò hay để xem rồi!<line>
+Cứ như thế mà đánh tụi kia<line>
+nhé em gái xinh đệp!<end>
+//
+//ヒャーヒャヒャヒャ！
+//甘い！甘すぎますよ。{wait}{clsr}
+//その程度の力で帝国軍に、
+//私に刃向かおうとは！{end}199
+Ahihi đồ ngốc!Ngây thơ!Quá<line>
+ngây thơ luôn đó ahihi đồ<line>
+khùng!<pause><page>
+Trình còi cỡ đó mà dám chống<line>
+lại quân Đế quốc,dám chống lại<line>
+ta sao!<end>
+//
+//ハッハッハッ！
+//まだまだ甘いな！
+//炎竜兵団の力を甘くみたな！{end}200
+Hahaha!Vẫn còn non và xanh<line>
+lắm!Đừng có coi thường sức<line>
+mạnh của Hỏa long binh đội!<end>
+//
+//ウヒャヒャ！
+//もっとハデに
+//暴れてあげなさい！{wait}{clsr}
+//我々に抵抗する愚かさを
+//たっぷりと
+//教えてあげるのです！{end}201
+Ahihihi!<line>
+Cứ quậy cho hoành tá tràng<line>
+lên nào!<pause><page>
+Hãy cho chúng biết sự ngu xuẩn<line>
+khi chống lại bọn ta!Chống cự<line>
+là bụng bự!<end>
+//
+//やらせんぞ！{end}202
+Đừng hòng chạy thoát!<end>
+//
+//カルザス城か‥‥。{end}203
+Thành Kalxath à...<end>
+//
+//たしかにカルザスなら、
+//リアナさんを守ることが
+//できるかもしれません。{end}204
+Đúng rồi,thành Kalxath có thể<line>
+bảo vệ được Riana không chừng.<end>
+//
+//そうよ。
+//カルザスには、私以外にも
+//強い兵士がたくさんいるわ。{end}205
+Đúng đó.Ngoài bổn cô nương ra<line>
+thì Kalxath còn nhiều tướng sỹ<line>
+lợi hại lắm.<end>
+//
+//見つけたわよ、帝国軍め！
+//様子が変だと思ったら、
+//やっぱりここにいたのね！{wait}{clsr}
+//この私が来たからには、
+//あんたたちの好きには
+//させないわよ！{end}206
+Phát hiện ra các ngươi rồi!<line>
+Bớ bè lũ Đế quốc!<pause><page>
+Bổn cô nương thấy nghi nghi,<line>
+không ngờ các ngươi lại mò<line>
+tới đây!<pause><page>
+Bổn cô nương đã tới đây rồi<line>
+thì các ngươi đừng hòng làm<line>
+xằng làm bậy!<end>
+//
+//ウキキッ！
+//お嬢さん、大人しくお家に
+//お帰りなさい。{wait}{clsr}
+//そうすれば、若い命を
+//散らさずにすみますよォ。
+//ヒャッヒャッヒャッ！{end}207
+Ahihi!Bé ơi,ngoan ngoãn về<line>
+nhà với mẹ đi.<pause><page>
+Không ngoan là anh cho ăn<line>
+đoàn căng bụng đó nhen.<line>
+Ahihihihi!<end>
+//
+//な、なによ！
+//このヘンタイ魔法使い！
+//目つきがアブナイわよ。{end}208
+Cái,cái gì thế!Gã pháp sư<line>
+biến thái có ánh mắt nguy<line>
+hiểm quá!<end>
+//
+//うむ。
+//それについては、同感だ。{end}209
+Uhm,riêng chuyện đó thì ta<line>
+đồng cảm với cô bé.<end>
+//
+//ムキィーッ！{end}210
+Chời đậu!<end>
+//
+//あらら、
+//変な女の子が現れちゃったよ。{end}211
+Chà chà,tự dưng có con bé<line>
+đáng ngờ xuất hiện kìa.<end>
+//
+//失礼ね！
+//せっかく助けてあげようと
+//思っているのに。{end}212
+Vô lễ!Người ta tới cứu mạng<line>
+mà ăn nói hỗn hào vậy.<end>
+//
+//‥‥あら？
+//あなた、
+//なかなかカッコイイじゃない。{wait}{clsr}
+//あなたのために、ちょっと
+//はりきっちゃおうかな？{end}213
+...Hế?Có soái ca đẹp giai nè.<line>
+Vậy bổn cô nương sẽ giúp soái<line>
+ca một tay nhé?<end>
+
+//
+//ええ！？
+//おいらのこと？
+//いやあ、照れるなァ‥‥。{end}214
+Hế?Nói tui đó hả?<line>
+Ui giời ơi thẹn quá đi...<end>
+//
+//バッカじゃないの！？
+//誰があんたなんかにっ！{end}215
+Đồ điên!?<line>
+Ai nói cái đồ mặt gỗ như cậu!<end>
+//
+//チェッ！{end}216
+Tặc!<end>
+//
+//‥‥‥。{wait}{clsr}
+//と、とにかく頼むよ。{end}217
+......<pause><page>
+Dù sao cũng nhờ cô vậy.<end>
+//
+//フフッ。
+//赤くなっちゃって、
+//カワイイ！{end}218
+Hihi.Đỏ mặt rồi kìa.Yêu quá<line>
+đi mất!Tóc đỏ mặt cũng đỏ nữa<line>
+kìa,yêu quá đi!<end>
+//
+//しまった！
+//守りきれなかった‥‥。{end}219
+Chết cha!<line>
+Không bảo vệ được rồi...<end>
+
+
+
+#WRITE(Ptr, $120027)
+//どうやらここが
+//ダークロッドのある場所の
+//ようだな。{wait}{clsr}
+//まだエグベルトが来た様子は
+//無いみたいだが‥‥。{end}
+Có vẻ như đây là nơi<line>
+cất giấu Dark Rod nhỉ.<pause><page>
+Vẫn chưa thấy bóng dáng<line>
+Egbert đâu cả...<end>
+
+
+//禁断の地を犯す者よ。
+//すみやかにここを出てゆけ。{wait}{clsr}
+//ここは何人も犯してはならぬ
+//聖地である。
+//あえて立ち入るならば
+//その命、無いものと思え！{end}
+Hỡi kẻ xâm phạm thánh địa<line>
+cấm.Hãy mau rời khỏi nơi này.<pause><page>
+Đây là thánh địa mà bất cứ kẻ<line>
+nào cũng không được đặt chân<line>
+đến.Nếu cố tình bước vào thì<line>
+sẽ không toàn mạng đâu!<end>
+
+
+////むっ、こいつらは？{end}
+Hừ,bọn chúng là?<end>
+
+//
+//古代のガーディアン。
+//‥‥ダークロッドを守る者。{end}
+Các Guardian cổ đại.<line>
+...Những kẻ bảo vệ Dark Rod.<end>
+
+//
+//それでエグベルトも
+//手が出せなかったのかしら？{end}
+Vậy có nghĩa là Egbert vẫn<line>
+chưa động đến đây?<end>
+
+//
+//さてな‥‥。
+//この程度であきらめるような
+//ヤツじゃねぇと思うが‥‥。{end}
+Chà...Tôi nghĩ hắn không phải<line>
+kiểu người dễ bỏ cuộc chỉ vì<line>
+những kẻ như này đâu...<end>
+
+//
+//とにかくエグベルトが来る前に
+//ロッドを取っちゃおう！{end}
+Ta nên chiếm lấy Dark Rod<line>
+trước khi Egbert đến!<end>
+
+//
+//油断するんじゃねぇぞヘイン、
+//相手は古代の魔法生物だぜ。
+//気を抜けばこっちがやられる。{end}
+Chớ có khinh suất,Hein.<line>
+Đối phương là các sinh vật ma<line>
+thuật thời cổ đại.<pause><page>
+Nếu lơ đễnh thì không chừng<line>
+chúng ta sẽ bị hại đó.<end>
+
+//
+//
+//しかし‥‥。
+//まさかあのエグベルトが
+//ジェシカの弟子だったとは‥‥{end}
+//NHƯNG MÀ... <line>CÓ PHẢI GÃ<line>EGBERT KIA LÀ<pause><page>ĐỆ TỬ CỦA NGÀI<line>JESSICA KHÔNG... <$00>
+Nhưng mà...<line>
+Không ngờ gã Egbert kia lại là<line>
+đệ tử của Jessica...<end>
+
+//
+//
+//まだ私が転生を行う前、
+//彼は私の元で魔道を学んで
+//いたのです。{wait}{clsr}
+//しかし、しだいに彼は
+//より強力な魔力を欲するように
+//なりました。{wait}{clsr}
+//そしてベルンハルトを
+//帝王として、レイガルド帝国を
+//築きあげたのです。{end}
+Trước khi tôi chuyển sinh thì<line>
+hắn có đến học ma pháp ở<line>
+chỗ tôi.<pause><page>
+Nhưng dần dần hắn trở nên<line>
+tham muốn ma pháp mạnh<line>
+mẽ hơn nữa.<pause><page>
+Và rồi hắn phò Bernhalt lên<line>
+làm Đế vương,xây dựng nên<line>
+Đế quốc Leigald.<end>
+//
+//
+//陛下と私が力を合せれば、
+//国を興すことぐらい
+//たあいもない事よ‥‥。{wait}{clsr}
+//さらにアルハザードの
+//封印さえ解けば、
+//我々は無限の力を得る。{wait}{clsr}
+//そうなれば大陸の制覇すら、
+//実現できるのだ。{end}
+Khi Bệ hạ và ta hợp lực với<line>
+nhau thì gây dựng một đất nước<line>
+chẳng phải là chuyện khó...<pause><page>
+Và nếu giải được phong ấn của<line>
+Alhazard thì bọn ta sẽ có được<line>
+sức mạnh vô biên.<pause><page>
+Lúc đó thì giấc mơ thống trị<line>
+cả đại lục sẽ trở thành hiện<line>
+thực.<end>
+
+//
+//私は今、あなたに魔道を
+//教えたことを
+//後悔しています‥‥。{wait}{clsr}
+//でもせめて、私自身の手で
+//あなたのその野望を
+//終らせてみせます！{end}
+Bây giờ ta thấy hối tiếc vì đã<line>
+dạy ma pháp cho ngươi...<pause><page>
+Nhưng ít ra thì tự tay ta sẽ<line>
+chặn đứng dã tâm của ngươi!<end>
+
+//
+//
+//フフフ‥‥。
+//残念ながら、アルハザードの
+//復活を急がねばならぬ。{wait}{clsr}
+//あなたと勝負している時間は
+//ありませんな。{end}
+Hà hà hà...<line>
+Đáng tiếc là ta cần phải gấp<line>
+rút hồi sinh Alhazard.<pause><page>
+Cho nên không có thời gian<line>
+đôi co với các người đâu.<end>
+
+//
+//小僧！
+//こんな所に居おったか！{end}
+//THẰNG NHÃI! <line>HÓA RA LÀ MI<line>Ở ĐÂY À! <$00>
+Thằng nhãi!<line>
+Ra là mi ở đây à!<end>
+
+//
+//バルガス将軍か！？{end}
+//TƯỚNG QUÂN<line>BALGAS! <$00>
+Tướng quân Vargas!?<end>
+//
+//捜したぞ‥‥。
+//ゾルムの仇、
+//討たせてもらうぞ！{end}
+//TA TÌM NGƯƠI<line>SUỐT... TA SẼ BÁO<line>THÙ CHO ZOLM! <$00>
+Ta tìm mi suốt...<line>
+Ta sẽ báo thù cho Zorm!<end>
+//
+//まったく、もう！{wait}{clsr}
+//ガーディアンだけじゃなく、
+//バルガス将軍まで
+//出てくるとはね。{end}
+Trời ơi!Không chỉ mỗi bọn<line>
+Guardian mà tướng Vargas cũng<line>
+xuất hiện rồi kìa.<end>
+
+//
+//ガーディアンだけでなく、
+//バルガス将軍まで
+//出てくるとは‥‥。{end}
+//KHÔNG CHỈ CÓ<line>BỌN GUARDIAN<line>MÀ CẢ TƯỚNG<pause><page>QUÂN BALGAS<line>CŨNG ĐÃ XUẤT<line>HIỆN RỒI... <$00>
+Không chỉ mỗi bọn Guardian,<line>
+tướng quân Vargas cũng đã<line>
+xuất hiện rồi...<pause><page>
+Câu này là do Masaya làm<line>
+sai event chứ chẳng có<line>
+ý nghĩa gì.Sửa lại mệt lắm.<end>
+
+
+//ボヤいても仕方ねぇ。
+//倒すだけだ！{end}
+//THAN THỞ CŨNG<line>CHẲNG ÍCH CHI. <line>CHỈ CÓ ĐÁNH MÀ<pause><page>THÔI! <$00>
+Than thở làm gì.<line>
+Các bô lão đồng thanh hô:<line>
+chiến~!<end>
+
+//
+//やはり、ガーディアン程度の
+//力では、お前らを倒すことは
+//できなかったようだな。{end}
+//QUẢ NHIÊN LÀ<line>BỌN GUARDIAN<line>CHẲNG THỂ HẠ<pause><page>NỖI CÁC NGƯƠI<line>NHỈ. <$00>
+Quả nhiên,thực lực của bọn<line>
+Guardian không đủ để hạ<line>
+các ngươi.<end>
+
+//
+//エグベルト！{end}
+//EGBERT! <$00>
+Egbert!<end>
+//
+//だがお前らのおかげで
+//結界が解けたようだ。
+//一応、礼を言っておこうか。{end}
+//NHƯNG CŨNG LÀ<line>NHỜ CÁC NGƯƠI<line>MÀ KẾT GIỚI ĐÃ<pause><page>ĐƯỢC GIẢI TRỪ<line>RỒI. XIN ĐA TẠ. <$00>
+Nhưng cũng là nhờ các ngươi<line>
+mà kết giới được giải trừ rồi.<line>
+Dù sao cũng xin đa tạ.<end>
+
+//
+//力は、制御できる。
+//用いる者にそれだけの器が
+//あるならばな。{wait}{clsr}
+//違いますかな、ジェシカ殿。
+//‥‥それともまだ、
+//師とお呼びしましょうか？{end}
+Sức mạnh là có thể chế ngự<line>
+được,nếu như kẻ sự dụng nó<line>
+có khí chất.<pause><page>
+Phải vậy không,bà Jessica.<line>
+...Hay ta phải gọi là thầy<line>
+Jessica đây nhỉ?<end>
+
+//
+//
+//そうだ‥‥。{wait}{clsr}
+//ジェシカ様が転生された後に
+//突然、姿を消しちまいやがった
+//がな‥‥。{end}
+//ĐÚNG RỒI... <line>NHƯNG SAU KHI<line>NGÀI JESSICA<pause><page>ĐẦU THAI THÌ<line>ĐỘT NHIÊN HẮN<line>LẠI BIẾN MẤT...  <$00>
+Đúng rồi...<pause><page>
+Nhưng sau khi thầy Jessica<line>
+chuyển sinh thì đột nhiên hắn<line>
+ta biến mất...<end>
+
+
+//くくく‥‥。
+//私には、お前のように子守りを
+//しているヒマなど無いのだよ。{end}
+//KHỤ KHỤ KHỤ... <line>TA KHÔNG RÃNH<line>ĐỂ TRÔNG TRẺ<pause><page>CON NHƯ NGƯƠI<line>ĐÂU. <$00>
+Khụ khụ khụ...<line>
+Ta không rãnh để chơi với đứa<line>
+trông trẻ như nhà ngươi đâu.<end>
+
+//ケッ‥‥。
+//そのイヤミな性格は、
+//変わってないみたいだな。{end}
+Tặc...Cái tính đáng ghét<line>
+của mi vẫn không chịu đổi<line>
+chút nào sao.<end>
+
+//
+//きん肉の神殿入口？
+//いったい、何のことだ‥‥？
+//まあ、いい。後回しだ！{end}
+//CỬA VÀO THẦN<line>ĐIỆN CƠ BẮP? <line>LÀ CÁI QUÁI GÌ<pause><page>THẾ NHỈ... ? THÔI<line>CỨ ĐỂ SAU! <$00>
+Lối vào thần điện cơ bắp?<line>
+Là cái quái gì thế nhỉ...?<line>
+Thôi,cứ để sau đi!<end>
+
+//
+//ルーンストーンを見つけた！{end}
+//NHẶT ĐƯỢC<line>RUNE STONE! <$00>
+Tìm thấy viên Rune stone!<end>
+
+//やるな！
+//だがダークロッドは渡さん！{end}
+//ĐỪNG HÒNG LẤY<line>ĐƯỢC DARK ROD! <$00>
+Giỏi lắm!<line>
+Nhưng đừng hòng lấy được<line>
+Dark Rod!<end>
+
+//くっ！
+//ここまでか‥‥{end}
+//THÔI TIÊU RỒI... <$00>
+Chết!<line>
+Hỏng mất rồi...<end>
+
+//うわっ！
+//やっぱり古代の魔法は
+//強力だよ！{end}
+//OÁI! QUẢ NHIÊN<line>MA PHÁP CỔ ĐẠI<line>THỰC SỰ KINH<pause><page>KHỦNG! <$00>
+Oái!<line>
+Quả nhiên ma pháp cổ đại<line>
+kinh khủng quá!<end>
+
+//な、なによ！
+//信じらんないわ！
+//私が負けるなんて‥‥。{end}
+//CÁI, CÁI GÌ! <line>KHÔNG THỂ TIN<line>ĐƯỢC! TA LẠI<pause><page>THUA SAO... <$00>
+Cái,cái gì!<line>
+Không thể tin nổi!<line>
+Bổn cô nương lại thua sao...<end>
+
+//チッ！
+//しくじっちまった！
+//悪いが、退かせてもらうぜ。{end}
+Tặc!<line>
+Tiêu rồi!<line>
+Xin lỗi,ta chuồn đây.<end>
+
+//
+//グゥッ‥‥しまった！
+//私としたことが、
+//冷静さを欠いてしまったか。{end}
+Hừ...Chết rồi!<line>
+Chẳng lẽ ta thiếu bình<line>
+tĩnh sao.<end>
+
+//
+//ジェシカ様は、
+//俺が守ってみせる！
+//てめえに手出しはさせねえ！{end}
+//TA SẼ BẢO VỆ<line>NGÀI JESSICA! <line>NGƯƠI ĐỪNG<pause><page>HÒNG LÀM CÀN! <$00>
+Tao sẽ bảo vệ thầy Jessica!<line>
+Mày đừng hòng làm gì được!<end>
+
+//フッ‥‥、レスターよ。
+//お前にそれだけの力が
+//あるのかな？{end}
+//HỪ... NÀY LESTER, <line>LIỆU NGƯƠI CÓ<line>ĐỦ SỨC KHÔNG? <$00>
+Hừ...Bớ Lester.<line>
+Sức ngươi chỉ có chừng<line>
+ấy thôi sao?<end>
+
+//
+//言うじゃねぇか！
+//だったら受けてみやがれ！{end}
+//CHỚ NỎ MỒM! <line>HÃY ĐỠ ĐÒN! <$00>
+Chớ nỏ mồm!<line>
+Vậy thì tiếp chiêu đi!<end>
+
+//ちくしょう！
+//やるじゃねえか！{end}
+//SÚC SINH! <$00>
+Súc sinh!<line>
+Cũng mạnh quá đó!<end>
+
+//ジェシカさんは
+//下がっていてください！
+//危険です！{end}
+//JESSICA XIN<line>HÃY RÚT ĐI! <line>Ở ĐÂY NGUY<pause><page>HIỂM QUÁ! <$00>
+Bà Jessica xin hãy rút đi!<line>
+Chỗ này nguy hiểm quá!<end>
+
+//
+//確かに今の私は
+//以前ほどの魔力を
+//取り戻してはいません。{wait}{clsr}
+//ですが、あなた方を
+//魔法で援護するくらいの力は
+//あります。
+//見ていて下さい。{end}
+Đúng là bây giờ tôi chưa lấy<line>
+lại được ma lực mạnh mẽ như<line>
+trước.<pause><page>
+Nhưng dù sao vẫn đủ sức để<line>
+hỗ trợ cho các vị bằng ma pháp.<line>
+Hãy xem đây.<end>
+
+
+//
+//エグベルト！
+//覚悟しなさい！{end}
+//EGBERT! <line>HÃY XEM ĐÂY! <$00>
+Egbert!<line>
+Bỏ cuộc đi!<end>
+//
+//フッ‥‥。
+//ジェシカ殿、ムダなあがきは
+//やめる事ですな！{end}
+//HỪ... JESSICA, XIN<line>NGƯỜI ĐỪNG<line>KHÁNG CỰ VÔ<pause><page>ÍCH! <$00>
+Hừ...<line>
+Bà Jessica,đừng kháng cự<line>
+vô ích nữa!<end>
+
+//
+//ああ‥‥。
+//もっと魔力が回復して
+//いれば‥‥。{end}
+//AA... NẾU NHƯ<line>PHÁP LỰC CỦA<line>MÌNH HỒI PHỤC<pause><page>SỚM HƠN... <$00>
+Trời...<line>
+Giá mà pháp lực của mình<line>
+hồi phục nhiều hơn nữa...<end>
+
+//
+//わ、私だって
+//ちゃんと戦ってみせる！{end}
+//TA, TA CŨNG<line>PHẢI CHIẾN ĐẤU! <$00>
+Mình,mình cũng phải<line>
+chiến đấu mới được!<end>
+
+
+//こんなはずでは‥‥。{end}
+Không thể nào...<end>
+
+//大丈夫か、リアナ！
+//後は俺たちで何とかする！
+//安全な場所にいてくれ。{end}
+Có sao không,Riana!<line>
+Mọi việc cứ để bọn tôi lo.<line>
+Cô lánh đến nơi an toàn đi.<end>
+
+//
+//ご、ごめんなさい‥‥。
+//足手まといにならないって
+//約束だったのに‥‥{end}
+//XIN, XIN LỖI... <line>TÔI ĐÃ HỨA SẼ<line>KHÔNG LÀM<pause><page>VƯỚNG CHÂN MỌI<line>NGƯỜI RỒI MÀ<line>LẠI... <$00>
+Xin lỗi...Tôi đã hứa sẽ không<line>
+làm vướng chân mọi người rồi,<line>
+vậy mà bây giờ...<end>
+
+//クックック‥‥。
+//お前らがいくら私の邪魔を
+//しようともムダなことよ‥‥。{end}
+//KHỤ KHỤ KHỤ... <line>DÙ CÁC NGƯƠI<line>CÓ LÀM GÌ ĐI<pause><page>NỮA CŨNG KHÔNG<line>CẢN ĐƯỢC TA<line>ĐÂU... <$00>
+Khụ khụ khụ...<line>
+Dù các ngươi có làm gì đi nữa<line>
+cũng không cản được ta đâu.<end>
+
+//‥‥ふん。
+//これがダークロッドか。{end}
+//... HỪ, ĐÂY CHÍNH<line>LÀ DARK ROD<line>SAO. <$00>
+...Hừm.<line>
+Đây là Dark<line>
+Rod sao.<end>
+
+
+//待て！
+//エグベルト！{end}
+//ĐỢI ĐÃ! <line>EGBERT! <$00>
+Khoan đã!<line>
+Egbert!<end>
+
+
+//うるさいヤツだな。
+//‥‥？
+//お前は！？{wait}{clsr}
+//‥‥そうか、
+//その羽根のティアラは
+//光輝の末裔か。{end}
+Đồ lắm mồm.<line>
+......?<line>
+Nhà ngươi là!?<pause><page>
+Mũ miện có cánh chim.<line>
+Ngươi là hậu duệ của ánh<line>
+sáng à.<end>
+
+//
+//
+//何のことだ？{end}
+//NGƯƠI NÓI GÌ? <$00>
+Ngươi nói gì?<end>
+
+
+//光輝の末裔が
+//邪魔をするだろう‥‥、か。{wait}{clsr}
+//なるほど、あの者の言った
+//通りだな。{wait}{clsr}
+//まあ、良かろう‥‥。
+//とりあえずダークロッドは
+//いただいて行くぞ！{end}
+Tên hậu duệ của ánh sáng sẽ<line>
+quấy nhiễu ta...sao?<pause><page>
+Quả đúng như lời kẻ đó nói.<line>
+Mà thôi được rồi...<pause><page>
+Dù sao ta cũng đoạt lấy<line>
+Dark Rod cái đã!<end>
+
+
+//
+//
+//エグベルト！
+//やめるのです！！{end}
+//EGBERT! <line>DỪNG LẠI ĐI! <$00>
+Egbert!<line>
+Dừng lại đi!<end>
+//
+//バカな‥‥。{end}
+//ĐIÊN THẬT... <$00>
+Điên thật...<end>
+//
+//今日はまことに愚か者の
+//多い日よ。{wait}{clsr}
+//だがたとえ誰であろうとも、
+//この聖なる神殿を犯すことは
+//許されぬ。
+//お前たちは、ここで死ぬのだ。{end}
+Hôm nay quả là ngày có<line>
+lắm thằng ngu.<pause><page>
+Nhưng dù các ngươi có là ai<line>
+đi nữa thì một khi đã làm rộn<line>
+thần điện thì đừng hòng thoát<line>
+tội.Nơi này là mồ chôn bọn mi!<end>
+
+//
+//禁断の地をおかした
+//愚か者どもよ。
+//死を持ってつぐなうがよい！{end}
+//HỠI NHỮNG KẺ<line>NGU NGỐC ĐÃ<line>XÂM PHẠM ĐẤT<pause><page>THÁNH, HÃY CHẾT<line>ĐI ĐỂ ĐỀN TỘI! <$00>
+Hỡi những kẻ ngu xuẩn đã xâm<line>
+xâm phạm đất thánh cấm.Hãy<line>
+đền tội bằng cái chết đi!<end>
+
+//
+//何と無謀な。
+//古代より生きるこの私に、
+//戦いをいどむとは‥‥{end}
+Thật lếu láo.Dám khiêu khích<line>
+ta,kẻ đã sống từ thời cổ đại<line>
+sao...<end>
+
+
+//信じられぬ。
+//この私が倒されようとは‥‥{end}
+//KHÔNG THỂ TIN<line>ĐƯỢC... TA LẠI<line>THUA SAO... <$00>
+Am bì ri ba bồ...<line>
+Thật không thể tin nổi...<line>
+Ta mà lại bị chúng hại....<end>
+
+
+//ＧＵ‥‥。{end}
+//GU... <$00>
+GW...<end>
+//
+//ＷＯＯＯＮ‥‥。{end}
+//WOON... <$00>
+WOON...<end>
+//
+//ブシュ！{end}
+//BSSUUU! <$00>
+BSHUU!<end>
+//
+//ベチョ！{end}
+//BECHOOO! <$00>
+Becho!<end>
+//
+//ＨＹＵＵ‥‥。{end}
+//HYUU... <$00>
+Hidebuu~<end>
+//
+//ＳＭＡＳＨ‥‥。{end}
+//SMASH... <$00>
+Abeshi...<end>
+//
+//ＺＡＰＰ‥‥。{end}
+//ZAPP... <$00>
+Ore wa mou shindeiru...<end>
+//
+//ＳＹＵ‥‥。{end}
+//SYU... <$00>
+SYU...<end>
+//
+//‥‥見ておれよ、ゾルム。
+//お前の墓前にヤツらの首を
+//そなえてやるからな‥‥。{end}
+...Chờ xem nhé,Zorm.<line>
+Ta sẽ mang đầu kẻ thù của<line>
+ngươi mà tế trước mộ...<end>
+
+//
+//ゾルムの仇だ！
+//死ぬがいい！{end}
+//TA BÁO THÙ CHO<line>ZOLM! HÃY CHẾT<line>ĐI! <$00>
+Lão phu đến báo thù<line>
+cho thằng Zorm đây!<line>
+Chết đi!<end>
+
+//ウグゥッ‥‥！
+//ここで死ぬ訳にはいかん！{wait}{clsr}
+//必ずや、再起し、
+//ゾルムの仇を討ってやる！
+//お前らの命、
+//それまで預けておくぞ！{end}
+Gwaa....!<line>
+Lão phu không thể<line>
+bỏ mạng ở đây được!<pause><page>
+Nhất định ta sẽ tái khởi,<line>
+nhất định phải báo thù cho<line>
+Zorm!Tạm để cái mạng các<line>
+ngươi tới lúc đó!<end>
+
+//
+//
+//ふん！
+//なかなかやりおるわい！{end}
+//HỪ! KHÁ LẮM! <$00>
+Hừ!<line>
+Khá lắm!<end>
+
+//
+//盗人がやりおるわい‥‥。{end}
+//BỌN TRỘM KHÁ<line>LẮM... <$00>
+Lũ trộm cũng khá lắm...<end>
+
+//えーっ！
+//エグベルトって、
+//ジェシカ先生の弟子だったの？{end}
+//HẢ! EGBERT LÀ<line>ĐỆ TỬ CỦA TIÊN<line>SINH JESSICA<pause><page>SAO? <$00>
+Hả!<line>
+Egbert là đệ tử của<line>
+Jessica tiên sinh ư?<end>
+
+//エグベルト。{wait}{clsr}
+//あなたならばアルハザードの
+//力がどれほど危険なものか
+//分かるはず‥‥。{end}
+Này Egbert.<pause><page>
+Hẳn là ngươi hiểu được sức<line>
+mạnh của Alhazard nguy hiểm<line>
+tới mức nào...<end>
+
+//
+//力に魅了されたあなたに、
+//師と呼ばれるいわれは
+//ありません！{end}
+//TA KHÔNG MUỐN<line>MỘT KẺ BỊ SỨC<line>MẠNH ÁM ẢNH<pause><page>NHƯ NGƯƠI GỌI<line>LÀ THẦY! <$00>
+Ta không muốn một kẻ bị sức<line>
+mạnh ám ảnh như ngươi gọi là<line>
+thầy đâu!<end>
+
+//‥‥。{wait}{clsr}
+//ラングリッサーしか
+//ありません。{end}
+//... CHỈ CÓ<line>LANGRISSER MÀ<line>THÔI. <$00>
+...<pause><page>
+Chỉ có thể là<line>
+Langrisser mà thôi.<end>
+
+//
+//しかしダークロッドは
+//奪われてしまいました‥‥。{wait}{clsr}
+//後はアルハザードの力を
+//解放するための触媒を
+//必要とするはずです。{end}
+Nhưng Dark Rod đã bị<line>
+cướp mất rồi...<pause><page>
+Ngoài ra còn phải cần đến<line>
+thể xúc tác để giải phóng<line>
+sức mạnh của Alhazard.<end>
+
+//
+//しかしガーディアンが
+//動き始めてしまいました。{wait}{clsr}
+//ガーディアン達を野放しにして
+//この場を去るわけには
+//いきません。{wait}{clsr}
+//放っておけば、ふもとの村を
+//襲うでしょう。
+//彼らを倒すか、我々が死ぬまで
+//ガーディアンは追ってきます。{end}
+Nhưng các Guardian đã<line>
+bắt đầu động thủ rồi.<pause><page>
+Ta không thể bỏ lơ chúng<line>
+mà rời khỏi đây được.<pause><page>
+Nếu bỏ mặc thì chúng sẽ tấn<line>
+công làng mạc dưới chân<line>
+núi mất.<pause><page>
+Phải đánh bại chúng,nếu không<line>
+thì bọn Guardian sẽ đuổi theo<line>
+cho đến khi chúng ta chết.<end>
+
+//
+//
+//ダークロッドが奪われた以上、
+//アルハザードの力の解放も
+//時間のもんだいでしょう。{wait}{clsr}
+//闇の魔剣、アルハザードに
+//対抗できる剣は、光の聖剣、
+//ラングリッサーだけです。{end}
+Một khi Dark Rod bị cướp mất<line>
+thì sức mạnh Alhazard được giải<line>
+phóng chỉ là vấn đề thời gian.<pause><page>
+Có thể đối chọi với Ma kiếm<line>
+bóng tối Alhazard thì chỉ có<line>
+mỗi Thánh kiếm ánh sáng<line>
+Langrisser mà thôi.<end>
+
+//
+//人目につかないよう、
+//バルディア城に封印して
+//あります。{end}
+Thánh kiếm đang được phong<line>
+ấn ở thành Baldea không<line>
+ai biết tới.<end>
+
+//
+//‥‥バルディア城のことなら、
+//光の神殿にあった古文書で
+//読んだことがあります。{wait}{clsr}
+//場所もだいたい分かります。{end}
+...Tôi có đọc thấy trong cuốn<line>
+sách cổ ở thần điện ánh sáng<line>
+viết về thành Baldea.<pause><page>
+Cho nên đại khái cũng biết<line>
+được vị trí của thành.<end>
+
+//
+//では、バルディアまでの案内は
+//リアナさんにお願いします。{wait}{clsr}
+//私は帝国の侵攻に備え、
+//諸国を説得して
+//帝国に対抗する勢力を
+//作ることにします。{end}
+Vậy thì nhờ cô Riana dẫn<line>
+đường đến Baldea.<pause><page>
+Còn tôi phải đi thuyết phục<line>
+các nước để hình thành lực<line>
+lượng đối chọi với Đế quốc<line>
+phòng khi chúng tấn công.<end>
+
+//
+//そういうことでしたら、
+//我々カルザスの者が
+//適任かと思いますが。{end}
+Nếu là vậy thì tôi nghĩ cứ<line>
+để cho Kalxath bọn tôi lo<line>
+là thích hợp hơn cả.<end>
+
+//
+//いえ、あなた方は
+//バルディアへ向かって下さい。{wait}{clsr}
+//帝国はきっとラングリッサーも
+//探しているはずです。{wait}{clsr}
+//彼らがアルハザードの力を
+//使うつもりなら、その力を
+//封じるラングリッサーは、
+//無視できない存在でしょう。{wait}{clsr}
+//バルディアへ向かうのならば、
+//それなりの兵力を準備しておく
+//必要があるはずです。{wait}{clsr}
+//レスター。
+//あなたもバルディアへ
+//向かいなさい。{end}
+Không,các vị hãy<line>
+tiến đến Baldea.<pause><page>
+Chắc chắn Đế quốc cũng<line>
+đang truy tìm Langrisser.<pause><page>
+Nếu chúng đã muốn sử dụng sức<line>
+mạnh của Alhazard thì đâu thể<line>
+làm ngơ Langrisser,thứ có thể<line>
+phong ấn sức mạnh của Ma kiếm.<pause><page>
+Để đến Baldea thì cần phải<line>
+chuẩn bị binh lực cho đầy đủ.<pause><page>
+Này Lester,anh cũng hãy cùng<line>
+họ đến Baldea.<end>
+
+
+//
+//しかし、ジェシカ様。{end}
+
+Nhưng thưa thầy Jessica,<line>
+tôi có trọng trách phải...<end>
+
+//
+//私なら大丈夫です。
+//もう、自分の身は自分で
+//守れます。{end}
+//TÔI KHÔNG SAO<line>ĐÂU. TỰ TÔI CÓ<line>THỂ BẢO VỆ<pause><page>ĐƯỢC BẢN THÂN<line>MÌNH. <$00>
+Tôi không sao đâu.<line>
+Tự tôi có thể bảo vệ<line>
+được bản thân mình.<end>
+
+//
+//‥‥分かりました。
+//{char_name}たちと
+//バルディアへ向かいましょう。{end}
+//... TÔI HIỂU RỒI. <line>VẬY THÌ SẼ ĐẾN<line>BALDIA CÙNG<pause><page>ĐẠI HIỆP<line><char>. <$00>
+...Tôi hiểu rồi.<line>
+Vậy thì tôi cùng đến Baldea<line>
+với <char> đại hiệp.<end>
+
+//
+//それから、リアナさん。
+//あなたには、何かとても
+//大きな力を感じます。{wait}{clsr}
+//それが何なのか、今の私には
+//分かりませんが‥‥。{wait}{clsr}
+//とにかく、もっと自信を
+//お持ちなさい。{end}
+Và này,cô nương Riana.<line>
+Tôi cảm nhận được một sức<line>
+mạnh to lớn từ cô.<pause><page>
+Bây giờ tôi không rõ đó là gì...<line>
+Nhưng cô hãy tự tin,hãy tin<line>
+vào bản thân mình hơn nữa.<end>
+
+//
+//
+//帝国にラングリッサーまで
+//奪われるわけには
+//いきません。{wait}{clsr}
+//急いでバルディアへ
+//向かうのです。{end}
+Không thể để Đế quốc<line>
+cướp luôn cả Langrisser.<pause><page>
+Phải nhanh chóng đến<line>
+Baldea thôi.<end>
+
+//
+//それでは、みなさん。
+//くれぐれも気を付けて‥‥。{end}
+//XIN MỌI NGƯỜI<line>HÃY BẢO TRỌNG... <$00>
+Mọi người hãy bảo trọng...<end>
+//
+//ダークロッドを奪われた！{end}
+//DARK ROD<line>ĐÃ BỊ CƯỚP! <$00>
+Dark Rod đã bị đoạt mất!<end>
+//
+//いけない！
+//急いでダークロッドを奪って！{end}
+//KHÔNG THỂ ĐƯỢC! <line>HÃY MAU CHÓNG<line>ĐOẠT LẠI DARK<pause><page>ROD! <$00>
+Hỏng rồi!<line>
+Hãy mau đoạt lấy<line>
+Dark Rod!<end>
+//
+//もう遅いわ！{end}
+//MUỘN RỒI! <$00>
+Các ngươi chậm<line>
+chân rồi!<end>
+//
+//無理だ！
+//間に合わない！{end}
+//THÔI RỒI! <line>KHÔNG KỊP RỒI! <$00>
+Hỏng rồi!<line>
+Không kịp nữa rồi!<end>
+//
+//ダークロッドを手に入れた以上
+//長居は無用。{wait}{clsr}
+//私は、お前らの件と
+//ダークロッドの入手の報を
+//陛下に伝えねばならぬ。{wait}{clsr}
+//さらばだ、光輝の末裔どもよ。
+//また、会うこともあろう。
+//生きていればな‥‥。{end}
+Đã đoạt được Dark Rod rồi<line>
+thì cứ dây dưa ở đây mãi<line>
+cũng vô ích.<pause><page>
+Ta cần phải báo cáo với Bệ hạ<line>
+về chuyện của các ngươi và<line>
+việc đoạt được Dark Rod.<pause><page>
+Tạm biệt lũ hậu duệ ánh sáng.<line>
+Một lúc nào đó sẽ gặp lại.<line>
+Cố giữ mạng đến lúc đó nhé...<end>
+
+//
+//待ちなさい！{end}
+//HÃY ĐỢI ĐÃ! <$00>
+Dừng lại!<end>
+
+//くくく‥‥。
+//ジェシカ殿とは、そのうち
+//決着をつけるとしよう。{wait}{clsr}
+//だが、今はまだ早い。
+//本来の力を発揮できぬ魔術師を
+//倒したところで、
+//つまらぬからな。{wait}{clsr}
+//では、さらばだ。{end}
+Khụ khụ khụ...<line>
+Hay nhân lúc này mà giải<line>
+quyết với bà Jessica luôn.<pause><page>
+Nhưng bây giờ hãy còn sớm quá.<line>
+Dẫu có đánh bại được ma thuật<line>
+sư chưa phát huy được sức mạnh<line>
+vốn có thì cũng chán lắm.<pause><page>
+Thôi,tạm biệt.<end>
+
+//
+//しまった！{end}
+//THÔI RỒI! <$00>
+Hỏng!<end>
+
+//くそっ！
+//逃げられたか！{wait}{clsr}
+//これ以上こいつらと戦っても
+//まるで意味がないな。{end}
+Chết tiệt!<line>
+Hắn chuồn mất rồi!<pause><page>
+Đã thế thì có đánh nhau<line>
+với lũ này cũng chẳng còn<line>
+ý nghĩa gì.<end>
+
+//
+//そうだったのか。
+//エグベルトめ、
+//そこまで考えていたのか！{wait}{clsr}
+//みんな、一気にこいつらを
+//始末するぞ！{end}
+Hóa ra là như vậy.<line>
+Tên Egbert đã suy tính<line>
+tới nước này ư!<pause><page>
+Mọi người,hãy nhất tề<line>
+giải quyết bọn này đi!<end>
+
+//
+//どうやら
+//全て倒したようだな‥‥。{end}
+//VẬY LÀ ĐÃ GIẢI<line>QUYẾT XONG<line>XUÔI RỒI... <$00>
+Dường như đã giải<line>
+quyết xong xuôi cả rồi...<end>
+//
+//触媒が‥‥？
+//それには一体、何が？{end}
+//VẬT XÚC TÁC... ? <line>NGHĨA LÀ THẾ<line>NÀO NHỈ? <$00>
+Thể xúc tác...?<line>
+Nghĩa là thế nào nhỉ?<end>
+
+//私にも、それが何かは
+//分かりません‥‥。{end}
+//TÔI CŨNG KHÔNG<line>BIẾT ĐÓ LÀ GÌ... <$00>
+Tôi cũng không biết<line>
+đó là gì...<end>
+//
+//案外、その触媒って
+//物じゃないかもね‥‥{end}
+//CŨNG CÓ THỂ<line>VẬT XÚC TÁC ĐÓ<line>LẠI KHÔNG PHẢI<pause><page>LÀ VẬT CŨNG<line>NÊN... <$00>
+Không chừng thể xúc tác<line>
+không phải là đồ vật cũng<line>
+nên...<end>
+//
+//そっか‥‥。
+//触媒っていうのは、
+//物とは限らないもんね。{end}
+//CŨNG CÓ THỂ<line>NHƯ VẬY NHỈ... <$00>
+Đúng vậy...Đâu cứ gì đồ<line>
+vật mới là thể xúc tác chứ.<end>
+//
+//しかし、困りましたな。{wait}{clsr}
+//ダークロッドが奪われた上に
+//触媒がどこにあるかも
+//分からないのでは‥‥。{wait}{clsr}
+//せめてどんな物なのかだけでも
+//分かればよいのですが‥‥。{end}
+Nhưng tình hình bây<line>
+giờ gay go rồi.<pause><page>
+Dark Rod đã bị cướp,ta<line>
+cũng không biết thể xúc tác<line>
+đang ở đâu...<pause><page>
+Nếu như ít ra ta biết được<line>
+đó là thứ gì thì...<end>
+
+//
+//伝説の秘剣、
+//ラングリッサー！？
+//本当にあったのね！{end}
+//BÍ KIẾM TRONG<line>TRUYỀN THUYẾT, <line>LANGRISSER! ? <pause><page>CÓ THẬT LÀ NÓ<line>TỒN TẠI KHÔNG? <$00>
+Bí kiếm trong truyền thuyết,<line>
+Langrisser là có thật sao!?<end>
+
+//
+//ラングリッサー！？
+//あの伝説の剣のことですか？{end}
+//LANGRISEER! ? <line>CÓ PHẢI LÀ BÍ<line>KIẾM TRONG<pause><page>TRUYỀN THUYẾT? <$00>
+Langrisser!?<line>
+Là thanh kiếm trong<line>
+truyền thuyết phải không nhỉ?<end>
+//
+//それで、ラングリッサーは
+//どこにあるのです？{end}
+//THẾ THÌ THANH<line>LANGRISSER ĐÓ<line>Ở ĐÂU? <$00>
+Vậy thì Langrisser<line>
+ở đâu mới được chứ?<end>
+//
+//は、はい！{end}
+//VÂNG, VÂNG! <$00>
+Vâ,vâng!<end>
+//
+//分かった。
+//すぐにでも向かおう。{end}
+//TÔI HIỂU RỒI, <line>CHUẨN BỊ XUẤT<line>PHÁT THÔI. <$00>
+Tôi hiểu rồi.<line>
+Ta phải đến đó ngay<line>
+bây giờ luôn.<end>
+//
+//バルディアへ行かなければ
+//ならないが、あの神殿は
+//どうする？{wait}{clsr}
+//あの入り口の奥の神殿に、
+//何か大きなナゾがあるかも
+//しれないが‥‥？{end}
+Dù phải đến Baldea,nhưng<line>
+còn thần điện kia thì sao?<pause><page>
+Không chừng sâu bên trong<line>
+thần điện nơi lối vào kia có<line>
+ẩn chứa bí mật ghê gớm nào<line>
+đó...?<end>
+
+//
+//調べますか？{end}
+//KIỂM TRA THỬ<line>KHÔNG? <$00>
+Thử kiểm tra không?<end>
+//
+//バルディアへ行く前に
+//あの通路を調べてみよう。{wait}{clsr}
+//どうやら隠された神殿へ通じて
+//いるみたいなんだ。{wait}{clsr}
+//そこを調べれば、もしかすると
+//アルハザードのことが
+//分るかもしれない。
+//急いで調べてみよう！{end}
+Trước khi đến Baldea thì hãy<line>
+kiểm tra lối đi kia xem.<pause><page>
+Có vẻ như nó dẫn đến một<line>
+thần điện bí mật nào đó.<pause><page>
+Cứ kiểm tra đi,không chừng lại<line>
+biết thêm gì đó về Alhazard.<line>
+Nào,mau mau kiểm tra xem!<end>
+//
+//
+//よし！
+//バルディアに向けて出発だ！{end}
+Nào!<line>
+Xuất phát đến Baldea!<end>

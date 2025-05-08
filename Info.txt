@@ -1,0 +1,254 @@
+Beginning of font routine:
+- Read text pointer to get character byte
+- Subtract 0A (char code begins from 0A)
+- TAX
+- Read character order table, X to get char order (01, 02, 03,...) [1]
+- Get X = [1] add 8080 (base??) subtract 80
+- Read Width table, x 
+- Get Y = Left shift [1] 6 times [2]
+- Store 00 to 7FFE0A
+Upper part:
+- Get X = 7FFE04 [3] which is 00 initially
+- Get X = [2] + 8080
+- Read Font data, x [4]
+- Get X = {shift times} (initial 00)
+- [4] AND #$00FF
+- XBA
+- If X = 00 then true, if not then false
+
+false:
+- Left shift [4]
+- DEX
+- BRA false
+- until X = 0
+- Get X = [3]
+- 8 bit A
+- XBA
+- ORA Ram
+- STore to Ram
+- XBA
+- Store to Ram +10
+- 16 bit A
+
+true:
+- X = [3]
+- 8 bit A
+- XBA
+- ORA Ram
+- Store to Ram
+- XBA
+- Store to Ram +10
+- 16 bit A
+- PHX [5]
+- Get X = [2] + 8080
+- Read Font data + 1, x [4]
+- Get X = {shift times}
+- [3] AND #$00FF
+- XBA
+- If X = 00 then true1, if not then false1
+
+
+
+true1:
+- X = [5]
+- 8 bit A
+- XBA
+- ORA Ram + 1
+- Store to Ram + 1
+- XBA
+- Store to Ram +11
+- 16 bit A
+- Load width
+- If width = 8 go to 
+- If width is not 8 then
+- INX 2 times
+- INY 2 times
+- INC 7FFE06 (initial 00)
+- If 7FFE06 = 8 (draw enough upper 8 lines) goto Lower part
+- If 7FFE06 = 10 (draw enough upper 8 lines and lower 8 lines) goto End of routine
+- If 7FFE06 is not above values then JMP Upper part
+
+
+Lower part:
+
+--------------------------------------------------
+$07/D5C2 A9 68       LDA #$68              
+
+
+
+$40/AD89 C9 0A 00    CMP #$000A            
+$40/AD8C B0 03       BCS $03    [$AD91]   
+$40/AD8E 4C F5 AE    JMP $AEF5  [$00:AEF5] 
+$40/AD91 38          SEC                    
+$40/AD92 E9 0A 00    SBC #$000A              Subtract 0A (char code begins from 0A)
+$40/AD95 AA          TAX                    
+$40/AD96 BF CF A9 40 LDA $40A9CF,x[$40:AAFB] Read character order table, X to get char order (01, 02, 03,...) 
+$40/AD9A 29 FF 00    AND #$00FF             
+$40/AD9D 48          PHA                     
+$40/AD9E 18          CLC                     
+$40/AD9F 6F 20 FF 7F ADC $7FFF20[$7F:FF20] 
+$40/ADA3 38          SEC                    
+$40/ADA4 E9 80 00    SBC #$0080             
+$40/ADA7 AA          TAX                   
+$40/ADA8 BF 00 00 5F LDA $5F0000,x[$5F:012C]   Read char width
+$40/ADAC 29 FF 00    AND #$00FF           
+$40/ADAF 8F 02 FE 7F STA $7FFE02[$7F:FE02]  
+$40/ADB3 68          PLA                     
+$40/ADB4 0A          ASL A                  
+$40/ADB5 0A          ASL A                   
+$40/ADB6 0A          ASL A                 
+$40/ADB7 0A          ASL A                  
+$40/ADB8 0A          ASL A                 
+$40/ADB9 0A          ASL A                  
+$40/ADBA A8          TAY                     
+$40/ADBB A9 00 00    LDA #$0000              
+$40/ADBE 8F 0A FE 7F STA $7FFE0A[$7F:FE0A]   
+$40/ADC2 AF 04 FE 7F LDA $7FFE04[$7F:FE04]   
+$40/ADC6 AA          TAX                   
+$40/ADC7 DA          PHX                  
+$40/ADC8 98          TYA                     
+$40/ADC9 18          CLC                  
+$40/ADCA 6F 20 FF 7F ADC $7FFF20
+$40/ADCE AA          TAX                   
+$40/ADCF BF 00 00 5F LDA $5F0000,x[$5F:012C]  Read font data
+$40/ADD3 48          PHA                    
+$40/ADD4 AF 00 FE 7F LDA $7FFE00  Pixels to shift right
+$40/ADD8 AA          TAX                    
+$40/ADD9 68          PLA                     
+$40/ADDA 29 FF 00    AND #$00FF           
+$40/ADDD EB          XBA                     
+$40/ADDE E0 00 00    CPX #$0000             
+$40/ADE1 F0 04       BEQ $04    [$ADE7]   
+$40/ADE3 4A          LSR A                 
+$40/ADE4 CA          DEX                   
+$40/ADE5 80 FA       BRA $FA    [$ADE1]      
+$40/ADE7 FA          PLX                     
+$40/ADE8 E2 20       SEP #$20                
+$40/ADEA EB          XBA                     
+$40/ADEB 1F 00 34 7E ORA $7E3400,x
+$40/ADEF 9F 00 34 7E STA $7E3400,x
+$40/ADF3 EB          XBA                   
+$40/ADF4 9F 10 34 7E STA $7E3410,x
+$40/ADF8 C2 20       REP #$20               
+$40/ADFA DA          PHX                    
+$40/ADFB 98          TYA                     
+$40/ADFC 18          CLC                     
+$40/ADFD 6F 20 FF 7F ADC $7FFF20[$7F:FF20]   
+$40/AE01 AA          TAX                    
+$40/AE02 BF 01 00 5F LDA $5F0001,x
+$40/AE06 48          PHA                  
+$40/AE07 AF 00 FE 7F LDA $7FFE00   Pixels to shift right
+$40/AE0B AA          TAX                     
+$40/AE0C 68          PLA                    
+$40/AE0D 29 FF 00    AND #$00FF           
+$40/AE10 EB          XBA                
+$40/AE11 E0 00 00    CPX #$0000       
+$40/AE14 F0 04       BEQ $04    [$AE1A]   
+$40/AE16 4A          LSR A               
+$40/AE17 CA          DEX                
+$40/AE18 80 FA       BRA $FA    [$AE14] 
+$40/AE1A FA          PLX              
+$40/AE1B E2 20       SEP #$20    
+$40/AE1D EB          XBA             
+$40/AE1E 1F 01 34 7E ORA $7E3401,x
+$40/AE22 9F 01 34 7E STA $7E3401,x
+$40/AE26 EB          XBA              
+$40/AE27 9F 11 34 7E STA $7E3411,x
+$40/AE2B C2 20       REP #$20          
+$40/AE2D AF 02 FE 7F LDA $7FFE02  Read width
+$40/AE31 C9 08 00    CMP #$0008     
+$40/AE34 90 66       BCC $66    [$AE9C]  
+$40/AE36 DA          PHX                  
+$40/AE37 98          TYA                  
+$40/AE38 18          CLC                     
+$40/AE39 6F 20 FF 7F ADC $7FFF20
+$40/AE3D AA          TAX                     
+$40/AE3E BF 20 00 5F LDA $5F0020,x
+$40/AE42 48          PHA                 
+$40/AE43 AF 00 FE 7F LDA $7FFE00        Pixels to shift right
+$40/AE47 AA          TAX          
+$40/AE48 68          PLA      
+$40/AE49 29 FF 00    AND #$00FF  
+$40/AE4C EB          XBA              
+$40/AE4D E0 00 00    CPX #$0000  
+$40/AE50 F0 04       BEQ $04    [$AE56]
+$40/AE52 4A          LSR A       
+$40/AE53 CA          DEX          
+$40/AE54 80 FA       BRA $FA    [$AE50] 
+$40/AE56 FA          PLX   
+$40/AE57 E2 20       SEP #$20  
+$40/AE59 EB          XBA      
+$40/AE5A 1F 10 34 7E ORA $7E3410,x
+$40/AE5E 9F 10 34 7E STA $7E3410,x
+$40/AE62 EB          XBA   
+$40/AE63 9F 20 34 7E STA $7E3420,x
+$40/AE67 C2 20       REP #$20    
+$40/AE69 DA          PHX           
+$40/AE6A 98          TYA                
+$40/AE6B 18          CLC              
+$40/AE6C 6F 20 FF 7F ADC $7FFF20
+$40/AE70 AA          TAX      
+$40/AE71 BF 21 00 5F LDA $5F0021,x
+$40/AE75 48          PHA        
+$40/AE76 AF 00 FE 7F LDA $7FFE00        Pixels to shift right
+$40/AE7A AA          TAX  
+$40/AE7B 68          PLA     
+$40/AE7C 29 FF 00    AND #$00FF 
+$40/AE7F EB          XBA      
+$40/AE80 E0 00 00    CPX #$0000   
+$40/AE83 F0 04       BEQ $04    [$AE89] 
+$40/AE85 4A          LSR A    
+$40/AE86 CA          DEX           
+$40/AE87 80 FA       BRA $FA    [$AE83]     
+$40/AE89 FA          PLX     
+$40/AE8A E2 20       SEP #$20      
+$40/AE8C EB          XBA        
+$40/AE8D 1F 11 34 7E ORA $7E3411,x
+$40/AE91 9F 11 34 7E STA $7E3411,x
+$40/AE95 EB          XBA     
+$40/AE96 9F 21 34 7E STA $7E3421,x
+$40/AE9A C2 20       REP #$20              
+
+$40/AE9C E8          INX       
+$40/AE9D E8          INX       
+$40/AE9E C8          INY               
+$40/AE9F C8          INY                  
+$40/AEA0 AF 06 FE 7F LDA $7FFE06
+$40/AEA4 1A          INC A           
+$40/AEA5 8F 06 FE 7F STA $7FFE06
+$40/AEA9 C9 08 00    CMP #$0008       
+$40/AEAC F0 08       BEQ $08    [$AEB6]   
+$40/AEAE C9 10 00    CMP #$0010  
+$40/AEB1 B0 0C       BCS $0C    [$AEBF]   
+$40/AEB3 4C C7 AD    JMP $ADC7  
+$40/AEB6 8A          TXA         
+$40/AEB7 18          CLC         
+$40/AEB8 69 F0 03    ADC #$03F0   
+$40/AEBB AA          TAX       
+$40/AEBC 4C C7 AD    JMP $ADC7 
+$40/AEBF AF 10 FE 7F LDA $7FFE10        initial 00
+$40/AEC3 0A          ASL A         
+$40/AEC4 0A          ASL A           
+$40/AEC5 0A          ASL A      
+$40/AEC6 18          CLC             
+$40/AEC7 6F 00 FE 7F ADC $7FFE00      Pixels to shift right
+$40/AECB 18          CLC                    
+$40/AECC 6F 02 FE 7F ADC $7FFE02[$7F:FE02] add width
+$40/AED0 48          PHA        
+$40/AED1 29 07 00    AND #$0007       
+$40/AED4 8F 00 FE 7F STA $7FFE00        Pixels to shift right
+$40/AED8 68          PLA                 
+$40/AED9 4A          LSR A            
+$40/AEDA 4A          LSR A                
+$40/AEDB 4A          LSR A                 
+$40/AEDC C9 18 00    CMP #$0018          
+$40/AEDF 90 03       BCC $03    [$AEE4]  
+
+$40/AEE1 A9 17 00    LDA #$0017         
+
+$40/AEE4 8F 10 FE 7F STA $7FFE10[$7F:FE10]   
+$40/AEE8 20 76 AA    JSR $AA76  [$00:AA76]   
+
+
+
+

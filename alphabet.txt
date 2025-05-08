@@ -1,0 +1,25 @@
+#VAR(Table,TABLE)
+#ADDTBL("8x82.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $00, 16)
+
+#JMP($DCA3)
+Susumu
+
+#JMP($DCD7)
+Modoru
+
+#JMP($DD0C)
+Owaru
+
+//cursor pos
+#JMP($E4FE)
+<$B6><$05>
+<$F6><$05>
+<$37><$06>
+
+//Fix space
+#JMP($FD1A)
+<$53>

@@ -1,0 +1,1006 @@
+//GAME NAME:		FF4
+
+//BLOCK #000 NAME:		Kaiwa1
+
+//POINTER #0 @ $2F4000 - STRING #0 @ $2F4200
+
+#W16($2F4000)
+//<end>
+
+
+//POINTER #1 @ $2F4002 - STRING #1 @ $2F4201
+
+#W16($2F4002)
+//Erwin<end>
+
+
+//POINTER #2 @ $2F4004 - STRING #2 @ $2F4207
+
+#W16($2F4004)
+//Liana<end>
+
+
+//POINTER #3 @ $2F4006 - STRING #3 @ $2F420D
+
+#W16($2F4006)
+//Lana<end>
+
+
+//POINTER #4 @ $2F4008 - STRING #4 @ $2F4212
+
+#W16($2F4008)
+//Cherie<end>
+
+
+//POINTER #5 @ $2F400A - STRING #5 @ $2F4219
+
+#W16($2F400A)
+//Hein<end>
+
+
+//POINTER #6 @ $2F400C - STRING #6 @ $2F421E
+
+#W16($2F400C)
+//Scott<end>
+
+
+//POINTER #7 @ $2F400E - STRING #7 @ $2F4224
+
+#W16($2F400E)
+//Keith<end>
+
+
+//POINTER #8 @ $2F4010 - STRING #8 @ $2F422A
+
+#W16($2F4010)
+//Aaron<end>
+
+
+//POINTER #9 @ $2F4012 - STRING #9 @ $2F4230
+
+#W16($2F4012)
+//Lester<end>
+
+
+//POINTER #10 @ $2F4014 - STRING #10 @ $2F4237
+
+#W16($2F4014)
+//Lana<end>
+
+
+//POINTER #11 @ $2F4016 - STRING #11 @ $2F423C
+
+#W16($2F4016)
+//Rohga<end>
+
+
+//POINTER #12 @ $2F4018 - STRING #12 @ $2F4242
+
+#W16($2F4018)
+//Sonya<end>
+
+
+//POINTER #13 @ $2F401A - STRING #13 @ $2F4248
+
+#W16($2F401A)
+//Leon<end>
+
+
+//POINTER #14 @ $2F401C - STRING #14 @ $2F424D
+
+#W16($2F401C)
+//Vargas<end>
+
+
+//POINTER #15 @ $2F401E - STRING #15 @ $2F4254
+
+#W16($2F401E)
+//Imelda<end>
+
+
+//POINTER #16 @ $2F4020 - STRING #16 @ $2F425B
+
+#W16($2F4020)
+//Egbert<end>
+
+
+//POINTER #17 @ $2F4022 - STRING #17 @ $2F4262
+
+#W16($2F4022)
+//Esto<end>
+
+
+//POINTER #18 @ $2F4024 - STRING #18 @ $2F4267
+
+#W16($2F4024)
+//Osto<end>
+
+
+//POINTER #19 @ $2F4026 - STRING #19 @ $2F426C
+
+#W16($2F4026)
+//Mystery Knight<end>
+
+
+//POINTER #20 @ $2F4028 - STRING #20 @ $2F427B
+
+#W16($2F4028)
+//Jessica<end>
+
+
+//POINTER #21 @ $2F402A - STRING #21 @ $2F4283
+
+#W16($2F402A)
+//Dark Princess<end>
+
+
+//POINTER #22 @ $2F402C - STRING #22 @ $2F4291
+
+#W16($2F402C)
+//Bernhardt<end>
+
+
+//POINTER #23 @ $2F402E - STRING #23 @ $2F429B
+
+#W16($2F402E)
+//Boser<end>
+
+
+//POINTER #24 @ $2F4030 - STRING #24 @ $2F42A1
+
+#W16($2F4030)
+//Laird<end>
+
+
+//POINTER #25 @ $2F4032 - STRING #25 @ $2F42A7
+
+#W16($2F4032)
+//Baldo<end>
+
+
+//POINTER #26 @ $2F4034 - STRING #26 @ $2F42AD
+
+#W16($2F4034)
+//Zorum<end>
+
+
+//POINTER #27 @ $2F4036 - STRING #27 @ $2F42B3
+
+#W16($2F4036)
+//Morgan<end>
+
+
+//POINTER #28 @ $2F4038 - STRING #28 @ $2F42BA
+
+#W16($2F4038)
+//Ginam<end>
+
+
+//POINTER #29 @ $2F403A - STRING #29 @ $2F42C0
+
+#W16($2F403A)
+//Kramer<end>
+
+
+//POINTER #30 @ $2F403C - STRING #30 @ $2F42C7
+
+#W16($2F403C)
+//Seigal<end>
+
+
+//POINTER #31 @ $2F403E - STRING #31 @ $2F42CE
+
+#W16($2F403E)
+//Folgert<end>
+
+
+//POINTER #32 @ $2F4040 - STRING #32 @ $2F42D6
+
+#W16($2F40EE)
+#W16($2F4040)
+//Soldier<end>
+
+
+//POINTER #33 @ $2F4042 - STRING #33 @ $2F42DE
+#W16($2F4116)
+#W16($2F4114)
+#W16($2F4112)
+#W16($2F4110)
+#W16($2F410E)
+#W16($2F410C)
+#W16($2F410A)
+#W16($2F4108)
+#W16($2F4106)
+#W16($2F4104)
+#W16($2F4102)
+#W16($2F4070)
+#W16($2F406E)
+#W16($2F406C)
+#W16($2F406A)
+#W16($2F4068)
+#W16($2F4066)
+#W16($2F4064)
+#W16($2F4062)
+#W16($2F4060)
+#W16($2F405E)
+#W16($2F4046)
+#W16($2F4044)
+#W16($2F4042)
+//Commander<end>
+
+
+//POINTER #34 @ $2F4044 - STRING #34 @ $2F42E8
+
+//Commander<end>
+
+
+//POINTER #35 @ $2F4046 - STRING #35 @ $2F42F2
+
+//Commander<end>
+
+
+//POINTER #36 @ $2F4048 - STRING #36 @ $2F42FC
+#W16($2F40EC)
+#W16($2F40EA)
+#W16($2F4048)
+//Priest<end>
+
+
+//POINTER #37 @ $2F404A - STRING #37 @ $2F4303
+#W16($2F404E)
+#W16($2F404C)
+#W16($2F404A)
+//Villager<end>
+
+
+//POINTER #38 @ $2F404C - STRING #38 @ $2F430C
+
+//Villager<end>
+
+
+//POINTER #39 @ $2F404E - STRING #39 @ $2F4315
+
+
+//Villager<end>
+
+
+//POINTER #40 @ $2F4050 - STRING #40 @ $2F431E
+
+#W16($2F4050)
+//Pirate<end>
+
+
+//POINTER #41 @ $2F4052 - STRING #41 @ $2F4325
+
+#W16($2F4052)
+//Pirate<end>
+
+
+//POINTER #42 @ $2F4054 - STRING #42 @ $2F432C
+
+#W16($2F4054)
+//Vigilante<end>
+
+
+//POINTER #43 @ $2F4056 - STRING #43 @ $2F4336
+
+#W16($2F4056)
+//Loren<end>
+
+
+//POINTER #44 @ $2F4058 - STRING #44 @ $2F433C
+
+#W16($2F4058)
+//Adon<end>
+
+
+//POINTER #45 @ $2F405A - STRING #45 @ $2F4341
+
+#W16($2F405A)
+//Sampson<end>
+
+
+//POINTER #46 @ $2F405C - STRING #46 @ $2F4349
+
+#W16($2F405C)
+//Varan<end>
+
+
+//POINTER #47 @ $2F405E - STRING #47 @ $2F434F
+
+//Commander<end>
+
+
+//POINTER #48 @ $2F4060 - STRING #48 @ $2F4359
+
+//Commander<end>
+
+
+//POINTER #49 @ $2F4062 - STRING #49 @ $2F4363
+
+//Commander<end>
+
+
+//POINTER #50 @ $2F4064 - STRING #50 @ $2F436D
+
+//Commander<end>
+
+
+//POINTER #51 @ $2F4066 - STRING #51 @ $2F4377
+
+//Commander<end>
+
+
+//POINTER #52 @ $2F4068 - STRING #52 @ $2F4381
+
+//Commander<end>
+
+
+//POINTER #53 @ $2F406A - STRING #53 @ $2F438B
+
+//Commander<end>
+
+
+//POINTER #54 @ $2F406C - STRING #54 @ $2F4395
+
+//Commander<end>
+
+
+//POINTER #55 @ $2F406E - STRING #55 @ $2F439F
+
+//Commander<end>
+
+
+//POINTER #56 @ $2F4070 - STRING #56 @ $2F43A9
+
+//Commander<end>
+
+
+//POINTER #57 @ $2F4072 - STRING #57 @ $2F43B3
+#W16($2F407C)
+#W16($2F407A)
+#W16($2F4078)
+#W16($2F4076)
+#W16($2F4074)
+#W16($2F4072)
+//Werewolf<end>
+
+
+//POINTER #58 @ $2F4074 - STRING #58 @ $2F43BC
+
+//Werewolf<end>
+
+
+//POINTER #59 @ $2F4076 - STRING #59 @ $2F43C5
+
+//Werewolf<end>
+
+
+//POINTER #60 @ $2F4078 - STRING #60 @ $2F43CE
+
+//Werewolf<end>
+
+
+//POINTER #61 @ $2F407A - STRING #61 @ $2F43D7
+
+//Werewolf<end>
+
+
+//POINTER #62 @ $2F407C - STRING #62 @ $2F43E0
+
+
+//Werewolf<end>
+
+
+//POINTER #63 @ $2F407E - STRING #63 @ $2F43E9
+#W16($2F4084)
+#W16($2F4082)
+#W16($2F4080)
+#W16($2F407E)
+//Gelgazer<end>
+
+
+//POINTER #64 @ $2F4080 - STRING #64 @ $2F43F2
+
+//Gelgazer<end>
+
+
+//POINTER #65 @ $2F4082 - STRING #65 @ $2F43FB
+
+//Gelgazer<end>
+
+
+//POINTER #66 @ $2F4084 - STRING #66 @ $2F4404
+
+
+//Gelgazer<end>
+
+
+//POINTER #67 @ $2F4086 - STRING #67 @ $2F440D
+#W16($2F408E)
+#W16($2F408C)
+#W16($2F408A)
+#W16($2F4088)
+#W16($2F4086)
+//Scylla<end>
+
+
+//POINTER #68 @ $2F4088 - STRING #68 @ $2F4414
+
+//Scylla<end>
+
+
+//POINTER #69 @ $2F408A - STRING #69 @ $2F441B
+
+//Scylla<end>
+
+
+//POINTER #70 @ $2F408C - STRING #70 @ $2F4422
+
+//Scylla<end>
+
+
+//POINTER #71 @ $2F408E - STRING #71 @ $2F4429
+
+
+//Scylla<end>
+
+
+//POINTER #72 @ $2F4090 - STRING #72 @ $2F4430
+#W16($2F4092)
+#W16($2F4090)
+//Stone Golem<end>
+
+
+//POINTER #73 @ $2F4092 - STRING #73 @ $2F443C
+
+
+//Stone Golem<end>
+
+
+//POINTER #74 @ $2F4094 - STRING #74 @ $2F4448
+#W16($2F4098)
+#W16($2F4096)
+#W16($2F4094)
+//Lich<end>
+
+
+//POINTER #75 @ $2F4096 - STRING #75 @ $2F444D
+
+//Lich<end>
+
+
+//POINTER #76 @ $2F4098 - STRING #76 @ $2F4452
+
+
+//Lich<end>
+
+
+//POINTER #77 @ $2F409A - STRING #77 @ $2F4457
+#W16($2F414C)
+#W16($2F409C)
+#W16($2F409A)
+//Living Armour<end>
+
+
+//POINTER #78 @ $2F409C - STRING #78 @ $2F4465
+
+//Living Armour<end>
+
+
+//POINTER #79 @ $2F409E - STRING #79 @ $2F4473
+
+#W16($2F409E)
+//Vampire Lord<end>
+
+
+//POINTER #80 @ $2F40A0 - STRING #80 @ $2F4480
+
+#W16($2F40A0)
+//Ghost<end>
+
+
+//POINTER #81 @ $2F40A2 - STRING #81 @ $2F4486
+
+#W16($2F40A2)
+//Ghost<end>
+
+
+//POINTER #82 @ $2F40A4 - STRING #82 @ $2F448C
+
+#W16($2F40A4)
+//Kerberos<end>
+
+
+//POINTER #83 @ $2F40A6 - STRING #83 @ $2F4495
+
+#W16($2F40A6)
+//Kerberos<end>
+
+
+//POINTER #84 @ $2F40A8 - STRING #84 @ $2F449E
+
+#W16($2F40A8)
+//Kerberos<end>
+
+
+//POINTER #85 @ $2F40AA - STRING #85 @ $2F44A7
+
+#W16($2F40AA)
+//Master Dino<end>
+
+
+//POINTER #86 @ $2F40AC - STRING #86 @ $2F44B3
+
+#W16($2F40AC)
+//Master Dino<end>
+
+
+//POINTER #87 @ $2F40AE - STRING #87 @ $2F44BF
+
+#W16($2F40AE)
+//Wyvern<end>
+
+
+//POINTER #88 @ $2F40B0 - STRING #88 @ $2F44C6
+
+#W16($2F40B0)
+//Wyvern<end>
+
+
+//POINTER #89 @ $2F40B2 - STRING #89 @ $2F44CD
+
+#W16($2F40B2)
+//Great Dragon<end>
+
+
+//POINTER #90 @ $2F40B4 - STRING #90 @ $2F44DA
+
+#W16($2F40B4)
+//Great Dragon<end>
+
+
+//POINTER #91 @ $2F40B6 - STRING #91 @ $2F44E7
+
+#W16($2F40B6)
+//Great Dragon<end>
+
+
+//POINTER #92 @ $2F40B8 - STRING #92 @ $2F44F4
+
+#W16($2F40B8)
+//Great Dragon<end>
+
+
+//POINTER #93 @ $2F40BA - STRING #93 @ $2F4501
+
+#W16($2F40BA)
+//Great Dragon<end>
+
+
+//POINTER #94 @ $2F40BC - STRING #94 @ $2F450E
+
+#W16($2F40BC)
+//Great Dragon<end>
+
+
+//POINTER #95 @ $2F40BE - STRING #95 @ $2F451B
+
+#W16($2F40BE)
+//Great Dragon<end>
+
+
+//POINTER #96 @ $2F40C0 - STRING #96 @ $2F4528
+
+#W16($2F40C0)
+//Great Dragon<end>
+
+
+//POINTER #97 @ $2F40C2 - STRING #97 @ $2F4535
+
+#W16($2F40C2)
+//Great Dragon<end>
+
+
+//POINTER #98 @ $2F40C4 - STRING #98 @ $2F4542
+
+#W16($2F40C4)
+//Great Dragon<end>
+
+
+//POINTER #99 @ $2F40C6 - STRING #99 @ $2F454F
+
+#W16($2F40C6)
+//Minotaur<end>
+
+
+//POINTER #100 @ $2F40C8 - STRING #100 @ $2F4558
+
+#W16($2F40C8)
+//Minotaur<end>
+
+
+//POINTER #101 @ $2F40CA - STRING #101 @ $2F4561
+
+#W16($2F40CA)
+//Kraken<end>
+
+
+//POINTER #102 @ $2F40CC - STRING #102 @ $2F4568
+
+#W16($2F40CC)
+//Kraken<end>
+
+
+//POINTER #103 @ $2F40CE - STRING #103 @ $2F456F
+
+#W16($2F40CE)
+//Kraken<end>
+
+
+//POINTER #104 @ $2F40D0 - STRING #104 @ $2F4576
+
+#W16($2F40D0)
+//Succubus<end>
+
+
+//POINTER #105 @ $2F40D2 - STRING #105 @ $2F457F
+
+#W16($2F40D2)
+//Succubus<end>
+
+
+//POINTER #106 @ $2F40D4 - STRING #106 @ $2F4588
+
+#W16($2F40D4)
+//Demon Lord<end>
+
+
+//POINTER #107 @ $2F40D6 - STRING #107 @ $2F4593
+
+#W16($2F40D6)
+//Demon Lord<end>
+
+
+//POINTER #108 @ $2F40D8 - STRING #108 @ $2F459E
+
+#W16($2F40D8)
+//Demon Lord<end>
+
+
+//POINTER #109 @ $2F40DA - STRING #109 @ $2F45A9
+
+#W16($2F40DA)
+//Aniki<end>
+
+
+//POINTER #110 @ $2F40DC - STRING #110 @ $2F45AF
+
+#W16($2F40DC)
+//Aniki<end>
+
+
+//POINTER #111 @ $2F40DE - STRING #111 @ $2F45B5
+
+#W16($2F40DE)
+//Aniki<end>
+
+
+//POINTER #112 @ $2F40E0 - STRING #112 @ $2F45BB
+
+#W16($2F40E0)
+//Aniki<end>
+
+
+//POINTER #113 @ $2F40E2 - STRING #113 @ $2F45C1
+
+#W16($2F40E2)
+//Aniki<end>
+
+
+//POINTER #114 @ $2F40E4 - STRING #114 @ $2F45C7
+
+#W16($2F40E4)
+//Aniki<end>
+
+
+//POINTER #115 @ $2F40E6 - STRING #115 @ $2F45CD
+
+#W16($2F40E6)
+//Witch<end>
+
+
+//POINTER #116 @ $2F40E8 - STRING #116 @ $2F45D3
+
+#W16($2F40E8)
+//Witch<end>
+
+
+//POINTER #117 @ $2F40EA - STRING #117 @ $2F45D9
+
+//Priest<end>
+
+
+//POINTER #118 @ $2F40EC - STRING #118 @ $2F45E0
+
+
+//Priest<end>
+
+
+//POINTER #119 @ $2F40EE - STRING #119 @ $2F45E7
+
+
+//Soldier<end>
+
+
+//POINTER #120 @ $2F40F0 - STRING #120 @ $2F45EF
+
+#W16($2F40F0)
+//Faias<end>
+
+
+//POINTER #121 @ $2F40F2 - STRING #121 @ $2F45F5
+
+#W16($2F40F2)
+//<end>
+
+
+//POINTER #122 @ $2F40F4 - STRING #122 @ $2F45F6
+
+#W16($2F40F4)
+//Roc<end>
+
+
+//POINTER #123 @ $2F40F6 - STRING #123 @ $2F45FA
+
+#W16($2F40F6)
+//Ghost<end>
+
+
+//POINTER #124 @ $2F40F8 - STRING #124 @ $2F4600
+
+#W16($2F40F8)
+//Ghost<end>
+
+
+//POINTER #125 @ $2F40FA - STRING #125 @ $2F4606
+
+#W16($2F40FA)
+//Necromancer<end>
+
+
+//POINTER #126 @ $2F40FC - STRING #126 @ $2F4612
+
+#W16($2F40FC)
+//Necromancer<end>
+
+
+//POINTER #127 @ $2F40FE - STRING #127 @ $2F461E
+
+#W16($2F40FE)
+//Ridel<end>
+
+
+//POINTER #128 @ $2F4100 - STRING #128 @ $2F4624
+
+#W16($2F4100)
+//Evanze<end>
+
+
+//POINTER #129 @ $2F4102 - STRING #129 @ $2F462B
+
+//Commander<end>
+
+
+//POINTER #130 @ $2F4104 - STRING #130 @ $2F4635
+
+//Commander<end>
+
+
+//POINTER #131 @ $2F4106 - STRING #131 @ $2F463F
+
+//Commander<end>
+
+
+//POINTER #132 @ $2F4108 - STRING #132 @ $2F4649
+
+//Commander<end>
+
+
+//POINTER #133 @ $2F410A - STRING #133 @ $2F4653
+
+//Commander<end>
+
+
+//POINTER #134 @ $2F410C - STRING #134 @ $2F465D
+
+//Commander<end>
+
+
+//POINTER #135 @ $2F410E - STRING #135 @ $2F4667
+
+//Commander<end>
+
+
+//POINTER #136 @ $2F4110 - STRING #136 @ $2F4671
+
+//Commander<end>
+
+
+//POINTER #137 @ $2F4112 - STRING #137 @ $2F467B
+
+//Commander<end>
+
+
+//POINTER #138 @ $2F4114 - STRING #138 @ $2F4685
+
+//Commander<end>
+
+
+//POINTER #139 @ $2F4116 - STRING #139 @ $2F468F
+
+
+//Commander<end>
+
+
+//POINTER #140 @ $2F4118 - STRING #140 @ $2F4699
+
+#W16($2F4118)
+//Phoenix<end>
+
+
+//POINTER #141 @ $2F411A - STRING #141 @ $2F46A1
+
+#W16($2F411A)
+//Phoenix<end>
+
+
+//POINTER #142 @ $2F411C - STRING #142 @ $2F46A9
+
+#W16($2F411C)
+//Vampire Lord<end>
+
+
+//POINTER #143 @ $2F411E - STRING #143 @ $2F46B6
+
+#W16($2F411E)
+//Vampire Lord<end>
+
+
+//POINTER #144 @ $2F4120 - STRING #144 @ $2F46C3
+
+#W16($2F4120)
+//Master Dino<end>
+
+
+//POINTER #145 @ $2F4122 - STRING #145 @ $2F46CF
+
+#W16($2F4122)
+//Master Dino<end>
+
+
+//POINTER #146 @ $2F4124 - STRING #146 @ $2F46DB
+
+#W16($2F4124)
+//Vampire Lord<end>
+
+
+//POINTER #147 @ $2F4126 - STRING #147 @ $2F46E8
+
+#W16($2F4126)
+//Chaos<end>
+
+
+//POINTER #148 @ $2F4128 - STRING #148 @ $2F46EE
+
+#W16($2F4128)
+//Lushiris<end>
+
+
+//POINTER #149 @ $2F412A - STRING #149 @ $2F46F7
+
+#W16($2F412A)
+//Ledin<end>
+
+
+//POINTER #150 @ $2F412C - STRING #150 @ $2F46FD
+
+#W16($2F412C)
+//Sieghart<end>
+
+
+//POINTER #151 @ $2F412E - STRING #151 @ $2F4706
+
+#W16($2F412E)
+//Phoenix<end>
+
+
+//POINTER #152 @ $2F4130 - STRING #152 @ $2F470E
+
+#W16($2F4130)
+//Jormungandr<end>
+
+
+//POINTER #153 @ $2F4132 - STRING #153 @ $2F471A
+
+#W16($2F4132)
+//Jormungandr<end>
+
+
+//POINTER #154 @ $2F4134 - STRING #154 @ $2F4726
+
+#W16($2F4134)
+//Succubus<end>
+
+
+//POINTER #155 @ $2F4136 - STRING #155 @ $2F472F
+
+#W16($2F4136)
+//Minotaur<end>
+
+
+//POINTER #156 @ $2F4138 - STRING #156 @ $2F4738
+
+#W16($2F4138)
+//Aniki<end>
+
+
+//POINTER #157 @ $2F413A - STRING #157 @ $2F473E
+
+#W16($2F413A)
+//Aniki<end>
+
+
+//POINTER #158 @ $2F413C - STRING #158 @ $2F4744
+
+#W16($2F413C)
+//Aniki<end>
+
+
+//POINTER #159 @ $2F413E - STRING #159 @ $2F474A
+
+#W16($2F413E)
+//Aniki<end>
+
+
+//POINTER #160 @ $2F4140 - STRING #160 @ $2F4750
+
+#W16($2F4140)
+//Aniki<end>
+
+
+//POINTER #161 @ $2F4142 - STRING #161 @ $2F4756
+
+#W16($2F4142)
+//Camilla<end>
+
+
+//POINTER #162 @ $2F4144 - STRING #162 @ $2F475E
+
+#W16($2F4144)
+//Kanio<end>
+
+
+//POINTER #163 @ $2F4146 - STRING #163 @ $2F4764
+
+#W16($2F4146)
+//Uki<end>
+
+
+//POINTER #164 @ $2F4148 - STRING #164 @ $2F4768
+
+#W16($2F4148)
+//Akitahn<end>
+
+
+//POINTER #165 @ $2F414A - STRING #165 @ $2F4770
+
+#W16($2F414A)
+//Eliza<end>
+
+
+//POINTER #166 @ $2F414C - STRING #166 @ $2F4776
+
+
+//Living Armour<end>
+

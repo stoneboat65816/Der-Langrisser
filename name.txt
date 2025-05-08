@@ -1,0 +1,248 @@
+#VAR(Table,TABLE)
+#ADDTBL("derlangvn.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $920000, 24)
+
+#JMP($310000)
+
+
+#WRITE(Ptr, $120003)
+<end>
+
+//エルウィン{end} 00
+Erwin<end>
+
+//リアナ{end}01
+Riana<end>
+
+//ラーナ{end}02
+Läna<end>
+
+//シェリー{end}03
+Cherie<end>
+
+//ヘイン{end}04
+Hein<end>
+
+//スコット{end}05
+Scott<end>
+
+//キース{end}06
+Keith<end>
+
+//アーロン{end}07
+Aaron<end>
+
+//レスター{end}08
+Lester<end>
+
+//ラーナ{end}09
+Läna<end>
+
+//ロウガ{end}0A
+Rouga<end>
+
+//ソニア{end}0B
+Sonya<end>
+
+//レオン{end}0C
+Leon<end>
+
+//バルガス{end}0D
+Vargas<end>
+
+//イメルダ{end}0E
+Imelda<end>
+
+//エグベルト{end}0F
+Egbert<end>
+
+//エスト{end}10
+Esto<end>
+
+//オスト{end}11
+Osto<end>
+
+//謎の騎士{end}12
+Kỵ sĩ bí ẩn<end>
+
+//ジェシカ{end}13
+Jessica<end>
+
+//ダークプリンセス{end}14
+Vương nữ bóng tối<end>
+
+//ベルンハルト{end}15
+Bernhalt<end>
+
+//ボーゼル{end}16
+Böser<end>
+
+//レアード{end}17
+Leard<end>
+
+//バルドー{end}18
+Baldo<end>
+
+//ゾルム{end}19
+Zorm<end>
+
+//モーガン{end}1A
+Morgan<end>
+
+//ギナム{end}1B
+Ginam<end>
+
+//クレイマー{end}1C
+Kreimä<end>
+
+//セイガル{end}1D
+Seigal<end>
+
+//フォルガー{end}1E
+Forgä<end>
+
+//一般兵{end}1F
+Lính trơn<end>
+
+//指揮官{end}20
+Chỉ huy<end>
+
+//司祭{end}21
+Tư tế<end>
+
+//村人{end}22
+Người làng<end>
+
+//海賊{end}23
+Hải tặc<end>
+
+//自警団{end}24
+Đội tự vệ<end>
+
+//ローレン{end}25
+Laurence<end>
+
+//アドン{end}26
+Adon<end>
+
+//サムソン{end}27
+Samson<end>
+
+//バラン{end}28
+Baran<end>
+
+//帝国軍指揮官{end}29
+Chỉ huy Đế quốc<end>
+
+//ウェアウルフ{end}2A
+Were wolf<end>
+
+//ゲルギャザー{end}2B
+Gergyaza<end>
+
+//スキュラ{end}2C
+Scylla<end>
+
+//ストーンゴーレム{end}2D
+Stone Golem<end>
+
+//リッチ{end}2E
+Rich<end>
+
+//リビングアーマー{end}2F
+Living Armor<end>
+
+//バンパイアロード{end}30
+Vampire Lord<end>
+
+//ゴースト{end}31
+Ghost<end>
+
+//ケルベロス{end}32
+Cerberos<end>
+
+//マスターディーノ{end}33
+Master Dino<end>
+
+//ワイバーン{end}34
+Wyvern<end>
+
+//グレートドラゴン{end}35
+Great Dragon<end>
+
+//ミノタウロス{end}36
+Minotaurus<end>
+
+//クラーケン{end}37
+Kraken<end>
+
+//サキュバス{end}38
+Succubus<end>
+
+//デーモンロード{end}39
+Demon Lord<end>
+
+//兄貴{end}3A
+Đại ca<end>
+
+//魔女{end}3B
+Ma nữ<end>
+
+//神官{end}3C
+Thần quan<end>
+
+//帝国兵{end}3D
+Lính Đế quốc<end>
+
+//ファイアス{end}3E
+Faias<end>
+
+//ロック{end}3F
+Roc<end>
+
+//ネクロマンサー{end}40
+Necromancer<end>
+
+//リデル{end}41
+Ridel<end>
+
+//エヴァンゼ{end}42
+Evenze<end>
+
+//フェニックス{end}43
+Phoenix<end>
+
+//カオス{end}44
+Chaos<end>
+
+//ルシリス{end}45
+Lushiris<end>
+
+//レディン{end}46
+Ledin<end>
+
+//ジークハルト{end}47
+Sieghärt<end>
+
+//イェルムンガルド{end}48
+Jormungand<end>
+
+//カミラ{end}49
+Camila<end>
+
+//カニヲ{end}4A
+Kanio<end>
+
+//ウッキー{end}4B
+Wicky<end>
+
+//アキターン{end}4C
+Akitan<end>
+
+//エリザ{end}4D
+Elize<end>
+
+
